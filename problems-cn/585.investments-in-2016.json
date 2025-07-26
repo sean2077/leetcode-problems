@@ -11,7 +11,7 @@
             "translatedContent": "<p><code>Insurance</code> 表：</p>\n\n<div class=\"original__bRMd\">\n<div>\n<pre>\n+-------------+-------+\n| Column Name | Type  |\n+-------------+-------+\n| pid         | int   |\n| tiv_2015    | float |\n| tiv_2016    | float |\n| lat         | float |\n| lon         | float |\n+-------------+-------+\npid 是这张表的主键(具有唯一值的列)。\n表中的每一行都包含一条保险信息，其中：\npid 是投保人的投保编号。\ntiv_2015 是该投保人在 2015 年的总投保金额，tiv_2016 是该投保人在 2016 年的总投保金额。\nlat 是投保人所在城市的纬度。题目数据确保 lat 不为空。\nlon 是投保人所在城市的经度。题目数据确保 lon 不为空。</pre>\n\n<p>&nbsp;</p>\n\n<p>编写解决方案报告 2016 年 (<code>tiv_2016</code>) 所有满足下述条件的投保人的投保金额之和：</p>\n\n<ul>\n\t<li>他在 2015 年的投保额&nbsp;(<code>tiv_2015</code>) 至少跟一个其他投保人在 2015 年的投保额相同。</li>\n\t<li>他所在的城市必须与其他投保人都不同（也就是说&nbsp;(<code>lat, lon</code>) 不能跟其他任何一个投保人完全相同）。</li>\n</ul>\n\n<p><code>tiv_2016</code> 四舍五入的 <strong>两位小数</strong> 。</p>\n\n<p>查询结果格式如下例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>\nInsurance 表：\n+-----+----------+----------+-----+-----+\n| pid | tiv_2015 | tiv_2016 | lat | lon |\n+-----+----------+----------+-----+-----+\n| 1   | 10       | 5        | 10  | 10  |\n| 2   | 20       | 20       | 20  | 20  |\n| 3   | 10       | 30       | 20  | 20  |\n| 4   | 10       | 40       | 40  | 40  |\n+-----+----------+----------+-----+-----+\n<strong>输出：</strong>\n+----------+\n| tiv_2016 |\n+----------+\n| 45.00    |\n+----------+\n<strong>解释：\n</strong>表中的第一条记录和最后一条记录都满足两个条件。\ntiv_2015 值为 10 与第三条和第四条记录相同，且其位置是唯一的。\n\n第二条记录不符合任何一个条件。其 tiv_2015 与其他投保人不同，并且位置与第三条记录相同，这也导致了第三条记录不符合题目要求。\n因此，结果是第一条记录和最后一条记录的 tiv_2016 之和，即 45 。</pre>\n</div>\n</div>\n",
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 136,
+            "likes": 169,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"42.8K\", \"totalSubmission\": \"90.4K\", \"totalAcceptedRaw\": 42817, \"totalSubmissionRaw\": 90381, \"acRate\": \"47.4%\"}",
+            "stats": "{\"totalAccepted\": \"64.2K\", \"totalSubmission\": \"133.1K\", \"totalAcceptedRaw\": 64196, \"totalSubmissionRaw\": 133094, \"acRate\": \"48.2%\"}",
             "hints": [
                 "Make the (LAT, LON) a pair to represent the location information"
             ],
@@ -71,7 +71,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

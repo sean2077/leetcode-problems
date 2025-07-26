@@ -11,7 +11,7 @@
             "translatedContent": "<p>表：<code>cinema</code></p>\n\n<pre>\n+----------------+----------+\n| Column Name    | Type     |\n+----------------+----------+\n| id             | int      |\n| movie          | varchar  |\n| description    | varchar  |\n| rating         | float    |\n+----------------+----------+\nid 是该表的主键(具有唯一值的列)。\n每行包含有关电影名称、类型和评级的信息。\n评级为 [0,10] 范围内的小数点后 2 位浮点数。\n</pre>\n\n<p>&nbsp;</p>\n\n<p>编写解决方案，找出所有影片描述为&nbsp;<strong>非</strong>&nbsp;<code>boring</code>&nbsp;(不无聊)&nbsp;的并且<strong> id 为奇数&nbsp;</strong>的影片。</p>\n\n<p>返回结果按&nbsp;<code>rating</code>&nbsp;<strong>降序排列</strong>。</p>\n\n<p>结果格式如下示例。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>\n+---------+-----------+--------------+-----------+\n|   id    | movie     |  description |  rating   |\n+---------+-----------+--------------+-----------+\n|   1     | War       |   great 3D   |   8.9     |\n|   2     | Science   |   fiction    |   8.5     |\n|   3     | irish     |   boring     |   6.2     |\n|   4     | Ice song  |   Fantacy    |   8.6     |\n|   5     | House card|   Interesting|   9.1     |\n<strong>+---------+-----------+--------------+-----------+\n输出：</strong>\n+---------+-----------+--------------+-----------+\n|   id    | movie     |  description |  rating   |\n+---------+-----------+--------------+-----------+\n|   5     | House card|   Interesting|   9.1     |\n|   1     | War       |   great 3D   |   8.9     |\n+---------+-----------+--------------+-----------+\n<strong>解释：</strong>\n我们有三部电影，它们的 id 是奇数:1、3 和 5。id = 3 的电影是 boring 的，所以我们不把它包括在答案中。\n</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 207,
+            "likes": 228,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"178.3K\", \"totalSubmission\": \"229.4K\", \"totalAcceptedRaw\": 178333, \"totalSubmissionRaw\": 229450, \"acRate\": \"77.7%\"}",
+            "stats": "{\"totalAccepted\": \"219.7K\", \"totalSubmission\": \"280.9K\", \"totalAcceptedRaw\": 219667, \"totalSubmissionRaw\": 280918, \"acRate\": \"78.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"cinema\":[\"id\", \"movie\", \"description\", \"rating\"]},\"rows\":{\"cinema\":[[1, \"War\", \"great 3D\", 8.9], [2, \"Science\", \"fiction\", 8.5], [3, \"irish\", \"boring\", 6.2], [4, \"Ice song\", \"Fantacy\", 8.6], [5, \"House card\", \"Interesting\", 9.1]]}}",
@@ -70,7 +70,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

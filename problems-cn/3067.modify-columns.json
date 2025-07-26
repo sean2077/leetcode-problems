@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef modifySalaryColumn(employees: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.7K\", \"totalSubmission\": \"4K\", \"totalAcceptedRaw\": 3748, \"totalSubmissionRaw\": 4047, \"acRate\": \"92.6%\"}",
+            "stats": "{\"totalAccepted\": \"6.9K\", \"totalSubmission\": \"7.5K\", \"totalAcceptedRaw\": 6911, \"totalSubmissionRaw\": 7503, \"acRate\": \"92.1%\"}",
             "hints": [
                 "Considering multiplying each salary value by 2, using a simple assignment operation. The calculation of the value is done column-wise."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"]}",
+            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

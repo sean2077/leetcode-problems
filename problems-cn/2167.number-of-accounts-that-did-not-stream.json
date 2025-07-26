@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"2.7K\", \"totalSubmission\": \"4K\", \"totalAcceptedRaw\": 2713, \"totalSubmissionRaw\": 3969, \"acRate\": \"68.4%\"}",
+            "stats": "{\"totalAccepted\": \"3.4K\", \"totalSubmission\": \"5K\", \"totalAcceptedRaw\": 3405, \"totalSubmissionRaw\": 4950, \"acRate\": \"68.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Subscriptions\":[\"account_id\",\"start_date\",\"end_date\"],\"Streams\":[\"session_id\",\"account_id\",\"stream_date\"]},\"rows\":{\"Subscriptions\":[[9,\"2020-02-18\",\"2021-10-30\"],[3,\"2021-09-21\",\"2021-11-13\"],[11,\"2020-02-28\",\"2020-08-18\"],[13,\"2021-04-20\",\"2021-09-22\"],[4,\"2020-10-26\",\"2021-05-08\"],[5,\"2020-09-11\",\"2021-01-17\"]],\"Streams\":[[14,9,\"2020-05-16\"],[16,3,\"2021-10-27\"],[18,11,\"2020-04-29\"],[17,13,\"2021-08-08\"],[19,4,\"2020-12-31\"],[13,5,\"2021-01-05\"]]}}",
@@ -53,7 +53,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

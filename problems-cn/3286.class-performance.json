@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"486\", \"totalSubmission\": \"581\", \"totalAcceptedRaw\": 486, \"totalSubmissionRaw\": 581, \"acRate\": \"83.6%\"}",
+            "stats": "{\"totalAccepted\": \"983\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 983, \"totalSubmissionRaw\": 1144, \"acRate\": \"85.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Scores\":[\"student_id\",\"student_name\",\"assignment1\",\"assignment2\",\"assignment3\"]},\"rows\":{\"Scores\":[[309,\"Owen\",88,47,87],[321,\"Claire\",98,95,37],[338,\"Julian\",100,64,43],[423,\"Peyton\",60,44,47],[896,\"David\",32,37,50],[235,\"Camila\",31,53,69]]}}",
@@ -45,7 +45,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

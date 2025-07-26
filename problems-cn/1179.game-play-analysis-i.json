@@ -11,7 +11,7 @@
             "translatedContent": "<p>活动表&nbsp;<code>Activity</code>：</p>\n\n<pre>\n+--------------+---------+\n| Column Name  | Type    |\n+--------------+---------+\n| player_id    | int     |\n| device_id    | int     |\n| event_date   | date    |\n| games_played | int     |\n+--------------+---------+\n在 SQL 中，表的主键是 (player_id, event_date)。\n这张表展示了一些游戏玩家在游戏平台上的行为活动。\n每行数据记录了一名玩家在退出平台之前，当天使用同一台设备登录平台后打开的游戏的数目（可能是 0 个）。\n</pre>\n\n<p>&nbsp;</p>\n\n<p>查询每位玩家 <strong>第一次登录平台的日期</strong>。</p>\n\n<p>查询结果的格式如下所示：</p>\n\n<pre>\nActivity 表：\n+-----------+-----------+------------+--------------+\n| player_id | device_id | event_date | games_played |\n+-----------+-----------+------------+--------------+\n| 1         | 2         | 2016-03-01 | 5            |\n| 1         | 2         | 2016-05-02 | 6            |\n| 2         | 3         | 2017-06-25 | 1            |\n| 3         | 1         | 2016-03-02 | 0            |\n| 3         | 4         | 2018-07-03 | 5            |\n+-----------+-----------+------------+--------------+\n\nResult 表：\n+-----------+-------------+\n| player_id | first_login |\n+-----------+-------------+\n| 1         | 2016-03-01  |\n| 2         | 2017-06-25  |\n| 3         | 2016-03-02  |\n+-----------+-------------+\n</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 152,
+            "likes": 171,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Game Play Analysis II\", \"titleSlug\": \"game-play-analysis-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u6e38\\u620f\\u73a9\\u6cd5\\u5206\\u6790 II\", \"isPaidOnly\": true}]",
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"123.3K\", \"totalSubmission\": \"173.4K\", \"totalAcceptedRaw\": 123292, \"totalSubmissionRaw\": 173372, \"acRate\": \"71.1%\"}",
+            "stats": "{\"totalAccepted\": \"145.5K\", \"totalSubmission\": \"203.5K\", \"totalAcceptedRaw\": 145536, \"totalSubmissionRaw\": 203537, \"acRate\": \"71.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Activity\":[\"player_id\",\"device_id\",\"event_date\",\"games_played\"]},\"rows\":{\"Activity\":[[1,2,\"2016-03-01\",5],[1,2,\"2016-05-02\",6],[2,3,\"2017-06-25\",1],[3,1,\"2016-03-02\",0],[3,4,\"2018-07-03\",5]]}}",
@@ -70,7 +70,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

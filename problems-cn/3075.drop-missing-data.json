@@ -11,7 +11,7 @@
             "translatedContent": "<pre>\nDataFrame students\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| student_id  | int    |\n| name        | object |\n| age         | int    |\n+-------------+--------+\n</pre>\n\n<p>在 <code>name</code> 列里有一些具有缺失值的行。</p>\n\n<p>编写一个解决方案，删除具有缺失值的行。</p>\n\n<p>返回结果格式如下示例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><b>示例 1:</b></p>\n\n<pre>\n<strong>输入：\n</strong>+------------+---------+-----+\n| student_id | name    | age |\n+------------+---------+-----+\n| 32         | Piper   | 5   |\n| 217        | None    | 19  |\n| 779        | Georgia | 20  |\n| 849        | Willow  | 14  |\n+------------+---------+-----+\n<strong>输出：\n</strong>+------------+---------+-----+\n| student_id | name    | age |\n+------------+---------+-----+\n| 32         | Piper   | 5   |\n| 779        | Georgia | 20  | \n| 849        | Willow  | 14  | \n+------------+---------+-----+\n<b>解释：\n</b>学号为 217 的学生所在行在 name 列中有空值，因此这一行将被删除。</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 0,
+            "likes": 2,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef dropMissingData(students: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"5.2K\", \"totalAcceptedRaw\": 3286, \"totalSubmissionRaw\": 5159, \"acRate\": \"63.7%\"}",
+            "stats": "{\"totalAccepted\": \"6.2K\", \"totalSubmission\": \"9.5K\", \"totalAcceptedRaw\": 6189, \"totalSubmissionRaw\": 9533, \"acRate\": \"64.9%\"}",
             "hints": [
                 "Consider using a build-in function in pandas library to remove the rows with missing values based on specified data."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"]}",
+            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

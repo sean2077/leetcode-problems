@@ -11,7 +11,7 @@
             "translatedContent": "<pre>\nDataFrame <code>students</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| id          | int    |\n| first       | object |\n| last        | object |\n| age         | int    |\n+-------------+--------+\n</pre>\n\n<p>编写一个解决方案，按以下方式重命名列：</p>\n\n<ul>\n\t<li><code>id</code>&nbsp;重命名为&nbsp;<code>student_id</code></li>\n\t<li><code>first</code>&nbsp;重命名为&nbsp;<code>first_name</code></li>\n\t<li><code>last</code>&nbsp;重命名为&nbsp;<code>last_name</code></li>\n\t<li><code>age</code>&nbsp;重命名为&nbsp;<code>age_in_years</code></li>\n</ul>\n\n<p>返回结果格式如下示例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1:</strong></p>\n\n<pre>\n<strong>输入：\n</strong>+----+---------+----------+-----+\n| id | first   | last     | age |\n+----+---------+----------+-----+\n| 1  | Mason   | King     | 6   |\n| 2  | Ava     | Wright   | 7   |\n| 3  | Taylor  | Hall     | 16  |\n| 4  | Georgia | Thompson | 18  |\n| 5  | Thomas  | Moore    | 10  |\n+----+---------+----------+-----+\n<b>输出：</b>\n+------------+------------+-----------+--------------+\n| student_id | first_name | last_name | age_in_years |\n+------------+------------+-----------+--------------+\n| 1          | Mason      | King      | 6            |\n| 2          | Ava        | Wright    | 7            |\n| 3          | Taylor     | Hall      | 16           |\n| 4          | Georgia    | Thompson  | 18           |\n| 5          | Thomas     | Moore     | 10           |\n+------------+------------+-----------+--------------+\n<b>解释：</b>\n列名已相应更换。</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 1,
+            "likes": 2,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef renameColumns(students: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.2K\", \"totalSubmission\": \"3.9K\", \"totalAcceptedRaw\": 3246, \"totalSubmissionRaw\": 3943, \"acRate\": \"82.3%\"}",
+            "stats": "{\"totalAccepted\": \"6K\", \"totalSubmission\": \"7.4K\", \"totalAcceptedRaw\": 6039, \"totalSubmissionRaw\": 7431, \"acRate\": \"81.3%\"}",
             "hints": [
                 "Consider using a build-in function in pandas library with a dictionary to rename the columns as specified."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"]}",
+            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"4.3K\", \"totalAcceptedRaw\": 3092, \"totalSubmissionRaw\": 4344, \"acRate\": \"71.2%\"}",
+            "stats": "{\"totalAccepted\": \"5.8K\", \"totalSubmission\": \"8.2K\", \"totalAcceptedRaw\": 5828, \"totalSubmissionRaw\": 8185, \"acRate\": \"71.2%\"}",
             "hints": [
                 "Consider using a build-in function in pandas library to fill the missing values of specified columns."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"]}",
+            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

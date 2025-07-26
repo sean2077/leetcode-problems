@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"3.7K\", \"totalAcceptedRaw\": 3283, \"totalSubmissionRaw\": 3728, \"acRate\": \"88.1%\"}",
+            "stats": "{\"totalAccepted\": \"6.1K\", \"totalSubmission\": \"6.9K\", \"totalAcceptedRaw\": 6117, \"totalSubmissionRaw\": 6933, \"acRate\": \"88.2%\"}",
             "hints": [
                 "Consider using a built-in function in pandas library with the appropriate axis argument."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"]}",
+            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Hard",
-            "likes": 0,
+            "likes": 1,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"40\", \"totalSubmission\": \"48\", \"totalAcceptedRaw\": 40, \"totalSubmissionRaw\": 48, \"acRate\": \"83.3%\"}",
+            "stats": "{\"totalAccepted\": \"338\", \"totalSubmission\": \"470\", \"totalAcceptedRaw\": 338, \"totalSubmissionRaw\": 470, \"acRate\": \"71.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Employees\":[\"employee_id\",\"employee_name\",\"manager_id\",\"salary\"]},\"rows\":{\"Employees\":[[1,\"Alice\",null,150000],[2,\"Bob\",1,120000],[3,\"Charlie\",1,110000],[4,\"David\",2,105000],[5,\"Eve\",2,100000],[6,\"Frank\",3,95000],[7,\"Grace\",3,98000],[8,\"Helen\",5,90000]]}}",
@@ -36,7 +36,7 @@
             "mysqlSchemas": [
                 "Create table if not exists employees(employee_id int, employee_name varchar(100), manager_id int, salary int)",
                 "Truncate table Employees",
-                "insert into Employees (employee_id, employee_name, manager_id, salary) values ('1', 'Alice', 'None', '150000')",
+                "insert into Employees (employee_id, employee_name, manager_id, salary) values ('1', 'Alice', NULL, '150000')",
                 "insert into Employees (employee_id, employee_name, manager_id, salary) values ('2', 'Bob', '1', '120000')",
                 "insert into Employees (employee_id, employee_name, manager_id, salary) values ('3', 'Charlie', '1', '110000')",
                 "insert into Employees (employee_id, employee_name, manager_id, salary) values ('4', 'David', '2', '105000')",
@@ -47,7 +47,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

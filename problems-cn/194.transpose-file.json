@@ -11,7 +11,7 @@
             "translatedContent": "<p>给定一个文件 <code>file.txt</code>，转置它的内容。</p>\n\n<p>你可以假设每行列数相同，并且每个字段由 <code>' '</code> 分隔。</p>\n\n<p> </p>\n\n<p><strong>示例：</strong></p>\n\n<p>假设 <code>file.txt</code> 文件内容如下：</p>\n\n<pre>\nname age\nalice 21\nryan 30\n</pre>\n\n<p>应当输出：</p>\n\n<pre>\nname alice ryan\nage 21 30\n</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 78,
+            "likes": 81,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -32,7 +32,7 @@
                     "code": "# Read from the file file.txt and print its transposed content to stdout."
                 }
             ],
-            "stats": "{\"totalAccepted\": \"17.7K\", \"totalSubmission\": \"52K\", \"totalAcceptedRaw\": 17672, \"totalSubmissionRaw\": 51999, \"acRate\": \"34.0%\"}",
+            "stats": "{\"totalAccepted\": \"19.4K\", \"totalSubmission\": \"57.3K\", \"totalAcceptedRaw\": 19373, \"totalSubmissionRaw\": 57310, \"acRate\": \"33.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "a",
@@ -42,7 +42,7 @@
             "mysqlSchemas": [],
             "enableRunCode": false,
             "enableTestMode": false,
-            "envInfo": "{\"bash\":[\"Bash\",\"<p>\\u7248\\u672c\\uff1a<code>Bash 4.3.30<\\/code><\\/p>\"]}",
+            "envInfo": "{\"bash\":[\"Bash\",\"<p>\\u7248\\u672c\\uff1a<code>Bash 5.2.21<\\/code><\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

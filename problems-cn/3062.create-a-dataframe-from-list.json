@@ -11,7 +11,7 @@
             "translatedContent": "<p>编写一个解决方案，基于名为&nbsp;&nbsp;<code>student_data</code>&nbsp;的二维列表&nbsp;<b>创建 </b>一个 DataFrame 。这个二维列表包含一些学生的 ID 和年龄信息。</p>\n\n<p>DataFrame 应该有两列，&nbsp;<code>student_id</code>&nbsp;和&nbsp;<code>age</code>，并且与原始二维列表的顺序相同。</p>\n\n<p>返回结果格式如下示例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<pre>\n<strong>输入：\n</strong>student_data:<strong>\n</strong><code>[\n  [1, 15],\n  [2, 11],\n  [3, 11],\n  [4, 20]\n]</code>\n<b>输出：</b>\n+------------+-----+\n| student_id | age |\n+------------+-----+\n| 1          | 15  |\n| 2          | 11  |\n| 3          | 11  |\n| 4          | 20  |\n+------------+-----+\n<b>解释：</b>\n基于 student_data 创建了一个 DataFrame，包含 student_id 和 age 两列。\n</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 2,
+            "likes": 7,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef createDataframe(student_data: List[List[int]]) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"5.2K\", \"totalSubmission\": \"6.6K\", \"totalAcceptedRaw\": 5163, \"totalSubmissionRaw\": 6606, \"acRate\": \"78.2%\"}",
+            "stats": "{\"totalAccepted\": \"9.1K\", \"totalSubmission\": \"11.6K\", \"totalAcceptedRaw\": 9099, \"totalSubmissionRaw\": 11556, \"acRate\": \"78.7%\"}",
             "hints": [
                 "Consider using a built-in function in pandas library and specifying the column names within it."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"]}",
+            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

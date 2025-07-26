@@ -11,7 +11,7 @@
             "translatedContent": "<p>表: <code>Users</code></p>\n\n<pre>\n+--------------+---------+\n| Column Name  | Type    |\n+--------------+---------+\n| account      | int     |\n| name         | varchar |\n+--------------+---------+\naccount 是该表的主键(具有唯一值的列)。\n该表的每一行都包含银行中每个用户的帐号。\n表中不会有两个用户具有相同的名称。\n</pre>\n\n<p>&nbsp;</p>\n\n<p>表: <code>Transactions</code></p>\n\n<pre>\n+---------------+---------+\n| Column Name   | Type    |\n+---------------+---------+\n| trans_id      | int     |\n| account       | int     |\n| amount        | int     |\n| transacted_on | date    |\n+---------------+---------+\ntrans_id 是该表主键(具有唯一值的列)。\n该表的每一行包含了所有账户的交易改变情况。\n如果用户收到了钱, 那么金额是正的; 如果用户转了钱, 那么金额是负的。\n所有账户的起始余额为 0。\n</pre>\n\n<p>&nbsp;</p>\n\n<p>编写解决方案,&nbsp;&nbsp;报告余额高于 10000 的所有用户的名字和余额.&nbsp;账户的余额等于包含该账户的所有交易的总和。</p>\n\n<p>返回结果表单 <strong>无顺序要求</strong> 。</p>\n\n<p>查询结果格式如下例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<code><strong>输入：</strong>\nUsers</code> table:\n+------------+--------------+\n| account    | name         |\n+------------+--------------+\n| 900001     | Alice        |\n| 900002     | Bob          |\n| 900003     | Charlie      |\n+------------+--------------+\n\n<code>Transactions</code> table:\n+------------+------------+------------+---------------+\n| trans_id   | account    | amount     | transacted_on |\n+------------+------------+------------+---------------+\n| 1          | 900001     | 7000       |  2020-08-01   |\n| 2          | 900001     | 7000       |  2020-09-01   |\n| 3          | 900001     | -3000      |  2020-09-02   |\n| 4          | 900002     | 1000       |  2020-09-12   |\n| 5          | 900003     | 6000       |  2020-08-07   |\n| 6          | 900003     | 6000       |  2020-09-07   |\n| 7          | 900003     | -4000      |  2020-09-11   |\n+------------+------------+------------+---------------+\n<strong>输出：</strong>\n+------------+------------+\n| <code>name    </code>   | <code>balance  </code>  |\n+------------+------------+\n| Alice      | 11000      |\n+------------+------------+\n<strong>解释：</strong>\nAlice 的余额为(7000 + 7000 - 3000) = 11000.\nBob 的余额为1000.\nCharlie 的余额为(6000 + 6000 - 4000) = 8000.\n</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 45,
+            "likes": 54,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"39.8K\", \"totalSubmission\": \"50.4K\", \"totalAcceptedRaw\": 39829, \"totalSubmissionRaw\": 50449, \"acRate\": \"78.9%\"}",
+            "stats": "{\"totalAccepted\": \"47.1K\", \"totalSubmission\": \"59.9K\", \"totalAcceptedRaw\": 47078, \"totalSubmissionRaw\": 59863, \"acRate\": \"78.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Users\": [\"account\", \"name\"], \"Transactions\": [\"trans_id\", \"account\", \"amount\", \"transacted_on\"]}, \"rows\": {\"Users\": [[900001, \"Alice\"], [900002, \"Bob\"], [900003, \"Charlie\"]], \"Transactions\": [[1, 900001, 7000, \"2020-08-01\"], [2, 900001, 7000, \"2020-09-01\"], [3, 900001, -3000, \"2020-09-02\"], [4, 900002, 1000, \"2020-09-12\"], [5, 900003, 6000, \"2020-08-07\"], [6, 900003, 6000, \"2020-09-07\"], [7, 900003, -4000, \"2020-09-11\"]]}}",
@@ -77,7 +77,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

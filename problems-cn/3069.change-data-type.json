@@ -11,7 +11,7 @@
             "translatedContent": "<pre>\nDataFrame <code>students</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| student_id  | int    |\n| name        | object |\n| age         | int    |\n| grade       | float  |\n+-------------+--------+\n</pre>\n\n<p>编写一个解决方案来纠正以下错误：</p>\n\n<p>&nbsp;<code>grade</code>&nbsp;列被存储为浮点数，将它转换为整数。</p>\n\n<p>返回结果格式如下示例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1:</strong></p>\n\n<pre>\n<strong>输入：\n</strong>DataFrame students:\n+------------+------+-----+-------+\n| student_id | name | age | grade |\n+------------+------+-----+-------+\n| 1          | Ava  | 6   | 73.0  |\n| 2          | Kate | 15  | 87.0  |\n+------------+------+-----+-------+\n<strong>输出：\n</strong>+------------+------+-----+-------+\n| student_id | name | age | grade |\n+------------+------+-----+-------+\n| 1          | Ava  | 6   | 73    |\n| 2          | Kate | 15  | 87    |\n+------------+------+-----+-------+\n<b>解释：</b>\ngrade 列的数据类型已转换为整数。</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 0,
+            "likes": 1,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef changeDatatype(students: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"4K\", \"totalAcceptedRaw\": 3300, \"totalSubmissionRaw\": 3962, \"acRate\": \"83.3%\"}",
+            "stats": "{\"totalAccepted\": \"6.2K\", \"totalSubmission\": \"7.4K\", \"totalAcceptedRaw\": 6184, \"totalSubmissionRaw\": 7373, \"acRate\": \"83.9%\"}",
             "hints": [
                 "Consider using a build-in function in pandas library with a dictionary to convert the datatype of columns as specified."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"]}",
+            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

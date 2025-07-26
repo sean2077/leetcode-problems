@@ -7,7 +7,7 @@
             "title": "Friday Purchase III ",
             "titleSlug": "friday-purchase-iii",
             "content": null,
-            "translatedTitle": null,
+            "translatedTitle": "发生在周五的交易 III",
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Medium",
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"151\", \"totalSubmission\": \"243\", \"totalAcceptedRaw\": 151, \"totalSubmissionRaw\": 243, \"acRate\": \"62.1%\"}",
+            "stats": "{\"totalAccepted\": \"535\", \"totalSubmission\": \"852\", \"totalAcceptedRaw\": 535, \"totalSubmissionRaw\": 852, \"acRate\": \"62.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Purchases\":[\"user_id\",\"purchase_date\",\"amount_spend\"],\"Users\":[\"user_id\",\"membership\"]},\"rows\":{\"Purchases\":[[11,\"2023-11-03\",1126],[15,\"2023-11-10\",7473],[17,\"2023-11-17\",2414],[12,\"2023-11-24\",9692],[8,\"2023-11-24\",5117],[1,\"2023-11-24\",5241],[10,\"2023-11-22\",8266],[13,\"2023-11-21\",12000]],\"Users\":[[11,\"Premium\"],[15,\"VIP\"],[17,\"Standard\"],[12,\"VIP\"],[8,\"Premium\"],[1,\"VIP\"],[10,\"Standard\"],[13,\"Premium\"]]}}",
@@ -57,7 +57,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

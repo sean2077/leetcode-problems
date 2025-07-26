@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"16.3K\", \"totalSubmission\": \"24.8K\", \"totalAcceptedRaw\": 16285, \"totalSubmissionRaw\": 24800, \"acRate\": \"65.7%\"}",
+            "stats": "{\"totalAccepted\": \"17.3K\", \"totalSubmission\": \"26.2K\", \"totalAcceptedRaw\": 17295, \"totalSubmissionRaw\": 26154, \"acRate\": \"66.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Countries\":[\"country_id\",\"country_name\"],\"Weather\":[\"country_id\",\"weather_state\",\"day\"]},\"rows\":{\"Countries\":[[2,\"USA\"],[3,\"Australia\"],[7,\"Peru\"],[5,\"China\"],[8,\"Morocco\"],[9,\"Spain\"]],\"Weather\":[[2,15,\"2019-11-01\"],[2,12,\"2019-10-28\"],[2,12,\"2019-10-27\"],[3,-2,\"2019-11-10\"],[3,0,\"2019-11-11\"],[3,3,\"2019-11-12\"],[5,16,\"2019-11-07\"],[5,18,\"2019-11-09\"],[5,21,\"2019-11-23\"],[7,25,\"2019-11-28\"],[7,22,\"2019-12-01\"],[7,20,\"2019-12-02\"],[8,25,\"2019-11-05\"],[8,27,\"2019-11-15\"],[8,31,\"2019-11-25\"],[9,7,\"2019-10-23\"],[9,3,\"2019-12-23\"]]}}",
@@ -64,7 +64,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }

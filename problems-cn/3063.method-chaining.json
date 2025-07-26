@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef findHeavyAnimals(animals: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"2.9K\", \"totalSubmission\": \"3.8K\", \"totalAcceptedRaw\": 2879, \"totalSubmissionRaw\": 3780, \"acRate\": \"76.2%\"}",
+            "stats": "{\"totalAccepted\": \"5.4K\", \"totalSubmission\": \"7K\", \"totalAcceptedRaw\": 5354, \"totalSubmissionRaw\": 6999, \"acRate\": \"76.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"animals\":[\"name\",\"species\",\"age\",\"weight\"]},\"rows\":{\"animals\":[[\"Tatiana\",\"Snake\",98,464],[\"Khaled\",\"Giraffe\",50,41],[\"Alex\",\"Leopard\",6,328],[\"Jonathan\",\"Monkey\",45,463],[\"Stefan\",\"Bear\",100,50],[\"Tommy\",\"Panda\",26,349]]}}",
@@ -36,7 +36,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"]}",
+            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4<\\/p>\"]}",
             "libraryUrl": null,
             "note": null
         }
