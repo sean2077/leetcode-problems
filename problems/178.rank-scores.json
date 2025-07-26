@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 2166,
-            "dislikes": 273,
+            "likes": 2322,
+            "dislikes": 288,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"409K\", \"totalSubmission\": \"649.4K\", \"totalAcceptedRaw\": 409021, \"totalSubmissionRaw\": 649403, \"acRate\": \"63.0%\"}",
+            "stats": "{\"totalAccepted\": \"526.4K\", \"totalSubmission\": \"802.7K\", \"totalAcceptedRaw\": 526354, \"totalSubmissionRaw\": 802719, \"acRate\": \"65.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Scores\": [\"id\", \"score\"]}, \"rows\": {\"Scores\": [[1, 3.50], [2, 3.65], [3, 4.00], [4, 3.85], [5, 4.00], [6, 3.65]]}}",
@@ -71,7 +71,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

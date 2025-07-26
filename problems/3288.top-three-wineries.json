@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Hard",
-            "likes": 8,
-            "dislikes": 5,
+            "likes": 13,
+            "dislikes": 7,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 1219, \"totalSubmissionRaw\": 2273, \"acRate\": \"53.6%\"}",
+            "stats": "{\"totalAccepted\": \"2.7K\", \"totalSubmission\": \"4.7K\", \"totalAcceptedRaw\": 2671, \"totalSubmissionRaw\": 4712, \"acRate\": \"56.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Wineries\":[\"id\",\"country\",\"points\",\"winery\"]},\"rows\":{\"Wineries\":[[103,\"Australia\",84,\"WhisperingPines\"],[737,\"Australia\",85,\"GrapesGalore\"],[848,\"Australia\",100,\"HarmonyHill\"],[222,\"Hungary\",60,\"MoonlitCellars\"],[116,\"USA\",47,\"RoyalVines\"],[124,\"USA\",45,\"Eagle'sNest\"],[648,\"India\",69,\"SunsetVines\"],[894,\"USA\",39,\"RoyalVines\"],[677,\"USA\",9,\"PacificCrest\"]]}}",
@@ -48,7 +48,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

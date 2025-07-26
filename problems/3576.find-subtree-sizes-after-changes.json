@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec find_subtree_sizes(parent :: [integer], s :: String.t) :: [integer]\n  def find_subtree_sizes(parent, s) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"15.6K\", \"totalSubmission\": \"28.7K\", \"totalAcceptedRaw\": 15562, \"totalSubmissionRaw\": 28721, \"acRate\": \"54.2%\"}",
+            "stats": "{\"totalAccepted\": \"15.6K\", \"totalSubmission\": \"28.7K\", \"totalAcceptedRaw\": 15567, \"totalSubmissionRaw\": 28740, \"acRate\": \"54.2%\"}",
             "hints": [
                 "Perform a depth-first search on the tree, starting from the root.",
                 "During the DFS, keep track of the most recent node where each character from 'a' to 'z' has been seen."

@@ -122,7 +122,7 @@
                     "code": "defmodule Solution do\n  @spec generate_key(num1 :: integer, num2 :: integer, num3 :: integer) :: integer\n  def generate_key(num1, num2, num3) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"47.6K\", \"totalSubmission\": \"62.5K\", \"totalAcceptedRaw\": 47568, \"totalSubmissionRaw\": 62548, \"acRate\": \"76.1%\"}",
+            "stats": "{\"totalAccepted\": \"47.6K\", \"totalSubmission\": \"62.6K\", \"totalAcceptedRaw\": 47578, \"totalSubmissionRaw\": 62559, \"acRate\": \"76.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "1\n10\n1000",

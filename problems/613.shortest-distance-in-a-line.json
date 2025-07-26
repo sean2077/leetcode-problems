@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Easy",
-            "likes": 328,
+            "likes": 340,
             "dislikes": 40,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"73.1K\", \"totalSubmission\": \"91.1K\", \"totalAcceptedRaw\": 73071, \"totalSubmissionRaw\": 91143, \"acRate\": \"80.2%\"}",
+            "stats": "{\"totalAccepted\": \"81K\", \"totalSubmission\": \"101.3K\", \"totalAcceptedRaw\": 80964, \"totalSubmissionRaw\": 101307, \"acRate\": \"79.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Point\":[\"x\"]},\"rows\":{\"Point\":[[-1],[0],[2]]}}",
@@ -42,7 +42,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

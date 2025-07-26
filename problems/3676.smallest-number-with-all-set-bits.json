@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 68,
+            "likes": 69,
             "dislikes": 2,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Minimum Number of K Consecutive Bit Flips\", \"titleSlug\": \"minimum-number-of-k-consecutive-bit-flips\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Minimum Bit Flips to Convert Number\", \"titleSlug\": \"minimum-bit-flips-to-convert-number\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Find Sum of Array Product of Magical Sequences\", \"titleSlug\": \"find-sum-of-array-product-of-magical-sequences\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec smallest_number(n :: integer) :: integer\n  def smallest_number(n) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"39.3K\", \"totalSubmission\": \"51.8K\", \"totalAcceptedRaw\": 39261, \"totalSubmissionRaw\": 51763, \"acRate\": \"75.8%\"}",
+            "stats": "{\"totalAccepted\": \"39.3K\", \"totalSubmission\": \"51.8K\", \"totalAcceptedRaw\": 39293, \"totalSubmissionRaw\": 51809, \"acRate\": \"75.8%\"}",
             "hints": [
                 "Find the strictly greater power of 2, and subtract 1 from it."
             ],

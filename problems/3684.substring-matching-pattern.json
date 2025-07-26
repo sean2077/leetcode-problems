@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec has_match(s :: String.t, p :: String.t) :: boolean\n  def has_match(s, p) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"31.8K\", \"totalSubmission\": \"117K\", \"totalAcceptedRaw\": 31826, \"totalSubmissionRaw\": 117036, \"acRate\": \"27.2%\"}",
+            "stats": "{\"totalAccepted\": \"31.9K\", \"totalSubmission\": \"117.1K\", \"totalAcceptedRaw\": 31850, \"totalSubmissionRaw\": 117102, \"acRate\": \"27.2%\"}",
             "hints": [
                 "Divide the pattern in two strings and search in the string."
             ],

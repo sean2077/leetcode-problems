@@ -152,7 +152,7 @@
                     "code": "defmodule Solution do\n  @spec max_rectangle_area(points :: [[integer]]) :: integer\n  def max_rectangle_area(points) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"13.8K\", \"totalSubmission\": \"27.6K\", \"totalAcceptedRaw\": 13795, \"totalSubmissionRaw\": 27579, \"acRate\": \"50.0%\"}",
+            "stats": "{\"totalAccepted\": \"13.8K\", \"totalSubmission\": \"27.6K\", \"totalAcceptedRaw\": 13798, \"totalSubmissionRaw\": 27586, \"acRate\": \"50.0%\"}",
             "hints": [
                 "If <code>(x1, y1)</code> and <code>(x2, y2)</code> are two opposite corners of a rectangle, then the other two would be <code>(x1, y2)</code> and <code>(x2, y1)</code>.",
                 "Fix two points and find the other two using a set data structure.",

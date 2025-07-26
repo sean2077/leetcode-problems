@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec find_maximum_score(nums :: [integer]) :: integer\n  def find_maximum_score(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"27K\", \"totalSubmission\": \"83K\", \"totalAcceptedRaw\": 27038, \"totalSubmissionRaw\": 83041, \"acRate\": \"32.6%\"}",
+            "stats": "{\"totalAccepted\": \"27K\", \"totalSubmission\": \"83.1K\", \"totalAcceptedRaw\": 27046, \"totalSubmissionRaw\": 83060, \"acRate\": \"32.6%\"}",
             "hints": [
                 "It can be proven that from each index <code>i</code>, the optimal solution is to jump to the nearest index <code>j > i</code> such that <code>nums[j] > nums[i]</code>."
             ],

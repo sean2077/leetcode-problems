@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec largest_integer(nums :: [integer], k :: integer) :: integer\n  def largest_integer(nums, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"32.3K\", \"totalSubmission\": \"87.9K\", \"totalAcceptedRaw\": 32347, \"totalSubmissionRaw\": 87945, \"acRate\": \"36.8%\"}",
+            "stats": "{\"totalAccepted\": \"32.4K\", \"totalSubmission\": \"88K\", \"totalAcceptedRaw\": 32364, \"totalSubmissionRaw\": 87998, \"acRate\": \"36.8%\"}",
             "hints": [
                 "Solve the problem for three different cases: <code>k = 1</code>, <code>k = n</code>, and <code>1 < k < n</code>",
                 "If <code>k = 1</code>, return the largest element that occurs exactly once in <code>nums</code>",

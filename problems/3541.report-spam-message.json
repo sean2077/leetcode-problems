@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec report_spam(message :: [String.t], banned_words :: [String.t]) :: boolean\n  def report_spam(message, banned_words) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"52.8K\", \"totalSubmission\": \"110.6K\", \"totalAcceptedRaw\": 52782, \"totalSubmissionRaw\": 110592, \"acRate\": \"47.7%\"}",
+            "stats": "{\"totalAccepted\": \"52.8K\", \"totalSubmission\": \"110.6K\", \"totalAcceptedRaw\": 52790, \"totalSubmissionRaw\": 110605, \"acRate\": \"47.7%\"}",
             "hints": [
                 "Use hash set."
             ],

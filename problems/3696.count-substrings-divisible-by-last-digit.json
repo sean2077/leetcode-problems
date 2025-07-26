@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec count_substrings(s :: String.t) :: integer\n  def count_substrings(s) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"5.2K\", \"totalSubmission\": \"24.8K\", \"totalAcceptedRaw\": 5220, \"totalSubmissionRaw\": 24752, \"acRate\": \"21.1%\"}",
+            "stats": "{\"totalAccepted\": \"5.2K\", \"totalSubmission\": \"24.8K\", \"totalAcceptedRaw\": 5222, \"totalSubmissionRaw\": 24755, \"acRate\": \"21.1%\"}",
             "hints": [
                 "Let <code>dp[index][i][j]</code> be the number of subarrays <code>s[start...index]</code> such that  <code>s[start...index] % i == j</code>.",
                 "For every pair <code>(i, j)</code>, add <code>dp[index - 1][i][j]</code> to <code>dp[index][i][(j  * 10 + x)%i)]</code>.",

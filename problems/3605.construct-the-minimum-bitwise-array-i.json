@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec min_bitwise_array(nums :: [integer]) :: [integer]\n  def min_bitwise_array(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"29.2K\", \"totalSubmission\": \"39.4K\", \"totalAcceptedRaw\": 29233, \"totalSubmissionRaw\": 39443, \"acRate\": \"74.1%\"}",
+            "stats": "{\"totalAccepted\": \"29.2K\", \"totalSubmission\": \"39.4K\", \"totalAcceptedRaw\": 29238, \"totalSubmissionRaw\": 39448, \"acRate\": \"74.1%\"}",
             "hints": [
                 "The constraints are small, allowing you to iterate over all potential values for <code>ans[i]</code> directly."
             ],

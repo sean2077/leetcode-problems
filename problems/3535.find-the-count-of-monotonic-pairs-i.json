@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec count_of_pairs(nums :: [integer]) :: integer\n  def count_of_pairs(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"19.1K\", \"totalSubmission\": \"40.9K\", \"totalAcceptedRaw\": 19121, \"totalSubmissionRaw\": 40940, \"acRate\": \"46.7%\"}",
+            "stats": "{\"totalAccepted\": \"19.1K\", \"totalSubmission\": \"40.9K\", \"totalAcceptedRaw\": 19123, \"totalSubmissionRaw\": 40943, \"acRate\": \"46.7%\"}",
             "hints": [
                 "Let <code>dp[i][s]</code> is the number of monotonic pairs of length <code>i</code> with the <code>arr1[i - 1] = s</code>.",
                 "If <code>arr1[i - 1] = s</code>, <code>arr2[i - 1] = nums[i - 1] - s</code>.",

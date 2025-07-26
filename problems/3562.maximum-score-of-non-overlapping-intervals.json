@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec maximum_weight(intervals :: [[integer]]) :: [integer]\n  def maximum_weight(intervals) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.5K\", \"totalSubmission\": \"11.4K\", \"totalAcceptedRaw\": 3481, \"totalSubmissionRaw\": 11388, \"acRate\": \"30.6%\"}",
+            "stats": "{\"totalAccepted\": \"3.5K\", \"totalSubmission\": \"11.4K\", \"totalAcceptedRaw\": 3481, \"totalSubmissionRaw\": 11392, \"acRate\": \"30.6%\"}",
             "hints": [
                 "Use Dynamic Programming.",
                 "Sort <code>intervals</code> by right boundary.",

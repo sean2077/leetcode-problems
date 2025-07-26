@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 55,
+            "likes": 85,
             "dislikes": 3,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"47.8K\", \"totalSubmission\": \"66.5K\", \"totalAcceptedRaw\": 47786, \"totalSubmissionRaw\": 66508, \"acRate\": \"71.9%\"}",
+            "stats": "{\"totalAccepted\": \"100K\", \"totalSubmission\": \"138.3K\", \"totalAcceptedRaw\": 100030, \"totalSubmissionRaw\": 138261, \"acRate\": \"72.3%\"}",
             "hints": [
                 "Consider using a build-in function in pandas library to fill the missing values of specified columns."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

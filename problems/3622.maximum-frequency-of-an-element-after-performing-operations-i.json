@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec max_frequency(nums :: [integer], k :: integer, num_operations :: integer) :: integer\n  def max_frequency(nums, k, num_operations) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"14.8K\", \"totalSubmission\": \"69.7K\", \"totalAcceptedRaw\": 14774, \"totalSubmissionRaw\": 69697, \"acRate\": \"21.2%\"}",
+            "stats": "{\"totalAccepted\": \"14.8K\", \"totalSubmission\": \"69.7K\", \"totalAcceptedRaw\": 14776, \"totalSubmissionRaw\": 69701, \"acRate\": \"21.2%\"}",
             "hints": [
                 "Sort the array and try each value in range as a candidate."
             ],

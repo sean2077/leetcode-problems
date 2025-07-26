@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec check_valid_cuts(n :: integer, rectangles :: [[integer]]) :: boolean\n  def check_valid_cuts(n, rectangles) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"110K\", \"totalSubmission\": \"160.9K\", \"totalAcceptedRaw\": 109951, \"totalSubmissionRaw\": 160854, \"acRate\": \"68.4%\"}",
+            "stats": "{\"totalAccepted\": \"110K\", \"totalSubmission\": \"160.9K\", \"totalAcceptedRaw\": 109962, \"totalSubmissionRaw\": 160868, \"acRate\": \"68.4%\"}",
             "hints": [
                 "For each rectangle, consider ranges <code>[start_x, end_x]</code> and <code>[start_y, end_y]</code> separately.",
                 "For x and y directions, check whether we can split it into 3 parts."

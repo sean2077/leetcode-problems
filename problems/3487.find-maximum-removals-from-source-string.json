@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec max_removals(source :: String.t, pattern :: String.t, target_indices :: [integer]) :: integer\n  def max_removals(source, pattern, target_indices) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"11K\", \"totalSubmission\": \"28.7K\", \"totalAcceptedRaw\": 10974, \"totalSubmissionRaw\": 28662, \"acRate\": \"38.3%\"}",
+            "stats": "{\"totalAccepted\": \"11K\", \"totalSubmission\": \"28.7K\", \"totalAcceptedRaw\": 10983, \"totalSubmissionRaw\": 28692, \"acRate\": \"38.3%\"}",
             "hints": [
                 "Use dynamic programming.",
                 "At each index in <code>targetIndices</code>, make the choice to remove or not remove the character."

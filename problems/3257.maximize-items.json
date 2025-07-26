@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Hard",
-            "likes": 4,
-            "dislikes": 5,
+            "likes": 7,
+            "dislikes": 9,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"744\", \"totalSubmission\": \"1K\", \"totalAcceptedRaw\": 744, \"totalSubmissionRaw\": 1014, \"acRate\": \"73.4%\"}",
+            "stats": "{\"totalAccepted\": \"1.6K\", \"totalSubmission\": \"2.2K\", \"totalAcceptedRaw\": 1640, \"totalSubmissionRaw\": 2181, \"acRate\": \"75.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Inventory\":[\"item_id\",\"item_type\",\"item_category\",\"square_footage\"]},\"rows\":{\"Inventory\":[[1374,\"prime_eligible\",\"Watches\",68.00],[4245,\"not_prime\",\"Art\",26.40],[5743,\"prime_eligible\",\"Software\",325.00],[8543,\"not_prime\",\"Clothing\",64.50],[2556,\"not_prime\",\"Shoes\",15.00],[2452,\"prime_eligible\",\"Scientific\",85.00],[3255,\"not_prime\",\"Furniture\",22.60],[1672,\"prime_eligible\",\"Beauty\",8.50],[4256,\"prime_eligible\",\"Furniture\",55.50],[6325,\"prime_eligible\",\"Food\",13.20]]}}",
@@ -49,7 +49,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

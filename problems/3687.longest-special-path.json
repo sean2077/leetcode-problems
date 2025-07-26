@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec longest_special_path(edges :: [[integer]], nums :: [integer]) :: [integer]\n  def longest_special_path(edges, nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"4.9K\", \"totalSubmission\": \"24.3K\", \"totalAcceptedRaw\": 4914, \"totalSubmissionRaw\": 24296, \"acRate\": \"20.2%\"}",
+            "stats": "{\"totalAccepted\": \"4.9K\", \"totalSubmission\": \"24.3K\", \"totalAcceptedRaw\": 4917, \"totalSubmissionRaw\": 24312, \"acRate\": \"20.2%\"}",
             "hints": [
                 "Use DFS to traverse the tree and maintain the current path length from the root (starting at 0) to the current node.",
                 "Use prefix sums to calculate the longest path ending at the current node with all unique values."

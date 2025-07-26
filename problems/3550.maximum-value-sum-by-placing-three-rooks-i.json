@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec maximum_value_sum(board :: [[integer]]) :: integer\n  def maximum_value_sum(board) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"8.7K\", \"totalSubmission\": \"56.8K\", \"totalAcceptedRaw\": 8715, \"totalSubmissionRaw\": 56842, \"acRate\": \"15.3%\"}",
+            "stats": "{\"totalAccepted\": \"8.7K\", \"totalSubmission\": \"56.8K\", \"totalAcceptedRaw\": 8716, \"totalSubmissionRaw\": 56843, \"acRate\": \"15.3%\"}",
             "hints": [
                 "Store the largest 3 values for each row.",
                 "Select any 3 rows and brute force all combinations."

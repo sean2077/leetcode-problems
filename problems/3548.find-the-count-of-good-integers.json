@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec count_good_integers(n :: integer, k :: integer) :: integer\n  def count_good_integers(n, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"71.4K\", \"totalSubmission\": \"102.5K\", \"totalAcceptedRaw\": 71417, \"totalSubmissionRaw\": 102533, \"acRate\": \"69.7%\"}",
+            "stats": "{\"totalAccepted\": \"71.4K\", \"totalSubmission\": \"102.5K\", \"totalAcceptedRaw\": 71420, \"totalSubmissionRaw\": 102537, \"acRate\": \"69.7%\"}",
             "hints": [
                 "How to generate all K-palindromic strings of length <code>n</code>? Do we need to go through all <code>n</code> digits?",
                 "Use permutations to calculate the number of possible rearrangements."

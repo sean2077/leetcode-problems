@@ -147,7 +147,7 @@
                     "code": "defmodule Solution do\n  @spec find_answer(parent :: [integer], s :: String.t) :: [boolean]\n  def find_answer(parent, s) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"5.6K\", \"totalSubmission\": \"31.1K\", \"totalAcceptedRaw\": 5633, \"totalSubmissionRaw\": 31087, \"acRate\": \"18.1%\"}",
+            "stats": "{\"totalAccepted\": \"5.6K\", \"totalSubmission\": \"31.1K\", \"totalAcceptedRaw\": 5633, \"totalSubmissionRaw\": 31092, \"acRate\": \"18.1%\"}",
             "hints": [
                 "Perform the dfs described from the root of tree, and store the order in which nodes are visited into an array.",
                 "For any node in the tree, the nodes in its subtree will form a contiguous subarray within the DFS traversal array.",

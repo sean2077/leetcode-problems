@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 89,
+            "likes": 90,
             "dislikes": 21,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -147,7 +147,7 @@
                     "code": "defmodule Solution do\n  @spec find_minimum_time(strength :: [integer], k :: integer) :: integer\n  def find_minimum_time(strength, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"12.2K\", \"totalSubmission\": \"39.9K\", \"totalAcceptedRaw\": 12242, \"totalSubmissionRaw\": 39917, \"acRate\": \"30.7%\"}",
+            "stats": "{\"totalAccepted\": \"12.3K\", \"totalSubmission\": \"39.9K\", \"totalAcceptedRaw\": 12251, \"totalSubmissionRaw\": 39930, \"acRate\": \"30.7%\"}",
             "hints": [
                 "Try all <code>n!</code> permutation ways of breaking the locks."
             ],

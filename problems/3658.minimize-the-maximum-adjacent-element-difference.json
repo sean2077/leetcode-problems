@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec min_difference(nums :: [integer]) :: integer\n  def min_difference(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"2.6K\", \"totalSubmission\": \"15.9K\", \"totalAcceptedRaw\": 2581, \"totalSubmissionRaw\": 15883, \"acRate\": \"16.3%\"}",
+            "stats": "{\"totalAccepted\": \"2.6K\", \"totalSubmission\": \"15.9K\", \"totalAcceptedRaw\": 2583, \"totalSubmissionRaw\": 15892, \"acRate\": \"16.3%\"}",
             "hints": [
                 "More than 2 occurrences of -1 can be ignored.",
                 "We can add the first positive number to the beginning and the last positive number to the end so that any consecutive of -1s are surrounded by positive numbers.",

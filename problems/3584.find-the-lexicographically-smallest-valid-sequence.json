@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec valid_sequence(word1 :: String.t, word2 :: String.t) :: [integer]\n  def valid_sequence(word1, word2) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"6.8K\", \"totalSubmission\": \"32.9K\", \"totalAcceptedRaw\": 6779, \"totalSubmissionRaw\": 32935, \"acRate\": \"20.6%\"}",
+            "stats": "{\"totalAccepted\": \"6.8K\", \"totalSubmission\": \"32.9K\", \"totalAcceptedRaw\": 6781, \"totalSubmissionRaw\": 32938, \"acRate\": \"20.6%\"}",
             "hints": [
                 "Let <code>dp[i]</code> be the longest suffix of <code>word2</code> that exists as a subsequence of suffix of the substring of <code>word1</code> starting at index <code>i</code>.",
                 "If <code>dp[i + 1] < m</code> and <code>word1[i] == word2[m - dp[i + 1] - 1]</code>,<code>dp[i] =  dp[i + 1] + 1</code>. Otherwise, <code>dp[i] =  dp[i + 1]</code>.",

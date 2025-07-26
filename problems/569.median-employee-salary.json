@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Hard",
-            "likes": 323,
-            "dislikes": 152,
+            "likes": 337,
+            "dislikes": 155,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Find Median Given Frequency of Numbers\", \"titleSlug\": \"find-median-given-frequency-of-numbers\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"41.3K\", \"totalSubmission\": \"62.7K\", \"totalAcceptedRaw\": 41287, \"totalSubmissionRaw\": 62708, \"acRate\": \"65.8%\"}",
+            "stats": "{\"totalAccepted\": \"47.2K\", \"totalSubmission\": \"71.2K\", \"totalAcceptedRaw\": 47205, \"totalSubmissionRaw\": 71229, \"acRate\": \"66.3%\"}",
             "hints": [
                 "Still remember how to select the sum which group by one column?",
                 "Try to think about how to get the median from a sorted list.",
@@ -60,7 +60,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

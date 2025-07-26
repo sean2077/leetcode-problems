@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 106,
+            "likes": 107,
             "dislikes": 45,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec count_valid_selections(nums :: [integer]) :: integer\n  def count_valid_selections(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"28K\", \"totalSubmission\": \"50.3K\", \"totalAcceptedRaw\": 27989, \"totalSubmissionRaw\": 50294, \"acRate\": \"55.7%\"}",
+            "stats": "{\"totalAccepted\": \"28K\", \"totalSubmission\": \"50.3K\", \"totalAcceptedRaw\": 27998, \"totalSubmissionRaw\": 50308, \"acRate\": \"55.7%\"}",
             "hints": [
                 "Since the constraints are very small, you can simulate the process described."
             ],

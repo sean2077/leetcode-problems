@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 503,
-            "dislikes": 216,
+            "likes": 701,
+            "dislikes": 249,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -52,11 +52,11 @@
                     "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"131.2K\", \"totalSubmission\": \"203.5K\", \"totalAcceptedRaw\": 131228, \"totalSubmissionRaw\": 203492, \"acRate\": \"64.5%\"}",
+            "stats": "{\"totalAccepted\": \"267.1K\", \"totalSubmission\": \"370.4K\", \"totalAcceptedRaw\": 267091, \"totalSubmissionRaw\": 370439, \"acRate\": \"72.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Employee\":[\"employee_id\",\"department_id\",\"primary_flag\"]},\"rows\":{\"Employee\":[[\"1\",\"1\",\"N\"],[\"2\",\"1\",\"Y\"],[\"2\",\"2\",\"N\"],[\"3\",\"3\",\"N\"],[\"4\",\"2\",\"N\"],[\"4\",\"3\",\"Y\"],[\"4\",\"4\",\"N\"]]}}",
-            "metaData": "{\"mysql\": [\"Create table If Not Exists Employee (employee_id int, department_id int, primary_flag ENUM('Y','N'))\"], \"mssql\": [\"Create table Employee (employee_id int, department_id int, primary_flag varchar(1) not null check(primary_flag in ('Y', 'N')))\"], \"oraclesql\": [\"Create table Employee (employee_id int, department_id int, primary_flag varchar(1) not null check(primary_flag in ('Y', 'N')))\"], \"database\": true, \"name\": \"find_primary_department\", \"pythondata\": [\"Employee = pd.DataFrame([], columns=['employee_id', 'department_id', 'primary_flag']).astype({'employee_id':'Int64', 'department_id':'Int64', 'primary_flag':'object'})\"], \"postgresql\": [\"Create table If Not Exists Employee (employee_id int, department_id int, primary_flag VARCHAR(30) CHECK (primary_flag IN ('Y','N')))\\n\"], \"database_schema\": {\"Employee\": {\"employee_id\": \"INT\", \"department_id\": \"INT\", \"primary_flag\": \"ENUM('Y', 'N')\"}}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Employee (employee_id int, department_id int, primary_flag ENUM('Y','N'))\"], \"mssql\": [\"Create table Employee (employee_id int, department_id int, primary_flag varchar(1) not null check(primary_flag in ('Y', 'N')))\"], \"oraclesql\": [\"Create table Employee (employee_id int, department_id int, primary_flag varchar(1) not null check(primary_flag in ('Y', 'N')))\"], \"database\": true, \"name\": \"find_primary_department\", \"pythondata\": [\"Employee = pd.DataFrame([], columns=['employee_id', 'department_id', 'primary_flag']).astype({'employee_id':'Int64', 'department_id':'Int64', 'primary_flag':'object'})\"], \"postgresql\": [\"Create table If Not Exists Employee (employee_id int, department_id int, primary_flag VARCHAR(30) CHECK (primary_flag IN ('Y','N')))\\n\"], \"manual\": false, \"database_schema\": {\"Employee\": {\"employee_id\": \"INT\", \"department_id\": \"INT\", \"primary_flag\": \"ENUM('Y', 'N')\"}}}",
             "judgerAvailable": true,
             "judgeType": "large",
             "mysqlSchemas": [
@@ -72,7 +72,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

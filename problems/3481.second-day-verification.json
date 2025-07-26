@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Easy",
-            "likes": 3,
-            "dislikes": 0,
+            "likes": 9,
+            "dislikes": 1,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"886\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 886, \"totalSubmissionRaw\": 1214, \"acRate\": \"73.0%\"}",
+            "stats": "{\"totalAccepted\": \"2.9K\", \"totalSubmission\": \"4.2K\", \"totalAcceptedRaw\": 2856, \"totalSubmissionRaw\": 4175, \"acRate\": \"68.4%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"emails\":[\"email_id\",\"user_id\",\"signup_date\"],\"texts\":[\"text_id\",\"email_id\",\"signup_action\",\"action_date\"]},\"rows\":{\"emails\":[[125,7771,\"2022-06-14 09:30:00\"],[433,1052,\"2022-07-09 08:15:00\"],[234,7005,\"2022-08-20 10:00:00\"]],\"texts\":[[1,125,\"Verified\",\"2022-06-15 08:30:00\"],[2,433,\"Not Verified\",\"2022-07-10 10:45:00\"],[4,234,\"Verified\",\"2022-08-21 09:30:00\"]]}}",
@@ -47,7 +47,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

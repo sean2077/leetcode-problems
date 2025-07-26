@@ -147,7 +147,7 @@
                     "code": "defmodule Solution do\n  @spec max_moves(kx :: integer, ky :: integer, positions :: [[integer]]) :: integer\n  def max_moves(kx, ky, positions) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"6.5K\", \"totalSubmission\": \"20.1K\", \"totalAcceptedRaw\": 6517, \"totalSubmissionRaw\": 20094, \"acRate\": \"32.4%\"}",
+            "stats": "{\"totalAccepted\": \"6.5K\", \"totalSubmission\": \"20.1K\", \"totalAcceptedRaw\": 6518, \"totalSubmissionRaw\": 20105, \"acRate\": \"32.4%\"}",
             "hints": [
                 "Use BFS to preprocess the minimum number of moves to reach one pawn from the other pawns.",
                 "Consider the knight’s original position as another pawn.",

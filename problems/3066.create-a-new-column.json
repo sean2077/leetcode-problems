@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 67,
-            "dislikes": 5,
+            "likes": 100,
+            "dislikes": 6,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef createBonusColumn(employees: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"65.1K\", \"totalSubmission\": \"72.3K\", \"totalAcceptedRaw\": 65095, \"totalSubmissionRaw\": 72271, \"acRate\": \"90.1%\"}",
+            "stats": "{\"totalAccepted\": \"134.2K\", \"totalSubmission\": \"148.6K\", \"totalAcceptedRaw\": 134179, \"totalSubmissionRaw\": 148605, \"acRate\": \"90.3%\"}",
             "hints": [
                 "Consider using the `[]` brackets with the new column name at the left side of the assignment. The calculation of the value is done element-wise."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

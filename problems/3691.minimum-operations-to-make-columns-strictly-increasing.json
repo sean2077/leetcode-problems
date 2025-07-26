@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec minimum_operations(grid :: [[integer]]) :: integer\n  def minimum_operations(grid) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"33.3K\", \"totalSubmission\": \"46.2K\", \"totalAcceptedRaw\": 33308, \"totalSubmissionRaw\": 46212, \"acRate\": \"72.1%\"}",
+            "stats": "{\"totalAccepted\": \"33.3K\", \"totalSubmission\": \"46.2K\", \"totalAcceptedRaw\": 33320, \"totalSubmissionRaw\": 46230, \"acRate\": \"72.1%\"}",
             "hints": [
                 "<code>grid[i + 1][j]</code> must be at least equal to <code>grid[i][j] + 1<code>.",
                 "Iterate on <code>i</code> in increasing order, and set <code>grid[i + 1][j] = max(grid[i][j]+1, grid[i + 1][j])<code>."

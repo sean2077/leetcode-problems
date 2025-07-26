@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 389,
-            "dislikes": 467,
+            "likes": 410,
+            "dislikes": 481,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -32,7 +32,7 @@
                     "code": "# Read from the file file.txt and output the tenth line to stdout.\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"110.7K\", \"totalSubmission\": \"330.1K\", \"totalAcceptedRaw\": 110655, \"totalSubmissionRaw\": 330142, \"acRate\": \"33.5%\"}",
+            "stats": "{\"totalAccepted\": \"134.4K\", \"totalSubmission\": \"386.7K\", \"totalAcceptedRaw\": 134369, \"totalSubmissionRaw\": 386673, \"acRate\": \"34.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "Line 1\\nLine 2\\nLine 3\\nLine 4\\nLine 5\\nLine 6\\nLine 7\\nLine 8\\nLine 9\\nLine 10",
@@ -42,7 +42,7 @@
             "mysqlSchemas": [],
             "enableRunCode": false,
             "enableTestMode": false,
-            "envInfo": "{\"bash\": [\"Bash\", \"<p><code>Bash 4.3.30</code>.</p>\"]}",
+            "envInfo": "{\"bash\": [\"Bash\", \"<p><code>Bash 5.2.21</code>.</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

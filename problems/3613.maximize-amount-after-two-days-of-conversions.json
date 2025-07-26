@@ -12,7 +12,7 @@
             "isPaidOnly": false,
             "difficulty": "Medium",
             "likes": 134,
-            "dislikes": 38,
+            "dislikes": 39,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Evaluate Division\", \"titleSlug\": \"evaluate-division\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
             "contributors": [],
@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec max_amount(initial_currency :: String.t, pairs1 :: [[String.t]], rates1 :: [float], pairs2 :: [[String.t]], rates2 :: [float]) :: float\n  def max_amount(initial_currency, pairs1, rates1, pairs2, rates2) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"15.4K\", \"totalSubmission\": \"25.9K\", \"totalAcceptedRaw\": 15393, \"totalSubmissionRaw\": 25928, \"acRate\": \"59.4%\"}",
+            "stats": "{\"totalAccepted\": \"15.4K\", \"totalSubmission\": \"25.9K\", \"totalAcceptedRaw\": 15401, \"totalSubmissionRaw\": 25940, \"acRate\": \"59.4%\"}",
             "hints": [
                 "Choose an intermediate currency. Convert from <code>initialCurrency</code> to this currency on day 1, and from that currency back to <code>initialCurrency</code> on day 2.",
                 "Use a DFS/BFS to calculate the direct conversion rate between any two currencies."

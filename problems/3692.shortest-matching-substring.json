@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Hard",
-            "likes": 39,
+            "likes": 40,
             "dislikes": 3,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec shortest_matching_substring(s :: String.t, p :: String.t) :: integer\n  def shortest_matching_substring(s, p) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"5.5K\", \"totalSubmission\": \"24.8K\", \"totalAcceptedRaw\": 5488, \"totalSubmissionRaw\": 24833, \"acRate\": \"22.1%\"}",
+            "stats": "{\"totalAccepted\": \"5.5K\", \"totalSubmission\": \"24.8K\", \"totalAcceptedRaw\": 5489, \"totalSubmissionRaw\": 24837, \"acRate\": \"22.1%\"}",
             "hints": [
                 "The pattern string <code>p</code> can be divided into three segments.",
                 "Use the KMP algorithm to locate all occurrences of each segment in <code>s</code>."

@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Medium",
-            "likes": 16,
-            "dislikes": 2,
+            "likes": 25,
+            "dislikes": 3,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"2.2K\", \"totalSubmission\": \"3.3K\", \"totalAcceptedRaw\": 2214, \"totalSubmissionRaw\": 3312, \"acRate\": \"66.8%\"}",
+            "stats": "{\"totalAccepted\": \"4.2K\", \"totalSubmission\": \"6K\", \"totalAcceptedRaw\": 4197, \"totalSubmissionRaw\": 6016, \"acRate\": \"69.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Steps\": [\"user_id\", \"steps_count\", \"steps_date\"]}, \"rows\": {\"Steps\": [[1,687,\"2021-09-02\"],[1,395,\"2021-09-04\"],[1,499,\"2021-09-05\"],[1,712,\"2021-09-06\"],[1,576,\"2021-09-07\"],[2,153,\"2021-09-06\"],[2,171,\"2021-09-07\"],[2,530,\"2021-09-08\"],[3,945,\"2021-09-04\"],[3,120,\"2021-09-07\"],[3,557,\"2021-09-08\"],[3,840,\"2021-09-09\"],[3,627,\"2021-09-10\"],[5,382,\"2021-09-05\"],[6,480,\"2021-09-01\"],[6,191,\"2021-09-02\"],[6,303,\"2021-09-05\"]]}}",
@@ -56,7 +56,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

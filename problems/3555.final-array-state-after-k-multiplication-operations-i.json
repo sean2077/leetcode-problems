@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec get_final_state(nums :: [integer], k :: integer, multiplier :: integer) :: [integer]\n  def get_final_state(nums, k, multiplier) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"189.3K\", \"totalSubmission\": \"217.5K\", \"totalAcceptedRaw\": 189277, \"totalSubmissionRaw\": 217493, \"acRate\": \"87.0%\"}",
+            "stats": "{\"totalAccepted\": \"189.3K\", \"totalSubmission\": \"217.5K\", \"totalAcceptedRaw\": 189324, \"totalSubmissionRaw\": 217543, \"acRate\": \"87.0%\"}",
             "hints": [
                 "Maintain sorted pairs <code>(nums[index], index)</code> in a priority queue.",
                 "Simulate the operation <code>k</code> times."

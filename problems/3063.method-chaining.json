@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 63,
-            "dislikes": 5,
+            "likes": 99,
+            "dislikes": 6,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef findHeavyAnimals(animals: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"41.6K\", \"totalSubmission\": \"54.8K\", \"totalAcceptedRaw\": 41554, \"totalSubmissionRaw\": 54795, \"acRate\": \"75.8%\"}",
+            "stats": "{\"totalAccepted\": \"86.6K\", \"totalSubmission\": \"113.1K\", \"totalAcceptedRaw\": 86614, \"totalSubmissionRaw\": 113078, \"acRate\": \"76.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"animals\":[\"name\",\"species\",\"age\",\"weight\"]},\"rows\":{\"animals\":[[\"Tatiana\",\"Snake\",98,464],[\"Khaled\",\"Giraffe\",50,41],[\"Alex\",\"Leopard\",6,328],[\"Jonathan\",\"Monkey\",45,463],[\"Stefan\",\"Bear\",100,50],[\"Tommy\",\"Panda\",26,349]]}}",
@@ -36,7 +36,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec largest_palindrome(n :: integer, k :: integer) :: String.t\n  def largest_palindrome(n, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"51.6K\", \"totalAcceptedRaw\": 7968, \"totalSubmissionRaw\": 51589, \"acRate\": \"15.4%\"}",
+            "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"51.6K\", \"totalAcceptedRaw\": 7968, \"totalSubmissionRaw\": 51591, \"acRate\": \"15.4%\"}",
             "hints": [
                 "It must have a solution since we can have all digits equal to <code>k</code>.",
                 "Use string dp, store modulus along with length of number currently formed.",

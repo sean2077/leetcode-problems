@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec max_removal(nums :: [integer], queries :: [[integer]]) :: integer\n  def max_removal(nums, queries) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"73.5K\", \"totalSubmission\": \"133.2K\", \"totalAcceptedRaw\": 73455, \"totalSubmissionRaw\": 133245, \"acRate\": \"55.1%\"}",
+            "stats": "{\"totalAccepted\": \"73.5K\", \"totalSubmission\": \"133.3K\", \"totalAcceptedRaw\": 73466, \"totalSubmissionRaw\": 133272, \"acRate\": \"55.1%\"}",
             "hints": [
                 "Sort the queries.",
                 "We need to greedily pick the queries with farthest ending point first."

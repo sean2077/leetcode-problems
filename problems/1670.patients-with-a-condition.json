@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 649,
-            "dislikes": 568,
+            "likes": 777,
+            "dislikes": 621,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"233.1K\", \"totalSubmission\": \"578.2K\", \"totalAcceptedRaw\": 233072, \"totalSubmissionRaw\": 578214, \"acRate\": \"40.3%\"}",
+            "stats": "{\"totalAccepted\": \"358.7K\", \"totalSubmission\": \"920.3K\", \"totalAcceptedRaw\": 358732, \"totalSubmissionRaw\": 920299, \"acRate\": \"39.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Patients\": [\"patient_id\", \"patient_name\", \"conditions\"]}, \"rows\": {\"Patients\": [[1, \"Daniel\", \"YFEV COUGH\"], [2, \"Alice\", \"\"], [3, \"Bob\", \"DIAB100 MYOP\"], [4, \"George\", \"ACNE DIAB100\"], [5, \"Alain\", \"DIAB201\"]]}}",
@@ -70,7 +70,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec get_largest_outlier(nums :: [integer]) :: integer\n  def get_largest_outlier(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"48.7K\", \"totalSubmission\": \"135.8K\", \"totalAcceptedRaw\": 48699, \"totalSubmissionRaw\": 135814, \"acRate\": \"35.9%\"}",
+            "stats": "{\"totalAccepted\": \"48.7K\", \"totalSubmission\": \"135.8K\", \"totalAcceptedRaw\": 48711, \"totalSubmissionRaw\": 135844, \"acRate\": \"35.9%\"}",
             "hints": [
                 "What will be the value of array sum if we remove the outlier from it?",
                 "Use hashmap to find occurrence of an element quickly."

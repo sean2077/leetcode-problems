@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec string_hash(s :: String.t, k :: integer) :: String.t\n  def string_hash(s, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"45.2K\", \"totalSubmission\": \"54.5K\", \"totalAcceptedRaw\": 45235, \"totalSubmissionRaw\": 54549, \"acRate\": \"82.9%\"}",
+            "stats": "{\"totalAccepted\": \"45.2K\", \"totalSubmission\": \"54.6K\", \"totalAcceptedRaw\": 45247, \"totalSubmissionRaw\": 54562, \"acRate\": \"82.9%\"}",
             "hints": [
                 "Try to find each substring.",
                 "Use a for loop to find <code>hashedChar</code> of each substring.",

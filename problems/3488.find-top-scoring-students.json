@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Medium",
-            "likes": 5,
-            "dislikes": 2,
+            "likes": 12,
+            "dislikes": 3,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"691\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 691, \"totalSubmissionRaw\": 1223, \"acRate\": \"56.5%\"}",
+            "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"4.7K\", \"totalAcceptedRaw\": 2279, \"totalSubmissionRaw\": 4656, \"acRate\": \"48.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"students\":[\"student_id\",\"name\",\"major\"],\"courses\":[\"course_id\",\"name\",\"credits\",\"major\"],\"enrollments\":[\"student_id\",\"course_id\",\"semester\",\"grade\"]},\"rows\":{\"students\":[[1,\"Alice\",\"Computer Science\"],[2,\"Bob\",\"Computer Science\"],[3,\"Charlie\",\"Mathematics\"],[4,\"David\",\"Mathematics\"]],\"courses\":[[101,\"Algorithms\",3,\"Computer Science\"],[102,\"Data Structures\",3,\"Computer Science\"],[103,\"Calculus\",4,\"Mathematics\"],[104,\"Linear Algebra\",4,\"Mathematics\"]],\"enrollments\":[[1,101,\"Fall 2023\",\"A\"],[1,102,\"Fall 2023\",\"A\"],[2,101,\"Fall 2023\",\"B\"],[2,102,\"Fall 2023\",\"A\"],[3,103,\"Fall 2023\",\"A\"],[3,104,\"Fall 2023\",\"A\"],[4,103,\"Fall 2023\",\"A\"],[4,104,\"Fall 2023\",\"B\"]]}}",
@@ -59,7 +59,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

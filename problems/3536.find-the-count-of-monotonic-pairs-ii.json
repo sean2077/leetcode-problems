@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec count_of_pairs(nums :: [integer]) :: integer\n  def count_of_pairs(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"7.2K\", \"totalSubmission\": \"30.9K\", \"totalAcceptedRaw\": 7158, \"totalSubmissionRaw\": 30917, \"acRate\": \"23.2%\"}",
+            "stats": "{\"totalAccepted\": \"7.2K\", \"totalSubmission\": \"30.9K\", \"totalAcceptedRaw\": 7159, \"totalSubmissionRaw\": 30918, \"acRate\": \"23.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "[2,3,2]",

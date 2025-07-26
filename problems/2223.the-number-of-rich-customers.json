@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Easy",
-            "likes": 96,
+            "likes": 100,
             "dislikes": 25,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"The Winner University\", \"titleSlug\": \"the-winner-university\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"23.2K\", \"totalSubmission\": \"30K\", \"totalAcceptedRaw\": 23192, \"totalSubmissionRaw\": 30022, \"acRate\": \"77.3%\"}",
+            "stats": "{\"totalAccepted\": \"28.1K\", \"totalSubmission\": \"36.2K\", \"totalAcceptedRaw\": 28076, \"totalSubmissionRaw\": 36222, \"acRate\": \"77.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Store\":[\"bill_id\",\"customer_id\",\"amount\"]},\"rows\":{\"Store\":[[6,1,549],[8,1,834],[4,2,394],[11,3,657],[13,3,257]]}}",
@@ -44,7 +44,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec valid_substring_count(word1 :: String.t, word2 :: String.t) :: integer\n  def valid_substring_count(word1, word2) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"17.9K\", \"totalSubmission\": \"43K\", \"totalAcceptedRaw\": 17892, \"totalSubmissionRaw\": 42968, \"acRate\": \"41.6%\"}",
+            "stats": "{\"totalAccepted\": \"17.9K\", \"totalSubmission\": \"43K\", \"totalAcceptedRaw\": 17898, \"totalSubmissionRaw\": 42979, \"acRate\": \"41.6%\"}",
             "hints": [
                 "Store the frequency of each character for all prefixes.",
                 "Use Binary Search."

@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 90,
-            "dislikes": 8,
+            "likes": 143,
+            "dislikes": 11,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef getDataframeSize(players: pd.DataFrame) -> List[int]:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"83.6K\", \"totalSubmission\": \"98.6K\", \"totalAcceptedRaw\": 83603, \"totalSubmissionRaw\": 98552, \"acRate\": \"84.8%\"}",
+            "stats": "{\"totalAccepted\": \"171.4K\", \"totalSubmission\": \"201.3K\", \"totalAcceptedRaw\": 171414, \"totalSubmissionRaw\": 201255, \"acRate\": \"85.2%\"}",
             "hints": [
                 "Consider using a built-in function in pandas library to get the size of a DataFrame."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 681,
-            "dislikes": 74,
+            "likes": 977,
+            "dislikes": 98,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Queries Quality and Percentage\", \"titleSlug\": \"queries-quality-and-percentage\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
             "contributors": [],
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"205.8K\", \"totalSubmission\": \"364.1K\", \"totalAcceptedRaw\": 205813, \"totalSubmissionRaw\": 364080, \"acRate\": \"56.5%\"}",
+            "stats": "{\"totalAccepted\": \"409.1K\", \"totalSubmission\": \"692.9K\", \"totalAcceptedRaw\": 409108, \"totalSubmissionRaw\": 692897, \"acRate\": \"59.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Users\":[\"user_id\",\"user_name\"],\"Register\":[\"contest_id\",\"user_id\"]},\"rows\":{\"Users\":[[6,\"Alice\"],[2,\"Bob\"],[7,\"Alex\"]],\"Register\":[[215,6],[209,2],[208,2],[210,6],[208,6],[209,7],[209,6],[215,7],[208,7],[210,2],[207,2],[210,7]]}}",
@@ -82,7 +82,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

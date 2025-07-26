@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec length_after_transformations(s :: String.t, t :: integer) :: integer\n  def length_after_transformations(s, t) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"113.2K\", \"totalSubmission\": \"247.4K\", \"totalAcceptedRaw\": 113184, \"totalSubmissionRaw\": 247397, \"acRate\": \"45.7%\"}",
+            "stats": "{\"totalAccepted\": \"113.2K\", \"totalSubmission\": \"247.4K\", \"totalAcceptedRaw\": 113194, \"totalSubmissionRaw\": 247419, \"acRate\": \"45.7%\"}",
             "hints": [
                 "Maintain the frequency of each character."
             ],

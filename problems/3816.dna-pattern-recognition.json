@@ -1,0 +1,80 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3816",
+            "questionFrontendId": "3475",
+            "boundTopicId": null,
+            "title": "DNA Pattern Recognition ",
+            "titleSlug": "dna-pattern-recognition",
+            "content": "<p>Table: <code>Samples</code></p>\n\n<pre>\n+----------------+---------+\n| Column Name    | Type    | \n+----------------+---------+\n| sample_id      | int     |\n| dna_sequence   | varchar |\n| species        | varchar |\n+----------------+---------+\nsample_id is the unique key for this table.\nEach row contains a DNA sequence represented as a string of characters (A, T, G, C) and the species it was collected from.\n</pre>\n\n<p>Biologists are studying basic patterns in DNA sequences. Write a solution to identify <code>sample_id</code> with the following patterns:</p>\n\n<ul>\n\t<li>Sequences that <strong>start</strong> with <strong>ATG</strong>&nbsp;(a common <strong>start codon</strong>)</li>\n\t<li>Sequences that <strong>end</strong> with either <strong>TAA</strong>, <strong>TAG</strong>, or <strong>TGA</strong>&nbsp;(<strong>stop codons</strong>)</li>\n\t<li>Sequences containing the motif <strong>ATAT</strong>&nbsp;(a simple repeated pattern)</li>\n\t<li>Sequences that have <strong>at least</strong> <code>3</code> <strong>consecutive</strong> <strong>G</strong>&nbsp;(like <strong>GGG</strong>&nbsp;or <strong>GGGG</strong>)</li>\n</ul>\n\n<p>Return <em>the result table ordered by&nbsp;</em><em>sample_id in <strong>ascending</strong> order</em>.</p>\n\n<p>The result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong></p>\n\n<p>Samples table:</p>\n\n<pre class=\"example-io\">\n+-----------+------------------+-----------+\n| sample_id | dna_sequence     | species   |\n+-----------+------------------+-----------+\n| 1         | ATGCTAGCTAGCTAA  | Human     |\n| 2         | GGGTCAATCATC     | Human     |\n| 3         | ATATATCGTAGCTA   | Human     |\n| 4         | ATGGGGTCATCATAA  | Mouse     |\n| 5         | TCAGTCAGTCAG     | Mouse     |\n| 6         | ATATCGCGCTAG     | Zebrafish |\n| 7         | CGTATGCGTCGTA    | Zebrafish |\n+-----------+------------------+-----------+\n</pre>\n\n<p><strong>Output:</strong></p>\n\n<pre class=\"example-io\">\n+-----------+------------------+-------------+-------------+------------+------------+------------+\n| sample_id | dna_sequence     | species     | has_start   | has_stop   | has_atat   | has_ggg    |\n+-----------+------------------+-------------+-------------+------------+------------+------------+\n| 1         | ATGCTAGCTAGCTAA  | Human       | 1           | 1          | 0          | 0          |\n| 2         | GGGTCAATCATC     | Human       | 0           | 0          | 0          | 1          |\n| 3         | ATATATCGTAGCTA   | Human       | 0           | 0          | 1          | 0          |\n| 4         | ATGGGGTCATCATAA  | Mouse       | 1           | 1          | 0          | 1          |\n| 5         | TCAGTCAGTCAG     | Mouse       | 0           | 0          | 0          | 0          |\n| 6         | ATATCGCGCTAG     | Zebrafish   | 0           | 1          | 1          | 0          |\n| 7         | CGTATGCGTCGTA    | Zebrafish   | 0           | 0          | 0          | 0          |\n+-----------+------------------+-------------+-------------+------------+------------+------------+\n</pre>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Sample 1 (ATGCTAGCTAGCTAA):\n\t<ul>\n\t\t<li>Starts with ATG&nbsp;(has_start = 1)</li>\n\t\t<li>Ends with TAA&nbsp;(has_stop = 1)</li>\n\t\t<li>Does not contain ATAT&nbsp;(has_atat = 0)</li>\n\t\t<li>Does not contain at least 3 consecutive &#39;G&#39;s (has_ggg = 0)</li>\n\t</ul>\n\t</li>\n\t<li>Sample 2 (GGGTCAATCATC):\n\t<ul>\n\t\t<li>Does not start with ATG&nbsp;(has_start = 0)</li>\n\t\t<li>Does not end with TAA, TAG, or TGA&nbsp;(has_stop = 0)</li>\n\t\t<li>Does not contain ATAT&nbsp;(has_atat = 0)</li>\n\t\t<li>Contains GGG&nbsp;(has_ggg = 1)</li>\n\t</ul>\n\t</li>\n\t<li>Sample 3 (ATATATCGTAGCTA):\n\t<ul>\n\t\t<li>Does not start with ATG&nbsp;(has_start = 0)</li>\n\t\t<li>Does not end with TAA, TAG, or TGA&nbsp;(has_stop = 0)</li>\n\t\t<li>Contains ATAT&nbsp;(has_atat = 1)</li>\n\t\t<li>Does not contain at least 3 consecutive &#39;G&#39;s (has_ggg = 0)</li>\n\t</ul>\n\t</li>\n\t<li>Sample 4 (ATGGGGTCATCATAA):\n\t<ul>\n\t\t<li>Starts with ATG&nbsp;(has_start = 1)</li>\n\t\t<li>Ends with TAA&nbsp;(has_stop = 1)</li>\n\t\t<li>Does not contain ATAT&nbsp;(has_atat = 0)</li>\n\t\t<li>Contains GGGG&nbsp;(has_ggg = 1)</li>\n\t</ul>\n\t</li>\n\t<li>Sample 5 (TCAGTCAGTCAG):\n\t<ul>\n\t\t<li>Does not match any patterns (all fields = 0)</li>\n\t</ul>\n\t</li>\n\t<li>Sample 6 (ATATCGCGCTAG):\n\t<ul>\n\t\t<li>Does not start with ATG&nbsp;(has_start = 0)</li>\n\t\t<li>Ends with TAG&nbsp;(has_stop = 1)</li>\n\t\t<li>Starts with ATAT&nbsp;(has_atat = 1)</li>\n\t\t<li>Does not contain at least 3 consecutive &#39;G&#39;s (has_ggg = 0)</li>\n\t</ul>\n\t</li>\n\t<li>Sample 7 (CGTATGCGTCGTA):\n\t<ul>\n\t\t<li>Does not start with ATG&nbsp;(has_start = 0)</li>\n\t\t<li>Does not end with TAA, &quot;TAG&quot;, or &quot;TGA&quot; (has_stop = 0)</li>\n\t\t<li>Does not contain ATAT&nbsp;(has_atat = 0)</li>\n\t\t<li>Does not contain at least 3 consecutive &#39;G&#39;s (has_ggg = 0)</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p><strong>Note:</strong></p>\n\n<ul>\n\t<li>The result is ordered by sample_id in ascending order</li>\n\t<li>For each pattern, 1 indicates the pattern is present and 0 indicates it is not present</li>\n</ul>\n</div>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Medium",
+            "likes": 34,
+            "dislikes": 4,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "MySQL",
+                    "langSlug": "mysql",
+                    "code": "# Write your MySQL query statement below\n"
+                },
+                {
+                    "lang": "MS SQL Server",
+                    "langSlug": "mssql",
+                    "code": "/* Write your T-SQL query statement below */\n"
+                },
+                {
+                    "lang": "Oracle",
+                    "langSlug": "oraclesql",
+                    "code": "/* Write your PL/SQL query statement below */\n"
+                },
+                {
+                    "lang": "Pandas",
+                    "langSlug": "pythondata",
+                    "code": "import pandas as pd\n\ndef analyze_dna_patterns(samples: pd.DataFrame) -> pd.DataFrame:\n    "
+                },
+                {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"9K\", \"totalSubmission\": \"10.5K\", \"totalAcceptedRaw\": 8972, \"totalSubmissionRaw\": 10523, \"acRate\": \"85.3%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Samples\":[\"sample_id\",\"dna_sequence\",\"species\"]},\"rows\":{\"Samples\":[[1,\"ATGCTAGCTAGCTAA\",\"Human\"],[2,\"GGGTCAATCATC\",\"Human\"],[3,\"ATATATCGTAGCTA\",\"Human\"],[4,\"ATGGGGTCATCATAA\",\"Mouse\"],[5,\"TCAGTCAGTCAG\",\"Mouse\"],[6,\"ATATCGCGCTAG\",\"Zebrafish\"],[7,\"CGTATGCGTCGTA\",\"Zebrafish\"]]}}",
+            "metaData": "{\"mysql\": [\"CREATE TABLE if not exists Samples (\\n    sample_id INT,\\n    dna_sequence VARCHAR(255),\\n    species VARCHAR(100)\\n)\"], \"mssql\": [\"CREATE TABLE Samples (\\n    sample_id INT,\\n    dna_sequence VARCHAR(255),\\n    species VARCHAR(100)\\n)\"], \"oraclesql\": [\"CREATE TABLE Samples (\\n    sample_id NUMBER,\\n    dna_sequence VARCHAR2(255),\\n    species VARCHAR2(100)\\n)\"], \"database\": true, \"name\": \"analyze_dna_patterns\", \"postgresql\": [\"CREATE TABLE IF NOT EXISTS Samples (\\n    sample_id INT,\\n    dna_sequence TEXT NOT NULL,\\n    species VARCHAR(100) NOT NULL\\n);\\n\"], \"pythondata\": [\"Samples = pd.DataFrame({\\n    'sample_id': pd.Series(dtype='int'),        # Equivalent to SERIAL/INTEGER\\n    'dna_sequence': pd.Series(dtype='string'),  # Equivalent to TEXT/VARCHAR\\n    'species': pd.Series(dtype='string')        # Equivalent to VARCHAR(100)\\n})\"], \"database_schema\": {\"Samples\": {\"sample_id\": \"INT\", \"dna_sequence\": \"VARCHAR(255)\", \"species\": \"VARCHAR(100)\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "CREATE TABLE if not exists Samples (\n    sample_id INT,\n    dna_sequence VARCHAR(255),\n    species VARCHAR(100)\n)",
+                "Truncate table Samples",
+                "insert into Samples (sample_id, dna_sequence, species) values ('1', 'ATGCTAGCTAGCTAA', 'Human')",
+                "insert into Samples (sample_id, dna_sequence, species) values ('2', 'GGGTCAATCATC', 'Human')",
+                "insert into Samples (sample_id, dna_sequence, species) values ('3', 'ATATATCGTAGCTA', 'Human')",
+                "insert into Samples (sample_id, dna_sequence, species) values ('4', 'ATGGGGTCATCATAA', 'Mouse')",
+                "insert into Samples (sample_id, dna_sequence, species) values ('5', 'TCAGTCAGTCAG', 'Mouse')",
+                "insert into Samples (sample_id, dna_sequence, species) values ('6', 'ATATCGCGCTAG', 'Zebrafish')",
+                "insert into Samples (sample_id, dna_sequence, species) values ('7', 'CGTATGCGTCGTA', 'Zebrafish')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec minimum_sum_subarray(nums :: [integer], l :: integer, r :: integer) :: integer\n  def minimum_sum_subarray(nums, l, r) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"36.9K\", \"totalSubmission\": \"82.8K\", \"totalAcceptedRaw\": 36896, \"totalSubmissionRaw\": 82845, \"acRate\": \"44.5%\"}",
+            "stats": "{\"totalAccepted\": \"36.9K\", \"totalSubmission\": \"82.9K\", \"totalAcceptedRaw\": 36919, \"totalSubmissionRaw\": 82902, \"acRate\": \"44.5%\"}",
             "hints": [
                 "Check every subarray, since constraints are small."
             ],

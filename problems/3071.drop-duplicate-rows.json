@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 79,
+            "likes": 125,
             "dislikes": 6,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef dropDuplicateEmails(customers: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"58K\", \"totalSubmission\": \"68K\", \"totalAcceptedRaw\": 57950, \"totalSubmissionRaw\": 67972, \"acRate\": \"85.3%\"}",
+            "stats": "{\"totalAccepted\": \"121.1K\", \"totalSubmission\": \"141.7K\", \"totalAcceptedRaw\": 121142, \"totalSubmissionRaw\": 141685, \"acRate\": \"85.5%\"}",
             "hints": [
                 "Consider using a build-in function in pandas library to remove the duplicate rows based on specified data."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

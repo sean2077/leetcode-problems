@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec count_pairs(nums :: [integer]) :: integer\n  def count_pairs(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"8.6K\", \"totalSubmission\": \"32.2K\", \"totalAcceptedRaw\": 8601, \"totalSubmissionRaw\": 32210, \"acRate\": \"26.7%\"}",
+            "stats": "{\"totalAccepted\": \"8.6K\", \"totalSubmission\": \"32.2K\", \"totalAcceptedRaw\": 8602, \"totalSubmissionRaw\": 32211, \"acRate\": \"26.7%\"}",
             "hints": [
                 "For each element, find all possible integers we can get by applying the operations.",
                 "Store the frequencies of all the integers in a hashmap."

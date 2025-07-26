@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec min_number_of_seconds(mountain_height :: integer, worker_times :: [integer]) :: integer\n  def min_number_of_seconds(mountain_height, worker_times) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"23.7K\", \"totalSubmission\": \"65.7K\", \"totalAcceptedRaw\": 23729, \"totalSubmissionRaw\": 65728, \"acRate\": \"36.1%\"}",
+            "stats": "{\"totalAccepted\": \"23.7K\", \"totalSubmission\": \"65.7K\", \"totalAcceptedRaw\": 23735, \"totalSubmissionRaw\": 65738, \"acRate\": \"36.1%\"}",
             "hints": [
                 "Can we use binary search to solve this problem?",
                 "Do a binary search on the number of seconds to check if it's enough to reduce the mountain height to 0 or less with all workers working simultaneously."

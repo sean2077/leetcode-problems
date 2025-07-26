@@ -147,7 +147,7 @@
                     "code": "defmodule Solution do\n  @spec minimum_increments(nums :: [integer], target :: [integer]) :: integer\n  def minimum_increments(nums, target) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"5.8K\", \"totalSubmission\": \"22.4K\", \"totalAcceptedRaw\": 5775, \"totalSubmissionRaw\": 22401, \"acRate\": \"25.8%\"}",
+            "stats": "{\"totalAccepted\": \"5.8K\", \"totalSubmission\": \"22.4K\", \"totalAcceptedRaw\": 5776, \"totalSubmissionRaw\": 22406, \"acRate\": \"25.8%\"}",
             "hints": [
                 "Use bitmask dynamic programming."
             ],

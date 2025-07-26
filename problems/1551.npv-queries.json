@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Easy",
-            "likes": 57,
-            "dislikes": 295,
+            "likes": 59,
+            "dislikes": 296,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"27.2K\", \"totalSubmission\": \"32.9K\", \"totalAcceptedRaw\": 27204, \"totalSubmissionRaw\": 32856, \"acRate\": \"82.8%\"}",
+            "stats": "{\"totalAccepted\": \"30K\", \"totalSubmission\": \"36.2K\", \"totalAcceptedRaw\": 30045, \"totalSubmissionRaw\": 36164, \"acRate\": \"83.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"NPV\":[\"id\",\"year\",\"npv\"],\"Queries\":[\"id\",\"year\"]},\"rows\":{\"NPV\":[[1,2018,100],[7,2020,30],[13,2019,40],[1,2019,113],[2,2008,121],[3,2009,21],[11,2020,99],[7,2019,0]],\"Queries\":[[1,2019],[2,2008],[3,2009],[7,2018],[7,2019],[7,2020],[13,2019]]}}",
@@ -56,7 +56,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

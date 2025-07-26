@@ -1,0 +1,52 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3746",
+            "questionFrontendId": "3401",
+            "boundTopicId": null,
+            "title": "Find Circular Gift Exchange Chains",
+            "titleSlug": "find-circular-gift-exchange-chains",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 2,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"593\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 593, \"totalSubmissionRaw\": 1090, \"acRate\": \"54.4%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"SecretSanta\":[\"giver_id\",\"receiver_id\",\"gift_value\"]},\"rows\":{\"SecretSanta\":[[1,2,20],[2,3,30],[3,1,40],[4,5,25],[5,4,35]]}}",
+            "metaData": "{\"mysql\": [\"CREATE TABLE SecretSanta (\\n    giver_id INT,\\n    receiver_id INT,\\n    gift_value INT\\n)\\n\"], \"mssql\": [\"CREATE TABLE SecretSanta (\\n    giver_id INT,\\n    receiver_id INT,\\n    gift_value INT\\n)\\n\"], \"oraclesql\": [\"CREATE TABLE SecretSanta (\\n    giver_id NUMBER,\\n    receiver_id NUMBER,\\n    gift_value NUMBER\\n)\\n\"], \"database\": true, \"name\": \"find_gift_chains\", \"pythondata\": [\"SecretSanta = pd.DataFrame(columns=[\\\"giver_id\\\", \\\"receiver_id\\\", \\\"gift_value\\\"]).astype({\\\"giver_id\\\": \\\"int\\\", \\\"receiver_id\\\": \\\"int\\\", \\\"gift_value\\\": \\\"int\\\"})\\n\"], \"postgresql\": [\"CREATE TABLE SecretSanta (\\n    giver_id INT,\\n    receiver_id INT,\\n    gift_value INT\\n)\\n\"], \"database_schema\": {\"SecretSanta\": {\"giver_id\": \"INT\", \"receiver_id\": \"INT\", \"gift_value\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "CREATE TABLE SecretSanta (\n    giver_id INT,\n    receiver_id INT,\n    gift_value INT\n)\n",
+                "Truncate table SecretSanta",
+                "insert into SecretSanta (giver_id, receiver_id, gift_value) values ('1', '2', '20')",
+                "insert into SecretSanta (giver_id, receiver_id, gift_value) values ('2', '3', '30')",
+                "insert into SecretSanta (giver_id, receiver_id, gift_value) values ('3', '1', '40')",
+                "insert into SecretSanta (giver_id, receiver_id, gift_value) values ('4', '5', '25')",
+                "insert into SecretSanta (giver_id, receiver_id, gift_value) values ('5', '4', '35')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

@@ -122,7 +122,7 @@
                     "code": "defmodule Solution do\n  @spec button_with_longest_time(events :: [[integer]]) :: integer\n  def button_with_longest_time(events) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"32.8K\", \"totalSubmission\": \"80.7K\", \"totalAcceptedRaw\": 32788, \"totalSubmissionRaw\": 80679, \"acRate\": \"40.6%\"}",
+            "stats": "{\"totalAccepted\": \"32.8K\", \"totalSubmission\": \"80.7K\", \"totalAcceptedRaw\": 32798, \"totalSubmissionRaw\": 80698, \"acRate\": \"40.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "[[1,2],[2,5],[3,9],[1,15]]",

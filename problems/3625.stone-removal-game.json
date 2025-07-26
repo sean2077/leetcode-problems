@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec can_alice_win(n :: integer) :: boolean\n  def can_alice_win(n) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"28.6K\", \"totalSubmission\": \"68.7K\", \"totalAcceptedRaw\": 28643, \"totalSubmissionRaw\": 68679, \"acRate\": \"41.7%\"}",
+            "stats": "{\"totalAccepted\": \"28.7K\", \"totalSubmission\": \"68.7K\", \"totalAcceptedRaw\": 28657, \"totalSubmissionRaw\": 68714, \"acRate\": \"41.7%\"}",
             "hints": [
                 "The constraints are small enough that a brute-force solution is feasible."
             ],

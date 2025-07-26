@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec count_paths_with_xor_value(grid :: [[integer]], k :: integer) :: integer\n  def count_paths_with_xor_value(grid, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"19.2K\", \"totalSubmission\": \"48.3K\", \"totalAcceptedRaw\": 19246, \"totalSubmissionRaw\": 48295, \"acRate\": \"39.9%\"}",
+            "stats": "{\"totalAccepted\": \"19.3K\", \"totalSubmission\": \"48.3K\", \"totalAcceptedRaw\": 19251, \"totalSubmissionRaw\": 48304, \"acRate\": \"39.9%\"}",
             "hints": [
                 "Use DP."
             ],

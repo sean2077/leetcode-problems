@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 938,
-            "dislikes": 223,
+            "likes": 1309,
+            "dislikes": 270,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Combine Two Tables\", \"titleSlug\": \"combine-two-tables\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
             "contributors": [],
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"426.6K\", \"totalSubmission\": \"562.8K\", \"totalAcceptedRaw\": 426639, \"totalSubmissionRaw\": 562787, \"acRate\": \"75.8%\"}",
+            "stats": "{\"totalAccepted\": \"798.5K\", \"totalSubmission\": \"1M\", \"totalAcceptedRaw\": 798548, \"totalSubmissionRaw\": 1037765, \"acRate\": \"76.9%\"}",
             "hints": [
                 "If the EmpId in table Employee has no match in table Bonus, we consider that the corresponding bonus is null and null is smaller than 1000.",
                 "Inner join is the default join, we can solve the mismatching problem by using outer join."
@@ -66,7 +66,7 @@
                 "Create table If Not Exists Employee (empId int, name varchar(255), supervisor int, salary int)",
                 "Create table If Not Exists Bonus (empId int, bonus int)",
                 "Truncate table Employee",
-                "insert into Employee (empId, name, supervisor, salary) values ('3', 'Brad', 'None', '4000')",
+                "insert into Employee (empId, name, supervisor, salary) values ('3', 'Brad', NULL, '4000')",
                 "insert into Employee (empId, name, supervisor, salary) values ('1', 'John', '3', '1000')",
                 "insert into Employee (empId, name, supervisor, salary) values ('2', 'Dan', '3', '2000')",
                 "insert into Employee (empId, name, supervisor, salary) values ('4', 'Thomas', '3', '4000')",
@@ -76,7 +76,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

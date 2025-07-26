@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec is_possible_to_rearrange(s :: String.t, t :: String.t, k :: integer) :: boolean\n  def is_possible_to_rearrange(s, t, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"25.9K\", \"totalSubmission\": \"46.1K\", \"totalAcceptedRaw\": 25923, \"totalSubmissionRaw\": 46132, \"acRate\": \"56.2%\"}",
+            "stats": "{\"totalAccepted\": \"25.9K\", \"totalSubmission\": \"46.1K\", \"totalAcceptedRaw\": 25925, \"totalSubmissionRaw\": 46136, \"acRate\": \"56.2%\"}",
             "hints": [
                 "Split <code>s</code> into <code>k</code> equal-sized substrings, use a map to track frequencies, and check if rearranging them can form <code>t</code>."
             ],

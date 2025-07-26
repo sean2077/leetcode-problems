@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec kth_character(k :: integer, operations :: [integer]) :: char\n  def kth_character(k, operations) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"84.3K\", \"totalSubmission\": \"173.2K\", \"totalAcceptedRaw\": 84312, \"totalSubmissionRaw\": 173228, \"acRate\": \"48.7%\"}",
+            "stats": "{\"totalAccepted\": \"84.3K\", \"totalSubmission\": \"173.3K\", \"totalAcceptedRaw\": 84326, \"totalSubmissionRaw\": 173287, \"acRate\": \"48.7%\"}",
             "hints": [
                 "Try to replay the operations <code>k<sup>th</sup></code> character was part of.",
                 "The <code>k<sup>th</sup></code> character is only affected if it is present in the first half of the string."

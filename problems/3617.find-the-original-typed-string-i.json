@@ -122,7 +122,7 @@
                     "code": "defmodule Solution do\n  @spec possible_string_count(word :: String.t) :: integer\n  def possible_string_count(word) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"184.7K\", \"totalSubmission\": \"256.6K\", \"totalAcceptedRaw\": 184733, \"totalSubmissionRaw\": 256565, \"acRate\": \"72.0%\"}",
+            "stats": "{\"totalAccepted\": \"184.9K\", \"totalSubmission\": \"256.8K\", \"totalAcceptedRaw\": 184881, \"totalSubmissionRaw\": 256751, \"acRate\": \"72.0%\"}",
             "hints": [
                 "Any group of consecutive characters might have been the mistake."
             ],

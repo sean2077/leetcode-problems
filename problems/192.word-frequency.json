@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 543,
-            "dislikes": 307,
+            "likes": 563,
+            "dislikes": 310,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Top K Frequent Elements\", \"titleSlug\": \"top-k-frequent-elements\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
             "contributors": [],
@@ -32,7 +32,7 @@
                     "code": "# Read from the file words.txt and output the word frequency list to stdout.\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"52.8K\", \"totalSubmission\": \"203.8K\", \"totalAcceptedRaw\": 52787, \"totalSubmissionRaw\": 203817, \"acRate\": \"25.9%\"}",
+            "stats": "{\"totalAccepted\": \"64.5K\", \"totalSubmission\": \"236K\", \"totalAcceptedRaw\": 64543, \"totalSubmissionRaw\": 236033, \"acRate\": \"27.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "a",
@@ -42,7 +42,7 @@
             "mysqlSchemas": [],
             "enableRunCode": false,
             "enableTestMode": false,
-            "envInfo": "{\"bash\": [\"Bash\", \"<p><code>Bash 4.3.30</code>.</p>\"]}",
+            "envInfo": "{\"bash\": [\"Bash\", \"<p><code>Bash 5.2.21</code>.</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

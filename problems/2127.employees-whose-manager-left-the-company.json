@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 356,
-            "dislikes": 34,
+            "likes": 509,
+            "dislikes": 44,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"128.4K\", \"totalSubmission\": \"265.5K\", \"totalAcceptedRaw\": 128387, \"totalSubmissionRaw\": 265521, \"acRate\": \"48.4%\"}",
+            "stats": "{\"totalAccepted\": \"265.8K\", \"totalSubmission\": \"544.8K\", \"totalAcceptedRaw\": 265841, \"totalSubmissionRaw\": 544832, \"acRate\": \"48.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Employees\": [\"employee_id\", \"name\", \"manager_id\", \"salary\"]}, \"rows\": {\"Employees\": [[3, \"Mila\", 9, 60301], [12, \"Antonella\", null, 31000], [13, \"Emery\", null, 67084], [1, \"Kalel\", 11, 21241], [9, \"Mikaela\", null, 50937], [11, \"Joziah\", 6, 28485]]}}",
@@ -63,15 +63,15 @@
                 "Create table If Not Exists Employees (employee_id int, name varchar(20), manager_id int, salary int)",
                 "Truncate table Employees",
                 "insert into Employees (employee_id, name, manager_id, salary) values ('3', 'Mila', '9', '60301')",
-                "insert into Employees (employee_id, name, manager_id, salary) values ('12', 'Antonella', 'None', '31000')",
-                "insert into Employees (employee_id, name, manager_id, salary) values ('13', 'Emery', 'None', '67084')",
+                "insert into Employees (employee_id, name, manager_id, salary) values ('12', 'Antonella', NULL, '31000')",
+                "insert into Employees (employee_id, name, manager_id, salary) values ('13', 'Emery', NULL, '67084')",
                 "insert into Employees (employee_id, name, manager_id, salary) values ('1', 'Kalel', '11', '21241')",
-                "insert into Employees (employee_id, name, manager_id, salary) values ('9', 'Mikaela', 'None', '50937')",
+                "insert into Employees (employee_id, name, manager_id, salary) values ('9', 'Mikaela', NULL, '50937')",
                 "insert into Employees (employee_id, name, manager_id, salary) values ('11', 'Joziah', '6', '28485')"
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

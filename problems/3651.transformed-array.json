@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec construct_transformed_array(nums :: [integer]) :: [integer]\n  def construct_transformed_array(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"32.7K\", \"totalSubmission\": \"57.9K\", \"totalAcceptedRaw\": 32749, \"totalSubmissionRaw\": 57851, \"acRate\": \"56.6%\"}",
+            "stats": "{\"totalAccepted\": \"32.8K\", \"totalSubmission\": \"57.9K\", \"totalAcceptedRaw\": 32766, \"totalSubmissionRaw\": 57873, \"acRate\": \"56.6%\"}",
             "hints": [
                 "Simulate the operations as described in the statement"
             ],

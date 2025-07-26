@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec maximum_subarray_xor(nums :: [integer], queries :: [[integer]]) :: [integer]\n  def maximum_subarray_xor(nums, queries) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"5K\", \"totalSubmission\": \"11.8K\", \"totalAcceptedRaw\": 4986, \"totalSubmissionRaw\": 11758, \"acRate\": \"42.4%\"}",
+            "stats": "{\"totalAccepted\": \"5K\", \"totalSubmission\": \"11.8K\", \"totalAcceptedRaw\": 4988, \"totalSubmissionRaw\": 11760, \"acRate\": \"42.4%\"}",
             "hints": [
                 "Precompute the XOR score of every subarray.",
                 "Try to find a relationship between XOR score of <code>nums[i..j], nums[i..j + 1], nums[i..j + 2], …</code>. Do you notice any pattern?",

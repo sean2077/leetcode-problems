@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec number_of_substrings(s :: String.t, k :: integer) :: integer\n  def number_of_substrings(s, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"32.9K\", \"totalSubmission\": \"60.1K\", \"totalAcceptedRaw\": 32858, \"totalSubmissionRaw\": 60114, \"acRate\": \"54.7%\"}",
+            "stats": "{\"totalAccepted\": \"32.9K\", \"totalSubmission\": \"60.1K\", \"totalAcceptedRaw\": 32867, \"totalSubmissionRaw\": 60130, \"acRate\": \"54.7%\"}",
             "hints": [
                 "Fix the <code>left</code> index of the substring.",
                 "For the fixed <code>left</code> index, find the first <code>right</code> index for which substring <code>s[left..right]</code> satisfies the condition.",

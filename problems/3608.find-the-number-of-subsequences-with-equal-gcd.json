@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec subsequence_pair_count(nums :: [integer]) :: integer\n  def subsequence_pair_count(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"6.6K\", \"totalSubmission\": \"22.5K\", \"totalAcceptedRaw\": 6554, \"totalSubmissionRaw\": 22529, \"acRate\": \"29.1%\"}",
+            "stats": "{\"totalAccepted\": \"6.6K\", \"totalSubmission\": \"22.5K\", \"totalAcceptedRaw\": 6556, \"totalSubmissionRaw\": 22533, \"acRate\": \"29.1%\"}",
             "hints": [
                 "Use dynamic programming to store number of subsequences up till index <code>i</code> with GCD <code>g1</code> and <code>g2</code>."
             ],

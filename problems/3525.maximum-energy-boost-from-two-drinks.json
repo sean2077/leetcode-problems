@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec max_energy_boost(energy_drink_a :: [integer], energy_drink_b :: [integer]) :: integer\n  def max_energy_boost(energy_drink_a, energy_drink_b) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"33.5K\", \"totalSubmission\": \"67.8K\", \"totalAcceptedRaw\": 33509, \"totalSubmissionRaw\": 67750, \"acRate\": \"49.5%\"}",
+            "stats": "{\"totalAccepted\": \"33.5K\", \"totalSubmission\": \"67.8K\", \"totalAcceptedRaw\": 33510, \"totalSubmissionRaw\": 67754, \"acRate\": \"49.5%\"}",
             "hints": [
                 "Can we solve it using dynamic programming?",
                 "Define <code>dpA[i]</code> as the maximum energy boost if we consider only the first <code>i + 1</code> hours such that in the last hour, we drink the energy drink A.",

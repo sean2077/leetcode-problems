@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec smallest_number(num :: String.t, t :: integer) :: String.t\n  def smallest_number(num, t) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"28.9K\", \"totalAcceptedRaw\": 3059, \"totalSubmissionRaw\": 28933, \"acRate\": \"10.6%\"}",
+            "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"28.9K\", \"totalAcceptedRaw\": 3059, \"totalSubmissionRaw\": 28935, \"acRate\": \"10.6%\"}",
             "hints": [
                 "<code>t</code> should only have 2, 3, 5 and 7 as prime factors.",
                 "Find the shortest suffix that must be changed.",

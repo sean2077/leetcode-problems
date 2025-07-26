@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec count_pairs(nums :: [integer]) :: integer\n  def count_pairs(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"27.7K\", \"totalSubmission\": \"73.6K\", \"totalAcceptedRaw\": 27679, \"totalSubmissionRaw\": 73551, \"acRate\": \"37.6%\"}",
+            "stats": "{\"totalAccepted\": \"27.7K\", \"totalSubmission\": \"73.6K\", \"totalAcceptedRaw\": 27681, \"totalSubmissionRaw\": 73554, \"acRate\": \"37.6%\"}",
             "hints": [
                 "Since the constraint on the number of elements is small, you can check all pairs in the array.",
                 "For each pair, perform an operation on one of the elements and check if it becomes equal to the other."

@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec results_array(nums :: [integer], k :: integer) :: [integer]\n  def results_array(nums, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"32.4K\", \"totalSubmission\": \"105.6K\", \"totalAcceptedRaw\": 32361, \"totalSubmissionRaw\": 105641, \"acRate\": \"30.6%\"}",
+            "stats": "{\"totalAccepted\": \"32.4K\", \"totalSubmission\": \"105.6K\", \"totalAcceptedRaw\": 32364, \"totalSubmissionRaw\": 105648, \"acRate\": \"30.6%\"}",
             "hints": [
                 "Let <code>dp[i]</code> denote the length of the longest subarray ending at index <code>i</code> that has consecutive and sorted elements.",
                 "Use a TreeMap with a sliding window to check if there are <code>k</code> elements in the subarray ending at index <code>i</code>.",

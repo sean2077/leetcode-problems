@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Medium",
-            "likes": 20,
+            "likes": 25,
             "dislikes": 8,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"3.2K\", \"totalSubmission\": \"7.6K\", \"totalAcceptedRaw\": 3188, \"totalSubmissionRaw\": 7568, \"acRate\": \"42.1%\"}",
+            "stats": "{\"totalAccepted\": \"5.1K\", \"totalSubmission\": \"11.4K\", \"totalAcceptedRaw\": 5089, \"totalSubmissionRaw\": 11447, \"acRate\": \"44.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Users\":[\"user_id\",\"item\",\"created_at\",\"amount\"]},\"rows\":{\"Users\":[[5,\"Smart Crock Pot\",\"2021-09-18\",698882],[6,\"Smart Lock\",\"2021-09-14\",11487],[6,\"Smart Thermostat\",\"2021-09-10\",674762],[8,\"Smart Light Strip\",\"2021-09-29\",630773],[4,\"Smart Cat Feeder\",\"2021-09-02\",693545],[4,\"Smart Bed\",\"2021-09-13\",170249]]}}",
@@ -45,7 +45,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

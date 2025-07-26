@@ -152,7 +152,7 @@
                     "code": "defmodule Solution do\n  @spec count_non_decreasing_subarrays(nums :: [integer], k :: integer) :: integer\n  def count_non_decreasing_subarrays(nums, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"15.4K\", \"totalAcceptedRaw\": 3303, \"totalSubmissionRaw\": 15364, \"acRate\": \"21.5%\"}",
+            "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"15.4K\", \"totalAcceptedRaw\": 3306, \"totalSubmissionRaw\": 15370, \"acRate\": \"21.5%\"}",
             "hints": [
                 "Use a sparse table.",
                 "Compute <code>sp[e][i] = [lastElement, operations]</code> where <code>operations</code> is the number of <code>operations</code> required to make the subarray <code>nums[i...i + 2^e - 1]</code> non-decreasing, and <code>lastElement</code> be the value of the last element after the operations were applied on it.",

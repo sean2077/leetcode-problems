@@ -36,7 +36,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"6.5K\", \"totalSubmission\": \"6.9K\", \"totalAcceptedRaw\": 6526, \"totalSubmissionRaw\": 6885, \"acRate\": \"94.8%\"}",
+            "stats": "{\"totalAccepted\": \"6.5K\", \"totalSubmission\": \"6.9K\", \"totalAcceptedRaw\": 6530, \"totalSubmissionRaw\": 6890, \"acRate\": \"94.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "[1,2,3,4,3,2,1]",

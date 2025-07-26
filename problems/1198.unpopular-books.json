@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Medium",
-            "likes": 202,
-            "dislikes": 605,
+            "likes": 213,
+            "dislikes": 617,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"40.7K\", \"totalSubmission\": \"94.4K\", \"totalAcceptedRaw\": 40730, \"totalSubmissionRaw\": 94414, \"acRate\": \"43.1%\"}",
+            "stats": "{\"totalAccepted\": \"45.4K\", \"totalSubmission\": \"104.7K\", \"totalAcceptedRaw\": 45427, \"totalSubmissionRaw\": 104683, \"acRate\": \"43.4%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Books\":[\"book_id\",\"name\",\"available_from\"],\"Orders\":[\"order_id\",\"book_id\",\"quantity\",\"dispatch_date\"]},\"rows\":{\"Books\":[[1,\"Kalila And Demna\",\"2010-01-01\"],[2,\"28 Letters\",\"2012-05-12\"],[3,\"The Hobbit\",\"2019-06-10\"],[4,\"13 Reasons Why\",\"2019-06-01\"],[5,\"The Hunger Games\",\"2008-09-21\"]],\"Orders\":[[1,1,2,\"2018-07-26\"],[2,1,1,\"2018-11-05\"],[3,3,8,\"2019-06-11\"],[4,4,6,\"2019-06-05\"],[5,4,5,\"2019-06-20\"],[6,5,9,\"2009-02-02\"],[7,5,8,\"2010-04-13\"]]}}",
@@ -53,7 +53,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

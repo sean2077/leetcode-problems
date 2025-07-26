@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec get_sneaky_numbers(nums :: [integer]) :: [integer]\n  def get_sneaky_numbers(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"97K\", \"totalSubmission\": \"109.8K\", \"totalAcceptedRaw\": 97004, \"totalSubmissionRaw\": 109787, \"acRate\": \"88.4%\"}",
+            "stats": "{\"totalAccepted\": \"97.1K\", \"totalSubmission\": \"109.9K\", \"totalAcceptedRaw\": 97073, \"totalSubmissionRaw\": 109863, \"acRate\": \"88.4%\"}",
             "hints": [
                 "To solve the problem without the extra space, we need to think about how many times each number occurs in relation to the index."
             ],

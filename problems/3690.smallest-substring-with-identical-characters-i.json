@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec min_length(s :: String.t, num_ops :: integer) :: integer\n  def min_length(s, num_ops) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"6.6K\", \"totalSubmission\": \"33.9K\", \"totalAcceptedRaw\": 6580, \"totalSubmissionRaw\": 33890, \"acRate\": \"19.4%\"}",
+            "stats": "{\"totalAccepted\": \"6.6K\", \"totalSubmission\": \"33.9K\", \"totalAcceptedRaw\": 6585, \"totalSubmissionRaw\": 33908, \"acRate\": \"19.4%\"}",
             "hints": [
                 "Can we use binary search here?",
                 "Use DP for predicate function"

@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec smallest_number(n :: integer, t :: integer) :: integer\n  def smallest_number(n, t) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"34.3K\", \"totalSubmission\": \"53.6K\", \"totalAcceptedRaw\": 34266, \"totalSubmissionRaw\": 53593, \"acRate\": \"63.9%\"}",
+            "stats": "{\"totalAccepted\": \"34.3K\", \"totalSubmission\": \"53.6K\", \"totalAcceptedRaw\": 34273, \"totalSubmissionRaw\": 53601, \"acRate\": \"63.9%\"}",
             "hints": [
                 "You have to check at most 10 numbers.",
                 "Apply a brute-force approach by checking each possible number."

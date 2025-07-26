@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec final_position_of_snake(n :: integer, commands :: [String.t]) :: integer\n  def final_position_of_snake(n, commands) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"67.1K\", \"totalSubmission\": \"82.1K\", \"totalAcceptedRaw\": 67114, \"totalSubmissionRaw\": 82116, \"acRate\": \"81.7%\"}",
+            "stats": "{\"totalAccepted\": \"67.2K\", \"totalSubmission\": \"82.2K\", \"totalAcceptedRaw\": 67153, \"totalSubmissionRaw\": 82162, \"acRate\": \"81.7%\"}",
             "hints": [
                 "Try to update the row and column of the snake after each command."
             ],

@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Medium",
-            "likes": 307,
-            "dislikes": 25,
+            "likes": 321,
+            "dislikes": 26,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"40.1K\", \"totalSubmission\": \"72.1K\", \"totalAcceptedRaw\": 40132, \"totalSubmissionRaw\": 72053, \"acRate\": \"55.7%\"}",
+            "stats": "{\"totalAccepted\": \"48.3K\", \"totalSubmission\": \"86.6K\", \"totalAcceptedRaw\": 48309, \"totalSubmissionRaw\": 86587, \"acRate\": \"55.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Teams\": [\"team_id\", \"team_name\"], \"Matches\": [\"match_id\", \"host_team\", \"guest_team\", \"host_goals\", \"guest_goals\"]}, \"rows\": {\"Teams\": [[10, \"Leetcode FC\"], [20, \"NewYork FC\"], [30, \"Atlanta FC\"], [40, \"Chicago FC\"], [50, \"Toronto FC\"]], \"Matches\": [[1, 10, 20, 3, 0], [2, 30, 10, 2, 2], [3, 10, 50, 5, 1], [4, 20, 30, 1, 0], [5, 50, 30, 1, 0]]}}",
@@ -51,7 +51,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

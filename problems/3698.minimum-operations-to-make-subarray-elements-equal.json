@@ -46,7 +46,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"523\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 523, \"totalSubmissionRaw\": 1073, \"acRate\": \"48.7%\"}",
+            "stats": "{\"totalAccepted\": \"524\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 524, \"totalSubmissionRaw\": 1075, \"acRate\": \"48.7%\"}",
             "hints": [
                 "It can be proven that for each subarray of size <code>k</code>, one optimal common value is the median.",
                 "Use 2 multisets to maintain the median dynamically.",

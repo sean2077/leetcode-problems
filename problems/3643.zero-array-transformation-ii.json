@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec min_zero_array(nums :: [integer], queries :: [[integer]]) :: integer\n  def min_zero_array(nums, queries) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"127.6K\", \"totalSubmission\": \"292.5K\", \"totalAcceptedRaw\": 127587, \"totalSubmissionRaw\": 292547, \"acRate\": \"43.6%\"}",
+            "stats": "{\"totalAccepted\": \"127.6K\", \"totalSubmission\": \"292.6K\", \"totalAcceptedRaw\": 127611, \"totalSubmissionRaw\": 292606, \"acRate\": \"43.6%\"}",
             "hints": [
                 "Can we apply binary search here?",
                 "Utilize a difference array to optimize the processing of queries."

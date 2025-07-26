@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec max_subarray_sum(nums :: [integer]) :: integer\n  def max_subarray_sum(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"15.2K\", \"totalAcceptedRaw\": 3078, \"totalSubmissionRaw\": 15244, \"acRate\": \"20.2%\"}",
+            "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"15.3K\", \"totalAcceptedRaw\": 3081, \"totalSubmissionRaw\": 15255, \"acRate\": \"20.2%\"}",
             "hints": [
                 "Use a segment tree data structure to solve the problem.",
                 "Each node of the segment tree should store the subarray sum, the maximum subarray sum, the maximum prefix sum, and the maximum suffix sum within the subarray defined by that node."

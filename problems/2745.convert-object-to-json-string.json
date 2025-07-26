@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Medium",
-            "likes": 203,
+            "likes": 208,
             "dislikes": 12,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"JSON Deep Equal\", \"titleSlug\": \"json-deep-equal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Flatten Deeply Nested Array\", \"titleSlug\": \"flatten-deeply-nested-array\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Array of Objects to Matrix\", \"titleSlug\": \"array-of-objects-to-matrix\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Differences Between Two Objects\", \"titleSlug\": \"differences-between-two-objects\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
@@ -20,7 +20,7 @@
             "topicTags": [],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"11.7K\", \"totalSubmission\": \"15.1K\", \"totalAcceptedRaw\": 11732, \"totalSubmissionRaw\": 15130, \"acRate\": \"77.5%\"}",
+            "stats": "{\"totalAccepted\": \"13.3K\", \"totalSubmission\": \"17K\", \"totalAcceptedRaw\": 13290, \"totalSubmissionRaw\": 17033, \"acRate\": \"78.0%\"}",
             "hints": [
                 "Consider the 4 possibilities. The object could be an array, an object, a string, or another type.",
                 "Think about the problem recursively. If you know how to convert any sub-data into a string, how could you use it to convert the entire data into a string?",
@@ -34,7 +34,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 5.4.0 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/blob/v5/README.md\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.1.6, Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022</code></p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES2022 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\"]}",
+            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

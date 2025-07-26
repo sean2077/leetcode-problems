@@ -157,7 +157,7 @@
                     "code": "defmodule Solution do\n  @spec gcd_values(nums :: [integer], queries :: [integer]) :: [integer]\n  def gcd_values(nums, queries) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"4.9K\", \"totalSubmission\": \"24.4K\", \"totalAcceptedRaw\": 4879, \"totalSubmissionRaw\": 24415, \"acRate\": \"20.0%\"}",
+            "stats": "{\"totalAccepted\": \"4.9K\", \"totalSubmission\": \"24.4K\", \"totalAcceptedRaw\": 4881, \"totalSubmissionRaw\": 24418, \"acRate\": \"20.0%\"}",
             "hints": [
                 "Try counting the number of pairs that have a GCD of <code>g</code.",
                 "Use inclusion-exclusion."

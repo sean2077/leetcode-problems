@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec max_target_nodes(edges1 :: [[integer]], edges2 :: [[integer]]) :: [integer]\n  def max_target_nodes(edges1, edges2) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"67.8K\", \"totalSubmission\": \"92.7K\", \"totalAcceptedRaw\": 67783, \"totalSubmissionRaw\": 92652, \"acRate\": \"73.2%\"}",
+            "stats": "{\"totalAccepted\": \"67.8K\", \"totalSubmission\": \"92.7K\", \"totalAcceptedRaw\": 67788, \"totalSubmissionRaw\": 92658, \"acRate\": \"73.2%\"}",
             "hints": [
                 "Compute an array <code>even</code> where <code>even[u]</code> is the number of nodes at an even distance from node <code>u</code>, for every <code>u</code> of the first tree.",
                 "Compute an array <code>odd</code> where <code>odd[u]</code> is the number of nodes at an odd distance from node <code>u</code>, for every <code>u</code> of the second tree.",

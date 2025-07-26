@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec min_element(nums :: [integer]) :: integer\n  def min_element(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"59.2K\", \"totalSubmission\": \"70.7K\", \"totalAcceptedRaw\": 59203, \"totalSubmissionRaw\": 70689, \"acRate\": \"83.8%\"}",
+            "stats": "{\"totalAccepted\": \"59.2K\", \"totalSubmission\": \"70.7K\", \"totalAcceptedRaw\": 59233, \"totalSubmissionRaw\": 70722, \"acRate\": \"83.8%\"}",
             "hints": [
                 "Convert to string and calculate the sum for each element."
             ],

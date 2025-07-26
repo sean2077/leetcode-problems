@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec max_good_number(nums :: [integer]) :: integer\n  def max_good_number(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"34.7K\", \"totalSubmission\": \"53.4K\", \"totalAcceptedRaw\": 34712, \"totalSubmissionRaw\": 53360, \"acRate\": \"65.1%\"}",
+            "stats": "{\"totalAccepted\": \"34.7K\", \"totalSubmission\": \"53.4K\", \"totalAcceptedRaw\": 34715, \"totalSubmissionRaw\": 53364, \"acRate\": \"65.1%\"}",
             "hints": [
                 "How many possible concatenation orders are there?"
             ],

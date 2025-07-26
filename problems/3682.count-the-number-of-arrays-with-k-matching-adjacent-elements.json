@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec count_good_arrays(n :: integer, m :: integer, k :: integer) :: integer\n  def count_good_arrays(n, m, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"66.4K\", \"totalSubmission\": \"113.6K\", \"totalAcceptedRaw\": 66400, \"totalSubmissionRaw\": 113619, \"acRate\": \"58.4%\"}",
+            "stats": "{\"totalAccepted\": \"66.4K\", \"totalSubmission\": \"113.6K\", \"totalAcceptedRaw\": 66402, \"totalSubmissionRaw\": 113626, \"acRate\": \"58.4%\"}",
             "hints": [
                 "The first position <code>arr[0]</code> has <code>m</code> choices.",
                 "For each of the remaining <code>n - 1</code> indices, <code>0 < i < n</code>, select <code>k</code> positions from left to right and set <code>arr[i] = arr[i - 1]</code>.",

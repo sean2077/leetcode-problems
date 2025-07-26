@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec max_possible_score(start :: [integer], d :: integer) :: integer\n  def max_possible_score(start, d) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"21.9K\", \"totalSubmission\": \"63.1K\", \"totalAcceptedRaw\": 21940, \"totalSubmissionRaw\": 63099, \"acRate\": \"34.8%\"}",
+            "stats": "{\"totalAccepted\": \"21.9K\", \"totalSubmission\": \"63.1K\", \"totalAcceptedRaw\": 21945, \"totalSubmissionRaw\": 63113, \"acRate\": \"34.8%\"}",
             "hints": [
                 "Can we use binary search here?",
                 "Suppose that the answer is <code>x</code>. We can find a valid configuration of integers by sorting <code>start</code>, the first integer should be <code>start[0]</code>, then each subsequent integer should be the smallest one in <code>[start[i], start[i] + d]</code> that is greater than <code>last_chosen_value + x</code>.",

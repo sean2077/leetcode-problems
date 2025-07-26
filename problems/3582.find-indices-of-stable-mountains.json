@@ -122,7 +122,7 @@
                     "code": "defmodule Solution do\n  @spec stable_mountains(height :: [integer], threshold :: integer) :: [integer]\n  def stable_mountains(height, threshold) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"57.2K\", \"totalSubmission\": \"66.4K\", \"totalAcceptedRaw\": 57220, \"totalSubmissionRaw\": 66427, \"acRate\": \"86.1%\"}",
+            "stats": "{\"totalAccepted\": \"57.2K\", \"totalSubmission\": \"66.4K\", \"totalAcceptedRaw\": 57232, \"totalSubmissionRaw\": 66441, \"acRate\": \"86.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "[1,2,3,4,5]\n2",

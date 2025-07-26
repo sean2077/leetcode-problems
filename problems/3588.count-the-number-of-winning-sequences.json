@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec count_winning_sequences(s :: String.t) :: integer\n  def count_winning_sequences(s) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"9.9K\", \"totalSubmission\": \"31.4K\", \"totalAcceptedRaw\": 9859, \"totalSubmissionRaw\": 31432, \"acRate\": \"31.4%\"}",
+            "stats": "{\"totalAccepted\": \"9.9K\", \"totalSubmission\": \"31.5K\", \"totalAcceptedRaw\": 9869, \"totalSubmissionRaw\": 31452, \"acRate\": \"31.4%\"}",
             "hints": [
                 "Use dynamic programming.",
                 "For <code>0 < i < n - 1</code>, <code>-n < j < n</code>, and <code>k</code> in <code>{’F’, ‘W’, ‘E’}</code>, let <code>dp[i][j][k]</code>  be the number of sequences consisting of the first <code>i</code> moves such that the difference between bob’s points and alice’s point is equal to <code>j</code> and the <code>i<sup>th</sup></code> move that Bob played is <code>k</code>.",

@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 881,
-            "dislikes": 216,
+            "likes": 1252,
+            "dislikes": 243,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Product Sales Analysis II\", \"titleSlug\": \"product-sales-analysis-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Product Sales Analysis IV\", \"titleSlug\": \"product-sales-analysis-iv\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Product Sales Analysis V\", \"titleSlug\": \"product-sales-analysis-v\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
             "contributors": [],
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"540.9K\", \"totalSubmission\": \"647.2K\", \"totalAcceptedRaw\": 540898, \"totalSubmissionRaw\": 647196, \"acRate\": \"83.6%\"}",
+            "stats": "{\"totalAccepted\": \"1M\", \"totalSubmission\": \"1.2M\", \"totalAcceptedRaw\": 1036069, \"totalSubmissionRaw\": 1222331, \"acRate\": \"84.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Sales\":[\"sale_id\",\"product_id\",\"year\",\"quantity\",\"price\"],\"Product\":[\"product_id\",\"product_name\"]},\"rows\":{\"Sales\":[[1,100,2008,10,5000],[2,100,2009,12,5000],[7,200,2011,15,9000]],\"Product\":[[100,\"Nokia\"],[200,\"Apple\"],[300,\"Samsung\"]]}}",
@@ -73,7 +73,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

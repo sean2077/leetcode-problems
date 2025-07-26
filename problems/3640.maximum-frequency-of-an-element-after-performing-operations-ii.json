@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec max_frequency(nums :: [integer], k :: integer, num_operations :: integer) :: integer\n  def max_frequency(nums, k, num_operations) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"9K\", \"totalSubmission\": \"24.3K\", \"totalAcceptedRaw\": 9042, \"totalSubmissionRaw\": 24313, \"acRate\": \"37.2%\"}",
+            "stats": "{\"totalAccepted\": \"9K\", \"totalSubmission\": \"24.3K\", \"totalAcceptedRaw\": 9046, \"totalSubmissionRaw\": 24319, \"acRate\": \"37.2%\"}",
             "hints": [
                 "The optimal values to check are <code>nums[i] - k</code>, <code>nums[i]</code>, and <code>nums[i] + k</code>."
             ],

@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 173,
-            "dislikes": 7,
+            "likes": 265,
+            "dislikes": 11,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef createDataframe(student_data: List[List[int]]) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"107.6K\", \"totalSubmission\": \"132.6K\", \"totalAcceptedRaw\": 107554, \"totalSubmissionRaw\": 132620, \"acRate\": \"81.1%\"}",
+            "stats": "{\"totalAccepted\": \"220.3K\", \"totalSubmission\": \"270.6K\", \"totalAcceptedRaw\": 220253, \"totalSubmissionRaw\": 270605, \"acRate\": \"81.4%\"}",
             "hints": [
                 "Consider using a built-in function in pandas library and specifying the column names within it."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

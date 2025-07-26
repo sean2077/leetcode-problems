@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec length_after_transformations(s :: String.t, t :: integer, nums :: [integer]) :: integer\n  def length_after_transformations(s, t, nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"62.1K\", \"totalSubmission\": \"106.8K\", \"totalAcceptedRaw\": 62116, \"totalSubmissionRaw\": 106770, \"acRate\": \"58.2%\"}",
+            "stats": "{\"totalAccepted\": \"62.1K\", \"totalSubmission\": \"106.8K\", \"totalAcceptedRaw\": 62123, \"totalSubmissionRaw\": 106777, \"acRate\": \"58.2%\"}",
             "hints": [
                 "Model the problem as a matrix multiplication problem.",
                 "Use exponentiation to quickly multiply matrices."

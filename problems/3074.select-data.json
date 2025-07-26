@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 75,
-            "dislikes": 6,
+            "likes": 124,
+            "dislikes": 8,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef selectData(students: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"69.2K\", \"totalSubmission\": \"87.4K\", \"totalAcceptedRaw\": 69168, \"totalSubmissionRaw\": 87420, \"acRate\": \"79.1%\"}",
+            "stats": "{\"totalAccepted\": \"143.5K\", \"totalSubmission\": \"181.1K\", \"totalAcceptedRaw\": 143453, \"totalSubmissionRaw\": 181124, \"acRate\": \"79.2%\"}",
             "hints": [
                 "Consider applying both row and column filtering to select the desired data."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

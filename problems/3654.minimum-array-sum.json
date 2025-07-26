@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec min_array_sum(nums :: [integer], k :: integer, op1 :: integer, op2 :: integer) :: integer\n  def min_array_sum(nums, k, op1, op2) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"14K\", \"totalSubmission\": \"47.1K\", \"totalAcceptedRaw\": 14044, \"totalSubmissionRaw\": 47147, \"acRate\": \"29.8%\"}",
+            "stats": "{\"totalAccepted\": \"14K\", \"totalSubmission\": \"47.1K\", \"totalAcceptedRaw\": 14046, \"totalSubmissionRaw\": 47149, \"acRate\": \"29.8%\"}",
             "hints": [
                 "Think of dynamic programming with states to track progress and remaining operations.",
                 "Use <code>dp[index][op1][op2]</code> where each state tracks progress at <code>index</code> with <code>op1</code> and <code>op2</code> operations left.",

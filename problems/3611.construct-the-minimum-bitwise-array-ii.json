@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec min_bitwise_array(nums :: [integer]) :: [integer]\n  def min_bitwise_array(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"15.8K\", \"totalSubmission\": \"45.1K\", \"totalAcceptedRaw\": 15795, \"totalSubmissionRaw\": 45096, \"acRate\": \"35.0%\"}",
+            "stats": "{\"totalAccepted\": \"15.8K\", \"totalSubmission\": \"45.1K\", \"totalAcceptedRaw\": 15798, \"totalSubmissionRaw\": 45100, \"acRate\": \"35.0%\"}",
             "hints": [
                 "Consider the binary representation of <code>nums[i]</code>.",
                 "Answer is -1 for even <code>nums[i]</code>.",

@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec count_partitions(nums :: [integer]) :: integer\n  def count_partitions(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"47.8K\", \"totalSubmission\": \"65.2K\", \"totalAcceptedRaw\": 47753, \"totalSubmissionRaw\": 65248, \"acRate\": \"73.2%\"}",
+            "stats": "{\"totalAccepted\": \"47.8K\", \"totalSubmission\": \"65.3K\", \"totalAcceptedRaw\": 47790, \"totalSubmissionRaw\": 65288, \"acRate\": \"73.2%\"}",
             "hints": [
                 "If the parity of the sum is even, the partition is valid; otherwise, there is no partition."
             ],

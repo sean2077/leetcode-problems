@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec is_zero_array(nums :: [integer], queries :: [[integer]]) :: boolean\n  def is_zero_array(nums, queries) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"147.1K\", \"totalSubmission\": \"270.3K\", \"totalAcceptedRaw\": 147070, \"totalSubmissionRaw\": 270277, \"acRate\": \"54.4%\"}",
+            "stats": "{\"totalAccepted\": \"147.1K\", \"totalSubmission\": \"270.3K\", \"totalAcceptedRaw\": 147088, \"totalSubmissionRaw\": 270307, \"acRate\": \"54.4%\"}",
             "hints": [
                 "Can we use difference array and prefix sum to check if an index can be made zero?"
             ],

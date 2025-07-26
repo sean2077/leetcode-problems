@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 61,
-            "dislikes": 4,
+            "likes": 87,
+            "dislikes": 6,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef modifySalaryColumn(employees: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"59.4K\", \"totalSubmission\": \"64.7K\", \"totalAcceptedRaw\": 59425, \"totalSubmissionRaw\": 64693, \"acRate\": \"91.9%\"}",
+            "stats": "{\"totalAccepted\": \"123.2K\", \"totalSubmission\": \"133.1K\", \"totalAcceptedRaw\": 123223, \"totalSubmissionRaw\": 133142, \"acRate\": \"92.6%\"}",
             "hints": [
                 "Considering multiplying each salary value by 2, using a simple assignment operation. The calculation of the value is done column-wise."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

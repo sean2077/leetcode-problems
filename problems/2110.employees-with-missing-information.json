@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 696,
-            "dislikes": 36,
+            "likes": 750,
+            "dislikes": 39,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -52,7 +52,7 @@
                     "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"125.4K\", \"totalSubmission\": \"173.4K\", \"totalAcceptedRaw\": 125392, \"totalSubmissionRaw\": 173372, \"acRate\": \"72.3%\"}",
+            "stats": "{\"totalAccepted\": \"154.5K\", \"totalSubmission\": \"212K\", \"totalAcceptedRaw\": 154474, \"totalSubmissionRaw\": 212038, \"acRate\": \"72.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Employees\":[\"employee_id\",\"name\"],\"Salaries\":[\"employee_id\",\"salary\"]},\"rows\":{\"Employees\":[[2,\"Crew\"],[4,\"Haven\"],[5,\"Kristian\"]],\"Salaries\":[[5,76071],[1,22517],[4,63539]]}}",
@@ -73,7 +73,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

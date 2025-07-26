@@ -137,7 +137,7 @@
                     "code": "defmodule TaskManager do\n  @spec init_(tasks :: [[integer]]) :: any\n  def init_(tasks) do\n    \n  end\n\n  @spec add(user_id :: integer, task_id :: integer, priority :: integer) :: any\n  def add(user_id, task_id, priority) do\n    \n  end\n\n  @spec edit(task_id :: integer, new_priority :: integer) :: any\n  def edit(task_id, new_priority) do\n    \n  end\n\n  @spec rmv(task_id :: integer) :: any\n  def rmv(task_id) do\n    \n  end\n\n  @spec exec_top() :: integer\n  def exec_top() do\n    \n  end\nend\n\n# Your functions will be called as such:\n# TaskManager.init_(tasks)\n# TaskManager.add(user_id, task_id, priority)\n# TaskManager.edit(task_id, new_priority)\n# TaskManager.rmv(task_id)\n# param_4 = TaskManager.exec_top()\n\n# TaskManager.init_ will be called before every test case, in which you can do some necessary initializations."
                 }
             ],
-            "stats": "{\"totalAccepted\": \"14.7K\", \"totalSubmission\": \"43K\", \"totalAcceptedRaw\": 14707, \"totalSubmissionRaw\": 42974, \"acRate\": \"34.2%\"}",
+            "stats": "{\"totalAccepted\": \"14.7K\", \"totalSubmission\": \"43K\", \"totalAcceptedRaw\": 14710, \"totalSubmissionRaw\": 42981, \"acRate\": \"34.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "[\"TaskManager\",\"add\",\"edit\",\"execTop\",\"rmv\",\"add\",\"execTop\"]\n[[[[1,101,10],[2,102,20],[3,103,15]]],[4,104,5],[102,8],[],[101],[5,105,15],[]]",

@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Medium",
-            "likes": 39,
-            "dislikes": 16,
+            "likes": 45,
+            "dislikes": 19,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"6.4K\", \"totalSubmission\": \"10.7K\", \"totalAcceptedRaw\": 6443, \"totalSubmissionRaw\": 10653, \"acRate\": \"60.5%\"}",
+            "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"13.3K\", \"totalAcceptedRaw\": 8046, \"totalSubmissionRaw\": 13258, \"acRate\": \"60.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"TeamPoints\": [\"team_id\", \"name\", \"points\"], \"PointsChange\": [\"team_id\", \"points_change\"]}, \"rows\": {\"TeamPoints\": [[3, \"Algeria\", 1431], [1, \"Senegal\", 2132], [2, \"New Zealand\", 1402], [4, \"Croatia\", 1817]], \"PointsChange\": [[3, 399], [2, 0], [4, 13], [1, -22]]}}",
@@ -49,7 +49,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

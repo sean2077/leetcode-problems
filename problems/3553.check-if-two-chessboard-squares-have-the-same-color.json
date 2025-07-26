@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec check_two_chessboards(coordinate1 :: String.t, coordinate2 :: String.t) :: boolean\n  def check_two_chessboards(coordinate1, coordinate2) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"63.3K\", \"totalSubmission\": \"88K\", \"totalAcceptedRaw\": 63325, \"totalSubmissionRaw\": 88034, \"acRate\": \"71.9%\"}",
+            "stats": "{\"totalAccepted\": \"63.3K\", \"totalSubmission\": \"88.1K\", \"totalAcceptedRaw\": 63347, \"totalSubmissionRaw\": 88058, \"acRate\": \"71.9%\"}",
             "hints": [
                 "The color of the chessboard is black the sum of row coordinates and column coordinates is even. Otherwise, it's white."
             ],

@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec min_operations(nums :: [integer], k :: integer) :: integer\n  def min_operations(nums, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"162.6K\", \"totalSubmission\": \"221.5K\", \"totalAcceptedRaw\": 162608, \"totalSubmissionRaw\": 221456, \"acRate\": \"73.4%\"}",
+            "stats": "{\"totalAccepted\": \"162.6K\", \"totalSubmission\": \"221.5K\", \"totalAcceptedRaw\": 162617, \"totalSubmissionRaw\": 221475, \"acRate\": \"73.4%\"}",
             "hints": [
                 "Handle the case when the array contains an integer less than <code>k</code>",
                 "Start by performing operations on the highest integer",

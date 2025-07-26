@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec sum_of_good_subsequences(nums :: [integer]) :: integer\n  def sum_of_good_subsequences(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"11K\", \"totalSubmission\": \"36.7K\", \"totalAcceptedRaw\": 10987, \"totalSubmissionRaw\": 36737, \"acRate\": \"29.9%\"}",
+            "stats": "{\"totalAccepted\": \"11K\", \"totalSubmission\": \"36.7K\", \"totalAcceptedRaw\": 10991, \"totalSubmissionRaw\": 36745, \"acRate\": \"29.9%\"}",
             "hints": [
                 "Consider counting how many times each element occurs in all possible good subsequences. This can help you derive the final answer more easily.",
                 "Use dynamic programming to track both the count and the sum of subsequences where the last element is <code>nums[i]</code>."

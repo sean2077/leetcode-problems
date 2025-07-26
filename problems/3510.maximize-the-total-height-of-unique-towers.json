@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec maximum_total_sum(maximum_height :: [integer]) :: integer\n  def maximum_total_sum(maximum_height) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"32.6K\", \"totalSubmission\": \"89.1K\", \"totalAcceptedRaw\": 32580, \"totalSubmissionRaw\": 89123, \"acRate\": \"36.6%\"}",
+            "stats": "{\"totalAccepted\": \"32.6K\", \"totalSubmission\": \"89.1K\", \"totalAcceptedRaw\": 32583, \"totalSubmissionRaw\": 89130, \"acRate\": \"36.6%\"}",
             "hints": [
                 "Sort the array <code>maximumHeight</code> in descending order.",
                 "After sorting, it can be seen that the maximum height that we can assign to the <code>i<sup>th</sup></code> element is <code>min(maximumHeight[i], maximumHeight[i - 1] - 1)</code>."

@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Easy",
-            "likes": 15,
+            "likes": 16,
             "dislikes": 1,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -20,7 +20,7 @@
             "topicTags": [],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"763\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 763, \"totalSubmissionRaw\": 1322, \"acRate\": \"57.7%\"}",
+            "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"2K\", \"totalAcceptedRaw\": 1200, \"totalSubmissionRaw\": 1991, \"acRate\": \"60.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"a\": \"1\",\"b\": \"2\",\"c\": \"3\",\"d\": \"4\" }",
@@ -30,7 +30,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 5.4.0 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/blob/v5/README.md\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.1.6, Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022</code></p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES2022 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\"]}",
+            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

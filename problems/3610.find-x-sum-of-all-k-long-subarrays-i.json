@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec find_x_sum(nums :: [integer], k :: integer, x :: integer) :: [integer]\n  def find_x_sum(nums, k, x) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"34.3K\", \"totalSubmission\": \"53.8K\", \"totalAcceptedRaw\": 34304, \"totalSubmissionRaw\": 53790, \"acRate\": \"63.8%\"}",
+            "stats": "{\"totalAccepted\": \"34.3K\", \"totalSubmission\": \"53.8K\", \"totalAcceptedRaw\": 34316, \"totalSubmissionRaw\": 53803, \"acRate\": \"63.8%\"}",
             "hints": [
                 "Implement the x-sum function. Then, run x-sum on every subarray of <code>nums</code> of size <code>k</code>."
             ],

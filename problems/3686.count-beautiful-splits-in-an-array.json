@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec beautiful_splits(nums :: [integer]) :: integer\n  def beautiful_splits(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"6.3K\", \"totalSubmission\": \"39.2K\", \"totalAcceptedRaw\": 6251, \"totalSubmissionRaw\": 39225, \"acRate\": \"15.9%\"}",
+            "stats": "{\"totalAccepted\": \"6.3K\", \"totalSubmission\": \"39.2K\", \"totalAcceptedRaw\": 6262, \"totalSubmissionRaw\": 39240, \"acRate\": \"16.0%\"}",
             "hints": [
                 "Use 2D dynamic programming to find the maximum matching prefix."
             ],

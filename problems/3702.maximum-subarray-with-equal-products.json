@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec max_length(nums :: [integer]) :: integer\n  def max_length(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"25.3K\", \"totalSubmission\": \"55.7K\", \"totalAcceptedRaw\": 25280, \"totalSubmissionRaw\": 55661, \"acRate\": \"45.4%\"}",
+            "stats": "{\"totalAccepted\": \"25.3K\", \"totalSubmission\": \"55.7K\", \"totalAcceptedRaw\": 25288, \"totalSubmissionRaw\": 55691, \"acRate\": \"45.4%\"}",
             "hints": [
                 "What is the maximum possible lcm?"
             ],

@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec max_collected_fruits(fruits :: [[integer]]) :: integer\n  def max_collected_fruits(fruits) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.8K\", \"totalSubmission\": \"9.4K\", \"totalAcceptedRaw\": 3764, \"totalSubmissionRaw\": 9407, \"acRate\": \"40.0%\"}",
+            "stats": "{\"totalAccepted\": \"3.8K\", \"totalSubmission\": \"9.4K\", \"totalAcceptedRaw\": 3770, \"totalSubmissionRaw\": 9416, \"acRate\": \"40.0%\"}",
             "hints": [
                 "The child at <code>(0, 0)</code> has only one possible path.",
                 "The other two children won’t intersect its path.",

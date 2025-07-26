@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec kth_character(k :: integer) :: char\n  def kth_character(k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"192K\", \"totalSubmission\": \"234.8K\", \"totalAcceptedRaw\": 191954, \"totalSubmissionRaw\": 234819, \"acRate\": \"81.7%\"}",
+            "stats": "{\"totalAccepted\": \"192K\", \"totalSubmission\": \"234.9K\", \"totalAcceptedRaw\": 192046, \"totalSubmissionRaw\": 234940, \"acRate\": \"81.7%\"}",
             "hints": [
                 "The constraints are small. Construct the string by simulating the operations."
             ],

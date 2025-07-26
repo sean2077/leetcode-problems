@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 423,
-            "dislikes": 29,
+            "likes": 489,
+            "dislikes": 41,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Debounce\", \"titleSlug\": \"debounce\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Promise Time Limit\", \"titleSlug\": \"promise-time-limit\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Promise Pool\", \"titleSlug\": \"promise-pool\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
             "contributors": [],
@@ -31,7 +31,7 @@
                     "code": "class TimeLimitedCache {\n    \n    constructor() {\n        \n    }\n    \n    set(key: number, value: number, duration: number): boolean {\n        \n    }\n    \n    get(key: number): number {\n        \n    }\n    \n    count(): number {\n        \n    }\n}\n\n/**\n * const timeLimitedCache = new TimeLimitedCache()\n * timeLimitedCache.set(1, 42, 1000); // false\n * timeLimitedCache.get(1) // 42\n * timeLimitedCache.count() // 1\n */"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"44.2K\", \"totalSubmission\": \"59.5K\", \"totalAcceptedRaw\": 44152, \"totalSubmissionRaw\": 59450, \"acRate\": \"74.3%\"}",
+            "stats": "{\"totalAccepted\": \"69.3K\", \"totalSubmission\": \"91.5K\", \"totalAcceptedRaw\": 69336, \"totalSubmissionRaw\": 91477, \"acRate\": \"75.8%\"}",
             "hints": [
                 "You can delay execution of code with \"ref = setTimeout(fn, delay)\". You can abort the execution with \"clearTimeout(ref)\"",
                 "When storing the values in the cache, also store a reference to the timeout. The timeout should clear the key from the cache after the expiration has elapsed.",
@@ -45,7 +45,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 5.4.0 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/blob/v5/README.md\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.1.6, Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022</code></p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES2022 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\"]}",
+            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

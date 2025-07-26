@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec calculate_score(s :: String.t) :: integer\n  def calculate_score(s) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"22.3K\", \"totalSubmission\": \"65.2K\", \"totalAcceptedRaw\": 22277, \"totalSubmissionRaw\": 65178, \"acRate\": \"34.2%\"}",
+            "stats": "{\"totalAccepted\": \"22.3K\", \"totalSubmission\": \"65.2K\", \"totalAcceptedRaw\": 22285, \"totalSubmissionRaw\": 65229, \"acRate\": \"34.2%\"}",
             "hints": [
                 "Create a stack for every character.",
                 "For each index, check if the stack for mirror of the letter at that index is empty."

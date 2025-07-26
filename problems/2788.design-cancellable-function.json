@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Hard",
-            "likes": 62,
-            "dislikes": 15,
+            "likes": 69,
+            "dislikes": 19,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Generate Fibonacci Sequence\", \"titleSlug\": \"generate-fibonacci-sequence\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Nested Array Generator\", \"titleSlug\": \"nested-array-generator\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
             "contributors": [],
@@ -31,7 +31,7 @@
                     "code": "function cancellable<T>(generator: Generator<Promise<any>, T, unknown>): [() => void, Promise<T>] {\n    \n};\n\n/**\n * function* tasks() {\n *   const val = yield new Promise(resolve => resolve(2 + 2));\n *   yield new Promise(resolve => setTimeout(resolve, 100));\n *   return val + 1;\n * }\n * const [cancel, promise] = cancellable(tasks());\n * setTimeout(cancel, 50);\n * promise.catch(console.log); // logs \"Cancelled\" at t=50ms\n */"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"2.1K\", \"totalSubmission\": \"4K\", \"totalAcceptedRaw\": 2102, \"totalSubmissionRaw\": 4048, \"acRate\": \"51.9%\"}",
+            "stats": "{\"totalAccepted\": \"3.5K\", \"totalSubmission\": \"6.5K\", \"totalAcceptedRaw\": 3455, \"totalSubmissionRaw\": 6484, \"acRate\": \"53.3%\"}",
             "hints": [
                 "This question tests understanding of two-way communication between generator functions and the code that evaluates the generator. It is a powerful technique which is used in libraries such as redux-saga.",
                 "You can pass a value value to a generator function X by calling generator.next(X). Then in the generator function, you can access this value by calling let X = yield \"val to pass into generator.next()\";",
@@ -45,7 +45,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 5.4.0 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/blob/v5/README.md\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.1.6, Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022</code></p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES2022 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\"]}",
+            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

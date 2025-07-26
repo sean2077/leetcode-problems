@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec count_k_constraint_substrings(s :: String.t, k :: integer) :: integer\n  def count_k_constraint_substrings(s, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"49.9K\", \"totalSubmission\": \"64K\", \"totalAcceptedRaw\": 49939, \"totalSubmissionRaw\": 63983, \"acRate\": \"78.1%\"}",
+            "stats": "{\"totalAccepted\": \"50K\", \"totalSubmission\": \"64K\", \"totalAcceptedRaw\": 49963, \"totalSubmissionRaw\": 64008, \"acRate\": \"78.1%\"}",
             "hints": [
                 "Using a brute force approach, check each index until a substring satisfying the k-constraint is found, then increment."
             ],

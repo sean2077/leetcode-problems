@@ -137,7 +137,7 @@
                     "code": "# Definition for a binary tree node.\n#\n# defmodule TreeNode do\n#   @type t :: %__MODULE__{\n#           val: integer,\n#           left: TreeNode.t() | nil,\n#           right: TreeNode.t() | nil\n#         }\n#   defstruct val: 0, left: nil, right: nil\n# end\n\ndefmodule Solution do\n  @spec kth_largest_perfect_subtree(root :: TreeNode.t | nil, k :: integer) :: integer\n  def kth_largest_perfect_subtree(root, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"25.1K\", \"totalSubmission\": \"41.1K\", \"totalAcceptedRaw\": 25131, \"totalSubmissionRaw\": 41121, \"acRate\": \"61.1%\"}",
+            "stats": "{\"totalAccepted\": \"25.1K\", \"totalSubmission\": \"41.1K\", \"totalAcceptedRaw\": 25143, \"totalSubmissionRaw\": 41134, \"acRate\": \"61.1%\"}",
             "hints": [
                 "For a subtree to form a perfect binary subtree, its children should also be perfect binary subtrees.",
                 "Check recursively that both the node and its children are perfect binary subtrees.",

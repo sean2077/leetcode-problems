@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec get_final_state(nums :: [integer], k :: integer, multiplier :: integer) :: [integer]\n  def get_final_state(nums, k, multiplier) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"9.8K\", \"totalSubmission\": \"82K\", \"totalAcceptedRaw\": 9778, \"totalSubmissionRaw\": 82039, \"acRate\": \"11.9%\"}",
+            "stats": "{\"totalAccepted\": \"9.8K\", \"totalSubmission\": \"82K\", \"totalAcceptedRaw\": 9779, \"totalSubmissionRaw\": 82040, \"acRate\": \"11.9%\"}",
             "hints": [
                 "What happens when <code>min(nums) * multiplier > max(nums)</code>?",
                 "A cycle of operations begins.",

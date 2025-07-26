@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec min_operations(n :: integer, m :: integer) :: integer\n  def min_operations(n, m) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"28.8K\", \"totalAcceptedRaw\": 8033, \"totalSubmissionRaw\": 28836, \"acRate\": \"27.9%\"}",
+            "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"28.8K\", \"totalAcceptedRaw\": 8034, \"totalSubmissionRaw\": 28842, \"acRate\": \"27.9%\"}",
             "hints": [
                 "Consider a directed, weighted graph where an edge exists from a node <code>x</code> to a node <code>y</code> if and only if <code>x</code> can be transformed into <code>y</code> through a single operation.",
                 "Apply a shortest path algorithm on this graph to find the shortest path from <code>n</code> to <code>m</code>."

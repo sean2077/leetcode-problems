@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec maximum_amount(coins :: [[integer]]) :: integer\n  def maximum_amount(coins) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"21.5K\", \"totalSubmission\": \"74.5K\", \"totalAcceptedRaw\": 21470, \"totalSubmissionRaw\": 74525, \"acRate\": \"28.8%\"}",
+            "stats": "{\"totalAccepted\": \"21.5K\", \"totalSubmission\": \"74.6K\", \"totalAcceptedRaw\": 21482, \"totalSubmissionRaw\": 74555, \"acRate\": \"28.8%\"}",
             "hints": [
                 "Use Dynamic Programming.",
                 "Let <code>dp[i][j][k]</code> denote the maximum amount of money a robot can earn by starting at cell <code>(i,j)</code> and having neutralized <code>k</code> robbers."

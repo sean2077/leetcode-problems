@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec max_subarray_sum(nums :: [integer], k :: integer) :: integer\n  def max_subarray_sum(nums, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"12.4K\", \"totalSubmission\": \"45.7K\", \"totalAcceptedRaw\": 12415, \"totalSubmissionRaw\": 45704, \"acRate\": \"27.2%\"}",
+            "stats": "{\"totalAccepted\": \"12.4K\", \"totalSubmission\": \"45.7K\", \"totalAcceptedRaw\": 12422, \"totalSubmissionRaw\": 45721, \"acRate\": \"27.2%\"}",
             "hints": [
                 "Maintain minimum prefix sum ending at every possible <code>index%k</code>."
             ],

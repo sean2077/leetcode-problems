@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 69,
+            "likes": 107,
             "dislikes": 3,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef meltTable(report: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"39.7K\", \"totalSubmission\": \"46.4K\", \"totalAcceptedRaw\": 39713, \"totalSubmissionRaw\": 46385, \"acRate\": \"85.6%\"}",
+            "stats": "{\"totalAccepted\": \"83.7K\", \"totalSubmission\": \"97.1K\", \"totalAcceptedRaw\": 83690, \"totalSubmissionRaw\": 97070, \"acRate\": \"86.2%\"}",
             "hints": [
                 "Consider using a built-in function in pandas library to transform the data"
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec possible_string_count(word :: String.t, k :: integer) :: integer\n  def possible_string_count(word, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"67.5K\", \"totalSubmission\": \"146.2K\", \"totalAcceptedRaw\": 67470, \"totalSubmissionRaw\": 146233, \"acRate\": \"46.1%\"}",
+            "stats": "{\"totalAccepted\": \"67.5K\", \"totalSubmission\": \"146.3K\", \"totalAcceptedRaw\": 67485, \"totalSubmissionRaw\": 146273, \"acRate\": \"46.1%\"}",
             "hints": [
                 "Instead of solving for at least <code>k</code>, can we solve for at most <code>k - 1</code> length?"
             ],

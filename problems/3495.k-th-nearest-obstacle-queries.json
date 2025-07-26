@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec results_array(queries :: [[integer]], k :: integer) :: [integer]\n  def results_array(queries, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"34K\", \"totalSubmission\": \"70.5K\", \"totalAcceptedRaw\": 34031, \"totalSubmissionRaw\": 70497, \"acRate\": \"48.3%\"}",
+            "stats": "{\"totalAccepted\": \"34K\", \"totalSubmission\": \"70.5K\", \"totalAcceptedRaw\": 34036, \"totalSubmissionRaw\": 70504, \"acRate\": \"48.3%\"}",
             "hints": [
                 "Consider if there are more than <code>k</code> obstacles. Can the <code>k + 1<sup>th</sup></code> obstacle ever be the answer to any query?",
                 "Maintain a max heap of size <code>k</code>, thus heap will contain minimum element at the top in that queue.",

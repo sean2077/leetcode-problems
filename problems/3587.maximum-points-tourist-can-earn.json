@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec max_score(n :: integer, k :: integer, stay_score :: [[integer]], travel_score :: [[integer]]) :: integer\n  def max_score(n, k, stay_score, travel_score) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"13.6K\", \"totalSubmission\": \"29.3K\", \"totalAcceptedRaw\": 13615, \"totalSubmissionRaw\": 29281, \"acRate\": \"46.5%\"}",
+            "stats": "{\"totalAccepted\": \"13.6K\", \"totalSubmission\": \"29.3K\", \"totalAcceptedRaw\": 13618, \"totalSubmissionRaw\": 29290, \"acRate\": \"46.5%\"}",
             "hints": [
                 "Use DP.",
                 "<code>dp[i][j]</code> is the maximum score that you can achieve in your last <code>i</code> actions by starting from city <code>j</code>."

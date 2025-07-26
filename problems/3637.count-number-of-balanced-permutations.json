@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Hard",
-            "likes": 351,
+            "likes": 352,
             "dislikes": 77,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec count_balanced_permutations(num :: String.t) :: integer\n  def count_balanced_permutations(num) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"58K\", \"totalSubmission\": \"117.4K\", \"totalAcceptedRaw\": 57974, \"totalSubmissionRaw\": 117400, \"acRate\": \"49.4%\"}",
+            "stats": "{\"totalAccepted\": \"58K\", \"totalSubmission\": \"117.4K\", \"totalAcceptedRaw\": 57977, \"totalSubmissionRaw\": 117407, \"acRate\": \"49.4%\"}",
             "hints": [
                 "Count frequency of each character in the string.",
                 "Use dynamic programming.",

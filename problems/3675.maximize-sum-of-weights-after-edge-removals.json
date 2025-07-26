@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec maximize_sum_of_weights(edges :: [[integer]], k :: integer) :: integer\n  def maximize_sum_of_weights(edges, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"3.7K\", \"totalSubmission\": \"12.7K\", \"totalAcceptedRaw\": 3671, \"totalSubmissionRaw\": 12700, \"acRate\": \"28.9%\"}",
+            "stats": "{\"totalAccepted\": \"3.7K\", \"totalSubmission\": \"12.7K\", \"totalAcceptedRaw\": 3672, \"totalSubmissionRaw\": 12702, \"acRate\": \"28.9%\"}",
             "hints": [
                 "Can we use DFS based approach here?",
                 "For each edge, find two sums: one including the edge and one excluding it."

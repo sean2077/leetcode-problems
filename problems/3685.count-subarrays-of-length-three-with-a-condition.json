@@ -122,7 +122,7 @@
                     "code": "defmodule Solution do\n  @spec count_subarrays(nums :: [integer]) :: integer\n  def count_subarrays(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"142.1K\", \"totalSubmission\": \"229.5K\", \"totalAcceptedRaw\": 142121, \"totalSubmissionRaw\": 229547, \"acRate\": \"61.9%\"}",
+            "stats": "{\"totalAccepted\": \"142.1K\", \"totalSubmission\": \"229.6K\", \"totalAcceptedRaw\": 142142, \"totalSubmissionRaw\": 229590, \"acRate\": \"61.9%\"}",
             "hints": [
                 "The constraints are small. Consider checking every subarray."
             ],

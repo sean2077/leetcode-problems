@@ -147,7 +147,7 @@
                     "code": "defmodule Solution do\n  @spec find_safe_walk(grid :: [[integer]], health :: integer) :: boolean\n  def find_safe_walk(grid, health) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"30.8K\", \"totalSubmission\": \"99.8K\", \"totalAcceptedRaw\": 30826, \"totalSubmissionRaw\": 99763, \"acRate\": \"30.9%\"}",
+            "stats": "{\"totalAccepted\": \"30.8K\", \"totalSubmission\": \"99.8K\", \"totalAcceptedRaw\": 30839, \"totalSubmissionRaw\": 99784, \"acRate\": \"30.9%\"}",
             "hints": [
                 "Use 01 BFS."
             ],

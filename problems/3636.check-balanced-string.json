@@ -122,7 +122,7 @@
                     "code": "defmodule Solution do\n  @spec is_balanced(num :: String.t) :: boolean\n  def is_balanced(num) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"61K\", \"totalSubmission\": \"75.3K\", \"totalAcceptedRaw\": 61008, \"totalSubmissionRaw\": 75265, \"acRate\": \"81.1%\"}",
+            "stats": "{\"totalAccepted\": \"61.1K\", \"totalSubmission\": \"75.3K\", \"totalAcceptedRaw\": 61063, \"totalSubmissionRaw\": 75323, \"acRate\": \"81.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "\"1234\"",

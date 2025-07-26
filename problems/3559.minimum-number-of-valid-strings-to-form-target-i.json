@@ -162,7 +162,7 @@
                     "code": "defmodule Solution do\n  @spec min_valid_strings(words :: [String.t], target :: String.t) :: integer\n  def min_valid_strings(words, target) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"12.9K\", \"totalSubmission\": \"63.7K\", \"totalAcceptedRaw\": 12912, \"totalSubmissionRaw\": 63674, \"acRate\": \"20.3%\"}",
+            "stats": "{\"totalAccepted\": \"12.9K\", \"totalSubmission\": \"63.7K\", \"totalAcceptedRaw\": 12915, \"totalSubmissionRaw\": 63685, \"acRate\": \"20.3%\"}",
             "hints": [
                 "Let <code>dp[i]</code> be the minimum cost to form the prefix of length <code>i</code> of <code>target</code>.",
                 "If <code>target[(i + 1)..j]</code> matches any prefix, update the range <code>dp[(i + 1)..j]</code> to minimum between original value and <code>dp[i] + 1</code>.",

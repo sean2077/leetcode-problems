@@ -1,0 +1,152 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3810",
+            "questionFrontendId": "3519",
+            "boundTopicId": null,
+            "title": "Count Numbers with Non-Decreasing Digits ",
+            "titleSlug": "count-numbers-with-non-decreasing-digits",
+            "content": "<p>You are given two integers, <code>l</code> and <code>r</code>, represented as strings, and an integer <code>b</code>. Return the count of integers in the inclusive range <code>[l, r]</code> whose digits are in <strong>non-decreasing</strong> order when represented in base <code>b</code>.</p>\n\n<p>An integer is considered to have <strong>non-decreasing</strong> digits if, when read from left to right (from the most significant digit to the least significant digit), each digit is greater than or equal to the previous one.</p>\n\n<p>Since the answer may be too large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">l = &quot;23&quot;, r = &quot;28&quot;, b = 8</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">3</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The numbers from 23 to 28 in base 8 are: 27, 30, 31, 32, 33, and 34.</li>\n\t<li>Out of these, 27, 33, and 34 have non-decreasing digits. Hence, the output is 3.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">l = &quot;2&quot;, r = &quot;7&quot;, b = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">2</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The numbers from 2 to 7 in base 2 are: 10, 11, 100, 101, 110, and 111.</li>\n\t<li>Out of these, 11 and 111 have non-decreasing digits. Hence, the output is 2.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code><font face=\"monospace\">1 &lt;= l.length &lt;= r.length &lt;= 100</font></code></li>\n\t<li><code>2 &lt;= b &lt;= 10</code></li>\n\t<li><code>l</code> and <code>r</code> consist only of digits.</li>\n\t<li>The value represented by <code>l</code> is less than or equal to the value represented by <code>r</code>.</li>\n\t<li><code>l</code> and <code>r</code> do not contain leading zeros.</li>\n</ul>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Hard",
+            "likes": 46,
+            "dislikes": 3,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Count of Integers\", \"titleSlug\": \"count-of-integers\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Number of Beautiful Integers in the Range\", \"titleSlug\": \"number-of-beautiful-integers-in-the-range\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": true, \"java\": true, \"python\": true, \"python3\": true, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "topicTags": [
+                {
+                    "name": "Math",
+                    "slug": "math",
+                    "translatedName": null
+                },
+                {
+                    "name": "String",
+                    "slug": "string",
+                    "translatedName": null
+                },
+                {
+                    "name": "Dynamic Programming",
+                    "slug": "dynamic-programming",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "C++",
+                    "langSlug": "cpp",
+                    "code": "class Solution {\npublic:\n    int countNumbers(string l, string r, int b) {\n        \n    }\n};"
+                },
+                {
+                    "lang": "Java",
+                    "langSlug": "java",
+                    "code": "class Solution {\n    public int countNumbers(String l, String r, int b) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Python",
+                    "langSlug": "python",
+                    "code": "class Solution(object):\n    def countNumbers(self, l, r, b):\n        \"\"\"\n        :type l: str\n        :type r: str\n        :type b: int\n        :rtype: int\n        \"\"\"\n        "
+                },
+                {
+                    "lang": "Python3",
+                    "langSlug": "python3",
+                    "code": "class Solution:\n    def countNumbers(self, l: str, r: str, b: int) -> int:\n        "
+                },
+                {
+                    "lang": "C",
+                    "langSlug": "c",
+                    "code": "int countNumbers(char* l, char* r, int b) {\n    \n}"
+                },
+                {
+                    "lang": "C#",
+                    "langSlug": "csharp",
+                    "code": "public class Solution {\n    public int CountNumbers(string l, string r, int b) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "JavaScript",
+                    "langSlug": "javascript",
+                    "code": "/**\n * @param {string} l\n * @param {string} r\n * @param {number} b\n * @return {number}\n */\nvar countNumbers = function(l, r, b) {\n    \n};"
+                },
+                {
+                    "lang": "TypeScript",
+                    "langSlug": "typescript",
+                    "code": "function countNumbers(l: string, r: string, b: number): number {\n    \n};"
+                },
+                {
+                    "lang": "PHP",
+                    "langSlug": "php",
+                    "code": "class Solution {\n\n    /**\n     * @param String $l\n     * @param String $r\n     * @param Integer $b\n     * @return Integer\n     */\n    function countNumbers($l, $r, $b) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Swift",
+                    "langSlug": "swift",
+                    "code": "class Solution {\n    func countNumbers(_ l: String, _ r: String, _ b: Int) -> Int {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Kotlin",
+                    "langSlug": "kotlin",
+                    "code": "class Solution {\n    fun countNumbers(l: String, r: String, b: Int): Int {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Dart",
+                    "langSlug": "dart",
+                    "code": "class Solution {\n  int countNumbers(String l, String r, int b) {\n    \n  }\n}"
+                },
+                {
+                    "lang": "Go",
+                    "langSlug": "golang",
+                    "code": "func countNumbers(l string, r string, b int) int {\n    \n}"
+                },
+                {
+                    "lang": "Ruby",
+                    "langSlug": "ruby",
+                    "code": "# @param {String} l\n# @param {String} r\n# @param {Integer} b\n# @return {Integer}\ndef count_numbers(l, r, b)\n    \nend"
+                },
+                {
+                    "lang": "Scala",
+                    "langSlug": "scala",
+                    "code": "object Solution {\n    def countNumbers(l: String, r: String, b: Int): Int = {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Rust",
+                    "langSlug": "rust",
+                    "code": "impl Solution {\n    pub fn count_numbers(l: String, r: String, b: i32) -> i32 {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Racket",
+                    "langSlug": "racket",
+                    "code": "(define/contract (count-numbers l r b)\n  (-> string? string? exact-integer? exact-integer?)\n  )"
+                },
+                {
+                    "lang": "Erlang",
+                    "langSlug": "erlang",
+                    "code": "-spec count_numbers(L :: unicode:unicode_binary(), R :: unicode:unicode_binary(), B :: integer()) -> integer().\ncount_numbers(L, R, B) ->\n  ."
+                },
+                {
+                    "lang": "Elixir",
+                    "langSlug": "elixir",
+                    "code": "defmodule Solution do\n  @spec count_numbers(l :: String.t, r :: String.t, b :: integer) :: integer\n  def count_numbers(l, r, b) do\n    \n  end\nend"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"4.9K\", \"totalSubmission\": \"14.3K\", \"totalAcceptedRaw\": 4934, \"totalSubmissionRaw\": 14269, \"acRate\": \"34.6%\"}",
+            "hints": [
+                "Use digit dynamic programming."
+            ],
+            "status": null,
+            "sampleTestCase": "\"23\"\n\"28\"\n8",
+            "metaData": "{\n  \"name\": \"countNumbers\",\n  \"params\": [\n    {\n      \"name\": \"l\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"r\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"b\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code> clang 19 </code> using the latest C++ 23 standard, and <code>libstdc++</code> provided by GCC 14.</p>\\r\\n\\r\\n<p>Your code is compiled with level two optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p><code>OpenJDK 21</code>. Using compile arguments: <code>--enable-preview --release 21</code></p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n<p>Includes <code>Pair</code> class from https://docs.oracle.com/javase/8/javafx/api/javafx/util/Pair.html.</p>\"], \"python\": [\"Python\", \"<p><code>Python 2.7.18</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\\r\\n\\r\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">is not maintained anymore</a>. For the latest Python, please choose Python3 instead.</p>\"], \"c\": [\"C\", \"<p>Compiled with <code>gcc 14</code> using the gnu11 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n\\r\\n<p>For hash table operations, you may use <a href=\\\"https://troydhanson.github.io/uthash/\\\" target=\\\"_blank\\\">uthash</a>. \\\"uthash.h\\\" is included by default. Below are some examples:</p>\\r\\n\\r\\n<p><b>1. Adding an item to a hash.</b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            /* we'll use this field as the key */\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; /* makes this structure hashable */\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>2. Looking up an item in a hash:</b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>3. Deleting an item in a hash:</b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n</pre>\\r\\n</p>\"], \"csharp\": [\"C#\", \"<p><a href=\\\"https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13\\\" target=\\\"_blank\\\">C# 13</a> with .NET 9 runtime</p>\"], \"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"], \"ruby\": [\"Ruby\", \"<p><code>Ruby 3.2</code></p>\\r\\n\\r\\n<p>Some common data structure implementations are provided in the Algorithms module: https://www.rubydoc.info/github/kanwei/algorithms/Algorithms</p>\"], \"swift\": [\"Swift\", \"<p><code>Swift 6.0</code>.</p>\\r\\n\\r\\n<p>You may use the following packages:<br/>\\r\\n<a href=\\\"https://github.com/apple/swift-algorithms/tree/1.2.0\\\" target=\\\"_blank\\\">swift-algorithms 1.2.0</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-collections/tree/1.1.4\\\" target=\\\"_blank\\\">swift-collections 1.1.4</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-numerics/tree/1.0.2\\\" target=\\\"_blank\\\">swift-numerics 1.0.2</a></p>\"], \"golang\": [\"Go\", \"<p><code>Go 1.23</code></p>\\r\\n<p>Support <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1</a> and <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha</a> library.</p>\"], \"python3\": [\"Python3\", \"<p><code>Python 3.11</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/3/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/3/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/3/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\"], \"scala\": [\"Scala\", \"<p><code>Scala 3.3.1</code>.</p>\"], \"kotlin\": [\"Kotlin\", \"<p><code>Kotlin 2.1.10</code>.</p>\"], \"rust\": [\"Rust\", \"<p><code>Rust 1.88.0, using edition 2024.</code>. Your code will be compiled with <code>opt-level</code> 2.</p>\\r\\n\\r\\n<p>Supports <a href=\\\"https://crates.io/crates/rand\\\" target=\\\"_blank\\\">rand v0.8</a> and <a href=\\\"https://crates.io/crates/regex\\\" target=\\\"_blank\\\">regex\\u00a0v1</a> and <a href=\\\"https://crates.io/crates/itertools\\\" target=\\\"_blank\\\">itertools\\u00a0v0.14</a> from crates.io</p>\"], \"php\": [\"PHP\", \"<p><code>PHP 8.2</code>.</p>\\r\\n<p>With bcmath module</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"], \"racket\": [\"Racket\", \"<p><a href=\\\"https://docs.racket-lang.org/guide/performance.html#%28tech._c%29\\\" target=\\\"_blank\\\">Racket CS</a> v8.15</p>\\r\\n\\r\\n<p>Using <code>#lang racket</code></p>\\r\\n\\r\\n<p>Required <code>data/gvector data/queue data/order data/heap</code> automatically for your convenience</p>\"], \"erlang\": [\"Erlang\", \"Erlang/OTP 26\"], \"elixir\": [\"Elixir\", \"Elixir 1.17 with Erlang/OTP 26\"], \"dart\": [\"Dart\", \"<p>Dart 3.2. You may use package <a href=\\\"https://pub.dev/packages/collection/versions/1.18.0\\\" target=\\\"_blank\\\">collection</a></p>\\r\\n\\r\\n<p>Your code will be run directly without compiling</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

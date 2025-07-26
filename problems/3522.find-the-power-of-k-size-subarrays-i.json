@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec results_array(nums :: [integer], k :: integer) :: [integer]\n  def results_array(nums, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"146.3K\", \"totalSubmission\": \"234.4K\", \"totalAcceptedRaw\": 146343, \"totalSubmissionRaw\": 234428, \"acRate\": \"62.4%\"}",
+            "stats": "{\"totalAccepted\": \"146.4K\", \"totalSubmission\": \"234.4K\", \"totalAcceptedRaw\": 146351, \"totalSubmissionRaw\": 234438, \"acRate\": \"62.4%\"}",
             "hints": [
                 "Can we use a brute force solution with nested loops and HashSet?"
             ],

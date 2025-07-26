@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec max_score(grid :: [[integer]]) :: integer\n  def max_score(grid) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"11.1K\", \"totalSubmission\": \"76.2K\", \"totalAcceptedRaw\": 11075, \"totalSubmissionRaw\": 76231, \"acRate\": \"14.5%\"}",
+            "stats": "{\"totalAccepted\": \"11.1K\", \"totalSubmission\": \"76.2K\", \"totalAcceptedRaw\": 11079, \"totalSubmissionRaw\": 76241, \"acRate\": \"14.5%\"}",
             "hints": [
                 "Sort all the cells in the grid by their values and keep track of their original positions.",
                 "Try dynamic programming with the following states: the current cell that we might select and a bitmask representing all the rows from which we have already selected a cell so far."

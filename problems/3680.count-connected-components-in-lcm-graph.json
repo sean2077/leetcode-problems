@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec count_components(nums :: [integer], threshold :: integer) :: integer\n  def count_components(nums, threshold) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"4.2K\", \"totalSubmission\": \"14.3K\", \"totalAcceptedRaw\": 4163, \"totalSubmissionRaw\": 14342, \"acRate\": \"29.0%\"}",
+            "stats": "{\"totalAccepted\": \"4.2K\", \"totalSubmission\": \"14.3K\", \"totalAcceptedRaw\": 4165, \"totalSubmissionRaw\": 14346, \"acRate\": \"29.0%\"}",
             "hints": [
                 "Use DSU",
                 "Connect a number to all its multiples less than threshold"

@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec max_increasing_subarrays(nums :: [integer]) :: integer\n  def max_increasing_subarrays(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"24K\", \"totalSubmission\": \"58.4K\", \"totalAcceptedRaw\": 23999, \"totalSubmissionRaw\": 58413, \"acRate\": \"41.1%\"}",
+            "stats": "{\"totalAccepted\": \"24K\", \"totalSubmission\": \"58.4K\", \"totalAcceptedRaw\": 24004, \"totalSubmissionRaw\": 58424, \"acRate\": \"41.1%\"}",
             "hints": [
                 "Find the boundaries between strictly increasing subarrays.",
                 "Can we use binary search?"

@@ -127,7 +127,7 @@
                     "code": "defmodule Solution do\n  @spec convert_date_to_binary(date :: String.t) :: String.t\n  def convert_date_to_binary(date) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"71.3K\", \"totalSubmission\": \"80.7K\", \"totalAcceptedRaw\": 71260, \"totalSubmissionRaw\": 80694, \"acRate\": \"88.3%\"}",
+            "stats": "{\"totalAccepted\": \"71.3K\", \"totalSubmission\": \"80.7K\", \"totalAcceptedRaw\": 71304, \"totalSubmissionRaw\": 80739, \"acRate\": \"88.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "\"2080-02-29\"",

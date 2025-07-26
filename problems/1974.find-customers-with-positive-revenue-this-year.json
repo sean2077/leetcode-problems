@@ -11,7 +11,7 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Easy",
-            "likes": 57,
+            "likes": 64,
             "dislikes": 25,
             "isLiked": null,
             "similarQuestions": "[]",
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"25.2K\", \"totalSubmission\": \"28.7K\", \"totalAcceptedRaw\": 25174, \"totalSubmissionRaw\": 28666, \"acRate\": \"87.8%\"}",
+            "stats": "{\"totalAccepted\": \"33.5K\", \"totalSubmission\": \"38.2K\", \"totalAcceptedRaw\": 33511, \"totalSubmissionRaw\": 38243, \"acRate\": \"87.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Customers\":[\"customer_id\",\"year\",\"revenue\"]},\"rows\":{\"Customers\":[[\"1\",\"2018\",\"50\"],[\"1\",\"2021\",\"30\"],[\"1\",\"2020\",\"70\"],[\"2\",\"2021\",\"-50\"],[\"3\",\"2018\",\"10\"],[\"3\",\"2016\",\"50\"],[\"4\",\"2021\",\"20\"]]}}",
@@ -46,7 +46,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

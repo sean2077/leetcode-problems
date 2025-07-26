@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec count_of_substrings(word :: String.t, k :: integer) :: integer\n  def count_of_substrings(word, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"110.8K\", \"totalSubmission\": \"272.2K\", \"totalAcceptedRaw\": 110802, \"totalSubmissionRaw\": 272238, \"acRate\": \"40.7%\"}",
+            "stats": "{\"totalAccepted\": \"110.8K\", \"totalSubmission\": \"272.3K\", \"totalAcceptedRaw\": 110820, \"totalSubmissionRaw\": 272271, \"acRate\": \"40.7%\"}",
             "hints": [
                 "We can use sliding window and binary search.",
                 "For each index <code>r</code>, find the maximum <code>l</code> such that both conditions are satisfied using binary search."

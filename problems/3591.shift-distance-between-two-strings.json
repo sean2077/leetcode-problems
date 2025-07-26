@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec shift_distance(s :: String.t, t :: String.t, next_cost :: [integer], previous_cost :: [integer]) :: integer\n  def shift_distance(s, t, next_cost, previous_cost) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"15.9K\", \"totalSubmission\": \"30.1K\", \"totalAcceptedRaw\": 15872, \"totalSubmissionRaw\": 30057, \"acRate\": \"52.8%\"}",
+            "stats": "{\"totalAccepted\": \"15.9K\", \"totalSubmission\": \"30.1K\", \"totalAcceptedRaw\": 15876, \"totalSubmissionRaw\": 30066, \"acRate\": \"52.8%\"}",
             "hints": [
                 "- For every unordered pair of characters <code>(a, b)</code>, the cost of turning <code>a</code> into <code>b</code> is equal to the minimum between: \r\n<ul>\r\n<li>If <code>i < j</code>, <code>nextCost[i] + nextCost[i + 1] + … + nextCost[j - 1]</code>, and <code>nextCost[i] + nextCost[i + 1] + … + nextCost[25] + nextCost[0] + … + nextCost[j - 1]</code> otherwise.</li>\r\n    \r\n    <li>If <code>i < j</code>, <code>prevCost[i] + prevCost[i - 1] + … + prevCost[0] + prevCost[25] + … + prevCost[j + 1]</code>, and <code>prevCost[i] + prevCost[i - 1] + … + prevCost[j + 1]</code> otherwise.</li>\r\n    </ul>\r\n    Where <code>i</code> and <code>j</code> are the indices of <code>a</code> and <code>b</code> in the alphabet.",
                 "The shift distance is the sum of costs of turning <code>s[i]</code> into <code>t[i]</code>."

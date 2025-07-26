@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Easy",
-            "likes": 159,
-            "dislikes": 11,
+            "likes": 161,
+            "dislikes": 12,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"42.8K\", \"totalSubmission\": \"48.8K\", \"totalAcceptedRaw\": 42789, \"totalSubmissionRaw\": 48764, \"acRate\": \"87.7%\"}",
+            "stats": "{\"totalAccepted\": \"49.1K\", \"totalSubmission\": \"56.2K\", \"totalAcceptedRaw\": 49137, \"totalSubmissionRaw\": 56167, \"acRate\": \"87.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Warehouse\": [\"name\", \"product_id\", \"units\"], \"Products\": [\"product_id\", \"product_name\", \"Width\", \"Length\", \"Height\"]}, \"rows\": {\"Warehouse\": [[\"LCHouse1\", 1, 1], [\"LCHouse1\", 2, 10], [\"LCHouse1\", 3, 5], [\"LCHouse2\", 1, 2], [\"LCHouse2\", 2, 2], [\"LCHouse3\", 4, 1]], \"Products\": [[1, \"LC-TV\", 5, 50, 40], [2, \"LC-KeyChain\", 5, 5, 5], [3, \"LC-Phone\", 2, 10, 10], [4, \"LC-T-Shirt\", 4, 10, 20]]}}",
@@ -51,7 +51,7 @@
             ],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

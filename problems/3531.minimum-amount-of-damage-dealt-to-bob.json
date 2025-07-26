@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec min_damage(power :: integer, damage :: [integer], health :: [integer]) :: integer\n  def min_damage(power, damage, health) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"13.1K\", \"totalSubmission\": \"34K\", \"totalAcceptedRaw\": 13057, \"totalSubmissionRaw\": 34003, \"acRate\": \"38.4%\"}",
+            "stats": "{\"totalAccepted\": \"13.1K\", \"totalSubmission\": \"34K\", \"totalAcceptedRaw\": 13058, \"totalSubmissionRaw\": 34006, \"acRate\": \"38.4%\"}",
             "hints": [
                 "Can we use sorting here along with a custom comparator?",
                 "For any two enemies <code>i</code> and <code>j</code> with damages <code>damage[i]</code> and <code>damage[j]</code>, and time to take each of them down <code>t<sub>i</sub></code> and <code>t<sub>j</sub></code>, when is it better to choose enemy <code>i</code> over enemy <code>j</code> first?"

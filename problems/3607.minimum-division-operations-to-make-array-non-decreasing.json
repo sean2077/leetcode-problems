@@ -137,7 +137,7 @@
                     "code": "defmodule Solution do\n  @spec min_operations(nums :: [integer]) :: integer\n  def min_operations(nums) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"22.3K\", \"totalSubmission\": \"78K\", \"totalAcceptedRaw\": 22346, \"totalSubmissionRaw\": 78024, \"acRate\": \"28.6%\"}",
+            "stats": "{\"totalAccepted\": \"22.3K\", \"totalSubmission\": \"78K\", \"totalAcceptedRaw\": 22348, \"totalSubmissionRaw\": 78027, \"acRate\": \"28.6%\"}",
             "hints": [
                 "Iterate backward from the last index.",
                 "Each number can be divided by its largest proper divisor to yield its smallest prime divisor."

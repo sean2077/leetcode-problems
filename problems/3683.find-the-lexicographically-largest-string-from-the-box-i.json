@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec answer_string(word :: String.t, num_friends :: integer) :: String.t\n  def answer_string(word, num_friends) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"106K\", \"totalSubmission\": \"258.2K\", \"totalAcceptedRaw\": 106033, \"totalSubmissionRaw\": 258231, \"acRate\": \"41.1%\"}",
+            "stats": "{\"totalAccepted\": \"106.1K\", \"totalSubmission\": \"258.3K\", \"totalAcceptedRaw\": 106052, \"totalSubmissionRaw\": 258280, \"acRate\": \"41.1%\"}",
             "hints": [
                 "Find lexicographically largest substring of size <code>n - numFriends + 1</code> or less starting at every index."
             ],

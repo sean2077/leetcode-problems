@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"2.2K\", \"totalAcceptedRaw\": 1480, \"totalSubmissionRaw\": 2153, \"acRate\": \"68.7%\"}",
+            "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"2.2K\", \"totalAcceptedRaw\": 1485, \"totalSubmissionRaw\": 2158, \"acRate\": \"68.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"cities\":[\"state\",\"city\"]},\"rows\":{\"cities\":[[\"New York\",\"New York City\"],[\"New York\",\"Newark\"],[\"New York\",\"Buffalo\"],[\"New York\",\"Rochester\"],[\"California\",\"San Francisco\"],[\"California\",\"Sacramento\"],[\"California\",\"San Diego\"],[\"California\",\"Los Angeles\"],[\"Texas\",\"Tyler\"],[\"Texas\",\"Temple\"],[\"Texas\",\"Taylor\"],[\"Texas\",\"Dallas\"],[\"Pennsylvania\",\"Philadelphia\"],[\"Pennsylvania\",\"Pittsburgh\"],[\"Pennsylvania\",\"Pottstown\"]]}}",

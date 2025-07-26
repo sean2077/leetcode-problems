@@ -147,7 +147,7 @@
                     "code": "defmodule Solution do\n  @spec max_rectangle_area(x_coord :: [integer], y_coord :: [integer]) :: integer\n  def max_rectangle_area(x_coord, y_coord) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"11.2K\", \"totalAcceptedRaw\": 2271, \"totalSubmissionRaw\": 11205, \"acRate\": \"20.3%\"}",
+            "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"11.2K\", \"totalAcceptedRaw\": 2271, \"totalSubmissionRaw\": 11206, \"acRate\": \"20.3%\"}",
             "hints": [
                 "Process the points by sorting them based on their x-coordinates.",
                 "For each x-coordinate, sort the corresponding points by y and select two consecutive points y1 and y2 (y1 < y2).",

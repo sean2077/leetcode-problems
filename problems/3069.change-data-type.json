@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 56,
-            "dislikes": 7,
+            "likes": 83,
+            "dislikes": 8,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef changeDatatype(students: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"49.8K\", \"totalSubmission\": \"57.2K\", \"totalAcceptedRaw\": 49782, \"totalSubmissionRaw\": 57192, \"acRate\": \"87.0%\"}",
+            "stats": "{\"totalAccepted\": \"104.5K\", \"totalSubmission\": \"119.4K\", \"totalAcceptedRaw\": 104495, \"totalSubmissionRaw\": 119390, \"acRate\": \"87.5%\"}",
             "hints": [
                 "Consider using a build-in function in pandas library with a dictionary to convert the datatype of columns as specified."
             ],
@@ -38,7 +38,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "envInfo": "{\"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

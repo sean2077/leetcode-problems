@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec max_distinct_elements(nums :: [integer], k :: integer) :: integer\n  def max_distinct_elements(nums, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"20.5K\", \"totalSubmission\": \"65.6K\", \"totalAcceptedRaw\": 20488, \"totalSubmissionRaw\": 65589, \"acRate\": \"31.2%\"}",
+            "stats": "{\"totalAccepted\": \"20.5K\", \"totalSubmission\": \"65.6K\", \"totalAcceptedRaw\": 20495, \"totalSubmissionRaw\": 65601, \"acRate\": \"31.2%\"}",
             "hints": [
                 "Can we use sorting here?",
                 "Find the minimum element which is not used for each element."

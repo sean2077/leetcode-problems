@@ -142,7 +142,7 @@
                     "code": "defmodule Solution do\n  @spec min_time_to_reach(move_time :: [[integer]]) :: integer\n  def min_time_to_reach(move_time) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"91.3K\", \"totalSubmission\": \"133.4K\", \"totalAcceptedRaw\": 91310, \"totalSubmissionRaw\": 133440, \"acRate\": \"68.4%\"}",
+            "stats": "{\"totalAccepted\": \"91.3K\", \"totalSubmission\": \"133.5K\", \"totalAcceptedRaw\": 91322, \"totalSubmissionRaw\": 133457, \"acRate\": \"68.4%\"}",
             "hints": [
                 "Use shortest path algorithms with a state for the last move being odd or even indexed."
             ],

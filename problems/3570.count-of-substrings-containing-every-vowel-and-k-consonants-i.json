@@ -132,7 +132,7 @@
                     "code": "defmodule Solution do\n  @spec count_of_substrings(word :: String.t, k :: integer) :: integer\n  def count_of_substrings(word, k) do\n    \n  end\nend"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"30.5K\", \"totalSubmission\": \"73.7K\", \"totalAcceptedRaw\": 30468, \"totalSubmissionRaw\": 73699, \"acRate\": \"41.3%\"}",
+            "stats": "{\"totalAccepted\": \"30.5K\", \"totalSubmission\": \"73.7K\", \"totalAcceptedRaw\": 30475, \"totalSubmissionRaw\": 73713, \"acRate\": \"41.3%\"}",
             "hints": [
                 "Use a HashMap and check all the substrings."
             ],
