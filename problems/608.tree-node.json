@@ -1,0 +1,80 @@
+{
+    "data": {
+        "question": {
+            "questionId": "608",
+            "questionFrontendId": "608",
+            "boundTopicId": null,
+            "title": "Tree Node",
+            "titleSlug": "tree-node",
+            "content": "<p>Table: <code>Tree</code></p>\n\n<pre>\n+-------------+------+\n| Column Name | Type |\n+-------------+------+\n| id          | int  |\n| p_id        | int  |\n+-------------+------+\nid is the column with unique values for this table.\nEach row of this table contains information about the id of a node and the id of its parent node in a tree.\nThe given structure is always a valid tree.\n</pre>\n\n<p>&nbsp;</p>\n\n<p>Each node in the tree can be one of three types:</p>\n\n<ul>\n\t<li><strong>&quot;Leaf&quot;</strong>: if the node is a leaf node.</li>\n\t<li><strong>&quot;Root&quot;</strong>: if the node is the root of the tree.</li>\n\t<li><strong>&quot;Inner&quot;</strong>: If the node is neither a leaf node nor a root node.</li>\n</ul>\n\n<p>Write a solution to report the type of each node in the tree.</p>\n\n<p>Return the result table in <strong>any order</strong>.</p>\n\n<p>The result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/10/22/tree1.jpg\" style=\"width: 304px; height: 224px;\" />\n<pre>\n<strong>Input:</strong> \nTree table:\n+----+------+\n| id | p_id |\n+----+------+\n| 1  | null |\n| 2  | 1    |\n| 3  | 1    |\n| 4  | 2    |\n| 5  | 2    |\n+----+------+\n<strong>Output:</strong> \n+----+-------+\n| id | type  |\n+----+-------+\n| 1  | Root  |\n| 2  | Inner |\n| 3  | Leaf  |\n| 4  | Leaf  |\n| 5  | Leaf  |\n+----+-------+\n<strong>Explanation:</strong> \nNode 1 is the root node because its parent node is null and it has child nodes 2 and 3.\nNode 2 is an inner node because it has parent node 1 and child node 4 and 5.\nNodes 3, 4, and 5 are leaf nodes because they have parent nodes and they do not have child nodes.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/10/22/tree2.jpg\" style=\"width: 64px; height: 65px;\" />\n<pre>\n<strong>Input:</strong> \nTree table:\n+----+------+\n| id | p_id |\n+----+------+\n| 1  | null |\n+----+------+\n<strong>Output:</strong> \n+----+-------+\n| id | type  |\n+----+-------+\n| 1  | Root  |\n+----+-------+\n<strong>Explanation:</strong> If there is only one node on the tree, you only need to output its root attributes.\n</pre>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Medium",
+            "likes": 1237,
+            "dislikes": 127,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "MySQL",
+                    "langSlug": "mysql",
+                    "code": "# Write your MySQL query statement below\n"
+                },
+                {
+                    "lang": "MS SQL Server",
+                    "langSlug": "mssql",
+                    "code": "/* Write your T-SQL query statement below */\n"
+                },
+                {
+                    "lang": "Oracle",
+                    "langSlug": "oraclesql",
+                    "code": "/* Write your PL/SQL query statement below */\n"
+                },
+                {
+                    "lang": "Pandas",
+                    "langSlug": "pythondata",
+                    "code": "import pandas as pd\n\ndef tree_node(tree: pd.DataFrame) -> pd.DataFrame:\n    "
+                },
+                {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"164.9K\", \"totalSubmission\": \"227.1K\", \"totalAcceptedRaw\": 164888, \"totalSubmissionRaw\": 227130, \"acRate\": \"72.6%\"}",
+            "hints": [
+                "You can judge the node type by querying whether the node's id shows up in p_id column and whether the node's p_id is null."
+            ],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Tree\":[\"id\",\"p_id\"]},\"rows\":{\"Tree\":[[1,null],[2,1],[3,1],[4,2],[5,2]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Tree (id int, p_id int)\"], \"mssql\": [\"Create table Tree (id int, p_id int)\"], \"oraclesql\": [\"Create table Tree (id int, p_id int)\"], \"database\": true, \"name\": \"tree_node\", \"pythondata\": [\"Tree = pd.DataFrame([], columns=['id', 'p_id']).astype({'id':'Int64', 'p_id':'Int64'})\"], \"postgresql\": [\"\\nCreate table If Not Exists Tree (id int, p_id int)\"], \"database_schema\": {\"Tree\": {\"id\": \"INT\", \"p_id\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Tree (id int, p_id int)",
+                "Truncate table Tree",
+                "insert into Tree (id, p_id) values ('1', 'None')",
+                "insert into Tree (id, p_id) values ('2', '1')",
+                "insert into Tree (id, p_id) values ('3', '1')",
+                "insert into Tree (id, p_id) values ('4', '2')",
+                "insert into Tree (id, p_id) values ('5', '2')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

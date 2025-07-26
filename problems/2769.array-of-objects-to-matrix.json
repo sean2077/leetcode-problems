@@ -1,0 +1,42 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2769",
+            "questionFrontendId": "2675",
+            "boundTopicId": null,
+            "title": "Array of Objects to Matrix",
+            "titleSlug": "array-of-objects-to-matrix",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 132,
+            "dislikes": 72,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"JSON Deep Equal\", \"titleSlug\": \"json-deep-equal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Convert Object to JSON String\", \"titleSlug\": \"convert-object-to-json-string\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"5.9K\", \"totalSubmission\": \"8.5K\", \"totalAcceptedRaw\": 5874, \"totalSubmissionRaw\": 8496, \"acRate\": \"69.1%\"}",
+            "hints": [
+                "How could you split the problem up into sub-problems?",
+                "1.) Write a function that converts a single object into a dictionary that maps the path name to values. You can solve this recursively by keeping track of current path list.",
+                "2.) Write a function that converts a list of dictionaries into a matrix. Start by creating a list of all possible paths in any of the dictionaries. This will represent the columns."
+            ],
+            "status": null,
+            "sampleTestCase": "[{\"b\":1,\"a\":2},{\"b\":3,\"a\":4}]",
+            "metaData": "{\n  \"name\": \"jsonToMatrix\",\n  \"params\": [\n    {\n      \"name\": \"arr\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"languages\": [\n    \"typescript\",\n    \"javascript\"\n  ],\n  \"manual\": true\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 5.4.0 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/blob/v5/README.md\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.1.6, Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022</code></p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES2022 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

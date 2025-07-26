@@ -1,0 +1,55 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1932",
+            "questionFrontendId": "1783",
+            "boundTopicId": null,
+            "title": "Grand Slam Titles",
+            "titleSlug": "grand-slam-titles",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 231,
+            "dislikes": 9,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"25.8K\", \"totalSubmission\": \"30.8K\", \"totalAcceptedRaw\": 25750, \"totalSubmissionRaw\": 30805, \"acRate\": \"83.6%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Players\": [\"player_id\", \"player_name\"], \"Championships\": [\"year\", \"Wimbledon\", \"Fr_open\", \"US_open\", \"Au_open\"]}, \"rows\": {\"Players\": [[1, \"Nadal\"], [2, \"Federer\"], [3, \"Novak\"]], \"Championships\": [[2018, 1, 1, 1, 1], [2019, 1, 1, 2, 2], [2020, 2, 1, 2, 2]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Players (player_id int, player_name varchar(20))\", \"Create table If Not Exists Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)\"], \"mssql\": [\"Create table Players (player_id int, player_name varchar(20))\", \"Create table Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)\"], \"oraclesql\": [\"Create table Players (player_id int, player_name varchar(20))\", \"Create table Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)\"], \"database\": true, \"name\": \"grand_slam_titles\", \"pythondata\": [\"Players = pd.DataFrame([], columns=['player_id', 'player_name']).astype({'player_id':'Int64', 'player_name':'object'})\", \"Championships = pd.DataFrame([], columns=['year', 'Wimbledon', 'Fr_open', 'US_open', 'Au_open']).astype({'year':'Int64', 'Wimbledon':'Int64', 'Fr_open':'Int64', 'US_open':'Int64', 'Au_open':'Int64'})\"], \"postgresql\": [\"\\nCreate table If Not Exists Players (player_id int, player_name varchar(20))\\n\", \"Create table If Not Exists Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)\"], \"database_schema\": {\"Players\": {\"player_id\": \"INT\", \"player_name\": \"VARCHAR(20)\"}, \"Championships\": {\"year\": \"INT\", \"Wimbledon\": \"INT\", \"Fr_open\": \"INT\", \"US_open\": \"INT\", \"Au_open\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Players (player_id int, player_name varchar(20))",
+                "Create table If Not Exists Championships (year int, Wimbledon int, Fr_open int, US_open int, Au_open int)",
+                "Truncate table Players",
+                "insert into Players (player_id, player_name) values ('1', 'Nadal')",
+                "insert into Players (player_id, player_name) values ('2', 'Federer')",
+                "insert into Players (player_id, player_name) values ('3', 'Novak')",
+                "Truncate table Championships",
+                "insert into Championships (year, Wimbledon, Fr_open, US_open, Au_open) values ('2018', '1', '1', '1', '1')",
+                "insert into Championships (year, Wimbledon, Fr_open, US_open, Au_open) values ('2019', '1', '1', '2', '2')",
+                "insert into Championships (year, Wimbledon, Fr_open, US_open, Au_open) values ('2020', '2', '1', '2', '2')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

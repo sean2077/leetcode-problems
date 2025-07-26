@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2643",
+            "questionFrontendId": "2504",
+            "boundTopicId": 2017020,
+            "title": "Concatenate the Name and the Profession",
+            "titleSlug": "concatenate-the-name-and-the-profession",
+            "content": null,
+            "translatedTitle": "把名字和职业联系起来",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 2,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"1.8K\", \"totalAcceptedRaw\": 1413, \"totalSubmissionRaw\": 1776, \"acRate\": \"79.6%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Person\": [\"person_id\", \"name\", \"profession\"]}, \"rows\": {\"Person\": [[1, \"Alex\", \"Singer\"], [3, \"Alice\", \"Actor\"], [2, \"Bob\", \"Player\"], [4, \"Messi\", \"Doctor\"], [6, \"Tyson\", \"Engineer\"], [5, \"Meir\", \"Lawyer\"]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Person (person_id int, name varchar(30), profession ENUM('Doctor','Singer','Actor','Player','Engineer','Lawyer'))\"],\"mssql\":[\"Create table Person (person_id int, name varchar(30), profession varchar(8) not null check(profession in ('Doctor','Singer','Actor','Player','Engineer','Lawyer')))\"],\"oraclesql\":[\"Create table Person (person_id int, name varchar(30), profession varchar(8) not null check(profession in ('Doctor','Singer','Actor','Player','Engineer','Lawyer')))\"],\"database\":true,\"name\":\"concatenate_info\",\"pythondata\":[\"Person = pd.DataFrame([], columns=['person_id', 'name', 'profession']).astype({'person_id':'Int64', 'name':'object', 'profession':'object'})\"],\"postgresql\":[\"Create table If Not Exists Person (person_id int, name varchar(30), profession VARCHAR(30) CHECK (profession IN ('Doctor','Singer','Actor','Player','Engineer','Lawyer')))\\n\"],\"database_schema\":{\"Person\":{\"person_id\":\"INT\",\"name\":\"VARCHAR(30)\",\"profession\":\"ENUM('Doctor', 'Singer', 'Actor', 'Player', 'Engineer', 'Lawyer')\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Person (person_id int, name varchar(30), profession ENUM('Doctor','Singer','Actor','Player','Engineer','Lawyer'))",
+                "Truncate table Person",
+                "insert into Person (person_id, name, profession) values ('1', 'Alex', 'Singer')",
+                "insert into Person (person_id, name, profession) values ('3', 'Alice', 'Actor')",
+                "insert into Person (person_id, name, profession) values ('2', 'Bob', 'Player')",
+                "insert into Person (person_id, name, profession) values ('4', 'Messi', 'Doctor')",
+                "insert into Person (person_id, name, profession) values ('6', 'Tyson', 'Engineer')",
+                "insert into Person (person_id, name, profession) values ('5', 'Meir', 'Lawyer')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

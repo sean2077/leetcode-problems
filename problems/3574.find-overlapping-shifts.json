@@ -1,0 +1,57 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3574",
+            "questionFrontendId": "3262",
+            "boundTopicId": null,
+            "title": "Find Overlapping Shifts",
+            "titleSlug": "find-overlapping-shifts",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 9,
+            "dislikes": 2,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"1.7K\", \"totalSubmission\": \"2.9K\", \"totalAcceptedRaw\": 1731, \"totalSubmissionRaw\": 2881, \"acRate\": \"60.1%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"EmployeeShifts\":[\"employee_id\",\"start_time\",\"end_time\"]},\"rows\":{\"EmployeeShifts\":[[1,\"08:00:00\",\"12:00:00\"],[1,\"11:00:00\",\"15:00:00\"],[1,\"14:00:00\",\"18:00:00\"],[2,\"09:00:00\",\"17:00:00\"],[2,\"16:00:00\",\"20:00:00\"],[3,\"10:00:00\",\"12:00:00\"],[3,\"13:00:00\",\"15:00:00\"],[3,\"16:00:00\",\"18:00:00\"],[4,\"08:00:00\",\"10:00:00\"],[4,\"09:00:00\",\"11:00:00\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table if not exists EmployeeShifts(employee_id int, start_time time, end_time time)\"], \"mssql\": [\"Create table  EmployeeShifts(employee_id int, start_time time, end_time time)\"], \"oraclesql\": [\"Create table  EmployeeShifts(employee_id number, start_time date, end_time date)\", \"ALTER SESSION SET nls_date_format='HH24:MI:SS'\"], \"database\": true, \"name\": \"find_overlapping_shifts\", \"pythondata\": [\"EmployeeShifts = pd.DataFrame({\\n    'employee_id': pd.Series(dtype='int'),\\n    'start_time': pd.Series(dtype='datetime64[ns]'),\\n    'end_time': pd.Series(dtype='datetime64[ns]')\\n})\"], \"postgresql\": [\"CREATE TABLE IF NOT EXISTS EmployeeShifts (\\n    employee_id INT,\\n    start_time TIME,\\n    end_time TIME\\n);\\n\"], \"database_schema\": {\"EmployeeShifts\": {\"employee_id\": \"INT\", \"start_time\": \"TIME\", \"end_time\": \"TIME\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table if not exists EmployeeShifts(employee_id int, start_time time, end_time time)",
+                "Truncate table EmployeeShifts",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('1', '08:00:00', '12:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('1', '11:00:00', '15:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('1', '14:00:00', '18:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('2', '09:00:00', '17:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('2', '16:00:00', '20:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('3', '10:00:00', '12:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('3', '13:00:00', '15:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('3', '16:00:00', '18:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('4', '08:00:00', '10:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('4', '09:00:00', '11:00:00')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

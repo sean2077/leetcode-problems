@@ -1,0 +1,54 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1974",
+            "questionFrontendId": "1821",
+            "boundTopicId": null,
+            "title": "Find Customers With Positive Revenue this Year",
+            "titleSlug": "find-customers-with-positive-revenue-this-year",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 57,
+            "dislikes": 25,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"25.2K\", \"totalSubmission\": \"28.7K\", \"totalAcceptedRaw\": 25174, \"totalSubmissionRaw\": 28666, \"acRate\": \"87.8%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Customers\":[\"customer_id\",\"year\",\"revenue\"]},\"rows\":{\"Customers\":[[\"1\",\"2018\",\"50\"],[\"1\",\"2021\",\"30\"],[\"1\",\"2020\",\"70\"],[\"2\",\"2021\",\"-50\"],[\"3\",\"2018\",\"10\"],[\"3\",\"2016\",\"50\"],[\"4\",\"2021\",\"20\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Customers (customer_id int, year int, revenue int)\"], \"mssql\": [\"Create table Customers (customer_id int, year int, revenue int)\"], \"oraclesql\": [\"Create table Customers (customer_id int, year int, revenue int)\"], \"database\": true, \"name\": \"find_customers\", \"pythondata\": [\"Customers = pd.DataFrame([], columns=['customer_id', 'year', 'revenue']).astype({'customer_id':'Int64', 'year':'Int64', 'revenue':'Int64'})\"], \"postgresql\": [\"Create table If Not Exists Customers (customer_id int, year int, revenue int)\"], \"database_schema\": {\"Customers\": {\"customer_id\": \"INT\", \"year\": \"INT\", \"revenue\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Customers (customer_id int, year int, revenue int)",
+                "Truncate table Customers",
+                "insert into Customers (customer_id, year, revenue) values ('1', '2018', '50')",
+                "insert into Customers (customer_id, year, revenue) values ('1', '2021', '30')",
+                "insert into Customers (customer_id, year, revenue) values ('1', '2020', '70')",
+                "insert into Customers (customer_id, year, revenue) values ('2', '2021', '-50')",
+                "insert into Customers (customer_id, year, revenue) values ('3', '2018', '10')",
+                "insert into Customers (customer_id, year, revenue) values ('3', '2016', '50')",
+                "insert into Customers (customer_id, year, revenue) values ('4', '2021', '20')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

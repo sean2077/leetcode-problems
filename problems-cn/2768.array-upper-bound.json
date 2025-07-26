@@ -1,0 +1,42 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2768",
+            "questionFrontendId": "2774",
+            "boundTopicId": 2341825,
+            "title": "Array Upper Bound",
+            "titleSlug": "array-upper-bound",
+            "content": null,
+            "translatedTitle": "数组的上界",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 1,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Array Prototype Last\", \"titleSlug\": \"array-prototype-last\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u6570\\u7ec4\\u539f\\u578b\\u5bf9\\u8c61\\u7684\\u6700\\u540e\\u4e00\\u4e2a\\u5143\\u7d20\", \"isPaidOnly\": false}, {\"title\": \"Group By\", \"titleSlug\": \"group-by\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5206\\u7ec4\", \"isPaidOnly\": false}, {\"title\": \"Snail Traversal\", \"titleSlug\": \"snail-traversal\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u8717\\u725b\\u6392\\u5e8f\", \"isPaidOnly\": false}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"345\", \"totalSubmission\": \"417\", \"totalAcceptedRaw\": 345, \"totalSubmissionRaw\": 417, \"acRate\": \"82.7%\"}",
+            "hints": [
+                "Inside the Array.prototype.upperBound function you have access to the \"this\" keyword. You can access array elements, values, and methods. For example \"this[0]\", \"this[1]\", \"this.length\", \"this.map()\", etc.",
+                "The most efficient way to solve this problem is with binary search.",
+                "Choose the middle element and check if it's less than or equal to the goal value. If so, you can rule out the left side of the array."
+            ],
+            "status": null,
+            "sampleTestCase": "[3,4,5]\n5",
+            "metaData": "{\n  \"name\": \"upperBound\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"target\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 20.10.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"],\"typescript\":[\"TypeScript\",\"<p>TypeScript 5.1.6<\\/p>\\r\\n\\r\\n<p>Compile Options: --alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

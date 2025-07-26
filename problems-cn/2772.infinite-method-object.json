@@ -1,0 +1,42 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2772",
+            "questionFrontendId": "2690",
+            "boundTopicId": 2275510,
+            "title": "Infinite Method Object",
+            "titleSlug": "infinite-method-object",
+            "content": null,
+            "translatedTitle": "无穷方法对象",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 0,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Immutability Helper\", \"titleSlug\": \"immutability-helper\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u4e0d\\u53ef\\u53d8\\u8f85\\u52a9\\u5de5\\u5177\", \"isPaidOnly\": true}, {\"title\": \"Make Object Immutable\", \"titleSlug\": \"make-object-immutable\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u4f7f\\u5bf9\\u8c61\\u4e0d\\u53ef\\u53d8\", \"isPaidOnly\": true}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"366\", \"totalSubmission\": \"409\", \"totalAcceptedRaw\": 366, \"totalSubmissionRaw\": 409, \"acRate\": \"89.5%\"}",
+            "hints": [
+                "Javascript has the concept of Proxy. That concept is critical to this problem.",
+                "Override all \"get\" for the object. Return a function instead.",
+                "That function should return the \"prop\", i.e. the method name."
+            ],
+            "status": null,
+            "sampleTestCase": "\"abc123\"",
+            "metaData": "{\n  \"name\": \"createInfiniteObject\",\n  \"params\": [\n    {\n      \"type\": \"string\",\n      \"name\": \"method\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ]\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 20.10.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"],\"typescript\":[\"TypeScript\",\"<p>TypeScript 5.1.6<\\/p>\\r\\n\\r\\n<p>Compile Options: --alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2214",
+            "questionFrontendId": "2072",
+            "boundTopicId": null,
+            "title": "The Winner University",
+            "titleSlug": "the-winner-university",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 65,
+            "dislikes": 2,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"The Number of Rich Customers\", \"titleSlug\": \"the-number-of-rich-customers\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"11.3K\", \"totalSubmission\": \"15.3K\", \"totalAcceptedRaw\": 11315, \"totalSubmissionRaw\": 15290, \"acRate\": \"74.0%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"NewYork\":[\"student_id\",\"score\"],\"California\":[\"student_id\",\"score\"]},\"rows\":{\"NewYork\":[[1,90],[2,87]],\"California\":[[2,89],[3,88]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists NewYork (student_id int, score int)\", \"Create table If Not Exists California (student_id int, score int)\"], \"mssql\": [\"Create table NewYork (student_id int, score int)\", \"Create table California (student_id int, score int)\"], \"oraclesql\": [\"Create table NewYork (student_id int, score int)\", \"Create table California (student_id int, score int)\"], \"database\": true, \"name\": \"find_winner\", \"pythondata\": [\"NewYork = pd.DataFrame([], columns=['student_id', 'score']).astype({'student_id':'Int64', 'score':'Int64'})\", \"California = pd.DataFrame([], columns=['student_id', 'score']).astype({'student_id':'Int64', 'score':'Int64'})\"], \"postgresql\": [\"Create table If Not Exists NewYork (student_id int, score int)\", \"Create table If Not Exists California (student_id int, score int)\"], \"database_schema\": {\"NewYork\": {\"student_id\": \"INT\", \"score\": \"INT\"}, \"California\": {\"student_id\": \"INT\", \"score\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists NewYork (student_id int, score int)",
+                "Create table If Not Exists California (student_id int, score int)",
+                "Truncate table NewYork",
+                "insert into NewYork (student_id, score) values ('1', '90')",
+                "insert into NewYork (student_id, score) values ('2', '87')",
+                "Truncate table California",
+                "insert into California (student_id, score) values ('2', '89')",
+                "insert into California (student_id, score) values ('3', '88')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1607",
+            "questionFrontendId": "1459",
+            "boundTopicId": null,
+            "title": "Rectangles Area",
+            "titleSlug": "rectangles-area",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 96,
+            "dislikes": 161,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"17.4K\", \"totalSubmission\": \"25.4K\", \"totalAcceptedRaw\": 17407, \"totalSubmissionRaw\": 25408, \"acRate\": \"68.5%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Points\":[\"id\",\"x_value\",\"y_value\"]},\"rows\":{\"Points\":[[1,2,7],[2,4,8],[3,2,10]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Points (id int, x_value int, y_value int)\"], \"mssql\": [\"Create table Points (id int, x_value int, y_value int)\"], \"oraclesql\": [\"Create table Points (id int, x_value int, y_value int)\"], \"database\": true, \"name\": \"rectangles_area\", \"pythondata\": [\"Points = pd.DataFrame([], columns=['id', 'x_value', 'y_value']).astype({'id':'Int64', 'x_value':'Int64', 'y_value':'Int64'})\"], \"postgresql\": [\"\\nCreate table If Not Exists Points (id int, x_value int, y_value int)\"], \"database_schema\": {\"Points\": {\"id\": \"INT\", \"x_value\": \"INT\", \"y_value\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Points (id int, x_value int, y_value int)",
+                "Truncate table Points",
+                "insert into Points (id, x_value, y_value) values ('1', '2', '7')",
+                "insert into Points (id, x_value, y_value) values ('2', '4', '8')",
+                "insert into Points (id, x_value, y_value) values ('3', '2', '10')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

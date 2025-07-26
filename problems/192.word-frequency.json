@@ -1,0 +1,50 @@
+{
+    "data": {
+        "question": {
+            "questionId": "192",
+            "questionFrontendId": "192",
+            "boundTopicId": null,
+            "title": "Word Frequency",
+            "titleSlug": "word-frequency",
+            "content": "<p>Write a bash script to calculate the <span data-keyword=\"frequency-textfile\">frequency</span> of each word in a text file <code>words.txt</code>.</p>\n\n<p>For simplicity sake, you may assume:</p>\n\n<ul>\n\t<li><code>words.txt</code> contains only lowercase characters and space <code>&#39; &#39;</code> characters.</li>\n\t<li>Each word must consist of lowercase characters only.</li>\n\t<li>Words are separated by one or more whitespace characters.</li>\n</ul>\n\n<p><strong class=\"example\">Example:</strong></p>\n\n<p>Assume that <code>words.txt</code> has the following content:</p>\n\n<pre>\nthe day is sunny the the\nthe sunny is is\n</pre>\n\n<p>Your script should output the following, sorted by descending frequency:</p>\n\n<pre>\nthe 4\nis 3\nsunny 2\nday 1\n</pre>\n\n<p><b>Note:</b></p>\n\n<ul>\n\t<li>Don&#39;t worry about handling ties, it is guaranteed that each word&#39;s frequency count is unique.</li>\n\t<li>Could you write it in one-line using <a href=\"http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html\">Unix pipes</a>?</li>\n</ul>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Medium",
+            "likes": 543,
+            "dislikes": 307,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Top K Frequent Elements\", \"titleSlug\": \"top-k-frequent-elements\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "topicTags": [
+                {
+                    "name": "Shell",
+                    "slug": "shell",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "Bash",
+                    "langSlug": "bash",
+                    "code": "# Read from the file words.txt and output the word frequency list to stdout.\n"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"52.8K\", \"totalSubmission\": \"203.8K\", \"totalAcceptedRaw\": 52787, \"totalSubmissionRaw\": 203817, \"acRate\": \"25.9%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "a",
+            "metaData": "{\n  \"shell\": true,\n  \"manual\": true\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": false,
+            "enableTestMode": false,
+            "envInfo": "{\"bash\": [\"Bash\", \"<p><code>Bash 4.3.30</code>.</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

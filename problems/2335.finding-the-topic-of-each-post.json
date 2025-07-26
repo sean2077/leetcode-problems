@@ -1,0 +1,57 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2335",
+            "questionFrontendId": "2199",
+            "boundTopicId": null,
+            "title": "Finding the Topic of Each Post",
+            "titleSlug": "finding-the-topic-of-each-post",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 44,
+            "dislikes": 14,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Group Sold Products By The Date\", \"titleSlug\": \"group-sold-products-by-the-date\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"3.2K\", \"totalSubmission\": \"6.5K\", \"totalAcceptedRaw\": 3202, \"totalSubmissionRaw\": 6534, \"acRate\": \"49.0%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Keywords\": [\"topic_id\", \"word\"], \"Posts\": [\"post_id\", \"content\"]}, \"rows\": {\"Keywords\": [[1, \"handball\"], [1, \"football\"], [3, \"WAR\"], [2, \"Vaccine\"]], \"Posts\": [[1, \"We call it soccer They call it football hahaha\"], [2, \"Americans prefer basketball while Europeans love handball and football\"], [3, \"stop the war and play handball\"], [4, \"warning I planted some flowers this morning and then got vaccinated\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Keywords (topic_id int, word varchar(25))\", \"Create table If Not Exists Posts (post_id int, content varchar(100))\"], \"mssql\": [\"Create table Keywords (topic_id int, word varchar(25))\", \"Create table Posts (post_id int, content varchar(100))\"], \"oraclesql\": [\"Create table Keywords (topic_id int, word varchar(25))\", \"Create table Posts (post_id int, content varchar(100))\"], \"database\": true, \"name\": \"find_topic\", \"pythondata\": [\"Keywords = pd.DataFrame([], columns=['topic_id', 'word']).astype({'topic_id':'Int64', 'word':'object'})\", \"Posts = pd.DataFrame([], columns=['post_id', 'content']).astype({'post_id':'Int64', 'content':'object'})\"], \"postgresql\": [\"Create table If Not Exists Keywords (topic_id int, word varchar(25))\", \"Create table If Not Exists Posts (post_id int, content varchar(100))\"], \"database_schema\": {\"Keywords\": {\"topic_id\": \"INT\", \"word\": \"VARCHAR(25)\"}, \"Posts\": {\"post_id\": \"INT\", \"content\": \"VARCHAR(100)\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Keywords (topic_id int, word varchar(25))",
+                "Create table If Not Exists Posts (post_id int, content varchar(100))",
+                "Truncate table Keywords",
+                "insert into Keywords (topic_id, word) values ('1', 'handball')",
+                "insert into Keywords (topic_id, word) values ('1', 'football')",
+                "insert into Keywords (topic_id, word) values ('3', 'WAR')",
+                "insert into Keywords (topic_id, word) values ('2', 'Vaccine')",
+                "Truncate table Posts",
+                "insert into Posts (post_id, content) values ('1', 'We call it soccer They call it football hahaha')",
+                "insert into Posts (post_id, content) values ('2', 'Americans prefer basketball while Europeans love handball and football')",
+                "insert into Posts (post_id, content) values ('3', 'stop the war and play handball')",
+                "insert into Posts (post_id, content) values ('4', 'warning I planted some flowers this morning and then got vaccinated')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

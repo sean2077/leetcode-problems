@@ -1,0 +1,51 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3512",
+            "questionFrontendId": "3204",
+            "boundTopicId": null,
+            "title": "Bitwise User Permissions Analysis",
+            "titleSlug": "bitwise-user-permissions-analysis",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 4,
+            "dislikes": 2,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"383\", \"totalSubmission\": \"400\", \"totalAcceptedRaw\": 383, \"totalSubmissionRaw\": 400, \"acRate\": \"95.8%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"user_permissions\":[\"user_id\",\"permissions\"]},\"rows\":{\"user_permissions\":[[1,5],[2,12],[3,7],[4,3]]}}",
+            "metaData": "{\"mysql\": [\"Create table if not exists user_permissions(user_id int, permissions int)\"], \"mssql\": [\"Create table user_permissions(user_id int, permissions int)\"], \"oraclesql\": [\"Create table user_permissions(user_id NUMBER, permissions NUMBER)\"], \"database\": true, \"name\": \"analyze_permissions\", \"postgresql\": [\"CREATE TABLE IF NOT EXISTS user_permissions (\\n    user_id int,\\n    permissions int\\n);\\n\"], \"pythondata\": [\"user_permissions = pd.DataFrame({\\n    'user_id': pd.Series(dtype='int'),\\n    'permissions': pd.Series(dtype='int')\\n})\"], \"database_schema\": {\"user_permissions\": {\"user_id\": \"INT\", \"permissions\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table if not exists user_permissions(user_id int, permissions int)",
+                "Truncate table user_permissions",
+                "insert into user_permissions (user_id, permissions) values ('1', '5')",
+                "insert into user_permissions (user_id, permissions) values ('2', '12')",
+                "insert into user_permissions (user_id, permissions) values ('3', '7')",
+                "insert into user_permissions (user_id, permissions) values ('4', '3')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

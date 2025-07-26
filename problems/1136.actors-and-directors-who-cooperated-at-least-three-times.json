@@ -1,0 +1,80 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1136",
+            "questionFrontendId": "1050",
+            "boundTopicId": null,
+            "title": "Actors and Directors Who Cooperated At Least Three Times",
+            "titleSlug": "actors-and-directors-who-cooperated-at-least-three-times",
+            "content": "<p>Table: <code>ActorDirector</code></p>\n\n<pre>\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| actor_id    | int     |\n| director_id | int     |\n| timestamp   | int     |\n+-------------+---------+\ntimestamp is the primary key (column with unique values) for this table.\n</pre>\n\n<p>&nbsp;</p>\n\n<p>Write a solution to find all the pairs <code>(actor_id, director_id)</code> where the actor has cooperated with the director at least three times.</p>\n\n<p>Return the result table in <strong>any order</strong>.</p>\n\n<p>The result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> \nActorDirector table:\n+-------------+-------------+-------------+\n| actor_id    | director_id | timestamp   |\n+-------------+-------------+-------------+\n| 1           | 1           | 0           |\n| 1           | 1           | 1           |\n| 1           | 1           | 2           |\n| 1           | 2           | 3           |\n| 1           | 2           | 4           |\n| 2           | 1           | 5           |\n| 2           | 1           | 6           |\n+-------------+-------------+-------------+\n<strong>Output:</strong> \n+-------------+-------------+\n| actor_id    | director_id |\n+-------------+-------------+\n| 1           | 1           |\n+-------------+-------------+\n<strong>Explanation:</strong> The only pair is (1, 1) where they cooperated exactly 3 times.\n</pre>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Easy",
+            "likes": 653,
+            "dislikes": 51,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "MySQL",
+                    "langSlug": "mysql",
+                    "code": "# Write your MySQL query statement below\n"
+                },
+                {
+                    "lang": "MS SQL Server",
+                    "langSlug": "mssql",
+                    "code": "/* Write your T-SQL query statement below */\n"
+                },
+                {
+                    "lang": "Oracle",
+                    "langSlug": "oraclesql",
+                    "code": "/* Write your PL/SQL query statement below */\n"
+                },
+                {
+                    "lang": "Pandas",
+                    "langSlug": "pythondata",
+                    "code": "import pandas as pd\n\ndef actors_and_directors(actor_director: pd.DataFrame) -> pd.DataFrame:\n    "
+                },
+                {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"187.5K\", \"totalSubmission\": \"267.4K\", \"totalAcceptedRaw\": 187485, \"totalSubmissionRaw\": 267396, \"acRate\": \"70.1%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"ActorDirector\":[\"actor_id\",\"director_id\",\"timestamp\"]},\"rows\":{\"ActorDirector\":[[1,1,0],[1,1,1],[1,1,2],[1,2,3],[1,2,4],[2,1,5],[2,1,6]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists ActorDirector (actor_id int, director_id int, timestamp int)\"], \"mssql\": [\"Create table ActorDirector (actor_id int, director_id int, timestamp int)\"], \"oraclesql\": [\"Create table ActorDirector (actor_id int, director_id int, timestamp int)\"], \"database\": true, \"name\": \"actors_and_directors\", \"pythondata\": [\"ActorDirector = pd.DataFrame([], columns=['actor_id', 'director_id', 'timestamp']).astype({'actor_id':'int64', 'director_id':'int64', 'timestamp':'int64'})\"], \"manual\": false, \"postgresql\": [\"Create table If Not Exists ActorDirector (actor_id int, director_id int, timestamp int)\"], \"database_schema\": {\"ActorDirector\": {\"actor_id\": \"INT\", \"director_id\": \"INT\", \"timestamp\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists ActorDirector (actor_id int, director_id int, timestamp int)",
+                "Truncate table ActorDirector",
+                "insert into ActorDirector (actor_id, director_id, timestamp) values ('1', '1', '0')",
+                "insert into ActorDirector (actor_id, director_id, timestamp) values ('1', '1', '1')",
+                "insert into ActorDirector (actor_id, director_id, timestamp) values ('1', '1', '2')",
+                "insert into ActorDirector (actor_id, director_id, timestamp) values ('1', '2', '3')",
+                "insert into ActorDirector (actor_id, director_id, timestamp) values ('1', '2', '4')",
+                "insert into ActorDirector (actor_id, director_id, timestamp) values ('2', '1', '5')",
+                "insert into ActorDirector (actor_id, director_id, timestamp) values ('2', '1', '6')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

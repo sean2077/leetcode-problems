@@ -1,0 +1,56 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3288",
+            "questionFrontendId": "2991",
+            "boundTopicId": null,
+            "title": "Top Three Wineries ",
+            "titleSlug": "top-three-wineries",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 8,
+            "dislikes": 5,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 1219, \"totalSubmissionRaw\": 2273, \"acRate\": \"53.6%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Wineries\":[\"id\",\"country\",\"points\",\"winery\"]},\"rows\":{\"Wineries\":[[103,\"Australia\",84,\"WhisperingPines\"],[737,\"Australia\",85,\"GrapesGalore\"],[848,\"Australia\",100,\"HarmonyHill\"],[222,\"Hungary\",60,\"MoonlitCellars\"],[116,\"USA\",47,\"RoyalVines\"],[124,\"USA\",45,\"Eagle'sNest\"],[648,\"India\",69,\"SunsetVines\"],[894,\"USA\",39,\"RoyalVines\"],[677,\"USA\",9,\"PacificCrest\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table if Not Exists Wineries ( id int, country varchar(60), points int, winery varchar(60))\"], \"mssql\": [\"Create table Wineries ( id int, country varchar(60), points int, winery varchar(60))\"], \"oraclesql\": [\"Create table  Wineries ( id int, country varchar(60), points int, winery varchar(60))\"], \"database\": true, \"name\": \"top_three_wineries\", \"postgresql\": [\"CREATE TABLE IF NOT EXISTS Wineries (\\n  id INT,\\n  country VARCHAR(60),\\n  points INT,\\n  winery VARCHAR(60)\\n);\"], \"pythondata\": [\"Wineries = pd.DataFrame([], columns=['id', 'country', 'points', 'winery']).astype({'id':'Int64', 'country':'object', 'points':'Int64', 'winery':'object'})\\n\"], \"database_schema\": {\"Wineries\": {\"id\": \"INT\", \"country\": \"VARCHAR(60)\", \"points\": \"INT\", \"winery\": \"VARCHAR(60)\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table if Not Exists Wineries ( id int, country varchar(60), points int, winery varchar(60))",
+                "Truncate table Wineries",
+                "insert into Wineries (id, country, points, winery) values ('103', 'Australia', '84', 'WhisperingPines')",
+                "insert into Wineries (id, country, points, winery) values ('737', 'Australia', '85', 'GrapesGalore')",
+                "insert into Wineries (id, country, points, winery) values ('848', 'Australia', '100', 'HarmonyHill')",
+                "insert into Wineries (id, country, points, winery) values ('222', 'Hungary', '60', 'MoonlitCellars')",
+                "insert into Wineries (id, country, points, winery) values ('116', 'USA', '47', 'RoyalVines')",
+                "insert into Wineries (id, country, points, winery) values ('124', 'USA', '45', 'Eagle'sNest')",
+                "insert into Wineries (id, country, points, winery) values ('648', 'India', '69', 'SunsetVines')",
+                "insert into Wineries (id, country, points, winery) values ('894', 'USA', '39', 'RoyalVines')",
+                "insert into Wineries (id, country, points, winery) values ('677', 'USA', '9', 'PacificCrest')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

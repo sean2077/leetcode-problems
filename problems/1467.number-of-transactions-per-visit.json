@@ -1,0 +1,67 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1467",
+            "questionFrontendId": "1336",
+            "boundTopicId": null,
+            "title": "Number of Transactions per Visit",
+            "titleSlug": "number-of-transactions-per-visit",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 91,
+            "dislikes": 316,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Find the Missing IDs\", \"titleSlug\": \"find-the-missing-ids\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"12.8K\", \"totalSubmission\": \"26.8K\", \"totalAcceptedRaw\": 12791, \"totalSubmissionRaw\": 26816, \"acRate\": \"47.7%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Visits\":[\"user_id\",\"visit_date\"],\"Transactions\":[\"user_id\",\"transaction_date\",\"amount\"]},\"rows\":{\"Visits\":[[1,\"2020-01-01\"],[2,\"2020-01-02\"],[12,\"2020-01-01\"],[19,\"2020-01-03\"],[1,\"2020-01-02\"],[2,\"2020-01-03\"],[1,\"2020-01-04\"],[7,\"2020-01-11\"],[9,\"2020-01-25\"],[8,\"2020-01-28\"]],\"Transactions\":[[1,\"2020-01-02\",120],[2,\"2020-01-03\",22],[7,\"2020-01-11\",232],[1,\"2020-01-04\",7],[9,\"2020-01-25\",33],[9,\"2020-01-25\",66],[8,\"2020-01-28\",1],[9,\"2020-01-25\",99]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Visits (user_id int, visit_date date)\", \"Create table If Not Exists Transactions (user_id int, transaction_date date, amount int)\"], \"mssql\": [\"Create table Visits (user_id int, visit_date date)\", \"Create table Transactions (user_id int, transaction_date date, amount int)\"], \"oraclesql\": [\"Create table Visits (user_id int, visit_date date)\", \"Create table Transactions (user_id int, transaction_date date, amount int)\", \"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"], \"database\": true, \"name\": \"draw_chart\", \"pythondata\": [\"Visits = pd.DataFrame([], columns=['user_id', 'visit_date']).astype({'user_id':'Int64', 'visit_date':'datetime64[ns]'})\", \"Transactions = pd.DataFrame([], columns=['user_id', 'transaction_date', 'amount']).astype({'user_id':'Int64', 'transaction_date':'datetime64[ns]', 'amount':'Int64'})\"], \"postgresql\": [\"\\nCreate table If Not Exists Visits (user_id int, visit_date date)\\n\", \"Create table If Not Exists Transactions (user_id int, transaction_date date, amount int)\"], \"database_schema\": {\"Visits\": {\"user_id\": \"INT\", \"visit_date\": \"DATE\"}, \"Transactions\": {\"user_id\": \"INT\", \"transaction_date\": \"DATE\", \"amount\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Visits (user_id int, visit_date date)",
+                "Create table If Not Exists Transactions (user_id int, transaction_date date, amount int)",
+                "Truncate table Visits",
+                "insert into Visits (user_id, visit_date) values ('1', '2020-01-01')",
+                "insert into Visits (user_id, visit_date) values ('2', '2020-01-02')",
+                "insert into Visits (user_id, visit_date) values ('12', '2020-01-01')",
+                "insert into Visits (user_id, visit_date) values ('19', '2020-01-03')",
+                "insert into Visits (user_id, visit_date) values ('1', '2020-01-02')",
+                "insert into Visits (user_id, visit_date) values ('2', '2020-01-03')",
+                "insert into Visits (user_id, visit_date) values ('1', '2020-01-04')",
+                "insert into Visits (user_id, visit_date) values ('7', '2020-01-11')",
+                "insert into Visits (user_id, visit_date) values ('9', '2020-01-25')",
+                "insert into Visits (user_id, visit_date) values ('8', '2020-01-28')",
+                "Truncate table Transactions",
+                "insert into Transactions (user_id, transaction_date, amount) values ('1', '2020-01-02', '120')",
+                "insert into Transactions (user_id, transaction_date, amount) values ('2', '2020-01-03', '22')",
+                "insert into Transactions (user_id, transaction_date, amount) values ('7', '2020-01-11', '232')",
+                "insert into Transactions (user_id, transaction_date, amount) values ('1', '2020-01-04', '7')",
+                "insert into Transactions (user_id, transaction_date, amount) values ('9', '2020-01-25', '33')",
+                "insert into Transactions (user_id, transaction_date, amount) values ('9', '2020-01-25', '66')",
+                "insert into Transactions (user_id, transaction_date, amount) values ('8', '2020-01-28', '1')",
+                "insert into Transactions (user_id, transaction_date, amount) values ('9', '2020-01-25', '99')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

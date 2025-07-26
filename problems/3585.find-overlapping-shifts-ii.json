@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3585",
+            "questionFrontendId": "3268",
+            "boundTopicId": null,
+            "title": "Find Overlapping Shifts II",
+            "titleSlug": "find-overlapping-shifts-ii",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 6,
+            "dislikes": 5,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"952\", \"totalSubmission\": \"1.6K\", \"totalAcceptedRaw\": 952, \"totalSubmissionRaw\": 1582, \"acRate\": \"60.2%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"EmployeeShifts\":[\"employee_id\",\"start_time\",\"end_time\"]},\"rows\":{\"EmployeeShifts\":[[1,\"2023-10-01 09:00:00\",\"2023-10-01 17:00:00\"],[1,\"2023-10-01 15:00:00\",\"2023-10-01 23:00:00\"],[1,\"2023-10-01 16:00:00\",\"2023-10-02 00:00:00\"],[2,\"2023-10-01 09:00:00\",\"2023-10-01 17:00:00\"],[2,\"2023-10-01 11:00:00\",\"2023-10-01 19:00:00\"],[3,\"2023-10-01 09:00:00\",\"2023-10-01 17:00:00\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table if not exists EmployeeShifts(employee_id int, start_time datetime, end_time datetime)\"], \"mssql\": [\"Create table  EmployeeShifts(employee_id int, start_time datetime, end_time datetime)\"], \"oraclesql\": [\"Create table  EmployeeShifts(employee_id number, start_time date, end_time date)\", \"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"], \"database\": true, \"name\": \"calculate_shift_overlaps\", \"postgresql\": [\"CREATE TABLE IF NOT EXISTS EmployeeShifts (\\n    employee_id INT,\\n    start_time TIMESTAMP,\\n    end_time TIMESTAMP\\n);\\n\"], \"pythondata\": [\"EmployeeShifts = pd.DataFrame([], columns=['employee_id', 'start_time', 'end_time']).astype({\\n    'employee_id': 'Int64',                 # Nullable integer type\\n    'start_time': 'datetime64[ns]',         # Datetime for start time\\n    'end_time': 'datetime64[ns]'            # Datetime for end time\\n})\"], \"database_schema\": {\"EmployeeShifts\": {\"employee_id\": \"INT\", \"start_time\": \"DATETIME\", \"end_time\": \"DATETIME\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table if not exists EmployeeShifts(employee_id int, start_time datetime, end_time datetime)",
+                "Truncate table EmployeeShifts",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('1', '2023-10-01 09:00:00', '2023-10-01 17:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('1', '2023-10-01 15:00:00', '2023-10-01 23:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('1', '2023-10-01 16:00:00', '2023-10-02 00:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('2', '2023-10-01 09:00:00', '2023-10-01 17:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('2', '2023-10-01 11:00:00', '2023-10-01 19:00:00')",
+                "insert into EmployeeShifts (employee_id, start_time, end_time) values ('3', '2023-10-01 09:00:00', '2023-10-01 17:00:00')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.2.2 and NumPy 1.26.4</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

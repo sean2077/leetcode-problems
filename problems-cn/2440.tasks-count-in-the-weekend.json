@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2440",
+            "questionFrontendId": "2298",
+            "boundTopicId": 1593866,
+            "title": "Tasks Count in the Weekend",
+            "titleSlug": "tasks-count-in-the-weekend",
+            "content": null,
+            "translatedTitle": "周末任务计数",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 3,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"1.8K\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 1793, \"totalSubmissionRaw\": 2309, \"acRate\": \"77.7%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Tasks\": [\"task_id\", \"assignee_id\", \"submit_date\"]}, \"rows\": {\"Tasks\": [[1, 1, \"2022-06-13\"], [2, 6, \"2022-06-14\"], [3, 6, \"2022-06-15\"], [4, 3, \"2022-06-18\"], [5, 5, \"2022-06-19\"], [6, 7, \"2022-06-19\"]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Tasks (task_id int, assignee_id int, submit_date date)\"],\"mssql\":[\"Create table Tasks (task_id int, assignee_id int, submit_date date)\"],\"oraclesql\":[\"Create table Tasks (task_id int, assignee_id int, submit_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"count_tasks\",\"pythondata\":[\"Tasks = pd.DataFrame([], columns=['task_id', 'assignee_id', 'submit_date']).astype({'task_id':'Int64', 'assignee_id':'Int64', 'submit_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Tasks (task_id int, assignee_id int, submit_date date)\"],\"database_schema\":{\"Tasks\":{\"task_id\":\"INT\",\"assignee_id\":\"INT\",\"submit_date\":\"DATE\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Tasks (task_id int, assignee_id int, submit_date date)",
+                "Truncate table Tasks",
+                "insert into Tasks (task_id, assignee_id, submit_date) values ('1', '1', '2022-06-13')",
+                "insert into Tasks (task_id, assignee_id, submit_date) values ('2', '6', '2022-06-14')",
+                "insert into Tasks (task_id, assignee_id, submit_date) values ('3', '6', '2022-06-15')",
+                "insert into Tasks (task_id, assignee_id, submit_date) values ('4', '3', '2022-06-18')",
+                "insert into Tasks (task_id, assignee_id, submit_date) values ('5', '5', '2022-06-19')",
+                "insert into Tasks (task_id, assignee_id, submit_date) values ('6', '7', '2022-06-19')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

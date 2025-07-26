@@ -1,0 +1,59 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1339",
+            "questionFrontendId": "1212",
+            "boundTopicId": 33146,
+            "title": "Team Scores in Football Tournament",
+            "titleSlug": "team-scores-in-football-tournament",
+            "content": null,
+            "translatedTitle": "查询球队积分",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 70,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"15.2K\", \"totalSubmission\": \"30.5K\", \"totalAcceptedRaw\": 15168, \"totalSubmissionRaw\": 30492, \"acRate\": \"49.7%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Teams\": [\"team_id\", \"team_name\"], \"Matches\": [\"match_id\", \"host_team\", \"guest_team\", \"host_goals\", \"guest_goals\"]}, \"rows\": {\"Teams\": [[10, \"Leetcode FC\"], [20, \"NewYork FC\"], [30, \"Atlanta FC\"], [40, \"Chicago FC\"], [50, \"Toronto FC\"]], \"Matches\": [[1, 10, 20, 3, 0], [2, 30, 10, 2, 2], [3, 10, 50, 5, 1], [4, 20, 30, 1, 0], [5, 50, 30, 1, 0]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Teams (team_id int, team_name varchar(30))\",\"Create table If Not Exists Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)\"],\"mssql\":[\"Create table Teams (team_id int, team_name varchar(30))\",\"Create table Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)\"],\"oraclesql\":[\"Create table Teams (team_id int, team_name varchar(30))\",\"Create table Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)\"],\"database\":true,\"name\":\"team_scores\",\"pythondata\":[\"Teams = pd.DataFrame([], columns=['team_id', 'team_name']).astype({'team_id':'Int64', 'team_name':'object'})\",\"Matches = pd.DataFrame([], columns=['match_id', 'host_team', 'guest_team', 'host_goals', 'guest_goals']).astype({'match_id':'Int64', 'host_team':'Int64', 'guest_team':'Int64', 'host_goals':'Int64', 'guest_goals':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Teams (team_id int, team_name varchar(30))\\n\",\"Create table If Not Exists Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)\"],\"database_schema\":{\"Teams\":{\"team_id\":\"INT\",\"team_name\":\"VARCHAR(30)\"},\"Matches\":{\"match_id\":\"INT\",\"host_team\":\"INT\",\"guest_team\":\"INT\",\"host_goals\":\"INT\",\"guest_goals\":\"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Teams (team_id int, team_name varchar(30))",
+                "Create table If Not Exists Matches (match_id int, host_team int, guest_team int, host_goals int, guest_goals int)",
+                "Truncate table Teams",
+                "insert into Teams (team_id, team_name) values ('10', 'Leetcode FC')",
+                "insert into Teams (team_id, team_name) values ('20', 'NewYork FC')",
+                "insert into Teams (team_id, team_name) values ('30', 'Atlanta FC')",
+                "insert into Teams (team_id, team_name) values ('40', 'Chicago FC')",
+                "insert into Teams (team_id, team_name) values ('50', 'Toronto FC')",
+                "Truncate table Matches",
+                "insert into Matches (match_id, host_team, guest_team, host_goals, guest_goals) values ('1', '10', '20', '3', '0')",
+                "insert into Matches (match_id, host_team, guest_team, host_goals, guest_goals) values ('2', '30', '10', '2', '2')",
+                "insert into Matches (match_id, host_team, guest_team, host_goals, guest_goals) values ('3', '10', '50', '5', '1')",
+                "insert into Matches (match_id, host_team, guest_team, host_goals, guest_goals) values ('4', '20', '30', '1', '0')",
+                "insert into Matches (match_id, host_team, guest_team, host_goals, guest_goals) values ('5', '50', '30', '1', '0')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

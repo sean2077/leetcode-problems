@@ -1,0 +1,58 @@
+{
+    "data": {
+        "question": {
+            "questionId": "580",
+            "questionFrontendId": "580",
+            "boundTopicId": null,
+            "title": "Count Student Number in Departments",
+            "titleSlug": "count-student-number-in-departments",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 245,
+            "dislikes": 36,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"68.4K\", \"totalSubmission\": \"115.6K\", \"totalAcceptedRaw\": 68360, \"totalSubmissionRaw\": 115638, \"acRate\": \"59.1%\"}",
+            "hints": [
+                "Still remember the difference between 'INNER JOIN' and 'OUTTER JOIN' in SQL?",
+                "Do you know other expressions using the 'COUNT' function besides 'COUNT(*)'?"
+            ],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Student\":[\"student_id\",\"student_name\",\"gender\",\"dept_id\"],\"Department\":[\"dept_id\",\"dept_name\"]},\"rows\":{\"Student\":[[1,\"Jack\",\"M\",1],[2,\"Jane\",\"F\",1],[3,\"Mark\",\"M\",2]],\"Department\":[[1,\"Engineering\"],[2,\"Science\"],[3,\"Law\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Student (student_id int,student_name varchar(45), gender varchar(6), dept_id int)\", \"Create table If Not Exists Department (dept_id int, dept_name varchar(255))\"], \"mssql\": [\"Create table Student (student_id int,student_name varchar(45), gender varchar(6), dept_id int)\", \"Create table Department (dept_id int, dept_name varchar(255))\"], \"oraclesql\": [\"Create table Student (student_id int,student_name varchar(45), gender varchar(6), dept_id int)\", \"Create table Department (dept_id int, dept_name varchar(255))\"], \"database\": true, \"name\": \"count_students\", \"pythondata\": [\"Student = pd.DataFrame([], columns=['student_id', 'student_name', 'gender', 'dept_id']).astype({'student_id':'Int64', 'student_name':'object', 'gender':'object', 'dept_id':'Int64'})\", \"Department = pd.DataFrame([], columns=['dept_id', 'dept_name']).astype({'dept_id':'Int64', 'dept_name':'object'})\"], \"postgresql\": [\"\\nCreate table If Not Exists Student (student_id int,student_name varchar(45), gender varchar(6), dept_id int)\", \"Create table If Not Exists Department (dept_id int, dept_name varchar(255))\"], \"database_schema\": {\"Student\": {\"student_id\": \"INT\", \"student_name\": \"VARCHAR(45)\", \"gender\": \"VARCHAR(6)\", \"dept_id\": \"INT\"}, \"Department\": {\"dept_id\": \"INT\", \"dept_name\": \"VARCHAR(255)\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Student (student_id int,student_name varchar(45), gender varchar(6), dept_id int)",
+                "Create table If Not Exists Department (dept_id int, dept_name varchar(255))",
+                "Truncate table Student",
+                "insert into Student (student_id, student_name, gender, dept_id) values ('1', 'Jack', 'M', '1')",
+                "insert into Student (student_id, student_name, gender, dept_id) values ('2', 'Jane', 'F', '1')",
+                "insert into Student (student_id, student_name, gender, dept_id) values ('3', 'Mark', 'M', '2')",
+                "Truncate table Department",
+                "insert into Department (dept_id, dept_name) values ('1', 'Engineering')",
+                "insert into Department (dept_id, dept_name) values ('2', 'Science')",
+                "insert into Department (dept_id, dept_name) values ('3', 'Law')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

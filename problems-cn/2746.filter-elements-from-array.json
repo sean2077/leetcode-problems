@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2746",
+            "questionFrontendId": "2634",
+            "boundTopicId": 2222269,
+            "title": "Filter Elements from Array",
+            "titleSlug": "filter-elements-from-array",
+            "content": "<p>Given an integer array <code>arr</code> and a filtering function <code>fn</code>, return a filtered array <code>filteredArr</code>.</p>\n\n<p>The <code>fn</code> function takes one or two arguments:</p>\n\n<ul>\n\t<li><code>arr[i]</code> - number&nbsp;from&nbsp;the <code>arr</code></li>\n\t<li><code>i</code>&nbsp;- index of <code>arr[i]</code></li>\n</ul>\n\n<p><code>filteredArr</code> should only contain the elements from the&nbsp;<code>arr</code> for which the expression <code>fn(arr[i], i)</code> evaluates to a <strong>truthy</strong> value. A&nbsp;<strong>truthy</strong>&nbsp;value is a value where&nbsp;<code>Boolean(value)</code>&nbsp;returns&nbsp;<code>true</code>.</p>\n\n<p>Please solve it without the built-in <code>Array.filter</code> method.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [0,10,20,30], fn = function greaterThan10(n) { return n &gt; 10; }\n<strong>Output:</strong> [20,30]\n<strong>Explanation:</strong>\nconst newArray = filter(arr, fn); // [20, 30]\nThe function filters out values that are not greater than 10</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [1,2,3], fn = function firstIndex(n, i) { return i === 0; }\n<strong>Output:</strong> [1]\n<strong>Explanation:</strong>\nfn can also accept the index of each element\nIn this case, the function removes elements not at index 0\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [-2,-1,0,1,2], fn = function plusOne(n) { return n + 1 }\n<strong>Output:</strong> [-2,0,1,2]\n<strong>Explanation:</strong>\nFalsey values such as 0 should be filtered out\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= arr.length &lt;= 1000</code></li>\n\t<li><code>-10<sup>9</sup>&nbsp;&lt;= arr[i] &lt;= 10<sup>9</sup></code></li>\n</ul>\n",
+            "translatedTitle": "过滤数组中的元素",
+            "translatedContent": "<p>给定一个整数数组&nbsp;<code>arr</code> 和一个过滤函数 <code>fn</code>，并返回一个过滤后的数组 <code>filteredArr</code> 。</p>\n\n<p><code>fn</code> 函数接受一个或两个参数：</p>\n\n<ul>\n\t<li><code>arr[i]</code> - <code>arr</code> 中的数字</li>\n\t<li><code>i</code> - <code>arr[i]</code> 的索引</li>\n</ul>\n\n<p><code>filteredArr</code> 应该只包含使表达式 <code>fn(arr[i], i)</code> 的值为 <strong>真值</strong> 的 <code>arr</code> 中的元素。<strong>真值</strong> 是指 <code>Boolean(value)</code>&nbsp;返回参数为&nbsp;<code>true</code> 的值。</p>\n\n<p>请在不使用内置的 <code>Array.filter</code> 方法的情况下解决该问题。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>arr = [0,10,20,30], fn = function greaterThan10(n) { return n &gt; 10; }\n<b>输出：</b> [20,30]\n<b>解释：</b>\nconst newArray = filter(arr, fn); // [20, 30]\n过滤函数过滤掉不大于 10 的值</pre>\n\n<p><strong class=\"example\">示例 2：</strong></p>\n\n<pre>\n<b>输入：</b>arr = [1,2,3], fn = function firstIndex(n, i) { return i === 0; }\n<b>输出：</b>[1]\n<strong>解释：</strong>\n过滤函数 fn 也可以接受每个元素的索引\n在这种情况下，过滤函数删除索引不为 0 的元素\n</pre>\n\n<p><strong class=\"example\">示例 3：</strong></p>\n\n<pre>\n<b>输入：</b>arr = [-2,-1,0,1,2], fn = function plusOne(n) { return n + 1 }\n<b>输出：</b>[-2,0,1,2]\n<strong>解释：</strong>\n像 0 这样的假值应被过滤掉\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= arr.length &lt;= 1000</code></li>\n\t<li><code><font face=\"monospace\">-10<sup>9</sup>&nbsp;&lt;= arr[i] &lt;= 10<sup>9</sup></font></code></li>\n</ul>\n",
+            "isPaidOnly": false,
+            "difficulty": "Easy",
+            "likes": 8,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Group By\", \"titleSlug\": \"group-by\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u5206\\u7ec4\", \"isPaidOnly\": false}, {\"title\": \"Apply Transform Over Each Element in Array\", \"titleSlug\": \"apply-transform-over-each-element-in-array\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u8f6c\\u6362\\u6570\\u7ec4\\u4e2d\\u7684\\u6bcf\\u4e2a\\u5143\\u7d20\", \"isPaidOnly\": false}, {\"title\": \"Array Reduce Transformation\", \"titleSlug\": \"array-reduce-transformation\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u6570\\u7ec4\\u5f52\\u7ea6\\u8fd0\\u7b97\", \"isPaidOnly\": false}]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": true, \"java\": true, \"python\": true, \"python3\": true, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "topicTags": [],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "JavaScript",
+                    "langSlug": "javascript",
+                    "code": "/**\n * @param {number[]} arr\n * @param {Function} fn\n * @return {number[]}\n */\nvar filter = function(arr, fn) {\n    \n};"
+                },
+                {
+                    "lang": "TypeScript",
+                    "langSlug": "typescript",
+                    "code": "type Fn = (n: number, i: number) => any\n\nfunction filter(arr: number[], fn: Fn): number[] {\n    \n};"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"12.1K\", \"totalSubmission\": \"15.9K\", \"totalAcceptedRaw\": 12053, \"totalSubmissionRaw\": 15854, \"acRate\": \"76.0%\"}",
+            "hints": [
+                "Start by declaring a new array which will eventually be returned.",
+                "In Javascript, there is the concept of \"truthiness\" and \"falsiness\". Values such as 0, undefined, null, and false are falsy. Most values are truthy: 1, {}, [], true, etc. In Javascript, the contents of if-statements don't need to be booleans. You can say \"if ([1,2,3]) {}\", and it's equivalent to saying 'if (true) {}\".",
+                "Loop over each element in the array. If fn(arr[i]) is truthy, push it to the array."
+            ],
+            "status": null,
+            "sampleTestCase": "function greaterThan10(n) { return n > 10; }\n[0,10,20,30]",
+            "metaData": "{\n  \"name\": \"filter\",\n  \"params\": [\n    {\n      \"name\": \"arr\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"fn\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ]\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 20.10.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"],\"typescript\":[\"TypeScript\",\"<p>TypeScript 5.1.6<\\/p>\\r\\n\\r\\n<p>Compile Options: --alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

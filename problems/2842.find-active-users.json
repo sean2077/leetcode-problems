@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2842",
+            "questionFrontendId": "2688",
+            "boundTopicId": null,
+            "title": "Find Active Users",
+            "titleSlug": "find-active-users",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 20,
+            "dislikes": 8,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"3.2K\", \"totalSubmission\": \"7.6K\", \"totalAcceptedRaw\": 3188, \"totalSubmissionRaw\": 7568, \"acRate\": \"42.1%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Users\":[\"user_id\",\"item\",\"created_at\",\"amount\"]},\"rows\":{\"Users\":[[5,\"Smart Crock Pot\",\"2021-09-18\",698882],[6,\"Smart Lock\",\"2021-09-14\",11487],[6,\"Smart Thermostat\",\"2021-09-10\",674762],[8,\"Smart Light Strip\",\"2021-09-29\",630773],[4,\"Smart Cat Feeder\",\"2021-09-02\",693545],[4,\"Smart Bed\",\"2021-09-13\",170249]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Users (user_id int, item varchar(100),created_at date,amount int)\"], \"mssql\": [\"Create table Users (user_id int, item varchar(100),created_at date,amount int)\"], \"oraclesql\": [\"Create table Users (user_id int, item varchar(100),created_at date,amount int)\", \"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"], \"database\": true, \"name\": \"find_active_users\", \"pythondata\": [\"Users = pd.DataFrame([], columns=['user_id', 'item', 'created_at', 'amount']).astype({'user_id':'Int64', 'item':'object', 'created_at':'datetime64[ns]', 'amount':'Int64'})\"], \"postgresql\": [\"Create table If Not Exists Users (user_id int, item varchar(100),created_at date,amount int)\"], \"database_schema\": {\"Users\": {\"user_id\": \"INT\", \"item\": \"VARCHAR(100)\", \"created_at\": \"DATE\", \"amount\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Users (user_id int, item varchar(100),created_at date,amount int)",
+                "Truncate table Users",
+                "insert into Users (user_id, item, created_at, amount) values ('5', 'Smart Crock Pot', '2021-09-18', '698882')",
+                "insert into Users (user_id, item, created_at, amount) values ('6', 'Smart Lock', '2021-09-14', '11487')",
+                "insert into Users (user_id, item, created_at, amount) values ('6', 'Smart Thermostat', '2021-09-10', '674762')",
+                "insert into Users (user_id, item, created_at, amount) values ('8', 'Smart Light Strip', '2021-09-29', '630773')",
+                "insert into Users (user_id, item, created_at, amount) values ('4', 'Smart Cat Feeder', '2021-09-02', '693545')",
+                "insert into Users (user_id, item, created_at, amount) values ('4', 'Smart Bed', '2021-09-13', '170249')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

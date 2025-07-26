@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2841",
+            "questionFrontendId": "2687",
+            "boundTopicId": null,
+            "title": "Bikes Last Time Used ",
+            "titleSlug": "bikes-last-time-used",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 20,
+            "dislikes": 3,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"3.5K\", \"totalSubmission\": \"4.4K\", \"totalAcceptedRaw\": 3505, \"totalSubmissionRaw\": 4372, \"acRate\": \"80.2%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Bikes\":[\"ride_id\",\"bike_number\",\"start_time\",\"end_time\"]},\"rows\":{\"Bikes\":[[1,\"W00576\",\"2012-03-25 11:30:00\",\"2012-03-25 12:40:00\"],[2,\"W00300\",\"2012-03-25 10:30:00\",\"2012-03-25 10:50:00\"],[3,\"W00455\",\"2012-03-26 14:30:00\",\"2012-03-26 17:40:00\"],[4,\"W00455\",\"2012-03-25 12:30:00\",\"2012-03-25 13:40:00\"],[5,\"W00576\",\"2012-03-25 08:10:00\",\"2012-03-25 09:10:00\"],[6,\"W00576\",\"2012-03-28 02:30:00\",\"2012-03-28 02:50:00\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Bikes (ride_id int,bike_number varchar(100), start_time datetime,end_time datetime)\"], \"mssql\": [\"Create table  Bikes (ride_id int,bike_number varchar(100), start_time datetime,end_time datetime)\"], \"oraclesql\": [\"Create table  Bikes (ride_id int,bike_number varchar(100), start_time date,end_time date)\", \"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"], \"database\": true, \"name\": \"last_used_time\", \"pythondata\": [\"Bikes = pd.DataFrame([], columns=['ride_id', 'bike_number', 'start_time', 'end_time']).astype({'ride_id':'Int64', 'bike_number':'object', 'start_time':'datetime64[ns]', 'end_time':'datetime64[ns]'})\"], \"postgresql\": [\"Create table If Not Exists Bikes (ride_id int,bike_number varchar(100), start_time timestamp,end_time timestamp)\\n\"], \"database_schema\": {\"Bikes\": {\"ride_id\": \"INT\", \"bike_number\": \"VARCHAR(100)\", \"start_time\": \"DATETIME\", \"end_time\": \"DATETIME\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Bikes (ride_id int,bike_number varchar(100), start_time datetime,end_time datetime)",
+                "Truncate table Bikes",
+                "insert into Bikes (ride_id, bike_number, start_time, end_time) values ('1', 'W00576', '2012-03-25 11:30:00', '2012-03-25 12:40:00')",
+                "insert into Bikes (ride_id, bike_number, start_time, end_time) values ('2', 'W00300', '2012-03-25 10:30:00', '2012-03-25 10:50:00')",
+                "insert into Bikes (ride_id, bike_number, start_time, end_time) values ('3', 'W00455', '2012-03-26 14:30:00', '2012-03-26 17:40:00')",
+                "insert into Bikes (ride_id, bike_number, start_time, end_time) values ('4', 'W00455', '2012-03-25 12:30:00', '2012-03-25 13:40:00')",
+                "insert into Bikes (ride_id, bike_number, start_time, end_time) values ('5', 'W00576', '2012-03-25 08:10:00', '2012-03-25 09:10:00')",
+                "insert into Bikes (ride_id, bike_number, start_time, end_time) values ('6', 'W00576', '2012-03-28 02:30:00', '2012-03-28 02:50:00')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2782",
+            "questionFrontendId": "2776",
+            "boundTopicId": 2341829,
+            "title": "Convert Callback Based Function to Promise Based Function",
+            "titleSlug": "convert-callback-based-function-to-promise-based-function",
+            "content": null,
+            "translatedTitle": "转换回调函数为 Promise 函数",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 2,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"217\", \"totalSubmission\": \"237\", \"totalAcceptedRaw\": 217, \"totalSubmissionRaw\": 237, \"acRate\": \"91.6%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "(callback, a, b, c) => { callback(a * b * c) }\n[1, 2, 3]",
+            "metaData": "{\n  \"name\": \"foobar\",\n  \"params\": [\n    {\n      \"name\": \"fn\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"args\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ]\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 20.10.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"],\"typescript\":[\"TypeScript\",\"<p>TypeScript 5.1.6<\\/p>\\r\\n\\r\\n<p>Compile Options: --alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

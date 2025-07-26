@@ -1,0 +1,60 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1579",
+            "questionFrontendId": "1454",
+            "boundTopicId": 258463,
+            "title": "Active Users",
+            "titleSlug": "active-users",
+            "content": null,
+            "translatedTitle": "活跃用户",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 85,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"12.4K\", \"totalSubmission\": \"32.7K\", \"totalAcceptedRaw\": 12413, \"totalSubmissionRaw\": 32739, \"acRate\": \"37.9%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Accounts\":[\"id\",\"name\"],\"Logins\":[\"id\",\"login_date\"]},\"rows\":{\"Accounts\":[[1,\"Winston\"],[7,\"Jonathan\"]],\"Logins\":[[7,\"2020-05-30\"],[1,\"2020-05-30\"],[7,\"2020-05-31\"],[7,\"2020-06-01\"],[7,\"2020-06-02\"],[7,\"2020-06-02\"],[7,\"2020-06-03\"],[1,\"2020-06-07\"],[7,\"2020-06-10\"]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Accounts (id int, name varchar(10))\",\"Create table If Not Exists Logins (id int, login_date date)\"],\"mssql\":[\"Create table Accounts (id int, name varchar(10))\",\"Create table Logins (id int, login_date date)\"],\"oraclesql\":[\"Create table Accounts (id int, name varchar(10))\",\"Create table Logins (id int, login_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"active_users\",\"pythondata\":[\"Accounts = pd.DataFrame([], columns=['id', 'name']).astype({'id':'Int64', 'name':'object'})\",\"Logins = pd.DataFrame([], columns=['id', 'login_date']).astype({'id':'Int64', 'login_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Accounts (id int, name varchar(10))\",\"Create table If Not Exists Logins (id int, login_date date)\"],\"database_schema\":{\"Accounts\":{\"id\":\"INT\",\"name\":\"VARCHAR(10)\"},\"Logins\":{\"id\":\"INT\",\"login_date\":\"DATE\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Accounts (id int, name varchar(10))",
+                "Create table If Not Exists Logins (id int, login_date date)",
+                "Truncate table Accounts",
+                "insert into Accounts (id, name) values ('1', 'Winston')",
+                "insert into Accounts (id, name) values ('7', 'Jonathan')",
+                "Truncate table Logins",
+                "insert into Logins (id, login_date) values ('7', '2020-05-30')",
+                "insert into Logins (id, login_date) values ('1', '2020-05-30')",
+                "insert into Logins (id, login_date) values ('7', '2020-05-31')",
+                "insert into Logins (id, login_date) values ('7', '2020-06-01')",
+                "insert into Logins (id, login_date) values ('7', '2020-06-02')",
+                "insert into Logins (id, login_date) values ('7', '2020-06-02')",
+                "insert into Logins (id, login_date) values ('7', '2020-06-03')",
+                "insert into Logins (id, login_date) values ('1', '2020-06-07')",
+                "insert into Logins (id, login_date) values ('7', '2020-06-10')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

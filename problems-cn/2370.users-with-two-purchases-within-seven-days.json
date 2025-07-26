@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2370",
+            "questionFrontendId": "2228",
+            "boundTopicId": 1395841,
+            "title": "Users With Two Purchases Within Seven Days",
+            "titleSlug": "users-with-two-purchases-within-seven-days",
+            "content": null,
+            "translatedTitle": "7 天内两次购买的用户",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 4,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Biggest Window Between Visits\", \"titleSlug\": \"biggest-window-between-visits\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u8bbf\\u95ee\\u65e5\\u671f\\u4e4b\\u95f4\\u6700\\u5927\\u7684\\u7a7a\\u6863\\u671f\", \"isPaidOnly\": true}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"4.2K\", \"totalAcceptedRaw\": 2013, \"totalSubmissionRaw\": 4238, \"acRate\": \"47.5%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Purchases\":[\"purchase_id\",\"user_id\",\"purchase_date\"]},\"rows\":{\"Purchases\":[[4,2,\"2022-03-13\"],[1,5,\"2022-02-11\"],[3,7,\"2022-06-19\"],[6,2,\"2022-03-20\"],[5,7,\"2022-06-19\"],[2,2,\"2022-06-08\"]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Purchases (purchase_id int, user_id int, purchase_date date)\"],\"mssql\":[\"Create table Purchases (purchase_id int, user_id int, purchase_date date)\"],\"oraclesql\":[\"Create table Purchases (purchase_id int, user_id int, purchase_date date)\",\"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"],\"database\":true,\"name\":\"find_valid_users\",\"pythondata\":[\"Purchases = pd.DataFrame([], columns=['purchase_id', 'user_id', 'purchase_date']).astype({'purchase_id':'Int64', 'user_id':'Int64', 'purchase_date':'datetime64[ns]'})\"],\"postgresql\":[\"Create table If Not Exists Purchases (purchase_id int, user_id int, purchase_date date)\"],\"database_schema\":{\"Purchases\":{\"purchase_id\":\"INT\",\"user_id\":\"INT\",\"purchase_date\":\"DATE\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Purchases (purchase_id int, user_id int, purchase_date date)",
+                "Truncate table Purchases",
+                "insert into Purchases (purchase_id, user_id, purchase_date) values ('4', '2', '2022-03-13')",
+                "insert into Purchases (purchase_id, user_id, purchase_date) values ('1', '5', '2022-02-11')",
+                "insert into Purchases (purchase_id, user_id, purchase_date) values ('3', '7', '2022-06-19')",
+                "insert into Purchases (purchase_id, user_id, purchase_date) values ('6', '2', '2022-03-20')",
+                "insert into Purchases (purchase_id, user_id, purchase_date) values ('5', '7', '2022-06-19')",
+                "insert into Purchases (purchase_id, user_id, purchase_date) values ('2', '2', '2022-06-08')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

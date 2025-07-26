@@ -1,0 +1,42 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2776",
+            "questionFrontendId": "2692",
+            "boundTopicId": 2275509,
+            "title": "Make Object Immutable",
+            "titleSlug": "make-object-immutable",
+            "content": null,
+            "translatedTitle": "使对象不可变",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 1,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Infinite Method Object\", \"titleSlug\": \"infinite-method-object\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u65e0\\u7a77\\u65b9\\u6cd5\\u5bf9\\u8c61\", \"isPaidOnly\": true}, {\"title\": \"Immutability Helper\", \"titleSlug\": \"immutability-helper\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u4e0d\\u53ef\\u53d8\\u8f85\\u52a9\\u5de5\\u5177\", \"isPaidOnly\": true}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"225\", \"totalSubmission\": \"383\", \"totalAcceptedRaw\": 225, \"totalSubmissionRaw\": 383, \"acRate\": \"58.7%\"}",
+            "hints": [
+                "Javascript has the concept of Proxy. That concept is critical to this problem.",
+                "Recursively use proxy so that the user of the object is only able to access a proxy object.",
+                "Override how set works. It should throw the correct error instead of actually setting a value."
+            ],
+            "status": null,
+            "sampleTestCase": "{\"x\":5}\n(obj) => { obj.x = 5; return obj.x; }",
+            "metaData": "{\n  \"name\": \"makeImmutable\",\n  \"params\": [\n    {\n      \"name\": \"obj\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"fn\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"javascript\",\n    \"typescript\"\n  ],\n  \"manual\": true\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 20.10.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"],\"typescript\":[\"TypeScript\",\"<p>TypeScript 5.1.6<\\/p>\\r\\n\\r\\n<p>Compile Options: --alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\\r\\n\\r\\n<p> \\u5982\\u9700\\u4f7f\\u7528\\u961f\\u5217\\/\\u4f18\\u5148\\u961f\\u5217\\uff0c\\u60a8\\u53ef\\u4f7f\\u7528 <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/priority-queue\\/blob\\/v5\\/README.md\\\" target=\\\"_blank\\\"> datastructures-js\\/priority-queue@5.4.0<\\/a> \\u548c <a href=\\\"https:\\/\\/github.com\\/datastructures-js\\/queue\\/tree\\/v4.2.3\\\" target=\\\"_blank\\\"> datastructures-js\\/queue@4.2.3<\\/a>\\u3002<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

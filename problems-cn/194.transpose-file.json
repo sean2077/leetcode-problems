@@ -1,0 +1,50 @@
+{
+    "data": {
+        "question": {
+            "questionId": "194",
+            "questionFrontendId": "194",
+            "boundTopicId": 1457,
+            "title": "Transpose File",
+            "titleSlug": "transpose-file",
+            "content": "<p>Given a text file <code>file.txt</code>, transpose its content.</p>\n\n<p>You may assume that each row has the same number of columns, and each field is separated by the <code>&#39; &#39;</code> character.</p>\n\n<p><strong class=\"example\">Example:</strong></p>\n\n<p>If <code>file.txt</code> has the following content:</p>\n\n<pre>\nname age\nalice 21\nryan 30\n</pre>\n\n<p>Output the following:</p>\n\n<pre>\nname alice ryan\nage 21 30\n</pre>\n",
+            "translatedTitle": "转置文件",
+            "translatedContent": "<p>给定一个文件 <code>file.txt</code>，转置它的内容。</p>\n\n<p>你可以假设每行列数相同，并且每个字段由 <code>' '</code> 分隔。</p>\n\n<p> </p>\n\n<p><strong>示例：</strong></p>\n\n<p>假设 <code>file.txt</code> 文件内容如下：</p>\n\n<pre>\nname age\nalice 21\nryan 30\n</pre>\n\n<p>应当输出：</p>\n\n<pre>\nname alice ryan\nage 21 30\n</pre>\n",
+            "isPaidOnly": false,
+            "difficulty": "Medium",
+            "likes": 78,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "topicTags": [
+                {
+                    "name": "Shell",
+                    "slug": "shell",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "Bash",
+                    "langSlug": "bash",
+                    "code": "# Read from the file file.txt and print its transposed content to stdout."
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"17.7K\", \"totalSubmission\": \"52K\", \"totalAcceptedRaw\": 17672, \"totalSubmissionRaw\": 51999, \"acRate\": \"34.0%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "a",
+            "metaData": "{\n  \"shell\": true,\n  \"manual\": true\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": false,
+            "enableTestMode": false,
+            "envInfo": "{\"bash\":[\"Bash\",\"<p>\\u7248\\u672c\\uff1a<code>Bash 4.3.30<\\/code><\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

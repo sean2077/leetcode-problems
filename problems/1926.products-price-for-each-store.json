@@ -1,0 +1,52 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1926",
+            "questionFrontendId": "1777",
+            "boundTopicId": null,
+            "title": "Product's Price for Each Store",
+            "titleSlug": "products-price-for-each-store",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 134,
+            "dislikes": 13,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Rearrange Products Table\", \"titleSlug\": \"rearrange-products-table\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Dynamic Pivoting of a Table\", \"titleSlug\": \"dynamic-pivoting-of-a-table\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"20.8K\", \"totalSubmission\": \"25.3K\", \"totalAcceptedRaw\": 20839, \"totalSubmissionRaw\": 25342, \"acRate\": \"82.2%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Products\":[\"product_id\",\"store\",\"price\"]},\"rows\":{\"Products\":[[\"0\",\"store1\",\"95\"],[\"0\",\"store3\",\"105\"],[\"0\",\"store2\",\"100\"],[\"1\",\"store1\",\"70\"],[\"1\",\"store3\",\"80\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Products (product_id int, store ENUM('store1', 'store2', 'store3'), price int)\"], \"mssql\": [\"Create table Products (product_id int, store varchar(6) not null check(store in ('store1', 'store2', 'store3')), price int)\"], \"oraclesql\": [\"Create table Products (product_id int, store varchar(6) not null check(store in ('store1', 'store2', 'store3')), price int)\"], \"database\": true, \"name\": \"products_price\", \"pythondata\": [\"Products = pd.DataFrame([], columns=['product_id', 'store', 'price']).astype({'product_id':'Int64', 'store':'category', 'price':'Int64'})\"], \"postgresql\": [\"Create table If Not Exists Products (product_id int, store VARCHAR(30) CHECK (store IN ('store1', 'store2', 'store3')), price int)\\n\"], \"manual\": false, \"database_schema\": {\"Products\": {\"product_id\": \"INT\", \"store\": \"ENUM('store1', 'store2', 'store3')\", \"price\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Products (product_id int, store ENUM('store1', 'store2', 'store3'), price int)",
+                "Truncate table Products",
+                "insert into Products (product_id, store, price) values ('0', 'store1', '95')",
+                "insert into Products (product_id, store, price) values ('0', 'store3', '105')",
+                "insert into Products (product_id, store, price) values ('0', 'store2', '100')",
+                "insert into Products (product_id, store, price) values ('1', 'store1', '70')",
+                "insert into Products (product_id, store, price) values ('1', 'store3', '80')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

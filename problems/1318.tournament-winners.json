@@ -1,0 +1,63 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1318",
+            "questionFrontendId": "1194",
+            "boundTopicId": null,
+            "title": "Tournament Winners",
+            "titleSlug": "tournament-winners",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 149,
+            "dislikes": 56,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"21.1K\", \"totalSubmission\": \"43K\", \"totalAcceptedRaw\": 21124, \"totalSubmissionRaw\": 42967, \"acRate\": \"49.2%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Players\":[\"player_id\",\"group_id\"],\"Matches\":[\"match_id\",\"first_player\",\"second_player\",\"first_score\",\"second_score\"]},\"rows\":{\"Players\":[[10,2],[15,1],[20,3],[25,1],[30,1],[35,2],[40,3],[45,1],[50,2]],\"Matches\":[[1,15,45,3,0],[2,30,25,1,2],[3,30,15,2,0],[4,40,20,5,2],[5,35,50,1,1]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Players (player_id int, group_id int)\", \"Create table If Not Exists Matches (match_id int, first_player int, second_player int, first_score int, second_score int)\\n\"], \"mssql\": [\"Create table Players (player_id int, group_id int)\", \"Create table Matches (match_id int, first_player int, second_player int, first_score int, second_score int)\\n\"], \"oraclesql\": [\"Create table Players (player_id int, group_id int)\", \"Create table Matches (match_id int, first_player int, second_player int, first_score int, second_score int)\\n\"], \"database\": true, \"name\": \"tournament_winners\", \"pythondata\": [\"Players = pd.DataFrame([], columns=['player_id', 'group_id']).astype({'player_id':'Int64', 'group_id':'Int64'})\", \"Matches = pd.DataFrame([], columns=['match_id', 'first_player', 'second_player', 'first_score', 'second_score']).astype({'match_id':'Int64', 'first_player':'Int64', 'second_player':'Int64', 'first_score':'Int64', 'second_score':'Int64'})\"], \"manual\": true, \"postgresql\": [\"Create table If Not Exists Players (player_id int, group_id int)\\n\", \"Create table If Not Exists Matches (match_id int, first_player int, second_player int, first_score int, second_score int)\\n\"], \"database_schema\": {\"Players\": {\"player_id\": \"INT\", \"group_id\": \"INT\"}, \"Matches\": {\"match_id\": \"INT\", \"first_player\": \"INT\", \"second_player\": \"INT\", \"first_score\": \"INT\", \"second_score\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Players (player_id int, group_id int)",
+                "Create table If Not Exists Matches (match_id int, first_player int, second_player int, first_score int, second_score int)\n",
+                "Truncate table Players",
+                "insert into Players (player_id, group_id) values ('10', '2')",
+                "insert into Players (player_id, group_id) values ('15', '1')",
+                "insert into Players (player_id, group_id) values ('20', '3')",
+                "insert into Players (player_id, group_id) values ('25', '1')",
+                "insert into Players (player_id, group_id) values ('30', '1')",
+                "insert into Players (player_id, group_id) values ('35', '2')",
+                "insert into Players (player_id, group_id) values ('40', '3')",
+                "insert into Players (player_id, group_id) values ('45', '1')",
+                "insert into Players (player_id, group_id) values ('50', '2')",
+                "Truncate table Matches",
+                "insert into Matches (match_id, first_player, second_player, first_score, second_score) values ('1', '15', '45', '3', '0')",
+                "insert into Matches (match_id, first_player, second_player, first_score, second_score) values ('2', '30', '25', '1', '2')",
+                "insert into Matches (match_id, first_player, second_player, first_score, second_score) values ('3', '30', '15', '2', '0')",
+                "insert into Matches (match_id, first_player, second_player, first_score, second_score) values ('4', '40', '20', '5', '2')",
+                "insert into Matches (match_id, first_player, second_player, first_score, second_score) values ('5', '35', '50', '1', '1')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2315",
+            "questionFrontendId": "2175",
+            "boundTopicId": 1273917,
+            "title": "The Change in Global Rankings",
+            "titleSlug": "the-change-in-global-rankings",
+            "content": null,
+            "translatedTitle": "世界排名的变化",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 7,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"1.7K\", \"totalSubmission\": \"3.2K\", \"totalAcceptedRaw\": 1728, \"totalSubmissionRaw\": 3196, \"acRate\": \"54.1%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"TeamPoints\": [\"team_id\", \"name\", \"points\"], \"PointsChange\": [\"team_id\", \"points_change\"]}, \"rows\": {\"TeamPoints\": [[3, \"Algeria\", 1431], [1, \"Senegal\", 2132], [2, \"New Zealand\", 1402], [4, \"Croatia\", 1817]], \"PointsChange\": [[3, 399], [2, 0], [4, 13], [1, -22]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists TeamPoints (team_id int, name varchar(100), points int)\",\"Create table If Not Exists PointsChange (team_id int, points_change int)\"],\"mssql\":[\"Create table TeamPoints (team_id int, name varchar(100), points int)\",\"Create table PointsChange (team_id int, points_change int)\"],\"oraclesql\":[\"Create table TeamPoints (team_id int, name varchar(100), points int)\",\"Create table PointsChange (team_id int, points_change int)\"],\"database\":true,\"name\":\"global_ratings_change\",\"pythondata\":[\"TeamPoints = pd.DataFrame([], columns=['team_id', 'name', 'points']).astype({'team_id':'Int64', 'name':'object', 'points':'Int64'})\",\"PointsChange = pd.DataFrame([], columns=['team_id', 'points_change']).astype({'team_id':'Int64', 'points_change':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists TeamPoints (team_id int, name varchar(100), points int)\",\"Create table If Not Exists PointsChange (team_id int, points_change int)\"],\"database_schema\":{\"TeamPoints\":{\"team_id\":\"INT\",\"name\":\"VARCHAR(100)\",\"points\":\"INT\"},\"PointsChange\":{\"team_id\":\"INT\",\"points_change\":\"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists TeamPoints (team_id int, name varchar(100), points int)",
+                "Create table If Not Exists PointsChange (team_id int, points_change int)",
+                "Truncate table TeamPoints",
+                "insert into TeamPoints (team_id, name, points) values ('3', 'Algeria', '1431')",
+                "insert into TeamPoints (team_id, name, points) values ('1', 'Senegal', '2132')",
+                "insert into TeamPoints (team_id, name, points) values ('2', 'New Zealand', '1402')",
+                "insert into TeamPoints (team_id, name, points) values ('4', 'Croatia', '1817')",
+                "Truncate table PointsChange",
+                "insert into PointsChange (team_id, points_change) values ('3', '399')",
+                "insert into PointsChange (team_id, points_change) values ('2', '0')",
+                "insert into PointsChange (team_id, points_change) values ('4', '13')",
+                "insert into PointsChange (team_id, points_change) values ('1', '-22')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

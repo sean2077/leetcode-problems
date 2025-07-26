@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2637",
+            "questionFrontendId": "2494",
+            "boundTopicId": null,
+            "title": "Merge Overlapping Events in the Same Hall",
+            "titleSlug": "merge-overlapping-events-in-the-same-hall",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 47,
+            "dislikes": 6,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"1.8K\", \"totalSubmission\": \"5.8K\", \"totalAcceptedRaw\": 1835, \"totalSubmissionRaw\": 5831, \"acRate\": \"31.5%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"HallEvents\": [\"hall_id\", \"start_day\", \"end_day\"]}, \"rows\": {\"HallEvents\": [[1, \"2023-01-13\", \"2023-01-14\"], [1, \"2023-01-14\", \"2023-01-17\"], [1, \"2023-01-18\", \"2023-01-25\"], [2, \"2022-12-09\", \"2022-12-23\"], [2, \"2022-12-13\", \"2022-12-17\"], [3, \"2022-12-01\", \"2023-01-30\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists HallEvents (hall_id int, start_day date, end_day date)\"], \"mssql\": [\"Create table HallEvents (hall_id int, start_day date, end_day date)\"], \"oraclesql\": [\"Create table HallEvents (hall_id int, start_day date, end_day date)\", \"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"], \"database\": true, \"name\": \"merge_events\", \"pythondata\": [\"HallEvents = pd.DataFrame([], columns=['hall_id', 'start_day', 'end_day']).astype({'hall_id':'Int64', 'start_day':'datetime64[ns]', 'end_day':'datetime64[ns]'})\"], \"database_schema\": {\"HallEvents\": {\"hall_id\": \"INT\", \"start_day\": \"DATE\", \"end_day\": \"DATE\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists HallEvents (hall_id int, start_day date, end_day date)",
+                "Truncate table HallEvents",
+                "insert into HallEvents (hall_id, start_day, end_day) values ('1', '2023-01-13', '2023-01-14')",
+                "insert into HallEvents (hall_id, start_day, end_day) values ('1', '2023-01-14', '2023-01-17')",
+                "insert into HallEvents (hall_id, start_day, end_day) values ('1', '2023-01-18', '2023-01-25')",
+                "insert into HallEvents (hall_id, start_day, end_day) values ('2', '2022-12-09', '2022-12-23')",
+                "insert into HallEvents (hall_id, start_day, end_day) values ('2', '2022-12-13', '2022-12-17')",
+                "insert into HallEvents (hall_id, start_day, end_day) values ('3', '2022-12-01', '2023-01-30')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

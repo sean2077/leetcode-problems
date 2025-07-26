@@ -1,0 +1,58 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1494",
+            "questionFrontendId": "1355",
+            "boundTopicId": 105475,
+            "title": "Activity Participants",
+            "titleSlug": "activity-participants",
+            "content": null,
+            "translatedTitle": "活动参与者",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 30,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"8.5K\", \"totalSubmission\": \"13K\", \"totalAcceptedRaw\": 8503, \"totalSubmissionRaw\": 12961, \"acRate\": \"65.6%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Friends\": [\"id\", \"name\", \"activity\"], \"Activities\": [\"id\", \"name\"]}, \"rows\": {\"Friends\": [[1, \"Jonathan D.\", \"Eating\"], [2, \"Jade W.\", \"Singing\"], [3, \"Victor J.\", \"Singing\"], [4, \"Elvis Q.\", \"Eating\"], [5, \"Daniel A.\", \"Eating\"], [6, \"Bob B.\", \"Horse Riding\"]], \"Activities\": [[1, \"Eating\"], [2, \"Singing\"], [3, \"Horse Riding\"]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Friends (id int, name varchar(30), activity varchar(30))\",\"Create table If Not Exists Activities (id int, name varchar(30))\"],\"mssql\":[\"Create table Friends (id int, name varchar(30), activity varchar(30))\",\"Create table Activities (id int, name varchar(30))\"],\"oraclesql\":[\"Create table Friends (id int, name varchar(30), activity varchar(30))\",\"Create table Activities (id int, name varchar(30))\"],\"database\":true,\"name\":\"activity_participants\",\"pythondata\":[\"Friends = pd.DataFrame([], columns=['id', 'name', 'activity']).astype({'id':'Int64', 'name':'object', 'activity':'object'})\",\"Activities = pd.DataFrame([], columns=['id', 'name']).astype({'id':'Int64', 'name':'object'})\"],\"postgresql\":[\"Create table If Not Exists Friends (id int, name varchar(30), activity varchar(30))\",\"Create table If Not Exists Activities (id int, name varchar(30))\"],\"database_schema\":{\"Friends\":{\"id\":\"INT\",\"name\":\"VARCHAR(30)\",\"activity\":\"VARCHAR(30)\"},\"Activities\":{\"id\":\"INT\",\"name\":\"VARCHAR(30)\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Friends (id int, name varchar(30), activity varchar(30))",
+                "Create table If Not Exists Activities (id int, name varchar(30))",
+                "Truncate table Friends",
+                "insert into Friends (id, name, activity) values ('1', 'Jonathan D.', 'Eating')",
+                "insert into Friends (id, name, activity) values ('2', 'Jade W.', 'Singing')",
+                "insert into Friends (id, name, activity) values ('3', 'Victor J.', 'Singing')",
+                "insert into Friends (id, name, activity) values ('4', 'Elvis Q.', 'Eating')",
+                "insert into Friends (id, name, activity) values ('5', 'Daniel A.', 'Eating')",
+                "insert into Friends (id, name, activity) values ('6', 'Bob B.', 'Horse Riding')",
+                "Truncate table Activities",
+                "insert into Activities (id, name) values ('1', 'Eating')",
+                "insert into Activities (id, name) values ('2', 'Singing')",
+                "insert into Activities (id, name) values ('3', 'Horse Riding')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

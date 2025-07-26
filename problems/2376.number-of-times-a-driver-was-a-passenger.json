@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2376",
+            "questionFrontendId": "2238",
+            "boundTopicId": null,
+            "title": "Number of Times a Driver Was a Passenger",
+            "titleSlug": "number-of-times-a-driver-was-a-passenger",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 67,
+            "dislikes": 5,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Hopper Company Queries I\", \"titleSlug\": \"hopper-company-queries-i\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Hopper Company Queries II\", \"titleSlug\": \"hopper-company-queries-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Hopper Company Queries III\", \"titleSlug\": \"hopper-company-queries-iii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"11.2K\", \"totalAcceptedRaw\": 8008, \"totalSubmissionRaw\": 11216, \"acRate\": \"71.4%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Rides\":[\"ride_id\",\"driver_id\",\"passenger_id\"]},\"rows\":{\"Rides\":[[1,7,1],[2,7,2],[3,11,1],[4,11,7],[5,11,7],[6,11,3]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Rides (ride_id int, driver_id int, passenger_id int)\"], \"mssql\": [\"Create table Rides (ride_id int, driver_id int, passenger_id int)\"], \"oraclesql\": [\"Create table Rides (ride_id int, driver_id int, passenger_id int)\"], \"database\": true, \"name\": \"driver_passenger\", \"pythondata\": [\"Rides = pd.DataFrame([], columns=['ride_id', 'driver_id', 'passenger_id']).astype({'ride_id':'Int64', 'driver_id':'Int64', 'passenger_id':'Int64'})\"], \"postgresql\": [\"Create table If Not Exists Rides (ride_id int, driver_id int, passenger_id int)\"], \"database_schema\": {\"Rides\": {\"ride_id\": \"INT\", \"driver_id\": \"INT\", \"passenger_id\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Rides (ride_id int, driver_id int, passenger_id int)",
+                "Truncate table Rides",
+                "insert into Rides (ride_id, driver_id, passenger_id) values ('1', '7', '1')",
+                "insert into Rides (ride_id, driver_id, passenger_id) values ('2', '7', '2')",
+                "insert into Rides (ride_id, driver_id, passenger_id) values ('3', '11', '1')",
+                "insert into Rides (ride_id, driver_id, passenger_id) values ('4', '11', '7')",
+                "insert into Rides (ride_id, driver_id, passenger_id) values ('5', '11', '7')",
+                "insert into Rides (ride_id, driver_id, passenger_id) values ('6', '11', '3')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2381",
+            "questionFrontendId": "2252",
+            "boundTopicId": 1447354,
+            "title": "Dynamic Pivoting of a Table",
+            "titleSlug": "dynamic-pivoting-of-a-table",
+            "content": null,
+            "translatedTitle": "表的动态旋转",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 6,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Product's Price for Each Store\", \"titleSlug\": \"products-price-for-each-store\", \"difficulty\": \"Easy\", \"translatedTitle\": \"\\u6bcf\\u5bb6\\u5546\\u5e97\\u7684\\u4ea7\\u54c1\\u4ef7\\u683c\", \"isPaidOnly\": true}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"479\", \"totalSubmission\": \"843\", \"totalAcceptedRaw\": 479, \"totalSubmissionRaw\": 843, \"acRate\": \"56.8%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Products\":[\"product_id\",\"store\",\"price\"]},\"rows\":{\"Products\":[[1,\"Shop\",110],[1,\"LC_Store\",100],[2,\"Nozama\",200],[2,\"Souq\",190],[3,\"Shop\",1000],[3,\"Souq\",1900]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Products (product_id int, store varchar(7), price int)\"],\"mssql\":[\"Create table Products (product_id int, store varchar(7), price int)\"],\"oraclesql\":[\"Create table Products (product_id int, store varchar(7), price int)\"],\"database\":true,\"manual\":true,\"name\":\"dynamic_pivoting_table\",\"pythondata\":[\"Products = pd.DataFrame([], columns=['product_id', 'store', 'price']).astype({'product_id':'Int64', 'store':'object', 'price':'Int64'})\"],\"database_schema\":{\"Products\":{\"product_id\":\"INT\",\"store\":\"VARCHAR(7)\",\"price\":\"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Products (product_id int, store varchar(7), price int)",
+                "Truncate table Products",
+                "insert into Products (product_id, store, price) values ('1', 'Shop', '110')",
+                "insert into Products (product_id, store, price) values ('1', 'LC_Store', '100')",
+                "insert into Products (product_id, store, price) values ('2', 'Nozama', '200')",
+                "insert into Products (product_id, store, price) values ('2', 'Souq', '190')",
+                "insert into Products (product_id, store, price) values ('3', 'Shop', '1000')",
+                "insert into Products (product_id, store, price) values ('3', 'Souq', '1900')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

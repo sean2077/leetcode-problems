@@ -1,0 +1,56 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2441",
+            "questionFrontendId": "2308",
+            "boundTopicId": 1604217,
+            "title": "Arrange Table by Gender",
+            "titleSlug": "arrange-table-by-gender",
+            "content": null,
+            "translatedTitle": "按性别排列表格",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 7,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"1.6K\", \"totalSubmission\": \"2.1K\", \"totalAcceptedRaw\": 1611, \"totalSubmissionRaw\": 2130, \"acRate\": \"75.6%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Genders\": [\"user_id\", \"gender\"]}, \"rows\": {\"Genders\": [[4, \"male\"], [7, \"female\"], [2, \"other\"], [5, \"male\"], [3, \"female\"], [8, \"male\"], [6, \"other\"], [1, \"other\"], [9, \"female\"]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Genders (user_id int, gender ENUM('female', 'other', 'male'))\"],\"mssql\":[\"Create table Genders (user_id int, gender VARCHAR(6) NOT NULL CHECK (gender IN ('female', 'other', 'male')))\"],\"oraclesql\":[\"Create table Genders (user_id int, gender VARCHAR(6) NOT NULL CHECK (gender IN ('female', 'other', 'male')))\"],\"database\":true,\"name\":\"arrange_table\",\"pythondata\":[\"Genders = pd.DataFrame([], columns=['user_id', 'gender']).astype({'user_id':'Int64', 'gender':'object'})\"],\"postgresql\":[\"Create table If Not Exists Genders (user_id int, gender VARCHAR(30) CHECK (gender IN ('female', 'other', 'male')))\\n\"],\"database_schema\":{\"Genders\":{\"user_id\":\"INT\",\"gender\":\"ENUM('female', 'other', 'male')\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Genders (user_id int, gender ENUM('female', 'other', 'male'))",
+                "Truncate table Genders",
+                "insert into Genders (user_id, gender) values ('4', 'male')",
+                "insert into Genders (user_id, gender) values ('7', 'female')",
+                "insert into Genders (user_id, gender) values ('2', 'other')",
+                "insert into Genders (user_id, gender) values ('5', 'male')",
+                "insert into Genders (user_id, gender) values ('3', 'female')",
+                "insert into Genders (user_id, gender) values ('8', 'male')",
+                "insert into Genders (user_id, gender) values ('6', 'other')",
+                "insert into Genders (user_id, gender) values ('1', 'other')",
+                "insert into Genders (user_id, gender) values ('9', 'female')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

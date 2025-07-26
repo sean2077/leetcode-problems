@@ -1,0 +1,52 @@
+{
+    "data": {
+        "question": {
+            "questionId": "603",
+            "questionFrontendId": "603",
+            "boundTopicId": null,
+            "title": "Consecutive Available Seats",
+            "titleSlug": "consecutive-available-seats",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 641,
+            "dislikes": 75,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"88.2K\", \"totalSubmission\": \"133.7K\", \"totalAcceptedRaw\": 88191, \"totalSubmissionRaw\": 133736, \"acRate\": \"65.9%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Cinema\":[\"seat_id\",\"free\"]},\"rows\":{\"Cinema\":[[1,1],[2,0],[3,1],[4,1],[5,1]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Cinema (seat_id int primary key auto_increment, free bool)\"], \"mssql\": [\"Create table Cinema (seat_id int primary key, free BIT)\"], \"oraclesql\": [\"Create table Cinema (seat_id int primary key, free NUMBER(1))\"], \"database\": true, \"name\": \"consecutive_available_seats\", \"pythondata\": [\"Cinema = pd.DataFrame([], columns=['seat_id', 'free']).astype({'seat_id':'Int64', 'free':'int'})\"], \"postgresql\": [\"Create table If Not Exists Cinema (seat_id int, free int)\\n\"], \"manual\": false, \"database_schema\": {\"Cinema\": {\"seat_id\": \"INT\", \"free\": \"BOOLEAN\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Cinema (seat_id int primary key auto_increment, free bool)",
+                "Truncate table Cinema",
+                "insert into Cinema (seat_id, free) values ('1', '1')",
+                "insert into Cinema (seat_id, free) values ('2', '0')",
+                "insert into Cinema (seat_id, free) values ('3', '1')",
+                "insert into Cinema (seat_id, free) values ('4', '1')",
+                "insert into Cinema (seat_id, free) values ('5', '1')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

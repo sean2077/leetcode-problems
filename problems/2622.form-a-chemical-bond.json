@@ -1,0 +1,54 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2622",
+            "questionFrontendId": "2480",
+            "boundTopicId": null,
+            "title": "Form a Chemical Bond",
+            "titleSlug": "form-a-chemical-bond",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 27,
+            "dislikes": 9,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"4.6K\", \"totalSubmission\": \"6K\", \"totalAcceptedRaw\": 4569, \"totalSubmissionRaw\": 5992, \"acRate\": \"76.3%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Elements\": [\"symbol\", \"type\", \"electrons\"]}, \"rows\": {\"Elements\": [[\"He\", \"Noble\", 0], [\"Na\", \"Metal\", 1], [\"Ca\", \"Metal\", 2], [\"La\", \"Metal\", 3], [\"Cl\", \"Nonmetal\", 1], [\"O\", \"Nonmetal\", 2], [\"N\", \"Nonmetal\", 3]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Elements (symbol varchar(2), type ENUM('Metal','Nonmetal','Noble'), electrons int)\"], \"mssql\": [\"Create table Elements (symbol varchar(2), type varchar(8) not null check(type in ('Metal','Nonmetal','Noble')), electrons int)\\n\"], \"oraclesql\": [\"Create table Elements (symbol varchar(2), type varchar(8) not null check(type in ('Metal','Nonmetal','Noble')), electrons int)\\n\"], \"database\": true, \"name\": \"form_bond\", \"pythondata\": [\"Elements = pd.DataFrame([], columns=['symbol', 'type', 'electrons']).astype({'symbol':'object', 'type':'object', 'electrons':'Int64'})\"], \"postgresql\": [\"Create table If Not Exists Elements (symbol varchar(2), type VARCHAR(30) CHECK (type IN ('Metal','Nonmetal','Noble')), electrons int)\\n\"], \"database_schema\": {\"Elements\": {\"symbol\": \"VARCHAR(2)\", \"type\": \"ENUM('Metal', 'Nonmetal', 'Noble')\", \"electrons\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Elements (symbol varchar(2), type ENUM('Metal','Nonmetal','Noble'), electrons int)",
+                "Truncate table Elements",
+                "insert into Elements (symbol, type, electrons) values ('He', 'Noble', '0')",
+                "insert into Elements (symbol, type, electrons) values ('Na', 'Metal', '1')",
+                "insert into Elements (symbol, type, electrons) values ('Ca', 'Metal', '2')",
+                "insert into Elements (symbol, type, electrons) values ('La', 'Metal', '3')",
+                "insert into Elements (symbol, type, electrons) values ('Cl', 'Nonmetal', '1')",
+                "insert into Elements (symbol, type, electrons) values ('O', 'Nonmetal', '2')",
+                "insert into Elements (symbol, type, electrons) values ('N', 'Nonmetal', '3')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

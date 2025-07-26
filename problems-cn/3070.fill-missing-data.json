@@ -1,0 +1,46 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3070",
+            "questionFrontendId": "2887",
+            "boundTopicId": 2467496,
+            "title": "Fill Missing Data",
+            "titleSlug": "fill-missing-data",
+            "content": "<pre>\nDataFrame <code>products</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| name        | object |\n| quantity    | int    |\n| price       | int    |\n+-------------+--------+\n</pre>\n\n<p>Write a solution to fill in the missing value as <code><strong>0</strong></code> in the <code>quantity</code> column.</p>\n\n<p>The result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<pre>\n<strong class=\"example\">Example 1:</strong>\n<strong>Input:</strong>+-----------------+----------+-------+\n| name            | quantity | price |\n+-----------------+----------+-------+\n| Wristwatch      | None     | 135   |\n| WirelessEarbuds | None     | 821   |\n| GolfClubs       | 779      | 9319  |\n| Printer         | 849      | 3051  |\n+-----------------+----------+-------+\n<strong>Output:\n</strong>+-----------------+----------+-------+\n| name            | quantity | price |\n+-----------------+----------+-------+\n| Wristwatch      | 0        | 135   |\n| WirelessEarbuds | 0        | 821   |\n| GolfClubs       | 779      | 9319  |\n| Printer         | 849      | 3051  |\n+-----------------+----------+-------+\n<strong>Explanation:</strong> \nThe quantity for Wristwatch and WirelessEarbuds are filled by 0.</pre>\n",
+            "translatedTitle": "填充缺失值",
+            "translatedContent": "<pre>\nDataFrame <code>products</code>\n+-------------+--------+\n| Column Name | Type   |\n+-------------+--------+\n| name        | object |\n| quantity    | int    |\n| price       | int    |\n+-------------+--------+\n</pre>\n\n<p>编写一个解决方案，在 <code>quantity</code> 列中将缺失的值填充为&nbsp;<code><strong>0</strong></code>。</p>\n\n<p>返回结果如下示例所示。</p>\n\n<p>&nbsp;</p>\n<strong class=\"example\">示例 1：</strong>\n\n<pre>\n<strong>输入：\n</strong>+-----------------+----------+-------+\n| name            | quantity | price |\n+-----------------+----------+-------+\n| Wristwatch      | 32       | 135   |\n| WirelessEarbuds | None     | 821   |\n| GolfClubs       | None     | 9319  |\n| Printer         | 849      | 3051  |\n+-----------------+----------+-------+\n<strong>输出：\n</strong>+-----------------+----------+-------+\n| name            | quantity | price |\n+-----------------+----------+-------+\n| Wristwatch      | 32       | 135   |\n| WirelessEarbuds | 0        | 821   |\n| GolfClubs       | 0        | 9319  |\n| Printer         | 849      | 3051  |\n+-----------------+----------+-------+\n<b>解释：</b>\nToaster 和 Headphones 的数量被填充为 0。</pre>\n",
+            "isPaidOnly": false,
+            "difficulty": "Easy",
+            "likes": 0,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "topicTags": [],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "Pandas",
+                    "langSlug": "pythondata",
+                    "code": "import pandas as pd\n\ndef fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:\n    "
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"4.3K\", \"totalAcceptedRaw\": 3092, \"totalSubmissionRaw\": 4344, \"acRate\": \"71.2%\"}",
+            "hints": [
+                "Consider using a build-in function in pandas library to fill the missing values of specified columns."
+            ],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"products\":[\"name\",\"quantity\",\"price\"]},\"rows\":{\"products\":[[\"Wristwatch\",null,135],[\"WirelessEarbuds\",null,821],[\"GolfClubs\",779,9319],[\"Printer\",849,3051]]}}",
+            "metaData": "{\n  \"pythondata\": [\n    \"products = pd.DataFrame([], columns=['name', 'quantity', 'price']).astype({'name':'object', 'quantity':'Int64', 'price':'Int64'})\"\n  ],\n  \"database\": true,\n  \"name\": \"fillMissingValues\",\n  \"languages\": [\n    \"pythondata\"\n  ]\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

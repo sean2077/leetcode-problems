@@ -1,0 +1,51 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2371",
+            "questionFrontendId": "2230",
+            "boundTopicId": null,
+            "title": "The Users That Are Eligible for Discount",
+            "titleSlug": "the-users-that-are-eligible-for-discount",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Easy",
+            "likes": 20,
+            "dislikes": 44,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"The Number of Users That Are Eligible for Discount\", \"titleSlug\": \"the-number-of-users-that-are-eligible-for-discount\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"5.4K\", \"totalSubmission\": \"10.9K\", \"totalAcceptedRaw\": 5426, \"totalSubmissionRaw\": 10871, \"acRate\": \"49.9%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Purchases\": [\"user_id\", \"time_stamp\", \"amount\"]}, \"startDate\": \"2022-03-08\", \"endDate\": \"2022-03-20\", \"minAmount\": 1000, \"rows\": {\"Purchases\": [[1, \"2022-04-20 09:03:00\", 4416], [2, \"2022-03-19 19:24:02\", 678], [3, \"2022-03-18 12:03:09\", 4523], [3, \"2022-03-30 09:43:42\", 626]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Purchases (user_id int, time_stamp datetime, amount int)\"], \"mssql\": [\"Create table Purchases (user_id int, time_stamp datetime, amount int)\"], \"oraclesql\": [\"Create table Purchases (user_id int, time_stamp date, amount int)\", \"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"], \"database\": true, \"manual\": true, \"name\": \"find_valid_users\", \"pythondata\": [\"Purchases = pd.DataFrame([], columns=['user_id', 'time_stamp', 'amount']).astype({'user_id':'Int64', 'time_stamp':'datetime64[ns]', 'amount':'Int64'})\"], \"database_schema\": {\"Purchases\": {\"user_id\": \"INT\", \"time_stamp\": \"DATETIME\", \"amount\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Purchases (user_id int, time_stamp datetime, amount int)",
+                "Truncate table Purchases",
+                "insert into Purchases (user_id, time_stamp, amount) values ('1', '2022-04-20 09:03:00', '4416')",
+                "insert into Purchases (user_id, time_stamp, amount) values ('2', '2022-03-19 19:24:02', '678')",
+                "insert into Purchases (user_id, time_stamp, amount) values ('3', '2022-03-18 12:03:09', '4523')",
+                "insert into Purchases (user_id, time_stamp, amount) values ('3', '2022-03-30 09:43:42', '626')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

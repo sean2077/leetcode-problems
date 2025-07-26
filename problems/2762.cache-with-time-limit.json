@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2762",
+            "questionFrontendId": "2622",
+            "boundTopicId": null,
+            "title": "Cache With Time Limit",
+            "titleSlug": "cache-with-time-limit",
+            "content": "<p>Write a class that allows getting and setting&nbsp;key-value pairs, however a&nbsp;<strong>time until expiration</strong>&nbsp;is associated with each key.</p>\n\n<p>The class has three public methods:</p>\n\n<p><code>set(key, value, duration)</code>:&nbsp;accepts an integer&nbsp;<code>key</code>, an&nbsp;integer&nbsp;<code>value</code>, and a <code>duration</code> in milliseconds. Once the&nbsp;<code>duration</code>&nbsp;has elapsed, the key should be inaccessible. The method should return&nbsp;<code>true</code>&nbsp;if the same&nbsp;un-expired key already exists and <code>false</code> otherwise. Both the value and duration should be overwritten if the key already exists.</p>\n\n<p><code>get(key)</code>: if an un-expired key exists, it should return the associated value. Otherwise it should return&nbsp;<code>-1</code>.</p>\n\n<p><code>count()</code>: returns the count of un-expired keys.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> \nactions = [&quot;TimeLimitedCache&quot;, &quot;set&quot;, &quot;get&quot;, &quot;count&quot;, &quot;get&quot;]\nvalues = [[], [1, 42, 100], [1], [], [1]]\ntimeDelays = [0, 0, 50, 50, 150]\n<strong>Output:</strong> [null, false, 42, 1, -1]\n<strong>Explanation:</strong>\nAt t=0, the cache is constructed.\nAt t=0, a key-value pair (1: 42) is added with a time limit of 100ms. The value doesn&#39;t exist so false is returned.\nAt t=50, key=1 is requested and the value of 42 is returned.\nAt t=50, count() is called and there is one active key in the cache.\nAt t=100, key=1 expires.\nAt t=150, get(1) is called but -1 is returned because the cache is empty.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> \nactions = [&quot;TimeLimitedCache&quot;, &quot;set&quot;, &quot;set&quot;, &quot;get&quot;, &quot;get&quot;, &quot;get&quot;, &quot;count&quot;]\nvalues = [[], [1, 42, 50], [1, 50, 100], [1], [1], [1], []]\ntimeDelays = [0, 0, 40, 50, 120, 200, 250]\n<strong>Output:</strong> [null, false, true, 50, 50, -1, 0]\n<strong>Explanation:</strong>\nAt t=0, the cache is constructed.\nAt t=0, a key-value pair (1: 42) is added with a time limit of 50ms. The value doesn&#39;t exist so false is returned.\nAt t=40, a key-value pair (1: 50) is added with a time limit of 100ms. A non-expired value already existed so true is returned and the old value was overwritten.\nAt t=50, get(1) is called which returned 50.\nAt t=120, get(1) is called which returned 50.\nAt t=140, key=1 expires.\nAt t=200, get(1) is called but the cache is empty so -1 is returned.\nAt t=250, count() returns 0 because the cache is empty.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= key, value &lt;= 10<sup>9</sup></code></li>\n\t<li><code>0 &lt;= duration &lt;= 1000</code></li>\n\t<li><code>1 &lt;= actions.length &lt;= 100</code></li>\n\t<li><code>actions.length === values.length</code></li>\n\t<li><code>actions.length === timeDelays.length</code></li>\n\t<li><code>0 &lt;= timeDelays[i] &lt;= 1450</code></li>\n\t<li><code>actions[i]</code>&nbsp;is one of &quot;TimeLimitedCache&quot;, &quot;set&quot;, &quot;get&quot; and&nbsp;&quot;count&quot;</li>\n\t<li>First action is always &quot;TimeLimitedCache&quot; and must be executed immediately, with a 0-millisecond delay</li>\n</ul>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Medium",
+            "likes": 423,
+            "dislikes": 29,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Debounce\", \"titleSlug\": \"debounce\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Promise Time Limit\", \"titleSlug\": \"promise-time-limit\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Promise Pool\", \"titleSlug\": \"promise-pool\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": false, \"java\": true, \"python\": true, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "topicTags": [],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "JavaScript",
+                    "langSlug": "javascript",
+                    "code": "var TimeLimitedCache = function() {\n    \n};\n\n/** \n * @param {number} key\n * @param {number} value\n * @param {number} duration time until expiration in ms\n * @return {boolean} if un-expired key already existed\n */\nTimeLimitedCache.prototype.set = function(key, value, duration) {\n    \n};\n\n/** \n * @param {number} key\n * @return {number} value associated with key\n */\nTimeLimitedCache.prototype.get = function(key) {\n    \n};\n\n/** \n * @return {number} count of non-expired keys\n */\nTimeLimitedCache.prototype.count = function() {\n    \n};\n\n/**\n * const timeLimitedCache = new TimeLimitedCache()\n * timeLimitedCache.set(1, 42, 1000); // false\n * timeLimitedCache.get(1) // 42\n * timeLimitedCache.count() // 1\n */"
+                },
+                {
+                    "lang": "TypeScript",
+                    "langSlug": "typescript",
+                    "code": "class TimeLimitedCache {\n    \n    constructor() {\n        \n    }\n    \n    set(key: number, value: number, duration: number): boolean {\n        \n    }\n    \n    get(key: number): number {\n        \n    }\n    \n    count(): number {\n        \n    }\n}\n\n/**\n * const timeLimitedCache = new TimeLimitedCache()\n * timeLimitedCache.set(1, 42, 1000); // false\n * timeLimitedCache.get(1) // 42\n * timeLimitedCache.count() // 1\n */"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"44.2K\", \"totalSubmission\": \"59.5K\", \"totalAcceptedRaw\": 44152, \"totalSubmissionRaw\": 59450, \"acRate\": \"74.3%\"}",
+            "hints": [
+                "You can delay execution of code with \"ref = setTimeout(fn, delay)\". You can abort the execution with \"clearTimeout(ref)\"",
+                "When storing the values in the cache, also store a reference to the timeout. The timeout should clear the key from the cache after the expiration has elapsed.",
+                "When you set a key that already exists, clear the existing timeout."
+            ],
+            "status": null,
+            "sampleTestCase": "[\"TimeLimitedCache\", \"set\", \"get\", \"count\", \"get\"]\n[[], [1, 42, 100], [1], [], [1]]\n[0, 0, 50, 50, 150]",
+            "metaData": "{\n  \"name\": \"foobar\",\n  \"params\": [\n    {\n      \"name\": \"actions\",\n      \"type\": \"string[]\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"values\"\n    },\n    {\n      \"type\": \"integer[]\",\n      \"name\": \"timeDelays\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"languages\": [\n    \"typescript\",\n    \"javascript\"\n  ],\n  \"manual\": true\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 5.4.0 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/blob/v5/README.md\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.1.6, Node.js 20.10.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022</code></p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES2022 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

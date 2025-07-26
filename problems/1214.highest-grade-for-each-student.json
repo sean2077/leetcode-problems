@@ -1,0 +1,54 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1214",
+            "questionFrontendId": "1112",
+            "boundTopicId": null,
+            "title": "Highest Grade For Each Student",
+            "titleSlug": "highest-grade-for-each-student",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 298,
+            "dislikes": 14,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Department Highest Salary\", \"titleSlug\": \"department-highest-salary\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"62.5K\", \"totalSubmission\": \"88.2K\", \"totalAcceptedRaw\": 62508, \"totalSubmissionRaw\": 88189, \"acRate\": \"70.9%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Enrollments\":[\"student_id\",\"course_id\",\"grade\"]},\"rows\":{\"Enrollments\":[[2,2,95],[2,3,95],[1,1,90],[1,2,99],[3,1,80],[3,2,75],[3,3,82]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Enrollments (student_id int, course_id int, grade int)\"], \"mssql\": [\"Create table Enrollments (student_id int, course_id int, grade int)\"], \"oraclesql\": [\"Create table Enrollments (student_id int, course_id int, grade int)\"], \"database\": true, \"name\": \"highest_grade\", \"pythondata\": [\"Enrollments = pd.DataFrame([], columns=['student_id', 'course_id', 'grade']).astype({'student_id':'Int64', 'course_id':'Int64', 'grade':'Int64'})\"], \"postgresql\": [\"\\nCreate table If Not Exists Enrollments (student_id int, course_id int, grade int)\"], \"database_schema\": {\"Enrollments\": {\"student_id\": \"INT\", \"course_id\": \"INT\", \"grade\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Enrollments (student_id int, course_id int, grade int)",
+                "Truncate table Enrollments",
+                "insert into Enrollments (student_id, course_id, grade) values ('2', '2', '95')",
+                "insert into Enrollments (student_id, course_id, grade) values ('2', '3', '95')",
+                "insert into Enrollments (student_id, course_id, grade) values ('1', '1', '90')",
+                "insert into Enrollments (student_id, course_id, grade) values ('1', '2', '99')",
+                "insert into Enrollments (student_id, course_id, grade) values ('3', '1', '80')",
+                "insert into Enrollments (student_id, course_id, grade) values ('3', '2', '75')",
+                "insert into Enrollments (student_id, course_id, grade) values ('3', '3', '82')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

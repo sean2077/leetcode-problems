@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2152",
+            "questionFrontendId": "2004",
+            "boundTopicId": null,
+            "title": "The Number of Seniors and Juniors to Join the Company",
+            "titleSlug": "the-number-of-seniors-and-juniors-to-join-the-company",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 117,
+            "dislikes": 14,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Last Person to Fit in the Bus\", \"titleSlug\": \"last-person-to-fit-in-the-bus\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"The Number of Seniors and Juniors to Join the Company II\", \"titleSlug\": \"the-number-of-seniors-and-juniors-to-join-the-company-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"8.6K\", \"totalSubmission\": \"19.8K\", \"totalAcceptedRaw\": 8605, \"totalSubmissionRaw\": 19838, \"acRate\": \"43.4%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Candidates\":[\"employee_id\",\"experience\",\"salary\"]},\"rows\":{\"Candidates\":[[1,\"Junior\",10000],[9,\"Junior\",10000],[2,\"Senior\",20000],[11,\"Senior\",20000],[13,\"Senior\",50000],[4,\"Junior\",40000]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Candidates (employee_id int, experience ENUM('Senior', 'Junior'), salary int)\"], \"mssql\": [\"Create table Candidates (employee_id int, experience VARCHAR(6) NOT NULL CHECK (experience IN ('Senior', 'Junior')), salary int)\"], \"oraclesql\": [\"Create table Candidates (employee_id int, experience VARCHAR(6) NOT NULL CHECK (experience IN ('Senior', 'Junior')), salary int)\"], \"database\": true, \"name\": \"count_seniors_and_juniors\", \"pythondata\": [\"Candidates = pd.DataFrame([], columns=['employee_id', 'experience', 'salary']).astype({'employee_id':'Int64', 'experience':'object', 'salary':'Int64'})\"], \"postgresql\": [\"Create table If Not Exists Candidates (employee_id int, experience VARCHAR(30) CHECK (experience IN ('Senior', 'Junior')), salary int)\\n\"], \"database_schema\": {\"Candidates\": {\"employee_id\": \"INT\", \"experience\": \"ENUM('Senior', 'Junior')\", \"salary\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Candidates (employee_id int, experience ENUM('Senior', 'Junior'), salary int)",
+                "Truncate table Candidates",
+                "insert into Candidates (employee_id, experience, salary) values ('1', 'Junior', '10000')",
+                "insert into Candidates (employee_id, experience, salary) values ('9', 'Junior', '10000')",
+                "insert into Candidates (employee_id, experience, salary) values ('2', 'Senior', '20000')",
+                "insert into Candidates (employee_id, experience, salary) values ('11', 'Senior', '20000')",
+                "insert into Candidates (employee_id, experience, salary) values ('13', 'Senior', '50000')",
+                "insert into Candidates (employee_id, experience, salary) values ('4', 'Junior', '40000')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

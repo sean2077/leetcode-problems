@@ -1,0 +1,50 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2253",
+            "questionFrontendId": "2118",
+            "boundTopicId": null,
+            "title": "Build the Equation",
+            "titleSlug": "build-the-equation",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 23,
+            "dislikes": 37,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"2.6K\", \"totalSubmission\": \"4.8K\", \"totalAcceptedRaw\": 2643, \"totalSubmissionRaw\": 4757, \"acRate\": \"55.6%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Terms\":[\"power\",\"factor\"]},\"rows\":{\"Terms\":[[2,1],[1,-4],[0,2]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Terms (power int, factor int)\"], \"mssql\": [\"Create table Terms (power int, factor int)\"], \"oraclesql\": [\"Create table Terms (power int, factor int)\"], \"database\": true, \"name\": \"build_the_equation\", \"pythondata\": [\"Terms = pd.DataFrame([], columns=['power', 'factor']).astype({'power':'Int64', 'factor':'Int64'})\"], \"postgresql\": [\"Create table If Not Exists Terms (power int, factor int)\"], \"database_schema\": {\"Terms\": {\"power\": \"INT\", \"factor\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Terms (power int, factor int)",
+                "Truncate table Terms",
+                "insert into Terms (power, factor) values ('2', '1')",
+                "insert into Terms (power, factor) values ('1', '-4')",
+                "insert into Terms (power, factor) values ('0', '2')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

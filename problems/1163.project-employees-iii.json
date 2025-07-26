@@ -1,0 +1,58 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1163",
+            "questionFrontendId": "1077",
+            "boundTopicId": null,
+            "title": "Project Employees III",
+            "titleSlug": "project-employees-iii",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 268,
+            "dislikes": 9,
+            "isLiked": null,
+            "similarQuestions": "[{\"title\": \"Project Employees II\", \"titleSlug\": \"project-employees-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"58.6K\", \"totalSubmission\": \"76.6K\", \"totalAcceptedRaw\": 58650, \"totalSubmissionRaw\": 76569, \"acRate\": \"76.6%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Project\":[\"project_id\",\"employee_id\"],\"Employee\":[\"employee_id\",\"name\",\"experience_years\"]},\"rows\":{\"Project\":[[1,1],[1,2],[1,3],[2,1],[2,4]],\"Employee\":[[1,\"Khaled\",3],[2,\"Ali\",2],[3,\"John\",3],[4,\"Doe\",2]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Project (project_id int, employee_id int)\", \"Create table If Not Exists Employee (employee_id int, name varchar(10), experience_years int)\"], \"mssql\": [\"Create table Project (project_id int, employee_id int)\", \"Create table Employee (employee_id int, name varchar(10), experience_years int)\"], \"oraclesql\": [\"Create table Project (project_id int, employee_id int)\", \"Create table Employee (employee_id int, name varchar(10), experience_years int)\"], \"database\": true, \"name\": \"project_employees\", \"pythondata\": [\"Project = pd.DataFrame([], columns=['project_id', 'employee_id']).astype({'project_id':'Int64', 'employee_id':'Int64'})\", \"Employee = pd.DataFrame([], columns=['employee_id', 'name', 'experience_years']).astype({'employee_id':'Int64', 'name':'object', 'experience_years':'Int64'})\"], \"postgresql\": [\"Create table If Not Exists Project (project_id int, employee_id int)\\n\", \"Create table Employee (employee_id int, name varchar(10), experience_years int)\"], \"database_schema\": {\"Project\": {\"project_id\": \"INT\", \"employee_id\": \"INT\"}, \"Employee\": {\"employee_id\": \"INT\", \"name\": \"VARCHAR(10)\", \"experience_years\": \"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Project (project_id int, employee_id int)",
+                "Create table If Not Exists Employee (employee_id int, name varchar(10), experience_years int)",
+                "Truncate table Project",
+                "insert into Project (project_id, employee_id) values ('1', '1')",
+                "insert into Project (project_id, employee_id) values ('1', '2')",
+                "insert into Project (project_id, employee_id) values ('1', '3')",
+                "insert into Project (project_id, employee_id) values ('2', '1')",
+                "insert into Project (project_id, employee_id) values ('2', '4')",
+                "Truncate table Employee",
+                "insert into Employee (employee_id, name, experience_years) values ('1', 'Khaled', '3')",
+                "insert into Employee (employee_id, name, experience_years) values ('2', 'Ali', '2')",
+                "insert into Employee (employee_id, name, experience_years) values ('3', 'John', '3')",
+                "insert into Employee (employee_id, name, experience_years) values ('4', 'Doe', '2')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

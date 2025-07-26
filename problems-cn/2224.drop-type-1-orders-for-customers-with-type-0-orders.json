@@ -1,0 +1,55 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2224",
+            "questionFrontendId": "2084",
+            "boundTopicId": 1122717,
+            "title": "Drop Type 1 Orders for Customers With Type 0 Orders",
+            "titleSlug": "drop-type-1-orders-for-customers-with-type-0-orders",
+            "content": null,
+            "translatedTitle": "为订单类型为 0 的客户删除类型为 1 的订单",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 15,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"3K\", \"totalSubmission\": \"3.7K\", \"totalAcceptedRaw\": 2982, \"totalSubmissionRaw\": 3685, \"acRate\": \"80.9%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Orders\":[\"order_id\",\"customer_id\",\"order_type\"]},\"rows\":{\"Orders\":[[1,1,0],[2,1,0],[11,2,0],[12,2,1],[21,3,1],[22,3,0],[31,4,1],[32,4,1]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Orders (order_id int, customer_id int, order_type int)\"],\"mssql\":[\"Create table Orders (order_id int, customer_id int, order_type int)\"],\"oraclesql\":[\"Create table Orders (order_id int, customer_id int, order_type int)\"],\"database\":true,\"name\":\"drop_specific_orders\",\"pythondata\":[\"Orders = pd.DataFrame([], columns=['order_id', 'customer_id', 'order_type']).astype({'order_id':'Int64', 'customer_id':'Int64', 'order_type':'Int64'})\"],\"postgresql\":[\"Create table If Not Exists Orders (order_id int, customer_id int, order_type int)\"],\"database_schema\":{\"Orders\":{\"order_id\":\"INT\",\"customer_id\":\"INT\",\"order_type\":\"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Orders (order_id int, customer_id int, order_type int)",
+                "Truncate table Orders",
+                "insert into Orders (order_id, customer_id, order_type) values ('1', '1', '0')",
+                "insert into Orders (order_id, customer_id, order_type) values ('2', '1', '0')",
+                "insert into Orders (order_id, customer_id, order_type) values ('11', '2', '0')",
+                "insert into Orders (order_id, customer_id, order_type) values ('12', '2', '1')",
+                "insert into Orders (order_id, customer_id, order_type) values ('21', '3', '1')",
+                "insert into Orders (order_id, customer_id, order_type) values ('22', '3', '0')",
+                "insert into Orders (order_id, customer_id, order_type) values ('31', '4', '1')",
+                "insert into Orders (order_id, customer_id, order_type) values ('32', '4', '1')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

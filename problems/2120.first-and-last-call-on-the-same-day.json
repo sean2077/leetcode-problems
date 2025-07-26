@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2120",
+            "questionFrontendId": "1972",
+            "boundTopicId": null,
+            "title": "First and Last Call On the Same Day",
+            "titleSlug": "first-and-last-call-on-the-same-day",
+            "content": null,
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Hard",
+            "likes": 133,
+            "dislikes": 42,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"9.7K\", \"totalSubmission\": \"19.2K\", \"totalAcceptedRaw\": 9652, \"totalSubmissionRaw\": 19165, \"acRate\": \"50.4%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\": {\"Calls\": [\"caller_id\", \"recipient_id\", \"call_time\"]}, \"rows\": {\"Calls\": [[8, 4, \"2021-08-24 17:46:07\"], [4, 8, \"2021-08-24 19:57:13\"], [5, 1, \"2021-08-11 05:28:44\"], [8, 3, \"2021-08-17 04:04:15\"], [11, 3, \"2021-08-17 13:07:00\"], [8, 11, \"2021-08-17 22:22:22\"]]}}",
+            "metaData": "{\"mysql\": [\"Create table If Not Exists Calls (caller_id int, recipient_id int, call_time datetime)\"], \"mssql\": [\"Create table Calls (caller_id int, recipient_id int, call_time datetime)\"], \"oraclesql\": [\"Create table Calls (caller_id int, recipient_id int, call_time date)\", \"ALTER SESSION SET nls_date_format='YYYY-MM-DD HH24:MI:SS'\"], \"database\": true, \"name\": \"same_day_calls\", \"pythondata\": [\"Calls = pd.DataFrame([], columns=['caller_id', 'recipient_id', 'call_time']).astype({'caller_id':'Int64', 'recipient_id':'Int64', 'call_time':'datetime64[ns]'})\"], \"postgresql\": [\"Create table If Not Exists Calls (caller_id int, recipient_id int, call_time timestamp)\\n\"], \"database_schema\": {\"Calls\": {\"caller_id\": \"INT\", \"recipient_id\": \"INT\", \"call_time\": \"DATETIME\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Calls (caller_id int, recipient_id int, call_time datetime)",
+                "Truncate table Calls",
+                "insert into Calls (caller_id, recipient_id, call_time) values ('8', '4', '2021-08-24 17:46:07')",
+                "insert into Calls (caller_id, recipient_id, call_time) values ('4', '8', '2021-08-24 19:57:13')",
+                "insert into Calls (caller_id, recipient_id, call_time) values ('5', '1', '2021-08-11 05:28:44')",
+                "insert into Calls (caller_id, recipient_id, call_time) values ('8', '3', '2021-08-17 04:04:15')",
+                "insert into Calls (caller_id, recipient_id, call_time) values ('11', '3', '2021-08-17 13:07:00')",
+                "insert into Calls (caller_id, recipient_id, call_time) values ('8', '11', '2021-08-17 22:22:22')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\": [\"MySQL\", \"<p><code>MySQL 8.0</code>.</p>\"], \"mssql\": [\"MS SQL Server\", \"<p><code>mssql server 2019</code>.</p>\"], \"oraclesql\": [\"Oracle\", \"<p><code>Oracle Sql 11.2</code>.</p>\"], \"pythondata\": [\"Pandas\", \"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0</p>\"], \"postgresql\": [\"PostgreSQL\", \"<p>PostgreSQL 16</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

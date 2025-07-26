@@ -1,0 +1,54 @@
+{
+    "data": {
+        "question": {
+            "questionId": "1842",
+            "questionFrontendId": "1699",
+            "boundTopicId": 537266,
+            "title": "Number of Calls Between Two Persons",
+            "titleSlug": "number-of-calls-between-two-persons",
+            "content": null,
+            "translatedTitle": "两人之间的通话次数",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 70,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"16.6K\", \"totalSubmission\": \"21.9K\", \"totalAcceptedRaw\": 16590, \"totalSubmissionRaw\": 21914, \"acRate\": \"75.7%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Calls\":[\"from_id\",\"to_id\",\"duration\"]},\"rows\":{\"Calls\":[[1,2,59],[2,1,11],[1,3,20],[3,4,100],[3,4,200],[3,4,200],[4,3,499]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Calls (from_id int, to_id int, duration int)\"],\"mssql\":[\"Create table Calls (from_id int, to_id int, duration int)\"],\"oraclesql\":[\"Create table Calls (from_id int, to_id int, duration int)\"],\"database\":true,\"name\":\"number_of_calls\",\"pythondata\":[\"Calls = pd.DataFrame([], columns=['from_id', 'to_id', 'duration']).astype({'from_id':'Int64', 'to_id':'Int64', 'duration':'Int64'})\"],\"postgresql\":[\"\\nCreate table If Not Exists Calls (from_id int, to_id int, duration int)\"],\"database_schema\":{\"Calls\":{\"from_id\":\"INT\",\"to_id\":\"INT\",\"duration\":\"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Calls (from_id int, to_id int, duration int)",
+                "Truncate table Calls",
+                "insert into Calls (from_id, to_id, duration) values ('1', '2', '59')",
+                "insert into Calls (from_id, to_id, duration) values ('2', '1', '11')",
+                "insert into Calls (from_id, to_id, duration) values ('1', '3', '20')",
+                "insert into Calls (from_id, to_id, duration) values ('3', '4', '100')",
+                "insert into Calls (from_id, to_id, duration) values ('3', '4', '200')",
+                "insert into Calls (from_id, to_id, duration) values ('3', '4', '200')",
+                "insert into Calls (from_id, to_id, duration) values ('4', '3', '499')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3286",
+            "questionFrontendId": "2989",
+            "boundTopicId": 2586388,
+            "title": "Class Performance",
+            "titleSlug": "class-performance",
+            "content": null,
+            "translatedTitle": "班级表现",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 0,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"486\", \"totalSubmission\": \"581\", \"totalAcceptedRaw\": 486, \"totalSubmissionRaw\": 581, \"acRate\": \"83.6%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Scores\":[\"student_id\",\"student_name\",\"assignment1\",\"assignment2\",\"assignment3\"]},\"rows\":{\"Scores\":[[309,\"Owen\",88,47,87],[321,\"Claire\",98,95,37],[338,\"Julian\",100,64,43],[423,\"Peyton\",60,44,47],[896,\"David\",32,37,50],[235,\"Camila\",31,53,69]]}}",
+            "metaData": "{\"mysql\":[\"Create Table if Not Exists Scores (student_id int, student_name varchar(40), assignment1 int,assignment2 int, assignment3 int)\"],\"mssql\":[\"Create Table Scores (student_id int, student_name varchar(40), assignment1 int,assignment2 int, assignment3 int)\"],\"oraclesql\":[\"Create Table Scores (student_id int, student_name varchar(40), assignment1 int,assignment2 int, assignment3 int)\"],\"database\":true,\"name\":\"class_performance\",\"postgresql\":[\"CREATE TABLE Scores (\\n  student_id INT,\\n  student_name VARCHAR(40),\\n  assignment1 INT,\\n  assignment2 INT,\\n  assignment3 INT\\n);\"],\"pythondata\":[\"Scores = pd.DataFrame([], columns=['student_id', 'student_name', 'assignment1', 'assignment2', 'assignment3']).astype({'student_id':'Int64', 'student_name':'object', 'assignment1':'Int64', 'assignment2':'Int64', 'assignment3':'Int64'})\\n\"],\"database_schema\":{\"Scores\":{\"student_id\":\"INT\",\"student_name\":\"VARCHAR(40)\",\"assignment1\":\"INT\",\"assignment2\":\"INT\",\"assignment3\":\"INT\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create Table if Not Exists Scores (student_id int, student_name varchar(40), assignment1 int,assignment2 int, assignment3 int)",
+                "Truncate table Scores",
+                "insert into Scores (student_id, student_name, assignment1, assignment2, assignment3) values ('309', 'Owen', '88', '47', '87')",
+                "insert into Scores (student_id, student_name, assignment1, assignment2, assignment3) values ('321', 'Claire', '98', '95', '37')",
+                "insert into Scores (student_id, student_name, assignment1, assignment2, assignment3) values ('338', 'Julian', '100', '64', '43')",
+                "insert into Scores (student_id, student_name, assignment1, assignment2, assignment3) values ('423', 'Peyton', '60', '44', '47')",
+                "insert into Scores (student_id, student_name, assignment1, assignment2, assignment3) values ('896', 'David', '32', '37', '50')",
+                "insert into Scores (student_id, student_name, assignment1, assignment2, assignment3) values ('235', 'Camila', '31', '53', '69')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

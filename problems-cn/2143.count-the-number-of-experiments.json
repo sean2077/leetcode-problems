@@ -1,0 +1,53 @@
+{
+    "data": {
+        "question": {
+            "questionId": "2143",
+            "questionFrontendId": "1990",
+            "boundTopicId": 978814,
+            "title": "Count the Number of Experiments",
+            "titleSlug": "count-the-number-of-experiments",
+            "content": null,
+            "translatedTitle": "统计实验的数量",
+            "translatedContent": null,
+            "isPaidOnly": true,
+            "difficulty": "Medium",
+            "likes": 11,
+            "dislikes": 0,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": null,
+            "topicTags": [
+                {
+                    "name": "Database",
+                    "slug": "database",
+                    "translatedName": "数据库"
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": null,
+            "stats": "{\"totalAccepted\": \"3.1K\", \"totalSubmission\": \"6.6K\", \"totalAcceptedRaw\": 3122, \"totalSubmissionRaw\": 6615, \"acRate\": \"47.2%\"}",
+            "hints": [],
+            "status": null,
+            "sampleTestCase": "{\"headers\":{\"Experiments\":[\"experiment_id\",\"platform\",\"experiment_name\"]},\"rows\":{\"Experiments\":[[4,\"IOS\",\"Programming\"],[13,\"IOS\",\"Sports\"],[14,\"Android\",\"Reading\"],[8,\"Web\",\"Reading\"],[12,\"Web\",\"Reading\"],[18,\"Web\",\"Programming\"]]}}",
+            "metaData": "{\"mysql\":[\"Create table If Not Exists Experiments (experiment_id int, platform ENUM('Android', 'IOS', 'Web'), experiment_name ENUM('Reading', 'Sports', 'Programming'))\"],\"mssql\":[\"Create table Experiments (experiment_id int, platform VARCHAR(7) NOT NULL CHECK (platform IN ('Android', 'IOS', 'Web')), experiment_name VARCHAR(11) NOT NULL CHECK (experiment_name IN ('Reading', 'Sports', 'Programming')))\"],\"oraclesql\":[\"Create table Experiments (experiment_id int, platform VARCHAR(7) NOT NULL CHECK (platform IN ('Android', 'IOS', 'Web')), experiment_name VARCHAR(11) NOT NULL CHECK (experiment_name IN ('Reading', 'Sports', 'Programming')))\"],\"database\":true,\"name\":\"count_experiments\",\"pythondata\":[\"Experiments = pd.DataFrame([], columns=['experiment_id', 'platform', 'experiment_name']).astype({'experiment_id':'Int64', 'platform':'object', 'experiment_name':'object'})\"],\"postgresql\":[\"Create table If Not Exists Experiments (experiment_id int, platform VARCHAR(30) CHECK (platform IN ('Android', 'IOS', 'Web')), experiment_name VARCHAR(30) CHECK (experiment_name IN ('Reading', 'Sports', 'Programming')))\\n\"],\"database_schema\":{\"Experiments\":{\"experiment_id\":\"INT\",\"platform\":\"ENUM('Android', 'IOS', 'Web')\",\"experiment_name\":\"ENUM('Reading', 'Sports', 'Programming')\"}}}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [
+                "Create table If Not Exists Experiments (experiment_id int, platform ENUM('Android', 'IOS', 'Web'), experiment_name ENUM('Reading', 'Sports', 'Programming'))",
+                "Truncate table Experiments",
+                "insert into Experiments (experiment_id, platform, experiment_name) values ('4', 'IOS', 'Programming')",
+                "insert into Experiments (experiment_id, platform, experiment_name) values ('13', 'IOS', 'Sports')",
+                "insert into Experiments (experiment_id, platform, experiment_name) values ('14', 'Android', 'Reading')",
+                "insert into Experiments (experiment_id, platform, experiment_name) values ('8', 'Web', 'Reading')",
+                "insert into Experiments (experiment_id, platform, experiment_name) values ('12', 'Web', 'Reading')",
+                "insert into Experiments (experiment_id, platform, experiment_name) values ('18', 'Web', 'Programming')"
+            ],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>mssql server 2019.<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>Oracle Sql 11.2.<\\/p>\"],\"pythondata\":[\"Pandas\",\"<p>Python 3.10 with Pandas 2.0.2 and NumPy 1.25.0<\\/p>\"],\"postgresql\":[\"PostgreSQL\",\"<p>PostgreSQL 16<\\/p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}
