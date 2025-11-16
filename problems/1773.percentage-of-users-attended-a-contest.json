@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 977,
-            "dislikes": 98,
+            "likes": 1100,
+            "dislikes": 102,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Queries Quality and Percentage\", \"titleSlug\": \"queries-quality-and-percentage\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef users_percentage(users: pd.DataFrame, register: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"409.1K\", \"totalSubmission\": \"692.9K\", \"totalAcceptedRaw\": 409108, \"totalSubmissionRaw\": 692897, \"acRate\": \"59.0%\"}",
+            "stats": "{\"totalAccepted\": \"473K\", \"totalSubmission\": \"792.1K\", \"totalAcceptedRaw\": 472953, \"totalSubmissionRaw\": 792123, \"acRate\": \"59.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Users\":[\"user_id\",\"user_name\"],\"Register\":[\"contest_id\",\"user_id\"]},\"rows\":{\"Users\":[[6,\"Alice\"],[2,\"Bob\"],[7,\"Alex\"]],\"Register\":[[215,6],[209,2],[208,2],[210,6],[208,6],[209,7],[209,6],[215,7],[208,7],[210,2],[207,2],[210,7]]}}",

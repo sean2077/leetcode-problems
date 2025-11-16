@@ -11,12 +11,12 @@
             "translatedContent": "<p>表：<code>Employee</code>&nbsp;</p>\n\n<pre>\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| id          | int     |\n| name        | varchar |\n| salary      | int     |\n| managerId   | int     |\n+-------------+---------+\nid 是该表的主键（具有唯一值的列）。\n该表的每一行都表示雇员的ID、姓名、工资和经理的ID。\n</pre>\n\n<p>&nbsp;</p>\n\n<p>编写解决方案，找出收入比经理高的员工。</p>\n\n<p>以 <strong>任意顺序</strong> 返回结果表。</p>\n\n<p>结果格式如下所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1:</strong></p>\n\n<pre>\n<strong>输入:</strong> \nEmployee 表:\n+----+-------+--------+-----------+\n| id | name  | salary | managerId |\n+----+-------+--------+-----------+\n| 1  | Joe   | 70000  | 3         |\n| 2  | Henry | 80000  | 4         |\n| 3  | Sam   | 60000  | Null      |\n| 4  | Max   | 90000  | Null      |\n+----+-------+--------+-----------+\n<strong>输出:</strong> \n+----------+\n| Employee |\n+----------+\n| Joe      |\n+----------+\n<strong>解释:</strong> Joe 是唯一挣得比经理多的雇员。</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 758,
+            "likes": 771,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef find_employees(employee: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"365.8K\", \"totalSubmission\": \"528.3K\", \"totalAcceptedRaw\": 365768, \"totalSubmissionRaw\": 528274, \"acRate\": \"69.2%\"}",
+            "stats": "{\"totalAccepted\": \"379.4K\", \"totalSubmission\": \"549.3K\", \"totalAcceptedRaw\": 379445, \"totalSubmissionRaw\": 549313, \"acRate\": \"69.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Employee\": [\"id\", \"name\", \"salary\", \"managerId\"]}, \"rows\": {\"Employee\": [[1, \"Joe\", 70000, 3], [2, \"Henry\", 80000, 4], [3, \"Sam\", 60000, null], [4, \"Max\", 90000, null]]}}",

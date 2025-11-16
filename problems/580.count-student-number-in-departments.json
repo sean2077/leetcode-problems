@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Medium",
-            "likes": 251,
-            "dislikes": 37,
+            "likes": 254,
+            "dislikes": 38,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"74.8K\", \"totalSubmission\": \"125.1K\", \"totalAcceptedRaw\": 74836, \"totalSubmissionRaw\": 125147, \"acRate\": \"59.8%\"}",
+            "stats": "{\"totalAccepted\": \"76.5K\", \"totalSubmission\": \"127.8K\", \"totalAcceptedRaw\": 76497, \"totalSubmissionRaw\": 127755, \"acRate\": \"59.9%\"}",
             "hints": [
                 "Still remember the difference between 'INNER JOIN' and 'OUTTER JOIN' in SQL?",
                 "Do you know other expressions using the 'COUNT' function besides 'COUNT(*)'?"

@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"8.2K\", \"totalSubmission\": \"29.1K\", \"totalAcceptedRaw\": 8188, \"totalSubmissionRaw\": 29117, \"acRate\": \"28.1%\"}",
+            "stats": "{\"totalAccepted\": \"8.5K\", \"totalSubmission\": \"30.1K\", \"totalAcceptedRaw\": 8493, \"totalSubmissionRaw\": 30066, \"acRate\": \"28.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Listens\":[\"user_id\",\"song_id\",\"day\"],\"Friendship\":[\"user1_id\",\"user2_id\"]},\"rows\":{\"Listens\":[[1,10,\"2021-03-15\"],[1,11,\"2021-03-15\"],[1,12,\"2021-03-15\"],[2,10,\"2021-03-15\"],[2,11,\"2021-03-15\"],[2,12,\"2021-03-15\"],[3,10,\"2021-03-15\"],[3,11,\"2021-03-15\"],[3,12,\"2021-03-15\"],[4,10,\"2021-03-15\"],[4,11,\"2021-03-15\"],[4,13,\"2021-03-15\"],[5,10,\"2021-03-16\"],[5,11,\"2021-03-16\"],[5,12,\"2021-03-16\"]],\"Friendship\":[[1,2]]}}",

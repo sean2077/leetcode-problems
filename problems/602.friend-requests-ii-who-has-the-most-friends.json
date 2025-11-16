@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 825,
-            "dislikes": 145,
+            "likes": 911,
+            "dislikes": 149,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef most_friends(request_accepted: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"258.4K\", \"totalSubmission\": \"422.3K\", \"totalAcceptedRaw\": 258359, \"totalSubmissionRaw\": 422331, \"acRate\": \"61.2%\"}",
+            "stats": "{\"totalAccepted\": \"296.8K\", \"totalSubmission\": \"479.8K\", \"totalAcceptedRaw\": 296844, \"totalSubmissionRaw\": 479805, \"acRate\": \"61.9%\"}",
             "hints": [
                 "Being friends is bidirectional. If you accept someone's adding friend request, both you and the other person will have one more friend."
             ],

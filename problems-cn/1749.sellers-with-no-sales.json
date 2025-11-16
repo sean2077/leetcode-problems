@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"19.9K\", \"totalSubmission\": \"37.9K\", \"totalAcceptedRaw\": 19939, \"totalSubmissionRaw\": 37912, \"acRate\": \"52.6%\"}",
+            "stats": "{\"totalAccepted\": \"20.5K\", \"totalSubmission\": \"39.1K\", \"totalAcceptedRaw\": 20530, \"totalSubmissionRaw\": 39079, \"acRate\": \"52.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Customer\": [\"customer_id\", \"customer_name\"], \"Orders\": [\"order_id\", \"sale_date\", \"order_cost\", \"customer_id\", \"seller_id\"], \"Seller\": [\"seller_id\", \"seller_name\"]}, \"rows\": {\"Customer\": [[101, \"Alice\"], [102, \"Bob\"], [103, \"Charlie\"]], \"Orders\": [[1, \"2020-03-01\", 1500, 101, 1], [2, \"2020-05-25\", 2400, 102, 2], [3, \"2019-05-25\", 800, 101, 3], [4, \"2020-09-13\", 1000, 103, 2], [5, \"2019-02-11\", 700, 101, 2]], \"Seller\": [[1, \"Daniel\"], [2, \"Elizabeth\"], [3, \"Frank\"]]}}",

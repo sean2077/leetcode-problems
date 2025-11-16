@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"9.4K\", \"totalSubmission\": \"20.9K\", \"totalAcceptedRaw\": 9403, \"totalSubmissionRaw\": 20933, \"acRate\": \"44.9%\"}",
+            "stats": "{\"totalAccepted\": \"9.9K\", \"totalSubmission\": \"21.9K\", \"totalAcceptedRaw\": 9937, \"totalSubmissionRaw\": 21938, \"acRate\": \"45.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Friendship\":[\"user1_id\",\"user2_id\"],\"Likes\":[\"user_id\",\"page_id\"]},\"rows\":{\"Friendship\":[[1,2],[1,3],[1,4],[2,3],[2,4],[2,5],[6,1]],\"Likes\":[[1,88],[2,23],[3,24],[4,56],[5,11],[6,33],[2,77],[3,77],[6,88]]}}",

@@ -11,12 +11,12 @@
             "translatedContent": "<p>给定一个包含电话号码列表（一行一个电话号码）的文本文件 <code>file.txt</code>，写一个单行 bash 脚本输出所有有效的电话号码。</p>\n\n<p>你可以假设一个有效的电话号码必须满足以下两种格式： (xxx) xxx-xxxx 或 xxx-xxx-xxxx。（x 表示一个数字）</p>\n\n<p>你也可以假设每行前后没有多余的空格字符。</p>\n\n<p> </p>\n\n<p><strong>示例：</strong></p>\n\n<p>假设 <code>file.txt</code> 内容如下：</p>\n\n<pre>\n987-123-4567\n123 456 7890\n(123) 456-7890\n</pre>\n\n<p>你的脚本应当输出下列有效的电话号码：</p>\n\n<pre>\n987-123-4567\n(123) 456-7890\n</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 171,
+            "likes": 173,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Shell",
@@ -32,7 +32,7 @@
                     "code": "# Read from the file file.txt and output all valid phone numbers to stdout."
                 }
             ],
-            "stats": "{\"totalAccepted\": \"48.6K\", \"totalSubmission\": \"145.6K\", \"totalAcceptedRaw\": 48579, \"totalSubmissionRaw\": 145564, \"acRate\": \"33.4%\"}",
+            "stats": "{\"totalAccepted\": \"49.8K\", \"totalSubmission\": \"148.7K\", \"totalAcceptedRaw\": 49754, \"totalSubmissionRaw\": 148703, \"acRate\": \"33.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "0",

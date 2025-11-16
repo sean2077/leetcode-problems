@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.9K\", \"totalSubmission\": \"2.3K\", \"totalAcceptedRaw\": 1917, \"totalSubmissionRaw\": 2341, \"acRate\": \"81.9%\"}",
+            "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"2.5K\", \"totalAcceptedRaw\": 2047, \"totalSubmissionRaw\": 2486, \"acRate\": \"82.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Person\": [\"person_id\", \"name\", \"profession\"]}, \"rows\": {\"Person\": [[1, \"Alex\", \"Singer\"], [3, \"Alice\", \"Actor\"], [2, \"Bob\", \"Player\"], [4, \"Messi\", \"Doctor\"], [6, \"Tyson\", \"Engineer\"], [5, \"Meir\", \"Lawyer\"]]}}",

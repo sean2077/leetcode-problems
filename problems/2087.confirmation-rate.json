@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 1306,
-            "dislikes": 118,
+            "likes": 1455,
+            "dislikes": 126,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef confirmation_rate(signups: pd.DataFrame, confirmations: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"459.3K\", \"totalSubmission\": \"752.5K\", \"totalAcceptedRaw\": 459314, \"totalSubmissionRaw\": 752527, \"acRate\": \"61.0%\"}",
+            "stats": "{\"totalAccepted\": \"529K\", \"totalSubmission\": \"860.3K\", \"totalAcceptedRaw\": 529007, \"totalSubmissionRaw\": 860331, \"acRate\": \"61.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Signups\": [\"user_id\", \"time_stamp\"], \"Confirmations\": [\"user_id\", \"time_stamp\", \"action\"]}, \"rows\": {\"Signups\": [[3, \"2020-03-21 10:16:13\"], [7, \"2020-01-04 13:57:59\"], [2, \"2020-07-29 23:09:44\"], [6, \"2020-12-09 10:39:37\"]], \"Confirmations\": [[3, \"2021-01-06 03:30:46\", \"timeout\"], [3, \"2021-07-14 14:00:00\", \"timeout\"], [7, \"2021-06-12 11:57:29\", \"confirmed\"], [7, \"2021-06-13 12:58:28\", \"confirmed\"], [7, \"2021-06-14 13:59:27\", \"confirmed\"], [2, \"2021-01-22 00:00:00\", \"confirmed\"], [2, \"2021-02-28 23:59:59\", \"timeout\"]]}}",

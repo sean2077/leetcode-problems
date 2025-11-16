@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 1307,
-            "dislikes": 108,
+            "likes": 1356,
+            "dislikes": 114,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef sales_person(sales_person: pd.DataFrame, company: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"299.9K\", \"totalSubmission\": \"455.2K\", \"totalAcceptedRaw\": 299910, \"totalSubmissionRaw\": 455167, \"acRate\": \"65.9%\"}",
+            "stats": "{\"totalAccepted\": \"334.5K\", \"totalSubmission\": \"507.5K\", \"totalAcceptedRaw\": 334509, \"totalSubmissionRaw\": 507517, \"acRate\": \"65.9%\"}",
             "hints": [
                 "You need to query who sold to company 'RED' first, then output the sales person who is not in the first query result."
             ],

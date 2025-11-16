@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 129,
-            "dislikes": 14,
+            "likes": 135,
+            "dislikes": 15,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [],
             "companyTagStats": null,
             "codeSnippets": [
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef pivotTable(weather: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"88.7K\", \"totalSubmission\": \"106K\", \"totalAcceptedRaw\": 88662, \"totalSubmissionRaw\": 106010, \"acRate\": \"83.6%\"}",
+            "stats": "{\"totalAccepted\": \"95.4K\", \"totalSubmission\": \"114.4K\", \"totalAcceptedRaw\": 95353, \"totalSubmissionRaw\": 114395, \"acRate\": \"83.4%\"}",
             "hints": [
                 "Consider using a built-in function in pandas library to transform the data"
             ],

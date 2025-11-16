@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"651\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 651, \"totalSubmissionRaw\": 1264, \"acRate\": \"51.5%\"}",
+            "stats": "{\"totalAccepted\": \"791\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 791, \"totalSubmissionRaw\": 1514, \"acRate\": \"52.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Cinema\":[\"seat_id\",\"free\"]},\"rows\":{\"Cinema\":[[1,1],[2,0],[3,1],[4,1],[5,1]]}}",

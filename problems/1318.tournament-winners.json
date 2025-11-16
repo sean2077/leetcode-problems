@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"23.6K\", \"totalSubmission\": \"47.3K\", \"totalAcceptedRaw\": 23631, \"totalSubmissionRaw\": 47288, \"acRate\": \"50.0%\"}",
+            "stats": "{\"totalAccepted\": \"24.2K\", \"totalSubmission\": \"48.5K\", \"totalAcceptedRaw\": 24239, \"totalSubmissionRaw\": 48541, \"acRate\": \"49.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Players\":[\"player_id\",\"group_id\"],\"Matches\":[\"match_id\",\"first_player\",\"second_player\",\"first_score\",\"second_score\"]},\"rows\":{\"Players\":[[10,2],[15,1],[20,3],[25,1],[30,1],[35,2],[40,3],[45,1],[50,2]],\"Matches\":[[1,15,45,3,0],[2,30,25,1,2],[3,30,15,2,0],[4,40,20,5,2],[5,35,50,1,1]]}}",

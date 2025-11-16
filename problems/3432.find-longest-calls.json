@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"2.2K\", \"totalSubmission\": \"3.5K\", \"totalAcceptedRaw\": 2212, \"totalSubmissionRaw\": 3500, \"acRate\": \"63.2%\"}",
+            "stats": "{\"totalAccepted\": \"2.6K\", \"totalSubmission\": \"4.1K\", \"totalAcceptedRaw\": 2559, \"totalSubmissionRaw\": 4062, \"acRate\": \"63.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Contacts\":[\"id\",\"first_name\",\"last_name\"],\"Calls\":[\"contact_id\",\"type\",\"duration\"]},\"rows\":{\"Contacts\":[[1,\"John\",\"Doe\"],[2,\"Jane\",\"Smith\"],[3,\"Alice\",\"Johnson\"],[4,\"Michael\",\"Brown\"],[5,\"Emily\",\"Davis\"]],\"Calls\":[[1,\"incoming\",120],[1,\"outgoing\",180],[2,\"incoming\",300],[2,\"outgoing\",240],[3,\"incoming\",150],[3,\"outgoing\",360],[4,\"incoming\",420],[4,\"outgoing\",200],[5,\"incoming\",180],[5,\"outgoing\",280]]}}",

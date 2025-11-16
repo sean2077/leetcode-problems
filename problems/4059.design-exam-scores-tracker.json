@@ -1,0 +1,159 @@
+{
+    "data": {
+        "question": {
+            "questionId": "4059",
+            "questionFrontendId": "3709",
+            "boundTopicId": null,
+            "title": "Design Exam Scores Tracker",
+            "titleSlug": "design-exam-scores-tracker",
+            "content": "<p>Alice frequently takes exams and wants to track her scores and calculate the total scores over specific time periods.</p>\n\n<p>Implement the <code>ExamTracker</code> class:</p>\n\n<ul>\n\t<li><code>ExamTracker()</code>: Initializes the <code>ExamTracker</code> object.</li>\n\t<li><code>void record(int time, int score)</code>: Alice takes a new exam at time <code>time</code> and achieves the score <code>score</code>.</li>\n\t<li><code>long long totalScore(int startTime, int endTime)</code>: Returns an integer that represents the <strong>total</strong> score of all exams taken by Alice between <code>startTime</code> and <code>endTime</code> (inclusive). If there are no recorded exams taken by Alice within the specified time interval, return 0.</li>\n</ul>\n\n<p>It is guaranteed that the function calls are made in chronological order. That is,</p>\n\n<ul>\n\t<li>Calls to <code>record()</code> will be made with <strong>strictly increasing</strong> <code>time</code>.</li>\n\t<li>Alice will never ask for total scores that require information from the future. That is, if the latest <code>record()</code> is called with <code>time = t</code>, then <code>totalScore()</code> will always be called with <code>startTime &lt;= endTime &lt;= t</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong><br />\n<span class=\"example-io\">[&quot;ExamTracker&quot;, &quot;record&quot;, &quot;totalScore&quot;, &quot;record&quot;, &quot;totalScore&quot;, &quot;totalScore&quot;, &quot;totalScore&quot;, &quot;totalScore&quot;]<br />\n[[], [1, 98], [1, 1], [5, 99], [1, 3], [1, 5], [3, 4], [2, 5]]</span></p>\n\n<p><strong>Output:</strong><br />\n<span class=\"example-io\">[null, null, 98, null, 98, 197, 0, 99] </span></p>\n\n<p><strong>Explanation</strong></p>\nExamTracker examTracker = new ExamTracker();<br />\nexamTracker.record(1, 98); // Alice takes a new exam at time 1, scoring 98.<br />\nexamTracker.totalScore(1, 1); // Between time 1 and time 1, Alice took 1 exam at time 1, scoring 98. The total score is 98.<br />\nexamTracker.record(5, 99); // Alice takes a new exam at time 5, scoring 99.<br />\nexamTracker.totalScore(1, 3); // Between time 1 and time 3, Alice took 1 exam at time 1, scoring 98. The total score is 98.<br />\nexamTracker.totalScore(1, 5); // Between time 1 and time 5, Alice took 2 exams at time 1 and 5, scoring 98 and 99. The total score is <code>98 + 99 = 197</code>.<br />\nexamTracker.totalScore(3, 4); // Alice did not take any exam between time 3 and time 4. Therefore, the answer is 0.<br />\nexamTracker.totalScore(2, 5); // Between time 2 and time 5, Alice took 1 exam at time 5, scoring 99. The total score is 99.</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= time &lt;= 10<sup>9</sup></code></li>\n\t<li><code>1 &lt;= score &lt;= 10<sup>9</sup></code></li>\n\t<li><code>1 &lt;= startTime &lt;= endTime &lt;= t</code>, where <code>t</code> is the value of <code>time</code> from the most recent call of <code>record()</code>.</li>\n\t<li>Calls of <code>record()</code> will be made with <strong>strictly increasing</strong> <code>time</code>.</li>\n\t<li>After <code>ExamTracker()</code>, the first function call will always be <code>record()</code>.</li>\n\t<li>At most <code>10<sup>5</sup></code> calls will be made in total to <code>record()</code> and <code>totalScore()</code>.</li>\n</ul>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Medium",
+            "likes": 52,
+            "dislikes": 1,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
+            "topicTags": [
+                {
+                    "name": "Array",
+                    "slug": "array",
+                    "translatedName": null
+                },
+                {
+                    "name": "Binary Search",
+                    "slug": "binary-search",
+                    "translatedName": null
+                },
+                {
+                    "name": "Design",
+                    "slug": "design",
+                    "translatedName": null
+                },
+                {
+                    "name": "Prefix Sum",
+                    "slug": "prefix-sum",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "C++",
+                    "langSlug": "cpp",
+                    "code": "class ExamTracker {\npublic:\n    ExamTracker() {\n        \n    }\n    \n    void record(int time, int score) {\n        \n    }\n    \n    long long totalScore(int startTime, int endTime) {\n        \n    }\n};\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * ExamTracker* obj = new ExamTracker();\n * obj->record(time,score);\n * long long param_2 = obj->totalScore(startTime,endTime);\n */"
+                },
+                {
+                    "lang": "Java",
+                    "langSlug": "java",
+                    "code": "class ExamTracker {\n\n    public ExamTracker() {\n        \n    }\n    \n    public void record(int time, int score) {\n        \n    }\n    \n    public long totalScore(int startTime, int endTime) {\n        \n    }\n}\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * ExamTracker obj = new ExamTracker();\n * obj.record(time,score);\n * long param_2 = obj.totalScore(startTime,endTime);\n */"
+                },
+                {
+                    "lang": "Python3",
+                    "langSlug": "python3",
+                    "code": "class ExamTracker:\n\n    def __init__(self):\n        \n\n    def record(self, time: int, score: int) -> None:\n        \n\n    def totalScore(self, startTime: int, endTime: int) -> int:\n        \n\n\n# Your ExamTracker object will be instantiated and called as such:\n# obj = ExamTracker()\n# obj.record(time,score)\n# param_2 = obj.totalScore(startTime,endTime)"
+                },
+                {
+                    "lang": "Python",
+                    "langSlug": "python",
+                    "code": "class ExamTracker(object):\n\n    def __init__(self):\n        \n\n    def record(self, time, score):\n        \"\"\"\n        :type time: int\n        :type score: int\n        :rtype: None\n        \"\"\"\n        \n\n    def totalScore(self, startTime, endTime):\n        \"\"\"\n        :type startTime: int\n        :type endTime: int\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your ExamTracker object will be instantiated and called as such:\n# obj = ExamTracker()\n# obj.record(time,score)\n# param_2 = obj.totalScore(startTime,endTime)"
+                },
+                {
+                    "lang": "JavaScript",
+                    "langSlug": "javascript",
+                    "code": "\nvar ExamTracker = function() {\n    \n};\n\n/** \n * @param {number} time \n * @param {number} score\n * @return {void}\n */\nExamTracker.prototype.record = function(time, score) {\n    \n};\n\n/** \n * @param {number} startTime \n * @param {number} endTime\n * @return {number}\n */\nExamTracker.prototype.totalScore = function(startTime, endTime) {\n    \n};\n\n/** \n * Your ExamTracker object will be instantiated and called as such:\n * var obj = new ExamTracker()\n * obj.record(time,score)\n * var param_2 = obj.totalScore(startTime,endTime)\n */"
+                },
+                {
+                    "lang": "TypeScript",
+                    "langSlug": "typescript",
+                    "code": "class ExamTracker {\n    constructor() {\n        \n    }\n\n    record(time: number, score: number): void {\n        \n    }\n\n    totalScore(startTime: number, endTime: number): number {\n        \n    }\n}\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * var obj = new ExamTracker()\n * obj.record(time,score)\n * var param_2 = obj.totalScore(startTime,endTime)\n */"
+                },
+                {
+                    "lang": "C#",
+                    "langSlug": "csharp",
+                    "code": "public class ExamTracker {\n\n    public ExamTracker() {\n        \n    }\n    \n    public void Record(int time, int score) {\n        \n    }\n    \n    public long TotalScore(int startTime, int endTime) {\n        \n    }\n}\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * ExamTracker obj = new ExamTracker();\n * obj.Record(time,score);\n * long param_2 = obj.TotalScore(startTime,endTime);\n */"
+                },
+                {
+                    "lang": "C",
+                    "langSlug": "c",
+                    "code": "\n\n\ntypedef struct {\n    \n} ExamTracker;\n\n\nExamTracker* examTrackerCreate() {\n    \n}\n\nvoid examTrackerRecord(ExamTracker* obj, int time, int score) {\n    \n}\n\nlong long examTrackerTotalScore(ExamTracker* obj, int startTime, int endTime) {\n    \n}\n\nvoid examTrackerFree(ExamTracker* obj) {\n    \n}\n\n/**\n * Your ExamTracker struct will be instantiated and called as such:\n * ExamTracker* obj = examTrackerCreate();\n * examTrackerRecord(obj, time, score);\n \n * long long param_2 = examTrackerTotalScore(obj, startTime, endTime);\n \n * examTrackerFree(obj);\n*/"
+                },
+                {
+                    "lang": "Go",
+                    "langSlug": "golang",
+                    "code": "type ExamTracker struct {\n    \n}\n\n\nfunc Constructor() ExamTracker {\n    \n}\n\n\nfunc (this *ExamTracker) Record(time int, score int)  {\n    \n}\n\n\nfunc (this *ExamTracker) TotalScore(startTime int, endTime int) int64 {\n    \n}\n\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * obj := Constructor();\n * obj.Record(time,score);\n * param_2 := obj.TotalScore(startTime,endTime);\n */"
+                },
+                {
+                    "lang": "Kotlin",
+                    "langSlug": "kotlin",
+                    "code": "class ExamTracker() {\n\n    fun record(time: Int, score: Int) {\n        \n    }\n\n    fun totalScore(startTime: Int, endTime: Int): Long {\n        \n    }\n\n}\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * var obj = ExamTracker()\n * obj.record(time,score)\n * var param_2 = obj.totalScore(startTime,endTime)\n */"
+                },
+                {
+                    "lang": "Swift",
+                    "langSlug": "swift",
+                    "code": "\nclass ExamTracker {\n\n    init() {\n        \n    }\n    \n    func record(_ time: Int, _ score: Int) {\n        \n    }\n    \n    func totalScore(_ startTime: Int, _ endTime: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * let obj = ExamTracker()\n * obj.record(time, score)\n * let ret_2: Int = obj.totalScore(startTime, endTime)\n */"
+                },
+                {
+                    "lang": "Rust",
+                    "langSlug": "rust",
+                    "code": "struct ExamTracker {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl ExamTracker {\n\n    fn new() -> Self {\n        \n    }\n    \n    fn record(&self, time: i32, score: i32) {\n        \n    }\n    \n    fn total_score(&self, start_time: i32, end_time: i32) -> i64 {\n        \n    }\n}\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * let obj = ExamTracker::new();\n * obj.record(time, score);\n * let ret_2: i64 = obj.total_score(startTime, endTime);\n */"
+                },
+                {
+                    "lang": "Ruby",
+                    "langSlug": "ruby",
+                    "code": "class ExamTracker\n    def initialize()\n        \n    end\n\n\n=begin\n    :type time: Integer\n    :type score: Integer\n    :rtype: Void\n=end\n    def record(time, score)\n        \n    end\n\n\n=begin\n    :type start_time: Integer\n    :type end_time: Integer\n    :rtype: Integer\n=end\n    def total_score(start_time, end_time)\n        \n    end\n\n\nend\n\n# Your ExamTracker object will be instantiated and called as such:\n# obj = ExamTracker.new()\n# obj.record(time, score)\n# param_2 = obj.total_score(start_time, end_time)"
+                },
+                {
+                    "lang": "PHP",
+                    "langSlug": "php",
+                    "code": "class ExamTracker {\n    /**\n     */\n    function __construct() {\n        \n    }\n  \n    /**\n     * @param Integer $time\n     * @param Integer $score\n     * @return NULL\n     */\n    function record($time, $score) {\n        \n    }\n  \n    /**\n     * @param Integer $startTime\n     * @param Integer $endTime\n     * @return Integer\n     */\n    function totalScore($startTime, $endTime) {\n        \n    }\n}\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * $obj = ExamTracker();\n * $obj->record($time, $score);\n * $ret_2 = $obj->totalScore($startTime, $endTime);\n */"
+                },
+                {
+                    "lang": "Dart",
+                    "langSlug": "dart",
+                    "code": "class ExamTracker {\n\n  ExamTracker() {\n    \n  }\n  \n  void record(int time, int score) {\n    \n  }\n  \n  int totalScore(int startTime, int endTime) {\n    \n  }\n}\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * ExamTracker obj = ExamTracker();\n * obj.record(time,score);\n * int param2 = obj.totalScore(startTime,endTime);\n */"
+                },
+                {
+                    "lang": "Scala",
+                    "langSlug": "scala",
+                    "code": "class ExamTracker() {\n\n    def record(time: Int, score: Int): Unit = {\n        \n    }\n\n    def totalScore(startTime: Int, endTime: Int): Long = {\n        \n    }\n\n}\n\n/**\n * Your ExamTracker object will be instantiated and called as such:\n * val obj = new ExamTracker()\n * obj.record(time,score)\n * val param_2 = obj.totalScore(startTime,endTime)\n */"
+                },
+                {
+                    "lang": "Elixir",
+                    "langSlug": "elixir",
+                    "code": "defmodule ExamTracker do\n  @spec init_() :: any\n  def init_() do\n    \n  end\n\n  @spec record(time :: integer, score :: integer) :: any\n  def record(time, score) do\n    \n  end\n\n  @spec total_score(start_time :: integer, end_time :: integer) :: integer\n  def total_score(start_time, end_time) do\n    \n  end\nend\n\n# Your functions will be called as such:\n# ExamTracker.init_()\n# ExamTracker.record(time, score)\n# param_2 = ExamTracker.total_score(start_time, end_time)\n\n# ExamTracker.init_ will be called before every test case, in which you can do some necessary initializations."
+                },
+                {
+                    "lang": "Erlang",
+                    "langSlug": "erlang",
+                    "code": "-spec exam_tracker_init_() -> any().\nexam_tracker_init_() ->\n  .\n\n-spec exam_tracker_record(Time :: integer(), Score :: integer()) -> any().\nexam_tracker_record(Time, Score) ->\n  .\n\n-spec exam_tracker_total_score(StartTime :: integer(), EndTime :: integer()) -> integer().\nexam_tracker_total_score(StartTime, EndTime) ->\n  .\n\n\n%% Your functions will be called as such:\n%% exam_tracker_init_(),\n%% exam_tracker_record(Time, Score),\n%% Param_2 = exam_tracker_total_score(StartTime, EndTime),\n\n%% exam_tracker_init_ will be called before every test case, in which you can do some necessary initializations."
+                },
+                {
+                    "lang": "Racket",
+                    "langSlug": "racket",
+                    "code": "(define exam-tracker%\n  (class object%\n    (super-new)\n    \n    (init-field)\n    \n    ; record : exact-integer? exact-integer? -> void?\n    (define/public (record time score)\n      )\n    ; total-score : exact-integer? exact-integer? -> exact-integer?\n    (define/public (total-score start-time end-time)\n      )))\n\n;; Your exam-tracker% object will be instantiated and called as such:\n;; (define obj (new exam-tracker%))\n;; (send obj record time score)\n;; (define param_2 (send obj total-score start-time end-time))"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"17.2K\", \"totalSubmission\": \"39.8K\", \"totalAcceptedRaw\": 17163, \"totalSubmissionRaw\": 39793, \"acRate\": \"43.1%\"}",
+            "hints": [
+                "Maintain two arrays: <code>times</code> (append each <code>time</code>) and <code>prefix</code> where <code>prefix[i]</code> is sum of scores up to index <code>i</code>.",
+                "Use binary search to find indices: <code>l = lower_bound(times, startTime)</code> and <code>r = upper_bound(times, endTime) - 1</code>.",
+                "If <code>l > r</code> there are no exams, so return <code>0</code>; otherwise compute total using the <code>prefix</code>."
+            ],
+            "status": null,
+            "sampleTestCase": "[\"ExamTracker\",\"record\",\"totalScore\",\"record\",\"totalScore\",\"totalScore\",\"totalScore\",\"totalScore\"]\n[[],[1,98],[1,1],[5,99],[1,3],[1,5],[3,4],[2,5]]",
+            "metaData": "{\n  \"classname\": \"ExamTracker\",\n  \"constructor\": {\n    \"params\": []\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"time\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"score\"\n        }\n      ],\n      \"name\": \"record\",\n      \"return\": {\n        \"type\": \"void\"\n      }\n    },\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"startTime\"\n        },\n        {\n          \"type\": \"integer\",\n          \"name\": \"endTime\"\n        }\n      ],\n      \"name\": \"totalScore\",\n      \"return\": {\n        \"type\": \"long\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code> clang 19 </code> using the latest C++ 23 standard, and <code>libstdc++</code> provided by GCC 14.</p>\\r\\n\\r\\n<p>Your code is compiled with level two optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p><code>OpenJDK 25</code>. Using compile arguments: <code>--enable-preview --release 25</code></p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n<p>Includes <code>Pair</code> class from https://docs.oracle.com/javase/8/javafx/api/javafx/util/Pair.html.</p>\"], \"python\": [\"Python\", \"<p><code>Python 2.7.18</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\\r\\n\\r\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">is not maintained anymore</a>. For the latest Python, please choose Python3 instead.</p>\"], \"c\": [\"C\", \"<p>Compiled with <code>gcc 14</code> using the gnu11 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n\\r\\n<p>For hash table operations, you may use <a href=\\\"https://troydhanson.github.io/uthash/\\\" target=\\\"_blank\\\">uthash</a>. \\\"uthash.h\\\" is included by default. Below are some examples:</p>\\r\\n\\r\\n<p><b>1. Adding an item to a hash.</b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            /* we'll use this field as the key */\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; /* makes this structure hashable */\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>2. Looking up an item in a hash:</b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>3. Deleting an item in a hash:</b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n</pre>\\r\\n</p>\"], \"csharp\": [\"C#\", \"<p><a href=\\\"https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13\\\" target=\\\"_blank\\\">C# 13</a> with .NET 9 runtime</p>\"], \"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"ruby\": [\"Ruby\", \"<p><code>Ruby 3.2</code></p>\\r\\n\\r\\n<p>Some common data structure implementations are provided in the Algorithms module: https://www.rubydoc.info/github/kanwei/algorithms/Algorithms</p>\"], \"swift\": [\"Swift\", \"<p><code>Swift 6.0</code>.</p>\\r\\n\\r\\n<p>You may use the following packages:<br/>\\r\\n<a href=\\\"https://github.com/apple/swift-algorithms/tree/1.2.0\\\" target=\\\"_blank\\\">swift-algorithms 1.2.0</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-collections/tree/1.1.4\\\" target=\\\"_blank\\\">swift-collections 1.1.4</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-numerics/tree/1.0.2\\\" target=\\\"_blank\\\">swift-numerics 1.0.2</a></p>\"], \"golang\": [\"Go\", \"<p><code>Go 1.23</code></p>\\r\\n<p>Support <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1</a> and <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha</a> library.</p>\"], \"python3\": [\"Python3\", \"<p><code>Python 3.11</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/3/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/3/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/3/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\"], \"scala\": [\"Scala\", \"<p><code>Scala 3.3.1</code>.</p>\"], \"kotlin\": [\"Kotlin\", \"<p><code>Kotlin 2.1.10</code>.</p>\"], \"rust\": [\"Rust\", \"<p><code>Rust 1.88.0, using edition 2024.</code>. Your code will be compiled with <code>opt-level</code> 2.</p>\\r\\n\\r\\n<p>Supports <a href=\\\"https://crates.io/crates/rand\\\" target=\\\"_blank\\\">rand v0.8</a> and <a href=\\\"https://crates.io/crates/regex\\\" target=\\\"_blank\\\">regex\\u00a0v1</a> and <a href=\\\"https://crates.io/crates/itertools\\\" target=\\\"_blank\\\">itertools\\u00a0v0.14</a> from crates.io</p>\"], \"php\": [\"PHP\", \"<p><code>PHP 8.2</code>.</p>\\r\\n<p>With bcmath module</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"racket\": [\"Racket\", \"<p><a href=\\\"https://docs.racket-lang.org/guide/performance.html#%28tech._c%29\\\" target=\\\"_blank\\\">Racket CS</a> v8.15</p>\\r\\n\\r\\n<p>Using <code>#lang racket</code></p>\\r\\n\\r\\n<p>Required <code>data/gvector data/queue data/order data/heap</code> automatically for your convenience</p>\"], \"erlang\": [\"Erlang\", \"Erlang/OTP 26\"], \"elixir\": [\"Elixir\", \"Elixir 1.17 with Erlang/OTP 26\"], \"dart\": [\"Dart\", \"<p>Dart 3.2. You may use package <a href=\\\"https://pub.dev/packages/collection/versions/1.18.0\\\" target=\\\"_blank\\\">collection</a></p>\\r\\n\\r\\n<p>Your code will be run directly without compiling</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

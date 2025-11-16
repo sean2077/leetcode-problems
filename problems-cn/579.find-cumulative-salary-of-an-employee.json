@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"17.7K\", \"totalSubmission\": \"38.2K\", \"totalAcceptedRaw\": 17749, \"totalSubmissionRaw\": 38206, \"acRate\": \"46.5%\"}",
+            "stats": "{\"totalAccepted\": \"18.3K\", \"totalSubmission\": \"39.1K\", \"totalAcceptedRaw\": 18291, \"totalSubmissionRaw\": 39129, \"acRate\": \"46.7%\"}",
             "hints": [
                 "Seem hard at first glance? Try to divide this problem into some sub-problems. \r\nThink about how to calculate the cumulative sum of one employee, how to get the cumulative sum for many employees, and how to except the most recent month of the result.",
                 "Use the technique of self-join if you have only one table but to write a complex query.",

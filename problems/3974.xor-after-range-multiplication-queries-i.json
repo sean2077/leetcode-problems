@@ -1,0 +1,152 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3974",
+            "questionFrontendId": "3653",
+            "boundTopicId": null,
+            "title": "XOR After Range Multiplication Queries I",
+            "titleSlug": "xor-after-range-multiplication-queries-i",
+            "content": "<p>You are given an integer array <code>nums</code> of length <code>n</code> and a 2D integer array <code>queries</code> of size <code>q</code>, where <code>queries[i] = [l<sub>i</sub>, r<sub>i</sub>, k<sub>i</sub>, v<sub>i</sub>]</code>.</p>\n\n<p>For each query, you must apply the following operations in order:</p>\n\n<ul>\n\t<li>Set <code>idx = l<sub>i</sub></code>.</li>\n\t<li>While <code>idx &lt;= r<sub>i</sub></code>:\n\t<ul>\n\t\t<li>Update: <code>nums[idx] = (nums[idx] * v<sub>i</sub>) % (10<sup>9</sup> + 7)</code></li>\n\t\t<li>Set <code>idx += k<sub>i</sub></code>.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Return the <strong>bitwise XOR</strong> of all elements in <code>nums</code> after processing all queries.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,1,1], queries = [[0,2,1,4]]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">4</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li data-end=\"106\" data-start=\"18\">A single query <code data-end=\"44\" data-start=\"33\">[0, 2, 1, 4]</code> multiplies every element from index 0 through index 2 by 4.</li>\n\t<li data-end=\"157\" data-start=\"109\">The array changes from <code data-end=\"141\" data-start=\"132\">[1, 1, 1]</code> to <code data-end=\"154\" data-start=\"145\">[4, 4, 4]</code>.</li>\n\t<li data-end=\"205\" data-start=\"160\">The XOR of all elements is <code data-end=\"202\" data-start=\"187\">4 ^ 4 ^ 4 = 4</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [2,3,1,5,4], queries = [[1,4,2,3],[0,2,1,2]]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">31</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li data-end=\"350\" data-start=\"230\">The first query <code data-end=\"257\" data-start=\"246\">[1, 4, 2, 3]</code> multiplies the elements at indices 1 and 3 by 3, transforming the array to <code data-end=\"347\" data-start=\"333\">[2, 9, 1, 15, 4]</code>.</li>\n\t<li data-end=\"466\" data-start=\"353\">The second query <code data-end=\"381\" data-start=\"370\">[0, 2, 1, 2]</code> multiplies the elements at indices 0, 1, and 2 by 2, resulting in <code data-end=\"463\" data-start=\"448\">[4, 18, 2, 15, 4]</code>.</li>\n\t<li data-end=\"532\" data-is-last-node=\"\" data-start=\"469\">Finally, the XOR of all elements is <code data-end=\"531\" data-start=\"505\">4 ^ 18 ^ 2 ^ 15 ^ 4 = 31</code>.​​​​​​​<strong>​​​​​​​</strong></li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == nums.length &lt;= 10<sup>3</sup></code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>1 &lt;= q == queries.length &lt;= 10<sup>3</sup></code></li>\n\t<li><code>queries[i] = [l<sub>i</sub>, r<sub>i</sub>, k<sub>i</sub>, v<sub>i</sub>]</code></li>\n\t<li><code>0 &lt;= l<sub>i</sub> &lt;= r<sub>i</sub> &lt; n</code></li>\n\t<li><code>1 &lt;= k<sub>i</sub> &lt;= n</code></li>\n\t<li><code>1 &lt;= v<sub>i</sub> &lt;= 10<sup>5</sup></code></li>\n</ul>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Medium",
+            "likes": 29,
+            "dislikes": 12,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": false, \"java\": true, \"python3\": false, \"python\": true, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
+            "topicTags": [
+                {
+                    "name": "Array",
+                    "slug": "array",
+                    "translatedName": null
+                },
+                {
+                    "name": "Divide and Conquer",
+                    "slug": "divide-and-conquer",
+                    "translatedName": null
+                },
+                {
+                    "name": "Simulation",
+                    "slug": "simulation",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "C++",
+                    "langSlug": "cpp",
+                    "code": "class Solution {\npublic:\n    int xorAfterQueries(vector<int>& nums, vector<vector<int>>& queries) {\n        \n    }\n};"
+                },
+                {
+                    "lang": "Java",
+                    "langSlug": "java",
+                    "code": "class Solution {\n    public int xorAfterQueries(int[] nums, int[][] queries) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Python3",
+                    "langSlug": "python3",
+                    "code": "class Solution:\n    def xorAfterQueries(self, nums: List[int], queries: List[List[int]]) -> int:\n        "
+                },
+                {
+                    "lang": "Python",
+                    "langSlug": "python",
+                    "code": "class Solution(object):\n    def xorAfterQueries(self, nums, queries):\n        \"\"\"\n        :type nums: List[int]\n        :type queries: List[List[int]]\n        :rtype: int\n        \"\"\"\n        "
+                },
+                {
+                    "lang": "JavaScript",
+                    "langSlug": "javascript",
+                    "code": "/**\n * @param {number[]} nums\n * @param {number[][]} queries\n * @return {number}\n */\nvar xorAfterQueries = function(nums, queries) {\n    \n};"
+                },
+                {
+                    "lang": "TypeScript",
+                    "langSlug": "typescript",
+                    "code": "function xorAfterQueries(nums: number[], queries: number[][]): number {\n    \n};"
+                },
+                {
+                    "lang": "C#",
+                    "langSlug": "csharp",
+                    "code": "public class Solution {\n    public int XorAfterQueries(int[] nums, int[][] queries) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "C",
+                    "langSlug": "c",
+                    "code": "int xorAfterQueries(int* nums, int numsSize, int** queries, int queriesSize, int* queriesColSize) {\n    \n}"
+                },
+                {
+                    "lang": "Go",
+                    "langSlug": "golang",
+                    "code": "func xorAfterQueries(nums []int, queries [][]int) int {\n    \n}"
+                },
+                {
+                    "lang": "Kotlin",
+                    "langSlug": "kotlin",
+                    "code": "class Solution {\n    fun xorAfterQueries(nums: IntArray, queries: Array<IntArray>): Int {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Swift",
+                    "langSlug": "swift",
+                    "code": "class Solution {\n    func xorAfterQueries(_ nums: [Int], _ queries: [[Int]]) -> Int {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Rust",
+                    "langSlug": "rust",
+                    "code": "impl Solution {\n    pub fn xor_after_queries(nums: Vec<i32>, queries: Vec<Vec<i32>>) -> i32 {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Ruby",
+                    "langSlug": "ruby",
+                    "code": "# @param {Integer[]} nums\n# @param {Integer[][]} queries\n# @return {Integer}\ndef xor_after_queries(nums, queries)\n    \nend"
+                },
+                {
+                    "lang": "PHP",
+                    "langSlug": "php",
+                    "code": "class Solution {\n\n    /**\n     * @param Integer[] $nums\n     * @param Integer[][] $queries\n     * @return Integer\n     */\n    function xorAfterQueries($nums, $queries) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Dart",
+                    "langSlug": "dart",
+                    "code": "class Solution {\n  int xorAfterQueries(List<int> nums, List<List<int>> queries) {\n    \n  }\n}"
+                },
+                {
+                    "lang": "Scala",
+                    "langSlug": "scala",
+                    "code": "object Solution {\n    def xorAfterQueries(nums: Array[Int], queries: Array[Array[Int]]): Int = {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Elixir",
+                    "langSlug": "elixir",
+                    "code": "defmodule Solution do\n  @spec xor_after_queries(nums :: [integer], queries :: [[integer]]) :: integer\n  def xor_after_queries(nums, queries) do\n    \n  end\nend"
+                },
+                {
+                    "lang": "Erlang",
+                    "langSlug": "erlang",
+                    "code": "-spec xor_after_queries(Nums :: [integer()], Queries :: [[integer()]]) -> integer().\nxor_after_queries(Nums, Queries) ->\n  ."
+                },
+                {
+                    "lang": "Racket",
+                    "langSlug": "racket",
+                    "code": "(define/contract (xor-after-queries nums queries)\n  (-> (listof exact-integer?) (listof (listof exact-integer?)) exact-integer?)\n  )"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"34.7K\", \"totalSubmission\": \"49.6K\", \"totalAcceptedRaw\": 34673, \"totalSubmissionRaw\": 49595, \"acRate\": \"69.9%\"}",
+            "hints": [
+                "Use bruteforce"
+            ],
+            "status": null,
+            "sampleTestCase": "[1,1,1]\n[[0,2,1,4]]",
+            "metaData": "{\n  \"name\": \"xorAfterQueries\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer[][]\",\n      \"name\": \"queries\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code> clang 19 </code> using the latest C++ 23 standard, and <code>libstdc++</code> provided by GCC 14.</p>\\r\\n\\r\\n<p>Your code is compiled with level two optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p><code>OpenJDK 25</code>. Using compile arguments: <code>--enable-preview --release 25</code></p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n<p>Includes <code>Pair</code> class from https://docs.oracle.com/javase/8/javafx/api/javafx/util/Pair.html.</p>\"], \"python\": [\"Python\", \"<p><code>Python 2.7.18</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\\r\\n\\r\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">is not maintained anymore</a>. For the latest Python, please choose Python3 instead.</p>\"], \"c\": [\"C\", \"<p>Compiled with <code>gcc 14</code> using the gnu11 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n\\r\\n<p>For hash table operations, you may use <a href=\\\"https://troydhanson.github.io/uthash/\\\" target=\\\"_blank\\\">uthash</a>. \\\"uthash.h\\\" is included by default. Below are some examples:</p>\\r\\n\\r\\n<p><b>1. Adding an item to a hash.</b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            /* we'll use this field as the key */\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; /* makes this structure hashable */\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>2. Looking up an item in a hash:</b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>3. Deleting an item in a hash:</b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n</pre>\\r\\n</p>\"], \"csharp\": [\"C#\", \"<p><a href=\\\"https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13\\\" target=\\\"_blank\\\">C# 13</a> with .NET 9 runtime</p>\"], \"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"ruby\": [\"Ruby\", \"<p><code>Ruby 3.2</code></p>\\r\\n\\r\\n<p>Some common data structure implementations are provided in the Algorithms module: https://www.rubydoc.info/github/kanwei/algorithms/Algorithms</p>\"], \"swift\": [\"Swift\", \"<p><code>Swift 6.0</code>.</p>\\r\\n\\r\\n<p>You may use the following packages:<br/>\\r\\n<a href=\\\"https://github.com/apple/swift-algorithms/tree/1.2.0\\\" target=\\\"_blank\\\">swift-algorithms 1.2.0</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-collections/tree/1.1.4\\\" target=\\\"_blank\\\">swift-collections 1.1.4</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-numerics/tree/1.0.2\\\" target=\\\"_blank\\\">swift-numerics 1.0.2</a></p>\"], \"golang\": [\"Go\", \"<p><code>Go 1.23</code></p>\\r\\n<p>Support <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1</a> and <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha</a> library.</p>\"], \"python3\": [\"Python3\", \"<p><code>Python 3.11</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/3/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/3/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/3/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\"], \"scala\": [\"Scala\", \"<p><code>Scala 3.3.1</code>.</p>\"], \"kotlin\": [\"Kotlin\", \"<p><code>Kotlin 2.1.10</code>.</p>\"], \"rust\": [\"Rust\", \"<p><code>Rust 1.88.0, using edition 2024.</code>. Your code will be compiled with <code>opt-level</code> 2.</p>\\r\\n\\r\\n<p>Supports <a href=\\\"https://crates.io/crates/rand\\\" target=\\\"_blank\\\">rand v0.8</a> and <a href=\\\"https://crates.io/crates/regex\\\" target=\\\"_blank\\\">regex\\u00a0v1</a> and <a href=\\\"https://crates.io/crates/itertools\\\" target=\\\"_blank\\\">itertools\\u00a0v0.14</a> from crates.io</p>\"], \"php\": [\"PHP\", \"<p><code>PHP 8.2</code>.</p>\\r\\n<p>With bcmath module</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"racket\": [\"Racket\", \"<p><a href=\\\"https://docs.racket-lang.org/guide/performance.html#%28tech._c%29\\\" target=\\\"_blank\\\">Racket CS</a> v8.15</p>\\r\\n\\r\\n<p>Using <code>#lang racket</code></p>\\r\\n\\r\\n<p>Required <code>data/gvector data/queue data/order data/heap</code> automatically for your convenience</p>\"], \"erlang\": [\"Erlang\", \"Erlang/OTP 26\"], \"elixir\": [\"Elixir\", \"Elixir 1.17 with Erlang/OTP 26\"], \"dart\": [\"Dart\", \"<p>Dart 3.2. You may use package <a href=\\\"https://pub.dev/packages/collection/versions/1.18.0\\\" target=\\\"_blank\\\">collection</a></p>\\r\\n\\r\\n<p>Your code will be run directly without compiling</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 940,
-            "dislikes": 45,
+            "likes": 1036,
+            "dislikes": 48,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Running Total for Different Genders\", \"titleSlug\": \"running-total-for-different-genders\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"The Number of Seniors and Juniors to Join the Company\", \"titleSlug\": \"the-number-of-seniors-and-juniors-to-join-the-company\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"The Number of Seniors and Juniors to Join the Company II\", \"titleSlug\": \"the-number-of-seniors-and-juniors-to-join-the-company-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef last_passenger(queue: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"257.8K\", \"totalSubmission\": \"376.4K\", \"totalAcceptedRaw\": 257791, \"totalSubmissionRaw\": 376428, \"acRate\": \"68.5%\"}",
+            "stats": "{\"totalAccepted\": \"295.8K\", \"totalSubmission\": \"429.8K\", \"totalAcceptedRaw\": 295762, \"totalSubmissionRaw\": 429775, \"acRate\": \"68.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Queue\":[\"person_id\",\"person_name\",\"weight\",\"turn\"]},\"rows\":{\"Queue\":[[5,\"Alice\",250,1],[4,\"Bob\",175,5],[3,\"Alex\",350,2],[6,\"John Cena\",400,3],[1,\"Winston\",500,6],[2,\"Marie\",200,4]]}}",

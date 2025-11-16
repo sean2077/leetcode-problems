@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 768,
-            "dislikes": 23,
+            "likes": 786,
+            "dislikes": 24,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef total_time(employees: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"184.3K\", \"totalSubmission\": \"212.4K\", \"totalAcceptedRaw\": 184327, \"totalSubmissionRaw\": 212445, \"acRate\": \"86.8%\"}",
+            "stats": "{\"totalAccepted\": \"201K\", \"totalSubmission\": \"232.1K\", \"totalAcceptedRaw\": 200972, \"totalSubmissionRaw\": 232106, \"acRate\": \"86.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Employees\":[\"emp_id\",\"event_day\",\"in_time\",\"out_time\"]},\"rows\":{\"Employees\":[[\"1\",\"2020-11-28\",\"4\",\"32\"],[\"1\",\"2020-11-28\",\"55\",\"200\"],[\"1\",\"2020-12-3\",\"1\",\"42\"],[\"2\",\"2020-11-28\",\"3\",\"33\"],[\"2\",\"2020-12-9\",\"47\",\"74\"]]}}",

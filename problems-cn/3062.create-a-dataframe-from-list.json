@@ -16,7 +16,7 @@
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [],
             "companyTagStats": null,
             "codeSnippets": [
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef createDataframe(student_data: List[List[int]]) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"9.1K\", \"totalSubmission\": \"11.6K\", \"totalAcceptedRaw\": 9099, \"totalSubmissionRaw\": 11556, \"acRate\": \"78.7%\"}",
+            "stats": "{\"totalAccepted\": \"10.4K\", \"totalSubmission\": \"13.3K\", \"totalAcceptedRaw\": 10369, \"totalSubmissionRaw\": 13257, \"acRate\": \"78.2%\"}",
             "hints": [
                 "Consider using a built-in function in pandas library and specifying the column names within it."
             ],

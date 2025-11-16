@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 2154,
-            "dislikes": 1097,
+            "likes": 2219,
+            "dislikes": 1111,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"The Number of Users That Are Eligible for Discount\", \"titleSlug\": \"the-number-of-users-that-are-eligible-for-discount\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "CREATE FUNCTION getNthHighestSalary(@N INT) RETURNS INT AS\nBEGIN\n    RETURN (\n        /* Write your T-SQL query statement below. */\n\n    );\nEND"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "CREATE OR REPLACE FUNCTION NthHighestSalary(N INT) RETURNS TABLE (Salary INT) AS $$\nBEGIN\n  RETURN QUERY (\n    -- Write your PostgreSQL query statement below.\n    \n      \n  );\nEND;\n$$ LANGUAGE plpgsql;"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "CREATE FUNCTION getNthHighestSalary(N IN NUMBER) RETURN NUMBER IS\nresult NUMBER;\nBEGIN\n    /* Write your PL/SQL query statement below */\n\n    RETURN result;\nEND;"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef nth_highest_salary(employee: pd.DataFrame, N: int) -> pd.DataFrame:"
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "CREATE OR REPLACE FUNCTION NthHighestSalary(N INT) RETURNS TABLE (Salary INT) AS $$\nBEGIN\n  RETURN QUERY (\n    -- Write your PostgreSQL query statement below.\n    \n      \n  );\nEND;\n$$ LANGUAGE plpgsql;"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"521.9K\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 521908, \"totalSubmissionRaw\": 1367138, \"acRate\": \"38.2%\"}",
+            "stats": "{\"totalAccepted\": \"583.1K\", \"totalSubmission\": \"1.5M\", \"totalAcceptedRaw\": 583061, \"totalSubmissionRaw\": 1511332, \"acRate\": \"38.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Employee\": [\"id\", \"salary\"]}, \"argument\": 2, \"rows\": {\"Employee\": [[1, 100], [2, 200], [3, 300]]}}",

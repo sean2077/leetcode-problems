@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"2.1K\", \"totalSubmission\": \"2.6K\", \"totalAcceptedRaw\": 2136, \"totalSubmissionRaw\": 2605, \"acRate\": \"82.0%\"}",
+            "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"2.7K\", \"totalAcceptedRaw\": 2260, \"totalSubmissionRaw\": 2749, \"acRate\": \"82.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Olympic\":[\"country\",\"gold_medals\",\"silver_medals\",\"bronze_medals\"]},\"rows\":{\"Olympic\":[[\"China\",10,10,20],[\"South Sudan\",0,0,1],[\"USA\",10,10,20],[\"Israel\",2,2,3],[\"Egypt\",2,2,2]]}}",

@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 156,
-            "dislikes": 288,
+            "likes": 163,
+            "dislikes": 289,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Shell",
@@ -32,7 +32,7 @@
                     "code": "# Read from the file file.txt and print its transposed content to stdout.\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"33.9K\", \"totalSubmission\": \"118.3K\", \"totalAcceptedRaw\": 33940, \"totalSubmissionRaw\": 118299, \"acRate\": \"28.7%\"}",
+            "stats": "{\"totalAccepted\": \"37.3K\", \"totalSubmission\": \"125.6K\", \"totalAcceptedRaw\": 37252, \"totalSubmissionRaw\": 125618, \"acRate\": \"29.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "a",

@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"615\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 615, \"totalSubmissionRaw\": 1289, \"acRate\": \"47.7%\"}",
+            "stats": "{\"totalAccepted\": \"727\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 727, \"totalSubmissionRaw\": 1523, \"acRate\": \"47.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"students\":[\"student_id\",\"name\",\"major\"],\"courses\":[\"course_id\",\"name\",\"credits\",\"major\"],\"enrollments\":[\"student_id\",\"course_id\",\"semester\",\"grade\"]},\"rows\":{\"students\":[[1,\"Alice\",\"Computer Science\"],[2,\"Bob\",\"Computer Science\"],[3,\"Charlie\",\"Mathematics\"],[4,\"David\",\"Mathematics\"]],\"courses\":[[101,\"Algorithms\",3,\"Computer Science\"],[102,\"Data Structures\",3,\"Computer Science\"],[103,\"Calculus\",4,\"Mathematics\"],[104,\"Linear Algebra\",4,\"Mathematics\"]],\"enrollments\":[[1,101,\"Fall 2023\",\"A\"],[1,102,\"Fall 2023\",\"A\"],[2,101,\"Fall 2023\",\"B\"],[2,102,\"Fall 2023\",\"A\"],[3,103,\"Fall 2023\",\"A\"],[3,104,\"Fall 2023\",\"A\"],[4,103,\"Fall 2023\",\"A\"],[4,104,\"Fall 2023\",\"B\"]]}}",

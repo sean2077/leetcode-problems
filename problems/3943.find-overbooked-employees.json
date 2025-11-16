@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 13,
-            "dislikes": 4,
+            "likes": 28,
+            "dislikes": 6,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef find_overbooked_employees(employees: pd.DataFrame, meetings: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"3.4K\", \"totalAcceptedRaw\": 1331, \"totalSubmissionRaw\": 3438, \"acRate\": \"38.7%\"}",
+            "stats": "{\"totalAccepted\": \"5.4K\", \"totalSubmission\": \"12.4K\", \"totalAcceptedRaw\": 5406, \"totalSubmissionRaw\": 12394, \"acRate\": \"43.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"employees\":[\"employee_id\",\"employee_name\",\"department\"],\"meetings\":[\"meeting_id\",\"employee_id\",\"meeting_date\",\"meeting_type\",\"duration_hours\"]},\"rows\":{\"employees\":[[1,\"Alice Johnson\",\"Engineering\"],[2,\"Bob Smith\",\"Marketing\"],[3,\"Carol Davis\",\"Sales\"],[4,\"David Wilson\",\"Engineering\"],[5,\"Emma Brown\",\"HR\"]],\"meetings\":[[1,1,\"2023-06-05\",\"Team\",8.0],[2,1,\"2023-06-06\",\"Client\",6.0],[3,1,\"2023-06-07\",\"Training\",7.0],[4,1,\"2023-06-12\",\"Team\",12.0],[5,1,\"2023-06-13\",\"Client\",9.0],[6,2,\"2023-06-05\",\"Team\",15.0],[7,2,\"2023-06-06\",\"Client\",8.0],[8,2,\"2023-06-12\",\"Training\",10.0],[9,3,\"2023-06-05\",\"Team\",4.0],[10,3,\"2023-06-06\",\"Client\",3.0],[11,4,\"2023-06-05\",\"Team\",25.0],[12,4,\"2023-06-19\",\"Client\",22.0],[13,5,\"2023-06-05\",\"Training\",2.0]]}}",

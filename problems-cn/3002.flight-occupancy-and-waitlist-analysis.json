@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"3.2K\", \"totalAcceptedRaw\": 1212, \"totalSubmissionRaw\": 3180, \"acRate\": \"38.1%\"}",
+            "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"3.4K\", \"totalAcceptedRaw\": 1324, \"totalSubmissionRaw\": 3420, \"acRate\": \"38.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Flights\":[\"flight_id\",\"capacity\"],\"Passengers\":[\"passenger_id\",\"flight_id\"]},\"rows\":{\"Flights\":[[1,2],[2,2],[3,1]],\"Passengers\":[[101,1],[102,1],[103,1],[104,2],[105,2],[106,3],[107,3]]}}",

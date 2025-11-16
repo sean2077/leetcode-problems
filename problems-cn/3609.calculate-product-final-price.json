@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"428\", \"totalSubmission\": \"526\", \"totalAcceptedRaw\": 428, \"totalSubmissionRaw\": 526, \"acRate\": \"81.4%\"}",
+            "stats": "{\"totalAccepted\": \"530\", \"totalSubmission\": \"654\", \"totalAcceptedRaw\": 530, \"totalSubmissionRaw\": 654, \"acRate\": \"81.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Products\":[\"product_id\",\"category\",\"price\"],\"Discounts\":[\"category\",\"discount\"]},\"rows\":{\"Products\":[[1,\"Electronics\",1000],[2,\"Clothing\",50],[3,\"Electronics\",1200],[4,\"Home\",500]],\"Discounts\":[[\"Electronics\",10],[\"Clothing\",20]]}}",

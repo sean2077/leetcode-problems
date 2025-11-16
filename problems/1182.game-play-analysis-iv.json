@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 1260,
-            "dislikes": 228,
+            "likes": 1387,
+            "dislikes": 243,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Game Play Analysis III\", \"titleSlug\": \"game-play-analysis-iii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Game Play Analysis V\", \"titleSlug\": \"game-play-analysis-v\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef gameplay_analysis(activity: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"344K\", \"totalSubmission\": \"869.1K\", \"totalAcceptedRaw\": 344012, \"totalSubmissionRaw\": 869064, \"acRate\": \"39.6%\"}",
+            "stats": "{\"totalAccepted\": \"397.1K\", \"totalSubmission\": \"985.7K\", \"totalAcceptedRaw\": 397105, \"totalSubmissionRaw\": 985728, \"acRate\": \"40.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Activity\":[\"player_id\",\"device_id\",\"event_date\",\"games_played\"]},\"rows\":{\"Activity\":[[1,2,\"2016-03-01\",5],[1,2,\"2016-03-02\",6],[2,3,\"2017-06-25\",1],[3,1,\"2016-03-02\",0],[3,4,\"2018-07-03\",5]]}}",

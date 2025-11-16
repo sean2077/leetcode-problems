@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"338\", \"totalSubmission\": \"470\", \"totalAcceptedRaw\": 338, \"totalSubmissionRaw\": 470, \"acRate\": \"71.9%\"}",
+            "stats": "{\"totalAccepted\": \"416\", \"totalSubmission\": \"586\", \"totalAcceptedRaw\": 416, \"totalSubmissionRaw\": 586, \"acRate\": \"71.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Employees\":[\"employee_id\",\"employee_name\",\"manager_id\",\"salary\"]},\"rows\":{\"Employees\":[[1,\"Alice\",null,150000],[2,\"Bob\",1,120000],[3,\"Charlie\",1,110000],[4,\"David\",2,105000],[5,\"Eve\",2,100000],[6,\"Frank\",3,95000],[7,\"Grace\",3,98000],[8,\"Helen\",5,90000]]}}",

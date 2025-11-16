@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"787\", \"totalSubmission\": \"1K\", \"totalAcceptedRaw\": 787, \"totalSubmissionRaw\": 1023, \"acRate\": \"76.9%\"}",
+            "stats": "{\"totalAccepted\": \"902\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 902, \"totalSubmissionRaw\": 1166, \"acRate\": \"77.4%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Tree\":[\"N\",\"P\"]},\"rows\":{\"Tree\":[[1,2],[3,2],[6,8],[9,8],[2,5],[8,5],[5,null]]}}",

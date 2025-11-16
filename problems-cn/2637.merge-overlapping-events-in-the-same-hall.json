@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"2.5K\", \"totalAcceptedRaw\": 1125, \"totalSubmissionRaw\": 2508, \"acRate\": \"44.9%\"}",
+            "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"2.7K\", \"totalAcceptedRaw\": 1208, \"totalSubmissionRaw\": 2662, \"acRate\": \"45.4%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"HallEvents\": [\"hall_id\", \"start_day\", \"end_day\"]}, \"rows\": {\"HallEvents\": [[1, \"2023-01-13\", \"2023-01-14\"], [1, \"2023-01-14\", \"2023-01-17\"], [1, \"2023-01-18\", \"2023-01-25\"], [2, \"2022-12-09\", \"2022-12-23\"], [2, \"2022-12-13\", \"2022-12-17\"], [3, \"2022-12-01\", \"2023-01-30\"]]}}",

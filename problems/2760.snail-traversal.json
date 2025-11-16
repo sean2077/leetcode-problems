@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 115,
-            "dislikes": 46,
+            "likes": 120,
+            "dislikes": 47,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Array Prototype Last\", \"titleSlug\": \"array-prototype-last\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Group By\", \"titleSlug\": \"group-by\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Array Upper Bound\", \"titleSlug\": \"array-upper-bound\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": true, \"java\": true, \"python\": true, \"python3\": true, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": true, \"java\": true, \"python3\": true, \"python\": true, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [],
             "companyTagStats": null,
             "codeSnippets": [
@@ -31,7 +31,7 @@
                     "code": "interface Array<T> {\n    snail(rowsCount: number, colsCount: number): number[][];\n}\n\n\nArray.prototype.snail = function(rowsCount: number, colsCount: number): number[][] {\n    \n}\n\n/**\n * const arr = [1,2,3,4];\n * arr.snail(1,4); // [[1,2,3,4]]\n */"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"15.5K\", \"totalSubmission\": \"22.9K\", \"totalAcceptedRaw\": 15486, \"totalSubmissionRaw\": 22941, \"acRate\": \"67.5%\"}",
+            "stats": "{\"totalAccepted\": \"17.1K\", \"totalSubmission\": \"25.3K\", \"totalAcceptedRaw\": 17148, \"totalSubmissionRaw\": 25323, \"acRate\": \"67.7%\"}",
             "hints": [
                 "Different ways to approach this problem. Perhaps store a boolean if you are moving up or down and a current column. Reverse the direction and increment the column every time you hits a wall.",
                 "Is there a way way to do this without storing state - by just using math?"
@@ -44,7 +44,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"]}",
+            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

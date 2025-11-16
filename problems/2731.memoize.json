@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 716,
-            "dislikes": 112,
+            "likes": 736,
+            "dislikes": 117,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Counter\", \"titleSlug\": \"counter\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Curry\", \"titleSlug\": \"curry\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Function Composition\", \"titleSlug\": \"function-composition\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Memoize II\", \"titleSlug\": \"memoize-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": true, \"python\": true, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": true, \"python3\": false, \"python\": true, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [],
             "companyTagStats": null,
             "codeSnippets": [
@@ -31,7 +31,7 @@
                     "code": "type Fn = (...params: number[]) => number\n\nfunction memoize(fn: Fn): Fn {\n    \n    return function(...args) {\n        \n    }\n}\n\n\n/** \n * let callCount = 0;\n * const memoizedFn = memoize(function (a, b) {\n *\t callCount += 1;\n *   return a + b;\n * })\n * memoizedFn(2, 3) // 5\n * memoizedFn(2, 3) // 5\n * console.log(callCount) // 1 \n */"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"159.3K\", \"totalSubmission\": \"248K\", \"totalAcceptedRaw\": 159287, \"totalSubmissionRaw\": 248038, \"acRate\": \"64.2%\"}",
+            "stats": "{\"totalAccepted\": \"170.3K\", \"totalSubmission\": \"264.1K\", \"totalAcceptedRaw\": 170328, \"totalSubmissionRaw\": 264095, \"acRate\": \"64.5%\"}",
             "hints": [
                 "You can create copy of a function by spreading function parameters. \r\n\r\nfunction outerFunction(passedFunction) {\r\n  return newFunction(...params) {\r\n    return passedFunction(...params);\r\n  };\r\n}",
                 "params is an array. Since you know all values in the array are numbers, you can turn it into a string with JSON.stringify().",
@@ -45,7 +45,7 @@
             "mysqlSchemas": [],
             "enableRunCode": true,
             "enableTestMode": false,
-            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>For Priority Queue / Queue data structures, you may use 6.3.2 version of <a href=\\\"https://github.com/datastructures-js/priority-queue/tree/c044606839de82cdc796326a130d4090c0b01504\\\" target=\\\"_blank\\\">datastructures-js/priority-queue</a> and 4.2.3 version of <a href=\\\"https://github.com/datastructures-js/queue/tree/v4.2.3\\\" target=\\\"_blank\\\">datastructures-js/queue</a> and 1.0.4 version of <a href=\\\"https://github.com/datastructures-js/deque/tree/v1.0.4\\\" target=\\\"_blank\\\">datastructures-js/deque</a>.</p>\"]}",
+            "envInfo": "{\"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"]}",
             "libraryUrl": null,
             "note": null
         }

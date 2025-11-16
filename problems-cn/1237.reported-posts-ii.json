@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"11.7K\", \"totalSubmission\": \"31.4K\", \"totalAcceptedRaw\": 11731, \"totalSubmissionRaw\": 31373, \"acRate\": \"37.4%\"}",
+            "stats": "{\"totalAccepted\": \"12.2K\", \"totalSubmission\": \"32.7K\", \"totalAcceptedRaw\": 12153, \"totalSubmissionRaw\": 32697, \"acRate\": \"37.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Actions\":[\"user_id\",\"post_id\",\"action_date\",\"action\",\"extra\"],\"Removals\":[\"post_id\",\"remove_date\"]},\"rows\":{\"Actions\":[[1,1,\"2019-07-01\",\"view\",null],[1,1,\"2019-07-01\",\"like\",null],[1,1,\"2019-07-01\",\"share\",null],[2,2,\"2019-07-04\",\"view\",null],[2,2,\"2019-07-04\",\"report\",\"spam\"],[3,4,\"2019-07-04\",\"view\",null],[3,4,\"2019-07-04\",\"report\",\"spam\"],[4,3,\"2019-07-02\",\"view\",null],[4,3,\"2019-07-02\",\"report\",\"spam\"],[5,2,\"2019-07-03\",\"view\",null],[5,2,\"2019-07-03\",\"report\",\"racism\"],[5,5,\"2019-07-03\",\"view\",null],[5,5,\"2019-07-03\",\"report\",\"racism\"]],\"Removals\":[[2,\"2019-07-20\"],[3,\"2019-07-18\"]]}}",

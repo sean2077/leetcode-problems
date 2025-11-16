@@ -11,8 +11,8 @@
             "translatedContent": null,
             "isPaidOnly": true,
             "difficulty": "Easy",
-            "likes": 315,
-            "dislikes": 772,
+            "likes": 317,
+            "dislikes": 774,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"83.1K\", \"totalSubmission\": \"201K\", \"totalAcceptedRaw\": 83053, \"totalSubmissionRaw\": 200992, \"acRate\": \"41.3%\"}",
+            "stats": "{\"totalAccepted\": \"84.9K\", \"totalSubmission\": \"205.8K\", \"totalAcceptedRaw\": 84854, \"totalSubmissionRaw\": 205763, \"acRate\": \"41.2%\"}",
             "hints": [
                 "Still remember how to count the number of rows in a table?",
                 "What is the keyword to filter the duplicated records in a table?"

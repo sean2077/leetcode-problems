@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 1303, \"totalSubmissionRaw\": 1889, \"acRate\": \"69.0%\"}",
+            "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"2K\", \"totalAcceptedRaw\": 1365, \"totalSubmissionRaw\": 1978, \"acRate\": \"69.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Products\": [\"product_id\", \"LC_Store\", \"Nozama\", \"Shop\", \"Souq\"]}, \"rows\": {\"Products\": [[1, 100, null, 110, null], [2, null, 200, null, 190], [3, null, null, 1000, 1900]]}}",

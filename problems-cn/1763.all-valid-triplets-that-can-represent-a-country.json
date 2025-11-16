@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"7.7K\", \"totalSubmission\": \"9.9K\", \"totalAcceptedRaw\": 7739, \"totalSubmissionRaw\": 9910, \"acRate\": \"78.1%\"}",
+            "stats": "{\"totalAccepted\": \"7.9K\", \"totalSubmission\": \"10.2K\", \"totalAcceptedRaw\": 7923, \"totalSubmissionRaw\": 10154, \"acRate\": \"78.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"SchoolA\":[\"student_id\",\"student_name\"],\"SchoolB\":[\"student_id\",\"student_name\"],\"SchoolC\":[\"student_id\",\"student_name\"]},\"rows\":{\"SchoolA\":[[1,\"Alice\"],[2,\"Bob\"]],\"SchoolB\":[[3,\"Tom\"]],\"SchoolC\":[[3,\"Tom\"],[2,\"Jerry\"],[10,\"Alice\"]]}}",

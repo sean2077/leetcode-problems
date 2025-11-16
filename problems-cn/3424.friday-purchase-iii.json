@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"535\", \"totalSubmission\": \"852\", \"totalAcceptedRaw\": 535, \"totalSubmissionRaw\": 852, \"acRate\": \"62.8%\"}",
+            "stats": "{\"totalAccepted\": \"612\", \"totalSubmission\": \"1K\", \"totalAcceptedRaw\": 612, \"totalSubmissionRaw\": 1002, \"acRate\": \"61.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Purchases\":[\"user_id\",\"purchase_date\",\"amount_spend\"],\"Users\":[\"user_id\",\"membership\"]},\"rows\":{\"Purchases\":[[11,\"2023-11-03\",1126],[15,\"2023-11-10\",7473],[17,\"2023-11-17\",2414],[12,\"2023-11-24\",9692],[8,\"2023-11-24\",5117],[1,\"2023-11-24\",5241],[10,\"2023-11-22\",8266],[13,\"2023-11-21\",12000]],\"Users\":[[11,\"Premium\"],[15,\"VIP\"],[17,\"Standard\"],[12,\"VIP\"],[8,\"Premium\"],[1,\"VIP\"],[10,\"Standard\"],[13,\"Premium\"]]}}",

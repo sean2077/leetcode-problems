@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Hard",
-            "likes": 15,
+            "likes": 25,
             "dislikes": 3,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef find_category_recommendation_pairs(product_purchases: pd.DataFrame, product_info: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"2.7K\", \"totalSubmission\": \"4K\", \"totalAcceptedRaw\": 2734, \"totalSubmissionRaw\": 4035, \"acRate\": \"67.8%\"}",
+            "stats": "{\"totalAccepted\": \"5.9K\", \"totalSubmission\": \"9.3K\", \"totalAcceptedRaw\": 5906, \"totalSubmissionRaw\": 9348, \"acRate\": \"63.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"ProductPurchases\":[\"user_id\",\"product_id\",\"quantity\"],\"ProductInfo\":[\"product_id\",\"category\",\"price\"]},\"rows\":{\"ProductPurchases\":[[1,101,2],[1,102,1],[1,201,3],[1,301,1],[2,101,1],[2,102,2],[2,103,1],[2,201,5],[3,101,2],[3,103,1],[3,301,4],[3,401,2],[4,101,1],[4,201,3],[4,301,1],[4,401,2],[5,102,2],[5,103,1],[5,201,2],[5,202,3]],\"ProductInfo\":[[101,\"Electronics\",100],[102,\"Books\",20],[103,\"Books\",35],[201,\"Clothing\",45],[202,\"Clothing\",60],[301,\"Sports\",75],[401,\"Kitchen\",50]]}}",

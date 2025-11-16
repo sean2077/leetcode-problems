@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"26.8K\", \"totalSubmission\": \"63.9K\", \"totalAcceptedRaw\": 26812, \"totalSubmissionRaw\": 63896, \"acRate\": \"42.0%\"}",
+            "stats": "{\"totalAccepted\": \"27.6K\", \"totalSubmission\": \"65.7K\", \"totalAcceptedRaw\": 27552, \"totalSubmissionRaw\": 65659, \"acRate\": \"42.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Transactions\":[\"id\",\"country\",\"state\",\"amount\",\"trans_date\"],\"Chargebacks\":[\"trans_id\",\"trans_date\"]},\"rows\":{\"Transactions\":[[101,\"US\",\"approved\",1000,\"2019-05-18\"],[102,\"US\",\"declined\",2000,\"2019-05-19\"],[103,\"US\",\"approved\",3000,\"2019-06-10\"],[104,\"US\",\"declined\",4000,\"2019-06-13\"],[105,\"US\",\"approved\",5000,\"2019-06-15\"]],\"Chargebacks\":[[102,\"2019-05-29\"],[101,\"2019-06-30\"],[105,\"2019-09-18\"]]}}",

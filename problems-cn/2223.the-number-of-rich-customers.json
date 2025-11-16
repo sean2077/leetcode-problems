@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"7.2K\", \"totalSubmission\": \"9.5K\", \"totalAcceptedRaw\": 7213, \"totalSubmissionRaw\": 9548, \"acRate\": \"75.5%\"}",
+            "stats": "{\"totalAccepted\": \"7.5K\", \"totalSubmission\": \"9.9K\", \"totalAcceptedRaw\": 7459, \"totalSubmissionRaw\": 9880, \"acRate\": \"75.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Store\":[\"bill_id\",\"customer_id\",\"amount\"]},\"rows\":{\"Store\":[[6,1,549],[8,1,834],[4,2,394],[11,3,657],[13,3,257]]}}",

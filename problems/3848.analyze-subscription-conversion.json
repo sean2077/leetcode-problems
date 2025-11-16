@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 29,
-            "dislikes": 3,
+            "likes": 45,
+            "dislikes": 5,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef analyze_subscription_conversion(user_activity: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"10.7K\", \"totalAcceptedRaw\": 8044, \"totalSubmissionRaw\": 10716, \"acRate\": \"75.1%\"}",
+            "stats": "{\"totalAccepted\": \"14.5K\", \"totalSubmission\": \"19.5K\", \"totalAcceptedRaw\": 14534, \"totalSubmissionRaw\": 19545, \"acRate\": \"74.4%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"UserActivity\":[\"user_id\",\"activity_date\",\"activity_type\",\"activity_duration\"]},\"rows\":{\"UserActivity\":[[1,\"2023-01-01\",\"free_trial\",45],[1,\"2023-01-02\",\"free_trial\",30],[1,\"2023-01-05\",\"free_trial\",60],[1,\"2023-01-10\",\"paid\",75],[1,\"2023-01-12\",\"paid\",90],[1,\"2023-01-15\",\"paid\",65],[2,\"2023-02-01\",\"free_trial\",55],[2,\"2023-02-03\",\"free_trial\",25],[2,\"2023-02-07\",\"free_trial\",50],[2,\"2023-02-10\",\"cancelled\",0],[3,\"2023-03-05\",\"free_trial\",70],[3,\"2023-03-06\",\"free_trial\",60],[3,\"2023-03-08\",\"free_trial\",80],[3,\"2023-03-12\",\"paid\",50],[3,\"2023-03-15\",\"paid\",55],[3,\"2023-03-20\",\"paid\",85],[4,\"2023-04-01\",\"free_trial\",40],[4,\"2023-04-03\",\"free_trial\",35],[4,\"2023-04-05\",\"paid\",45],[4,\"2023-04-07\",\"cancelled\",0]]}}",

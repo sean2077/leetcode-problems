@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"5.1K\", \"totalSubmission\": \"6.3K\", \"totalAcceptedRaw\": 5079, \"totalSubmissionRaw\": 6342, \"acRate\": \"80.1%\"}",
+            "stats": "{\"totalAccepted\": \"5.2K\", \"totalSubmission\": \"6.6K\", \"totalAcceptedRaw\": 5248, \"totalSubmissionRaw\": 6552, \"acRate\": \"80.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Problems\":[\"problem_id\",\"likes\",\"dislikes\"]},\"rows\":{\"Problems\":[[6,1290,425],[11,2677,8659],[1,4446,2760],[7,8569,6086],[13,2050,4164],[10,9002,7446]]}}",

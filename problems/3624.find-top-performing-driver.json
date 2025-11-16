@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.8K\", \"totalSubmission\": \"3.7K\", \"totalAcceptedRaw\": 1803, \"totalSubmissionRaw\": 3726, \"acRate\": \"48.4%\"}",
+            "stats": "{\"totalAccepted\": \"2.2K\", \"totalSubmission\": \"4.5K\", \"totalAcceptedRaw\": 2173, \"totalSubmissionRaw\": 4451, \"acRate\": \"48.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Drivers\":[\"driver_id\",\"name\",\"age\",\"experience\",\"accidents\"],\"Vehicles\":[\"vehicle_id\",\"driver_id\",\"model\",\"fuel_type\",\"mileage\"],\"Trips\":[\"trip_id\",\"vehicle_id\",\"distance\",\"duration\",\"rating\"]},\"rows\":{\"Drivers\":[[1,\"Alice\",34,10,1],[2,\"Bob\",45,20,3],[3,\"Charlie\",28,5,0]],\"Vehicles\":[[100,1,\"Sedan\",\"Gasoline\",20000],[101,2,\"SUV\",\"Electric\",30000],[102,3,\"Coupe\",\"Gasoline\",15000]],\"Trips\":[[201,100,50,30,5],[202,100,30,20,4],[203,101,100,60,4],[204,101,80,50,5],[205,102,40,30,5],[206,102,60,40,5]]}}",

@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"2.4K\", \"totalAcceptedRaw\": 1084, \"totalSubmissionRaw\": 2423, \"acRate\": \"44.7%\"}",
+            "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"2.6K\", \"totalAcceptedRaw\": 1196, \"totalSubmissionRaw\": 2628, \"acRate\": \"45.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Transactions\":[\"transaction_id\",\"customer_id\",\"transaction_date\",\"amount\"]},\"rows\":{\"Transactions\":[[1,101,\"2023-05-01\",100],[2,101,\"2023-05-02\",150],[3,101,\"2023-05-03\",200],[4,102,\"2023-05-01\",50],[5,102,\"2023-05-03\",100],[6,102,\"2023-05-04\",200],[7,105,\"2023-05-01\",100],[8,105,\"2023-05-02\",150],[9,105,\"2023-05-03\",200]]}}",

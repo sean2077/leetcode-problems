@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 99,
+            "likes": 103,
             "dislikes": 6,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [],
             "companyTagStats": null,
             "codeSnippets": [
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef findHeavyAnimals(animals: pd.DataFrame) -> pd.DataFrame:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"86.6K\", \"totalSubmission\": \"113.1K\", \"totalAcceptedRaw\": 86614, \"totalSubmissionRaw\": 113078, \"acRate\": \"76.6%\"}",
+            "stats": "{\"totalAccepted\": \"93K\", \"totalSubmission\": \"121.8K\", \"totalAcceptedRaw\": 92957, \"totalSubmissionRaw\": 121840, \"acRate\": \"76.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"animals\":[\"name\",\"species\",\"age\",\"weight\"]},\"rows\":{\"animals\":[[\"Tatiana\",\"Snake\",98,464],[\"Khaled\",\"Giraffe\",50,41],[\"Alex\",\"Leopard\",6,328],[\"Jonathan\",\"Monkey\",45,463],[\"Stefan\",\"Bear\",100,50],[\"Tommy\",\"Panda\",26,349]]}}",

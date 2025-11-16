@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"27.4K\", \"totalSubmission\": \"50.5K\", \"totalAcceptedRaw\": 27414, \"totalSubmissionRaw\": 50535, \"acRate\": \"54.2%\"}",
+            "stats": "{\"totalAccepted\": \"28K\", \"totalSubmission\": \"51.6K\", \"totalAcceptedRaw\": 28047, \"totalSubmissionRaw\": 51608, \"acRate\": \"54.3%\"}",
             "hints": [
                 "Still remember the difference between 'INNER JOIN' and 'OUTTER JOIN' in SQL?",
                 "Do you know other expressions using the 'COUNT' function besides 'COUNT(*)'?"

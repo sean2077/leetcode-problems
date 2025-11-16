@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 3106,
-            "dislikes": 1357,
+            "likes": 3230,
+            "dislikes": 1372,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef big_countries(world: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"1.9M\", \"totalSubmission\": \"2.8M\", \"totalAcceptedRaw\": 1938664, \"totalSubmissionRaw\": 2842157, \"acRate\": \"68.2%\"}",
+            "stats": "{\"totalAccepted\": \"2.1M\", \"totalSubmission\": \"3.1M\", \"totalAcceptedRaw\": 2122229, \"totalSubmissionRaw\": 3105491, \"acRate\": \"68.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"World\": [\"name\", \"continent\",\t\"area\",\t\"population\", \"gdp\"]}, \"rows\": {\"World\": [[\"Afghanistan\", \"Asia\", 652230, 25500100, 20343000000], [\"Albania\", \"Europe\", 28748, 2831741, 12960000000], [\"Algeria\", \"Africa\", 2381741, 37100000, 188681000000], [\"Andorra\", \"Europe\", 468, 78115,\t3712000000], [\"Angola\", \"Africa\", 1246700, 20609294, 100990000000]]}}",

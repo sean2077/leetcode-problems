@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"8K\", \"totalSubmission\": \"13.3K\", \"totalAcceptedRaw\": 8046, \"totalSubmissionRaw\": 13258, \"acRate\": \"60.7%\"}",
+            "stats": "{\"totalAccepted\": \"8.4K\", \"totalSubmission\": \"13.9K\", \"totalAcceptedRaw\": 8445, \"totalSubmissionRaw\": 13902, \"acRate\": \"60.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"TeamPoints\": [\"team_id\", \"name\", \"points\"], \"PointsChange\": [\"team_id\", \"points_change\"]}, \"rows\": {\"TeamPoints\": [[3, \"Algeria\", 1431], [1, \"Senegal\", 2132], [2, \"New Zealand\", 1402], [4, \"Croatia\", 1817]], \"PointsChange\": [[3, 399], [2, 0], [4, 13], [1, -22]]}}",

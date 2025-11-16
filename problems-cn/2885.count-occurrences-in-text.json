@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"3.7K\", \"totalAcceptedRaw\": 2045, \"totalSubmissionRaw\": 3742, \"acRate\": \"54.6%\"}",
+            "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"4.2K\", \"totalAcceptedRaw\": 2309, \"totalSubmissionRaw\": 4214, \"acRate\": \"54.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Files\":[\"file_name\",\"content\"]},\"rows\":{\"Files\":[[\"draft1.txt\",\"The stock exchange predicts a bull market which would make many investors happy.\"],[\"draft2.txt\",\"The stock exchange predicts a bull market which would make many investors happy, but analysts warn of possibility of too much optimism and that in fact we are awaiting a bear market.\"],[\"final.txt\",\"The stock exchange predicts a bull market which would make many investors happy, but analysts warn of possibility of too much optimism and that in fact we are awaiting a bear market. As always predicting the future market is an uncertain game and all investors should follow their instincts and best practices.\"]]}}",

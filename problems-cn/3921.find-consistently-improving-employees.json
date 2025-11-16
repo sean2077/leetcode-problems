@@ -11,12 +11,12 @@
             "translatedContent": "<p>表：<code>employees</code></p>\n\n<pre>\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| employee_id | int     |\n| name        | varchar |\n+-------------+---------+\nemployee_id 是这张表的唯一主键。\n每一行包含一名员工的信息。\n</pre>\n\n<p>表：<code>performance_reviews</code></p>\n\n<pre>\n+-------------+------+\n| Column Name | Type |\n+-------------+------+\n| review_id   | int  |\n| employee_id | int  |\n| review_date | date |\n| rating      | int  |\n+-------------+------+\nreview_id 是这张表的唯一主键。\n每一行表示一名员工的绩效评估。评分在 1-5 的范围内，5分代表优秀，1分代表较差。\n</pre>\n\n<p>编写一个解决方案，以找到在过去三次评估中持续提高绩效的员工。</p>\n\n<ul>\n\t<li>员工 <strong>至少需要</strong> <code>3</code>&nbsp;<strong>次评估&nbsp;</strong>才能被考虑</li>\n\t<li>员工过去的&nbsp;<code>3</code> 次评估，评分必须&nbsp;<strong>严格递增</strong>（每次评价都比上一次好）</li>\n\t<li>根据 <code>review_date</code> 为每位员工分析最近的 <code>3</code> 次评估</li>\n\t<li><strong>进步分数</strong> 为最后 <code>3</code> 次评估中最后一次评分与最早一次评分之间的差值</li>\n</ul>\n\n<p>返回结果表以<em>&nbsp;</em><strong>进步分数 降序</strong>&nbsp;排序，然后以&nbsp;<strong>名字</strong>&nbsp;<strong>升序</strong>&nbsp;排序。</p>\n\n<p>结果格式如下所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong class=\"example\">示例：</strong></p>\n\n<div class=\"example-block\">\n<p><strong>输入：</strong></p>\n\n<p>employees 表：</p>\n\n<pre class=\"example-io\">\n+-------------+----------------+\n| employee_id | name           |\n+-------------+----------------+\n| 1           | Alice Johnson  |\n| 2           | Bob Smith      |\n| 3           | Carol Davis    |\n| 4           | David Wilson   |\n| 5           | Emma Brown     |\n+-------------+----------------+\n</pre>\n\n<p>performance_reviews 表：</p>\n\n<pre class=\"example-io\">\n+-----------+-------------+-------------+--------+\n| review_id | employee_id | review_date | rating |\n+-----------+-------------+-------------+--------+\n| 1         | 1           | 2023-01-15  | 2      |\n| 2         | 1           | 2023-04-15  | 3      |\n| 3         | 1           | 2023-07-15  | 4      |\n| 4         | 1           | 2023-10-15  | 5      |\n| 5         | 2           | 2023-02-01  | 3      |\n| 6         | 2           | 2023-05-01  | 2      |\n| 7         | 2           | 2023-08-01  | 4      |\n| 8         | 2           | 2023-11-01  | 5      |\n| 9         | 3           | 2023-03-10  | 1      |\n| 10        | 3           | 2023-06-10  | 2      |\n| 11        | 3           | 2023-09-10  | 3      |\n| 12        | 3           | 2023-12-10  | 4      |\n| 13        | 4           | 2023-01-20  | 4      |\n| 14        | 4           | 2023-04-20  | 4      |\n| 15        | 4           | 2023-07-20  | 4      |\n| 16        | 5           | 2023-02-15  | 3      |\n| 17        | 5           | 2023-05-15  | 2      |\n+-----------+-------------+-------------+--------+\n</pre>\n\n<p><strong>输出：</strong></p>\n\n<pre class=\"example-io\">\n+-------------+----------------+-------------------+\n| employee_id | name           | improvement_score |\n+-------------+----------------+-------------------+\n| 2           | Bob Smith      | 3                 |\n| 1           | Alice Johnson  | 2                 |\n| 3           | Carol Davis    | 2                 |\n+-------------+----------------+-------------------+\n</pre>\n\n<p><strong>解释：</strong></p>\n\n<ul>\n\t<li><strong>Alice Johnson (employee_id = 1)：</strong>\n\n\t<ul>\n\t\t<li>有 4 次评估，分数：2, 3, 4, 5</li>\n\t\t<li>最后 3 次评估（按日期）：2023-04-15 (3), 2023-07-15 (4), 2023-10-15 (5)</li>\n\t\t<li>评分严格递增：3 → 4 → 5</li>\n\t\t<li>进步分数：5 - 3 = 2</li>\n\t</ul>\n\t</li>\n\t<li><strong>Carol Davis (employee_id = 3)：</strong>\n\t<ul>\n\t\t<li>有 4 次评估，分数：1, 2, 3, 4</li>\n\t\t<li>最后 3 次评估（按日期）：2023-06-10 (2)，2023-09-10 (3)，2023-12-10 (4)</li>\n\t\t<li>评分严格递增：2 → 3 → 4</li>\n\t\t<li>进步分数：4 - 2 = 2</li>\n\t</ul>\n\t</li>\n\t<li><strong>Bob Smith (employee_id = 2)：</strong>\n\t<ul>\n\t\t<li>有 4 次评估，分数：3，2，4，5</li>\n\t\t<li>最后 3 次评估（按日期）：2023-05-01 (2)，2023-08-01 (4)，2023-11-01 (5)</li>\n\t\t<li>评分严格递增：2 → 4 → 5</li>\n\t\t<li>进步分数：5 - 2 = 3</li>\n\t</ul>\n\t</li>\n\t<li><strong>未包含的员工：</strong>\n\t<ul>\n\t\t<li>David Wilson (employee_id = 4)：之前 3 次评估都是 4 分（没有进步）</li>\n\t\t<li>Emma Brown (employee_id = 5)：只有 2 次评估（需要至少 3 次）</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>输出表以 improvement_score 降序排序，然后以 name 升序排序。</p>\n</div>\n",
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 0,
+            "likes": 2,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef find_consistently_improving_employees(employees: pd.DataFrame, performance_reviews: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"570\", \"totalSubmission\": \"909\", \"totalAcceptedRaw\": 570, \"totalSubmissionRaw\": 909, \"acRate\": \"62.7%\"}",
+            "stats": "{\"totalAccepted\": \"1.6K\", \"totalSubmission\": \"2.9K\", \"totalAcceptedRaw\": 1594, \"totalSubmissionRaw\": 2855, \"acRate\": \"55.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"employees\":[\"employee_id\",\"name\"],\"performance_reviews\":[\"review_id\",\"employee_id\",\"review_date\",\"rating\"]},\"rows\":{\"employees\":[[1,\"Alice Johnson\"],[2,\"Bob Smith\"],[3,\"Carol Davis\"],[4,\"David Wilson\"],[5,\"Emma Brown\"]],\"performance_reviews\":[[1,1,\"2023-01-15\",2],[2,1,\"2023-04-15\",3],[3,1,\"2023-07-15\",4],[4,1,\"2023-10-15\",5],[5,2,\"2023-02-01\",3],[6,2,\"2023-05-01\",2],[7,2,\"2023-08-01\",4],[8,2,\"2023-11-01\",5],[9,3,\"2023-03-10\",1],[10,3,\"2023-06-10\",2],[11,3,\"2023-09-10\",3],[12,3,\"2023-12-10\",4],[13,4,\"2023-01-20\",4],[14,4,\"2023-04-20\",4],[15,4,\"2023-07-20\",4],[16,5,\"2023-02-15\",3],[17,5,\"2023-05-15\",2]]}}",

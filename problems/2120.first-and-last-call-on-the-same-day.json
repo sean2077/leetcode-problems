@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"11.6K\", \"totalSubmission\": \"22.7K\", \"totalAcceptedRaw\": 11610, \"totalSubmissionRaw\": 22741, \"acRate\": \"51.1%\"}",
+            "stats": "{\"totalAccepted\": \"12K\", \"totalSubmission\": \"23.5K\", \"totalAcceptedRaw\": 11952, \"totalSubmissionRaw\": 23466, \"acRate\": \"50.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Calls\": [\"caller_id\", \"recipient_id\", \"call_time\"]}, \"rows\": {\"Calls\": [[8, 4, \"2021-08-24 17:46:07\"], [4, 8, \"2021-08-24 19:57:13\"], [5, 1, \"2021-08-11 05:28:44\"], [8, 3, \"2021-08-17 04:04:15\"], [11, 3, \"2021-08-17 13:07:00\"], [8, 11, \"2021-08-17 22:22:22\"]]}}",

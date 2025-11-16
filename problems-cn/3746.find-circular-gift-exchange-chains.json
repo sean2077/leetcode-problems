@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"136\", \"totalSubmission\": \"243\", \"totalAcceptedRaw\": 136, \"totalSubmissionRaw\": 243, \"acRate\": \"56.0%\"}",
+            "stats": "{\"totalAccepted\": \"191\", \"totalSubmission\": \"331\", \"totalAcceptedRaw\": 191, \"totalSubmissionRaw\": 331, \"acRate\": \"57.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"SecretSanta\":[\"giver_id\",\"receiver_id\",\"gift_value\"]},\"rows\":{\"SecretSanta\":[[1,2,20],[2,3,30],[3,1,40],[4,5,25],[5,4,35]]}}",

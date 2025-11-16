@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"3.7K\", \"totalSubmission\": \"4.5K\", \"totalAcceptedRaw\": 3651, \"totalSubmissionRaw\": 4488, \"acRate\": \"81.4%\"}",
+            "stats": "{\"totalAccepted\": \"3.9K\", \"totalSubmission\": \"4.8K\", \"totalAcceptedRaw\": 3890, \"totalSubmissionRaw\": 4759, \"acRate\": \"81.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Orders\":[\"order_id\",\"customer_id\",\"order_type\"]},\"rows\":{\"Orders\":[[1,1,0],[2,1,0],[11,2,0],[12,2,1],[21,3,1],[22,3,0],[31,4,1],[32,4,1]]}}",

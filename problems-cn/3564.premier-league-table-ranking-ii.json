@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"451\", \"totalSubmission\": \"810\", \"totalAcceptedRaw\": 451, \"totalSubmissionRaw\": 810, \"acRate\": \"55.7%\"}",
+            "stats": "{\"totalAccepted\": \"534\", \"totalSubmission\": \"988\", \"totalAcceptedRaw\": 534, \"totalSubmissionRaw\": 988, \"acRate\": \"54.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"TeamStats\": [\"team_id\", \"team_name\", \"matches_played\", \"wins\", \"draws\", \"losses\"]}, \"rows\": {\"TeamStats\": [[1, \"Chelsea\", 22, 13, 2, 7], [2, \"Nottingham Forest\", 27, 6, 6, 15], [3, \"Liverpool\", 17, 1, 8, 8], [4, \"Aston Villa\", 20, 1, 6, 13], [5, \"Fulham\", 31, 18, 1, 12], [6, \"Burnley\", 26, 6, 9, 11], [7, \"Newcastle United\", 33, 11, 10, 12], [8, \"Sheffield United\", 20, 18, 2, 0], [9, \"Luton Town\", 5, 4, 0, 1], [10, \"Everton\", 14, 2, 6, 6]]}}",

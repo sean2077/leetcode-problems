@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"4.3K\", \"totalSubmission\": \"7.3K\", \"totalAcceptedRaw\": 4282, \"totalSubmissionRaw\": 7323, \"acRate\": \"58.5%\"}",
+            "stats": "{\"totalAccepted\": \"4.4K\", \"totalSubmission\": \"7.6K\", \"totalAcceptedRaw\": 4422, \"totalSubmissionRaw\": 7574, \"acRate\": \"58.4%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Signups\": [\"user_id\", \"time_stamp\"], \"Confirmations\": [\"user_id\", \"time_stamp\", \"action\"]}, \"rows\": {\"Signups\": [[3, \"2020-03-21 10:16:13\"], [7, \"2020-01-04 13:57:59\"], [2, \"2020-07-29 23:09:44\"], [6, \"2020-12-09 10:39:37\"]], \"Confirmations\": [[3, \"2021-01-06 03:30:46\", \"timeout\"], [3, \"2021-01-06 03:37:45\", \"timeout\"], [7, \"2021-06-12 11:57:29\", \"confirmed\"], [7, \"2021-06-13 11:57:30\", \"confirmed\"], [2, \"2021-01-22 00:00:00\", \"confirmed\"], [2, \"2021-01-23 00:00:00\", \"timeout\"], [6, \"2021-10-23 14:14:14\", \"confirmed\"], [6, \"2021-10-24 14:14:13\", \"timeout\"]]}}",

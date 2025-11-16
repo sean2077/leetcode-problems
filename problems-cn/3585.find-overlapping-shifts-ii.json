@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"403\", \"totalSubmission\": \"621\", \"totalAcceptedRaw\": 403, \"totalSubmissionRaw\": 621, \"acRate\": \"64.9%\"}",
+            "stats": "{\"totalAccepted\": \"450\", \"totalSubmission\": \"754\", \"totalAcceptedRaw\": 450, \"totalSubmissionRaw\": 754, \"acRate\": \"59.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"EmployeeShifts\":[\"employee_id\",\"start_time\",\"end_time\"]},\"rows\":{\"EmployeeShifts\":[[1,\"2023-10-01 09:00:00\",\"2023-10-01 17:00:00\"],[1,\"2023-10-01 15:00:00\",\"2023-10-01 23:00:00\"],[1,\"2023-10-01 16:00:00\",\"2023-10-02 00:00:00\"],[2,\"2023-10-01 09:00:00\",\"2023-10-01 17:00:00\"],[2,\"2023-10-01 11:00:00\",\"2023-10-01 19:00:00\"],[3,\"2023-10-01 09:00:00\",\"2023-10-01 17:00:00\"]]}}",

@@ -11,12 +11,12 @@
             "translatedContent": "<p><code>Views</code>&nbsp;表：</p>\n\n<pre>\n+---------------+---------+\n| Column Name   | Type    |\n+---------------+---------+\n| article_id    | int     |\n| author_id     | int     |\n| viewer_id     | int     |\n| view_date     | date    |\n+---------------+---------+\n此表可能会存在重复行。（换句话说，在 SQL 中这个表没有主键）\n此表的每一行都表示某人在某天浏览了某位作者的某篇文章。\n请注意，同一人的 author_id 和 viewer_id 是相同的。\n</pre>\n\n<p>&nbsp;</p>\n\n<p>请查询出所有浏览过自己文章的作者。</p>\n\n<p>结果按照作者的&nbsp;<code>id</code> 升序排列。</p>\n\n<p>查询结果的格式如下所示：</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>\nViews 表：\n+------------+-----------+-----------+------------+\n| article_id | author_id | viewer_id | view_date  |\n+------------+-----------+-----------+------------+\n| 1          | 3         | 5         | 2019-08-01 |\n| 1          | 3         | 6         | 2019-08-02 |\n| 2          | 7         | 7         | 2019-08-01 |\n| 2          | 7         | 6         | 2019-08-02 |\n| 4          | 7         | 1         | 2019-07-22 |\n| 3          | 4         | 4         | 2019-07-21 |\n| 3          | 4         | 4         | 2019-07-21 |\n+------------+-----------+-----------+------------+\n\n<strong>输出：</strong>\n+------+\n| id   |\n+------+\n| 4    |\n| 7    |\n+------+\n</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 159,
+            "likes": 167,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef article_views(views: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"185.4K\", \"totalSubmission\": \"257.5K\", \"totalAcceptedRaw\": 185368, \"totalSubmissionRaw\": 257544, \"acRate\": \"72.0%\"}",
+            "stats": "{\"totalAccepted\": \"203.5K\", \"totalSubmission\": \"284.8K\", \"totalAcceptedRaw\": 203508, \"totalSubmissionRaw\": 284822, \"acRate\": \"71.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Views\":[\"article_id\",\"author_id\",\"viewer_id\",\"view_date\"]},\"rows\":{\"Views\":[[1,3,5,\"2019-08-01\"],[1,3,6,\"2019-08-02\"],[2,7,7,\"2019-08-01\"],[2,7,6,\"2019-08-02\"],[4,7,1,\"2019-07-22\"],[3,4,4,\"2019-07-21\"],[3,4,4,\"2019-07-21\"]]}}",

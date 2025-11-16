@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Hard",
-            "likes": 1338,
-            "dislikes": 693,
+            "likes": 1382,
+            "dislikes": 703,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Hopper Company Queries I\", \"titleSlug\": \"hopper-company-queries-i\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Hopper Company Queries II\", \"titleSlug\": \"hopper-company-queries-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Hopper Company Queries III\", \"titleSlug\": \"hopper-company-queries-iii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef trips_and_users(trips: pd.DataFrame, users: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"240.3K\", \"totalSubmission\": \"648K\", \"totalAcceptedRaw\": 240268, \"totalSubmissionRaw\": 648047, \"acRate\": \"37.1%\"}",
+            "stats": "{\"totalAccepted\": \"261.9K\", \"totalSubmission\": \"704.4K\", \"totalAcceptedRaw\": 261943, \"totalSubmissionRaw\": 704399, \"acRate\": \"37.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Trips\": [\"id\", \"client_id\", \"driver_id\", \"city_id\", \"status\", \"request_at\"], \"Users\": [\"users_id\", \"banned\", \"role\"]}, \"rows\": {\"Trips\": [[\"1\", \"1\", \"10\", \"1\", \"completed\", \"2013-10-01\"], [\"2\", \"2\", \"11\", \"1\", \"cancelled_by_driver\", \"2013-10-01\"], [\"3\", \"3\", \"12\", \"6\", \"completed\", \"2013-10-01\"], [\"4\", \"4\", \"13\", \"6\", \"cancelled_by_client\", \"2013-10-01\"], [\"5\", \"1\", \"10\", \"1\", \"completed\", \"2013-10-02\"], [\"6\", \"2\", \"11\", \"6\", \"completed\", \"2013-10-02\"], [\"7\", \"3\", \"12\", \"6\", \"completed\", \"2013-10-02\"], [\"8\", \"2\", \"12\", \"12\", \"completed\", \"2013-10-03\"], [\"9\", \"3\", \"10\", \"12\", \"completed\", \"2013-10-03\"], [\"10\", \"4\", \"13\", \"12\", \"cancelled_by_driver\", \"2013-10-03\"]], \"Users\": [[\"1\", \"No\", \"client\"], [\"2\", \"Yes\", \"client\"], [\"3\", \"No\", \"client\"], [\"4\", \"No\", \"client\"], [\"10\", \"No\", \"driver\"], [\"11\", \"No\", \"driver\"], [\"12\", \"No\", \"driver\"], [\"13\", \"No\", \"driver\"]]}}",

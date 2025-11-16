@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"10.2K\", \"totalSubmission\": \"22.4K\", \"totalAcceptedRaw\": 10154, \"totalSubmissionRaw\": 22382, \"acRate\": \"45.4%\"}",
+            "stats": "{\"totalAccepted\": \"10.5K\", \"totalSubmission\": \"23K\", \"totalAcceptedRaw\": 10456, \"totalSubmissionRaw\": 22955, \"acRate\": \"45.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Candidates\":[\"employee_id\",\"experience\",\"salary\"]},\"rows\":{\"Candidates\":[[1,\"Junior\",10000],[9,\"Junior\",10000],[2,\"Senior\",20000],[11,\"Senior\",20000],[13,\"Senior\",50000],[4,\"Junior\",40000]]}}",

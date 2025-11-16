@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 24,
-            "dislikes": 8,
+            "likes": 41,
+            "dislikes": 11,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef find_books_with_no_available_copies(library_books: pd.DataFrame, borrowing_records: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"5.1K\", \"totalSubmission\": \"9.3K\", \"totalAcceptedRaw\": 5100, \"totalSubmissionRaw\": 9304, \"acRate\": \"54.8%\"}",
+            "stats": "{\"totalAccepted\": \"11.8K\", \"totalSubmission\": \"22.1K\", \"totalAcceptedRaw\": 11771, \"totalSubmissionRaw\": 22137, \"acRate\": \"53.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"library_books\":[\"book_id\",\"title\",\"author\",\"genre\",\"publication_year\",\"total_copies\"],\"borrowing_records\":[\"record_id\",\"book_id\",\"borrower_name\",\"borrow_date\",\"return_date\"]},\"rows\":{\"library_books\":[[1,\"The Great Gatsby\",\"F. Scott\",\"Fiction\",1925,3],[2,\"To Kill a Mockingbird\",\"Harper Lee\",\"Fiction\",1960,3],[3,\"1984\",\"George Orwell\",\"Dystopian\",1949,1],[4,\"Pride and Prejudice\",\"Jane Austen\",\"Romance\",1813,2],[5,\"The Catcher in the Rye\",\"J.D. Salinger\",\"Fiction\",1951,1],[6,\"Brave New World\",\"Aldous Huxley\",\"Dystopian\",1932,4]],\"borrowing_records\":[[1,1,\"Alice Smith\",\"2024-01-15\",null],[2,1,\"Bob Johnson\",\"2024-01-20\",null],[3,2,\"Carol White\",\"2024-01-10\",\"2024-01-25\"],[4,3,\"David Brown\",\"2024-02-01\",null],[5,4,\"Emma Wilson\",\"2024-01-05\",null],[6,5,\"Frank Davis\",\"2024-01-18\",\"2024-02-10\"],[7,1,\"Grace Miller\",\"2024-02-05\",null],[8,6,\"Henry Taylor\",\"2024-01-12\",null],[9,2,\"Ivan Clark\",\"2024-02-12\",null],[10,2,\"Jane Adams\",\"2024-02-15\",null]]}}",

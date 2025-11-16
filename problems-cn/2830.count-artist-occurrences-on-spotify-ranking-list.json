@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"1.9K\", \"totalAcceptedRaw\": 1395, \"totalSubmissionRaw\": 1886, \"acRate\": \"74.0%\"}",
+            "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"2K\", \"totalAcceptedRaw\": 1510, \"totalSubmissionRaw\": 2032, \"acRate\": \"74.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Spotify\":[\"id\",\"track_name\",\"artist\"]},\"rows\":{\"Spotify\":[[303651,\"Heart Won't Forget\",\"Ed Sheeran\"],[1046089,\"Shape of you\",\"Sia\"],[33445,\"I'm the one\",\"DJ Khalid\"],[811266,\"Young Dumb & Broke\",\"DJ Khalid\"],[505727,\"Happier\",\"Ed Sheeran\"]]}}",

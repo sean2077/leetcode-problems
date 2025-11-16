@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"19.1K\", \"totalSubmission\": \"49K\", \"totalAcceptedRaw\": 19064, \"totalSubmissionRaw\": 49039, \"acRate\": \"38.9%\"}",
+            "stats": "{\"totalAccepted\": \"19.5K\", \"totalSubmission\": \"50.1K\", \"totalAcceptedRaw\": 19549, \"totalSubmissionRaw\": 50066, \"acRate\": \"39.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Follow\":[\"followee\",\"follower\"]},\"rows\":{\"Follow\":[[\"Alice\", \"Bob\"], [\"Bob\", \"Cena\"], [\"Bob\", \"Donald\"], [\"Donald\", \"Edward\"]]}}",

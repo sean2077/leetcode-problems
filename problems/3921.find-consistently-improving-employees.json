@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 19,
-            "dislikes": 0,
+            "likes": 35,
+            "dislikes": 1,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef find_consistently_improving_employees(employees: pd.DataFrame, performance_reviews: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"2.8K\", \"totalSubmission\": \"4.9K\", \"totalAcceptedRaw\": 2849, \"totalSubmissionRaw\": 4882, \"acRate\": \"58.4%\"}",
+            "stats": "{\"totalAccepted\": \"7K\", \"totalSubmission\": \"12.4K\", \"totalAcceptedRaw\": 6963, \"totalSubmissionRaw\": 12433, \"acRate\": \"56.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"employees\":[\"employee_id\",\"name\"],\"performance_reviews\":[\"review_id\",\"employee_id\",\"review_date\",\"rating\"]},\"rows\":{\"employees\":[[1,\"Alice Johnson\"],[2,\"Bob Smith\"],[3,\"Carol Davis\"],[4,\"David Wilson\"],[5,\"Emma Brown\"]],\"performance_reviews\":[[1,1,\"2023-01-15\",2],[2,1,\"2023-04-15\",3],[3,1,\"2023-07-15\",4],[4,1,\"2023-10-15\",5],[5,2,\"2023-02-01\",3],[6,2,\"2023-05-01\",2],[7,2,\"2023-08-01\",4],[8,2,\"2023-11-01\",5],[9,3,\"2023-03-10\",1],[10,3,\"2023-06-10\",2],[11,3,\"2023-09-10\",3],[12,3,\"2023-12-10\",4],[13,4,\"2023-01-20\",4],[14,4,\"2023-04-20\",4],[15,4,\"2023-07-20\",4],[16,5,\"2023-02-15\",3],[17,5,\"2023-05-15\",2]]}}",

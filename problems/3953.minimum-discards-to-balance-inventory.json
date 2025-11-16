@@ -1,0 +1,165 @@
+{
+    "data": {
+        "question": {
+            "questionId": "3953",
+            "questionFrontendId": "3679",
+            "boundTopicId": null,
+            "title": " Minimum Discards to Balance Inventory",
+            "titleSlug": "minimum-discards-to-balance-inventory",
+            "content": "<p>You are given two integers <code>w</code> and <code>m</code>, and an integer array <code>arrivals</code>, where <code>arrivals[i]</code> is the type of item arriving on day <code>i</code> (days are <strong>1-indexed</strong>).</p>\n\n<p>Items are managed according to the following rules:</p>\n\n<ul>\n\t<li>Each arrival may be <strong>kept</strong> or <strong>discarded</strong>; an item may only be discarded on its arrival day.</li>\n\t<li>For each day <code>i</code>, consider the window of days <code>[max(1, i - w + 1), i]</code> (the <code>w</code> most recent days up to day <code>i</code>):\n\t<ul>\n\t\t<li>For <strong>any</strong> such window, each item type may appear <strong>at most</strong> <code>m</code> times among kept arrivals whose arrival day lies in that window.</li>\n\t\t<li>If keeping the arrival on day <code>i</code> would cause its type to appear <strong>more than</strong> <code>m</code> times in the window, that arrival <strong>must</strong> be discarded.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Return the <strong>minimum</strong> number of arrivals to be discarded so that every <code>w</code>-day window contains at most <code>m</code> occurrences of each type.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">arrivals = [1,2,1,3,1], w = 4, m = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">0</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>On day 1, Item 1 arrives; the window contains no more than <code>m</code> occurrences of this type, so we keep it.</li>\n\t<li>On day 2, Item 2 arrives; the window of days 1 - 2 is fine.</li>\n\t<li>On day 3, Item 1 arrives, window <code>[1, 2, 1]</code> has item 1 twice, within limit.</li>\n\t<li>On day 4, Item 3 arrives, window <code>[1, 2, 1, 3]</code> has item 1 twice, allowed.</li>\n\t<li>On day 5, Item 1 arrives, window <code>[2, 1, 3, 1]</code> has item 1 twice, still valid.</li>\n</ul>\n\n<p>There are no discarded items, so return 0.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">arrivals = [1,2,3,3,3,4], w = 3, m = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>On day 1, Item 1 arrives. We keep it.</li>\n\t<li>On day 2, Item 2 arrives, window <code>[1, 2]</code> is fine.</li>\n\t<li>On day 3, Item 3 arrives, window <code>[1, 2, 3]</code> has item 3 once.</li>\n\t<li>On day 4, Item 3 arrives, window <code>[2, 3, 3]</code> has item 3 twice, allowed.</li>\n\t<li>On day 5, Item 3 arrives, window <code>[3, 3, 3]</code> has item 3 three times, exceeds limit, so the arrival must be discarded.</li>\n\t<li>On day 6, Item 4 arrives, window <code>[3, 4]</code> is fine.</li>\n</ul>\n\n<p>Item 3 on day 5 is discarded, and this is the minimum number of arrivals to discard, so return 1.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= arrivals.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= arrivals[i] &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= w &lt;= arrivals.length</code></li>\n\t<li><code>1 &lt;= m &lt;= w</code></li>\n</ul>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Medium",
+            "likes": 69,
+            "dislikes": 14,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": true, \"java\": true, \"python3\": true, \"python\": true, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
+            "topicTags": [
+                {
+                    "name": "Array",
+                    "slug": "array",
+                    "translatedName": null
+                },
+                {
+                    "name": "Hash Table",
+                    "slug": "hash-table",
+                    "translatedName": null
+                },
+                {
+                    "name": "Sliding Window",
+                    "slug": "sliding-window",
+                    "translatedName": null
+                },
+                {
+                    "name": "Simulation",
+                    "slug": "simulation",
+                    "translatedName": null
+                },
+                {
+                    "name": "Counting",
+                    "slug": "counting",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "C++",
+                    "langSlug": "cpp",
+                    "code": "class Solution {\npublic:\n    int minArrivalsToDiscard(vector<int>& arrivals, int w, int m) {\n        \n    }\n};"
+                },
+                {
+                    "lang": "Java",
+                    "langSlug": "java",
+                    "code": "class Solution {\n    public int minArrivalsToDiscard(int[] arrivals, int w, int m) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Python3",
+                    "langSlug": "python3",
+                    "code": "class Solution:\n    def minArrivalsToDiscard(self, arrivals: List[int], w: int, m: int) -> int:\n        "
+                },
+                {
+                    "lang": "Python",
+                    "langSlug": "python",
+                    "code": "class Solution(object):\n    def minArrivalsToDiscard(self, arrivals, w, m):\n        \"\"\"\n        :type arrivals: List[int]\n        :type w: int\n        :type m: int\n        :rtype: int\n        \"\"\"\n        "
+                },
+                {
+                    "lang": "JavaScript",
+                    "langSlug": "javascript",
+                    "code": "/**\n * @param {number[]} arrivals\n * @param {number} w\n * @param {number} m\n * @return {number}\n */\nvar minArrivalsToDiscard = function(arrivals, w, m) {\n    \n};"
+                },
+                {
+                    "lang": "TypeScript",
+                    "langSlug": "typescript",
+                    "code": "function minArrivalsToDiscard(arrivals: number[], w: number, m: number): number {\n    \n};"
+                },
+                {
+                    "lang": "C#",
+                    "langSlug": "csharp",
+                    "code": "public class Solution {\n    public int MinArrivalsToDiscard(int[] arrivals, int w, int m) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "C",
+                    "langSlug": "c",
+                    "code": "int minArrivalsToDiscard(int* arrivals, int arrivalsSize, int w, int m) {\n    \n}"
+                },
+                {
+                    "lang": "Go",
+                    "langSlug": "golang",
+                    "code": "func minArrivalsToDiscard(arrivals []int, w int, m int) int {\n    \n}"
+                },
+                {
+                    "lang": "Kotlin",
+                    "langSlug": "kotlin",
+                    "code": "class Solution {\n    fun minArrivalsToDiscard(arrivals: IntArray, w: Int, m: Int): Int {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Swift",
+                    "langSlug": "swift",
+                    "code": "class Solution {\n    func minArrivalsToDiscard(_ arrivals: [Int], _ w: Int, _ m: Int) -> Int {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Rust",
+                    "langSlug": "rust",
+                    "code": "impl Solution {\n    pub fn min_arrivals_to_discard(arrivals: Vec<i32>, w: i32, m: i32) -> i32 {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Ruby",
+                    "langSlug": "ruby",
+                    "code": "# @param {Integer[]} arrivals\n# @param {Integer} w\n# @param {Integer} m\n# @return {Integer}\ndef min_arrivals_to_discard(arrivals, w, m)\n    \nend"
+                },
+                {
+                    "lang": "PHP",
+                    "langSlug": "php",
+                    "code": "class Solution {\n\n    /**\n     * @param Integer[] $arrivals\n     * @param Integer $w\n     * @param Integer $m\n     * @return Integer\n     */\n    function minArrivalsToDiscard($arrivals, $w, $m) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Dart",
+                    "langSlug": "dart",
+                    "code": "class Solution {\n  int minArrivalsToDiscard(List<int> arrivals, int w, int m) {\n    \n  }\n}"
+                },
+                {
+                    "lang": "Scala",
+                    "langSlug": "scala",
+                    "code": "object Solution {\n    def minArrivalsToDiscard(arrivals: Array[Int], w: Int, m: Int): Int = {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Elixir",
+                    "langSlug": "elixir",
+                    "code": "defmodule Solution do\n  @spec min_arrivals_to_discard(arrivals :: [integer], w :: integer, m :: integer) :: integer\n  def min_arrivals_to_discard(arrivals, w, m) do\n    \n  end\nend"
+                },
+                {
+                    "lang": "Erlang",
+                    "langSlug": "erlang",
+                    "code": "-spec min_arrivals_to_discard(Arrivals :: [integer()], W :: integer(), M :: integer()) -> integer().\nmin_arrivals_to_discard(Arrivals, W, M) ->\n  ."
+                },
+                {
+                    "lang": "Racket",
+                    "langSlug": "racket",
+                    "code": "(define/contract (min-arrivals-to-discard arrivals w m)\n  (-> (listof exact-integer?) exact-integer? exact-integer? exact-integer?)\n  )"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"17.9K\", \"totalSubmission\": \"52.3K\", \"totalAcceptedRaw\": 17874, \"totalSubmissionRaw\": 52264, \"acRate\": \"34.2%\"}",
+            "hints": [
+                "Use a sliding window of up to <code>w</code> days with two pointers <code>left</code> and <code>right</code> to represent the current interval.",
+                "Maintain a hash map <code>cnt</code> from item type to its current count in the window. When you advance <code>right</code> to day <code>i</code>, do <code>cnt[arrivals[i]]++</code>.",
+                "If the window size exceeds <code>w</code> (i.e. <code>right - left + 1 > w</code>), shrink it by doing <code>cnt[arrivals[left]]--</code> and then <code>left++</code>.",
+                "After each increment, check if <code>cnt[arrivals[right]] > m</code>. If so, we must discard the current arrival."
+            ],
+            "status": null,
+            "sampleTestCase": "[1,2,1,3,1]\n4\n2",
+            "metaData": "{\n  \"name\": \"minArrivalsToDiscard\",\n  \"params\": [\n    {\n      \"name\": \"arrivals\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"w\"\n    },\n    {\n      \"type\": \"integer\",\n      \"name\": \"m\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code> clang 19 </code> using the latest C++ 23 standard, and <code>libstdc++</code> provided by GCC 14.</p>\\r\\n\\r\\n<p>Your code is compiled with level two optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p><code>OpenJDK 25</code>. Using compile arguments: <code>--enable-preview --release 25</code></p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n<p>Includes <code>Pair</code> class from https://docs.oracle.com/javase/8/javafx/api/javafx/util/Pair.html.</p>\"], \"python\": [\"Python\", \"<p><code>Python 2.7.18</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\\r\\n\\r\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">is not maintained anymore</a>. For the latest Python, please choose Python3 instead.</p>\"], \"c\": [\"C\", \"<p>Compiled with <code>gcc 14</code> using the gnu11 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n\\r\\n<p>For hash table operations, you may use <a href=\\\"https://troydhanson.github.io/uthash/\\\" target=\\\"_blank\\\">uthash</a>. \\\"uthash.h\\\" is included by default. Below are some examples:</p>\\r\\n\\r\\n<p><b>1. Adding an item to a hash.</b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            /* we'll use this field as the key */\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; /* makes this structure hashable */\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>2. Looking up an item in a hash:</b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>3. Deleting an item in a hash:</b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n</pre>\\r\\n</p>\"], \"csharp\": [\"C#\", \"<p><a href=\\\"https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13\\\" target=\\\"_blank\\\">C# 13</a> with .NET 9 runtime</p>\"], \"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"ruby\": [\"Ruby\", \"<p><code>Ruby 3.2</code></p>\\r\\n\\r\\n<p>Some common data structure implementations are provided in the Algorithms module: https://www.rubydoc.info/github/kanwei/algorithms/Algorithms</p>\"], \"swift\": [\"Swift\", \"<p><code>Swift 6.0</code>.</p>\\r\\n\\r\\n<p>You may use the following packages:<br/>\\r\\n<a href=\\\"https://github.com/apple/swift-algorithms/tree/1.2.0\\\" target=\\\"_blank\\\">swift-algorithms 1.2.0</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-collections/tree/1.1.4\\\" target=\\\"_blank\\\">swift-collections 1.1.4</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-numerics/tree/1.0.2\\\" target=\\\"_blank\\\">swift-numerics 1.0.2</a></p>\"], \"golang\": [\"Go\", \"<p><code>Go 1.23</code></p>\\r\\n<p>Support <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1</a> and <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha</a> library.</p>\"], \"python3\": [\"Python3\", \"<p><code>Python 3.11</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/3/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/3/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/3/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\"], \"scala\": [\"Scala\", \"<p><code>Scala 3.3.1</code>.</p>\"], \"kotlin\": [\"Kotlin\", \"<p><code>Kotlin 2.1.10</code>.</p>\"], \"rust\": [\"Rust\", \"<p><code>Rust 1.88.0, using edition 2024.</code>. Your code will be compiled with <code>opt-level</code> 2.</p>\\r\\n\\r\\n<p>Supports <a href=\\\"https://crates.io/crates/rand\\\" target=\\\"_blank\\\">rand v0.8</a> and <a href=\\\"https://crates.io/crates/regex\\\" target=\\\"_blank\\\">regex\\u00a0v1</a> and <a href=\\\"https://crates.io/crates/itertools\\\" target=\\\"_blank\\\">itertools\\u00a0v0.14</a> from crates.io</p>\"], \"php\": [\"PHP\", \"<p><code>PHP 8.2</code>.</p>\\r\\n<p>With bcmath module</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"racket\": [\"Racket\", \"<p><a href=\\\"https://docs.racket-lang.org/guide/performance.html#%28tech._c%29\\\" target=\\\"_blank\\\">Racket CS</a> v8.15</p>\\r\\n\\r\\n<p>Using <code>#lang racket</code></p>\\r\\n\\r\\n<p>Required <code>data/gvector data/queue data/order data/heap</code> automatically for your convenience</p>\"], \"erlang\": [\"Erlang\", \"Erlang/OTP 26\"], \"elixir\": [\"Elixir\", \"Elixir 1.17 with Erlang/OTP 26\"], \"dart\": [\"Dart\", \"<p>Dart 3.2. You may use package <a href=\\\"https://pub.dev/packages/collection/versions/1.18.0\\\" target=\\\"_blank\\\">collection</a></p>\\r\\n\\r\\n<p>Your code will be run directly without compiling</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

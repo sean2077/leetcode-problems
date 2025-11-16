@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"3.8K\", \"totalSubmission\": \"7.8K\", \"totalAcceptedRaw\": 3778, \"totalSubmissionRaw\": 7775, \"acRate\": \"48.6%\"}",
+            "stats": "{\"totalAccepted\": \"4K\", \"totalSubmission\": \"8.2K\", \"totalAcceptedRaw\": 4008, \"totalSubmissionRaw\": 8173, \"acRate\": \"49.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Experiments\":[\"experiment_id\",\"platform\",\"experiment_name\"]},\"rows\":{\"Experiments\":[[4,\"IOS\",\"Programming\"],[13,\"IOS\",\"Sports\"],[14,\"Android\",\"Reading\"],[8,\"Web\",\"Reading\"],[12,\"Web\",\"Reading\"],[18,\"Web\",\"Programming\"]]}}",

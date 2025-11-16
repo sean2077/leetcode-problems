@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 6,
-            "dislikes": 0,
+            "likes": 30,
+            "dislikes": 5,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [],
             "companyTagStats": null,
             "codeSnippets": [
@@ -31,6 +31,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -39,14 +44,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef find_inventory_imbalance(stores: pd.DataFrame, inventory: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"261\", \"totalSubmission\": \"430\", \"totalAcceptedRaw\": 261, \"totalSubmissionRaw\": 430, \"acRate\": \"60.7%\"}",
+            "stats": "{\"totalAccepted\": \"4.1K\", \"totalSubmission\": \"8.5K\", \"totalAcceptedRaw\": 4109, \"totalSubmissionRaw\": 8456, \"acRate\": \"48.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"stores\":[\"store_id\",\"store_name\",\"location\"],\"inventory\":[\"inventory_id\",\"store_id\",\"product_name\",\"quantity\",\"price\"]},\"rows\":{\"stores\":[[1,\"Downtown Tech\",\"New York\"],[2,\"Suburb Mall\",\"Chicago\"],[3,\"City Center\",\"Los Angeles\"],[4,\"Corner Shop\",\"Miami\"],[5,\"Plaza Store\",\"Seattle\"]],\"inventory\":[[1,1,\"Laptop\",5,999.99],[2,1,\"Mouse\",50,19.99],[3,1,\"Keyboard\",25,79.99],[4,1,\"Monitor\",15,299.99],[5,2,\"Phone\",3,699.99],[6,2,\"Charger\",100,25.99],[7,2,\"Case\",75,15.99],[8,2,\"Headphones\",20,149.99],[9,3,\"Tablet\",2,499.99],[10,3,\"Stylus\",80,29.99],[11,3,\"Cover\",60,39.99],[12,4,\"Watch\",10,299.99],[13,4,\"Band\",25,49.99],[14,5,\"Camera\",8,599.99],[15,5,\"Lens\",12,199.99]]}}",

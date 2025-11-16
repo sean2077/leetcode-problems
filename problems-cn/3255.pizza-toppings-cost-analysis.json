@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"951\", \"totalSubmission\": \"1.5K\", \"totalAcceptedRaw\": 951, \"totalSubmissionRaw\": 1496, \"acRate\": \"63.6%\"}",
+            "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"1.7K\", \"totalAcceptedRaw\": 1068, \"totalSubmissionRaw\": 1685, \"acRate\": \"63.4%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Toppings\":[\"topping_name\",\"cost\"]},\"rows\":{\"Toppings\":[[\"Pepperoni\",0.50],[\"Sausage\",0.70],[\"Chicken\",0.55],[\"Extra Cheese\",0.40]]}}",

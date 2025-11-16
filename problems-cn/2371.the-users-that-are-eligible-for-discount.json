@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"4K\", \"totalAcceptedRaw\": 1981, \"totalSubmissionRaw\": 4036, \"acRate\": \"49.1%\"}",
+            "stats": "{\"totalAccepted\": \"2.1K\", \"totalSubmission\": \"4.2K\", \"totalAcceptedRaw\": 2072, \"totalSubmissionRaw\": 4204, \"acRate\": \"49.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Purchases\": [\"user_id\", \"time_stamp\", \"amount\"]}, \"startDate\": \"2022-03-08\", \"endDate\": \"2022-03-20\", \"minAmount\": 1000, \"rows\": {\"Purchases\": [[1, \"2022-04-20 09:03:00\", 4416], [2, \"2022-03-19 19:24:02\", 678], [3, \"2022-03-18 12:03:09\", 4523], [3, \"2022-03-30 09:43:42\", 626]]}}",

@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 48,
-            "dislikes": 5,
+            "likes": 73,
+            "dislikes": 8,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef find_students_who_improved(scores: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"10.9K\", \"totalSubmission\": \"23.4K\", \"totalAcceptedRaw\": 10936, \"totalSubmissionRaw\": 23438, \"acRate\": \"46.7%\"}",
+            "stats": "{\"totalAccepted\": \"17.6K\", \"totalSubmission\": \"37.2K\", \"totalAcceptedRaw\": 17606, \"totalSubmissionRaw\": 37167, \"acRate\": \"47.4%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Scores\":[\"student_id\",\"subject\",\"score\",\"exam_date\"]},\"rows\":{\"Scores\":[[101,\"Math\",70,\"2023-01-15\"],[101,\"Math\",85,\"2023-02-15\"],[101,\"Physics\",65,\"2023-01-15\"],[101,\"Physics\",60,\"2023-02-15\"],[102,\"Math\",80,\"2023-01-15\"],[102,\"Math\",85,\"2023-02-15\"],[103,\"Math\",90,\"2023-01-15\"],[104,\"Physics\",75,\"2023-01-15\"],[104,\"Physics\",85,\"2023-02-15\"]]}}",

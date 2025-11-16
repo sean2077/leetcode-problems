@@ -4,19 +4,19 @@
             "questionId": "627",
             "questionFrontendId": "627",
             "boundTopicId": null,
-            "title": "Swap Salary",
-            "titleSlug": "swap-salary",
+            "title": "Swap Sex of Employees",
+            "titleSlug": "swap-sex-of-employees",
             "content": "<p>Table: <code>Salary</code></p>\n\n<pre>\n+-------------+----------+\n| Column Name | Type     |\n+-------------+----------+\n| id          | int      |\n| name        | varchar  |\n| sex         | ENUM     |\n| salary      | int      |\n+-------------+----------+\nid is the primary key (column with unique values) for this table.\nThe sex column is ENUM (category) value of type (&#39;m&#39;, &#39;f&#39;).\nThe table contains information about an employee.\n</pre>\n\n<p>&nbsp;</p>\n\n<p>Write a solution to swap all <code>&#39;f&#39;</code> and <code>&#39;m&#39;</code> values (i.e., change all <code>&#39;f&#39;</code> values to <code>&#39;m&#39;</code> and vice versa) with a <strong>single update statement</strong> and no intermediate temporary tables.</p>\n\n<p>Note that you must write a single update statement, <strong>do not</strong> write any select statement for this problem.</p>\n\n<p>The result format is in the following example.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> \nSalary table:\n+----+------+-----+--------+\n| id | name | sex | salary |\n+----+------+-----+--------+\n| 1  | A    | m   | 2500   |\n| 2  | B    | f   | 1500   |\n| 3  | C    | m   | 5500   |\n| 4  | D    | f   | 500    |\n+----+------+-----+--------+\n<strong>Output:</strong> \n+----+------+-----+--------+\n| id | name | sex | salary |\n+----+------+-----+--------+\n| 1  | A    | f   | 2500   |\n| 2  | B    | m   | 1500   |\n| 3  | C    | f   | 5500   |\n| 4  | D    | m   | 500    |\n+----+------+-----+--------+\n<strong>Explanation:</strong> \n(1, A) and (3, C) were changed from &#39;m&#39; to &#39;f&#39;.\n(2, B) and (4, D) were changed from &#39;f&#39; to &#39;m&#39;.\n</pre>\n",
             "translatedTitle": null,
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 1812,
-            "dislikes": 569,
+            "likes": 1839,
+            "dislikes": 570,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef swap_salary(salary: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"484.3K\", \"totalSubmission\": \"575.9K\", \"totalAcceptedRaw\": 484302, \"totalSubmissionRaw\": 575919, \"acRate\": \"84.1%\"}",
+            "stats": "{\"totalAccepted\": \"514.1K\", \"totalSubmission\": \"609.6K\", \"totalAcceptedRaw\": 514096, \"totalSubmissionRaw\": 609567, \"acRate\": \"84.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Salary\":[\"id\",\"name\",\"sex\",\"salary\"]},\"rows\":{\"Salary\":[[1,\"A\",\"m\",2500],[2,\"B\",\"f\",1500],[3,\"C\",\"m\",5500],[4,\"D\",\"f\",500]]}}",

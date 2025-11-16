@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 1593,
+            "likes": 1652,
             "dislikes": 123,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Finding the Topic of Each Post\", \"titleSlug\": \"finding-the-topic-of-each-post\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef categorize_products(activities: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"332.5K\", \"totalSubmission\": \"427.8K\", \"totalAcceptedRaw\": 332540, \"totalSubmissionRaw\": 427774, \"acRate\": \"77.7%\"}",
+            "stats": "{\"totalAccepted\": \"369K\", \"totalSubmission\": \"473.7K\", \"totalAcceptedRaw\": 369041, \"totalSubmissionRaw\": 473742, \"acRate\": \"77.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Activities\":[\"sell_date\",\"product\"]},\"rows\":{\"Activities\":[[\"2020-05-30\",\"Headphone\"],[\"2020-06-01\",\"Pencil\"],[\"2020-06-02\",\"Mask\"],[\"2020-05-30\",\"Basketball\"],[\"2020-06-01\",\"Bible\"],[\"2020-06-02\",\"Mask\"],[\"2020-05-30\",\"T-Shirt\"]]}}",

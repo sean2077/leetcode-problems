@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 883,
-            "dislikes": 48,
+            "likes": 907,
+            "dislikes": 51,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef capital_gainloss(stocks: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"142.6K\", \"totalSubmission\": \"168K\", \"totalAcceptedRaw\": 142623, \"totalSubmissionRaw\": 167983, \"acRate\": \"84.9%\"}",
+            "stats": "{\"totalAccepted\": \"153.3K\", \"totalSubmission\": \"180.9K\", \"totalAcceptedRaw\": 153309, \"totalSubmissionRaw\": 180911, \"acRate\": \"84.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Stocks\":[\"stock_name\",\"operation\",\"operation_day\",\"price\"]},\"rows\":{\"Stocks\":[[\"Leetcode\",\"Buy\",1,1000],[\"Corona Masks\",\"Buy\",2,10],[\"Leetcode\",\"Sell\",5,9000],[\"Handbags\",\"Buy\",17,30000],[\"Corona Masks\",\"Sell\",3,1010],[\"Corona Masks\",\"Buy\",4,1000],[\"Corona Masks\",\"Sell\",5,500],[\"Corona Masks\",\"Buy\",6,1000],[\"Handbags\",\"Sell\",29,7000],[\"Corona Masks\",\"Sell\",10,10000]]}}",

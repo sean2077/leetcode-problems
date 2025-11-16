@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 563,
-            "dislikes": 310,
+            "likes": 578,
+            "dislikes": 311,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Top K Frequent Elements\", \"titleSlug\": \"top-k-frequent-elements\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Shell",
@@ -32,7 +32,7 @@
                     "code": "# Read from the file words.txt and output the word frequency list to stdout.\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"64.5K\", \"totalSubmission\": \"236K\", \"totalAcceptedRaw\": 64543, \"totalSubmissionRaw\": 236033, \"acRate\": \"27.3%\"}",
+            "stats": "{\"totalAccepted\": \"69.5K\", \"totalSubmission\": \"249.2K\", \"totalAcceptedRaw\": 69470, \"totalSubmissionRaw\": 249173, \"acRate\": \"27.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "a",

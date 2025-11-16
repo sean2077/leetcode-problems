@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 485,
-            "dislikes": 42,
+            "likes": 531,
+            "dislikes": 44,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef list_products(products: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"236K\", \"totalSubmission\": \"328.9K\", \"totalAcceptedRaw\": 235965, \"totalSubmissionRaw\": 328884, \"acRate\": \"71.7%\"}",
+            "stats": "{\"totalAccepted\": \"271.7K\", \"totalSubmission\": \"378.8K\", \"totalAcceptedRaw\": 271716, \"totalSubmissionRaw\": 378772, \"acRate\": \"71.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Products\": [\"product_id\", \"product_name\", \"product_category\"], \"Orders\": [\"product_id\", \"order_date\", \"unit\"]}, \"rows\": {\"Products\": [[1, \"Leetcode Solutions\", \"Book\"], [2, \"Jewels of Stringology\", \"Book\"], [3, \"HP\", \"Laptop\"], [4, \"Lenovo\", \"Laptop\"], [5, \"Leetcode Kit\", \"T-shirt\"]], \"Orders\": [[1, \"2020-02-05\", 60], [1, \"2020-02-10\", 70], [2, \"2020-01-18\", 30], [2, \"2020-02-11\", 80], [3, \"2020-02-17\", 2], [3, \"2020-02-24\", 3], [4, \"2020-03-01\", 20], [4, \"2020-03-04\", 30], [4, \"2020-03-04\", 60], [5, \"2020-02-25\", 50], [5, \"2020-02-27\", 50], [5, \"2020-03-01\", 50]]}}",

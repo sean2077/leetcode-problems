@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 143,
+            "likes": 148,
             "dislikes": 11,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [],
             "companyTagStats": null,
             "codeSnippets": [
@@ -26,7 +26,7 @@
                     "code": "import pandas as pd\n\ndef getDataframeSize(players: pd.DataFrame) -> List[int]:\n    "
                 }
             ],
-            "stats": "{\"totalAccepted\": \"171.4K\", \"totalSubmission\": \"201.3K\", \"totalAcceptedRaw\": 171414, \"totalSubmissionRaw\": 201255, \"acRate\": \"85.2%\"}",
+            "stats": "{\"totalAccepted\": \"183.1K\", \"totalSubmission\": \"215.4K\", \"totalAcceptedRaw\": 183076, \"totalSubmissionRaw\": 215362, \"acRate\": \"85.0%\"}",
             "hints": [
                 "Consider using a built-in function in pandas library to get the size of a DataFrame."
             ],

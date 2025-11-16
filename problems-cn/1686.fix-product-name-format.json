@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"7.3K\", \"totalSubmission\": \"13.1K\", \"totalAcceptedRaw\": 7261, \"totalSubmissionRaw\": 13080, \"acRate\": \"55.5%\"}",
+            "stats": "{\"totalAccepted\": \"7.4K\", \"totalSubmission\": \"13.3K\", \"totalAcceptedRaw\": 7423, \"totalSubmissionRaw\": 13326, \"acRate\": \"55.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Sales\": [\"sale_id\", \"product_name\", \"sale_date\"]}, \"rows\": {\"Sales\": [[1, \"LCPHONE\", \"2000-01-16\"], [2, \"LCPhone\", \"2000-01-17\"], [3, \"LcPhOnE\", \"2000-02-18\"], [4, \"LCKeyCHAiN\", \"2000-02-19\"], [5, \"LCKeyChain\", \"2000-02-28\"], [6, \"Matryoshka\", \"2000-03-31\"]]}}",

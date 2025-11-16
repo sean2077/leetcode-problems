@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"2.4K\", \"totalAcceptedRaw\": 1986, \"totalSubmissionRaw\": 2406, \"acRate\": \"82.5%\"}",
+            "stats": "{\"totalAccepted\": \"2.1K\", \"totalSubmission\": \"2.6K\", \"totalAcceptedRaw\": 2134, \"totalSubmissionRaw\": 2572, \"acRate\": \"83.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Elements\": [\"symbol\", \"type\", \"electrons\"]}, \"rows\": {\"Elements\": [[\"He\", \"Noble\", 0], [\"Na\", \"Metal\", 1], [\"Ca\", \"Metal\", 2], [\"La\", \"Metal\", 3], [\"Cl\", \"Nonmetal\", 1], [\"O\", \"Nonmetal\", 2], [\"N\", \"Nonmetal\", 3]]}}",

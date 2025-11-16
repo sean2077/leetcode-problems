@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.8K\", \"totalSubmission\": \"4.6K\", \"totalAcceptedRaw\": 1830, \"totalSubmissionRaw\": 4595, \"acRate\": \"39.8%\"}",
+            "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"5.1K\", \"totalAcceptedRaw\": 2027, \"totalSubmissionRaw\": 5093, \"acRate\": \"39.8%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"students\":[\"student_id\",\"name\",\"major\"],\"courses\":[\"course_id\",\"name\",\"credits\",\"major\",\"mandatory\"],\"enrollments\":[\"student_id\",\"course_id\",\"semester\",\"grade\",\"GPA\"]},\"rows\":{\"students\":[[1,\"Alice\",\"Computer Science\"],[2,\"Bob\",\"Computer Science\"],[3,\"Charlie\",\"Mathematics\"],[4,\"David\",\"Mathematics\"]],\"courses\":[[101,\"Algorithms\",3,\"Computer Science\",\"Yes\"],[102,\"Data Structures\",3,\"Computer Science\",\"Yes\"],[103,\"Calculus\",4,\"Mathematics\",\"Yes\"],[104,\"Linear Algebra\",4,\"Mathematics\",\"Yes\"],[105,\"Machine Learning\",3,\"Computer Science\",\"No\"],[106,\"Probability\",3,\"Mathematics\",\"No\"],[107,\"Operating Systems\",3,\"Computer Science\",\"No\"],[108,\"Statistics\",3,\"Mathematics\",\"No\"]],\"enrollments\":[[1,101,\"Fall 2023\",\"A\",4.0],[1,102,\"Spring 2023\",\"A\",4.0],[1,105,\"Spring 2023\",\"A\",4.0],[1,107,\"Fall 2023\",\"B\",3.5],[2,101,\"Fall 2023\",\"A\",4.0],[2,102,\"Spring 2023\",\"B\",3.0],[3,103,\"Fall 2023\",\"A\",4.0],[3,104,\"Spring 2023\",\"A\",4.0],[3,106,\"Spring 2023\",\"A\",4.0],[3,108,\"Fall 2023\",\"B\",3.5],[4,103,\"Fall 2023\",\"B\",3.0],[4,104,\"Spring 2023\",\"B\",3.0]]}}",

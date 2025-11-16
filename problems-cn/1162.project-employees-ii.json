@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"21.9K\", \"totalSubmission\": \"44.3K\", \"totalAcceptedRaw\": 21940, \"totalSubmissionRaw\": 44286, \"acRate\": \"49.5%\"}",
+            "stats": "{\"totalAccepted\": \"22.4K\", \"totalSubmission\": \"45.2K\", \"totalAcceptedRaw\": 22375, \"totalSubmissionRaw\": 45191, \"acRate\": \"49.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Project\":[\"project_id\",\"employee_id\"],\"Employee\":[\"employee_id\",\"name\",\"experience_years\"]},\"rows\":{\"Project\":[[1,1],[1,2],[1,3],[2,1],[2,4]],\"Employee\":[[1,\"Khaled\",3],[2,\"Ali\",2],[3,\"John\",1],[4,\"Doe\",2]]}}",

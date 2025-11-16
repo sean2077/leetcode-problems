@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"8.3K\", \"totalSubmission\": \"13.4K\", \"totalAcceptedRaw\": 8287, \"totalSubmissionRaw\": 13366, \"acRate\": \"62.0%\"}",
+            "stats": "{\"totalAccepted\": \"8.5K\", \"totalSubmission\": \"13.6K\", \"totalAcceptedRaw\": 8479, \"totalSubmissionRaw\": 13641, \"acRate\": \"62.2%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"UserActivity\":[\"username\",\"activity\",\"startDate\",\"endDate\"]},\"rows\":{\"UserActivity\":[[\"Alice\",\"Travel\",\"2020-02-12\",\"2020-02-20\"],[\"Alice\",\"Dancing\",\"2020-02-21\",\"2020-02-23\"],[\"Alice\",\"Travel\",\"2020-02-24\",\"2020-02-28\"],[\"Bob\",\"Travel\",\"2020-02-11\",\"2020-02-18\"]]}}",

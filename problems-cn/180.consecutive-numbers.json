@@ -11,12 +11,12 @@
             "translatedContent": "<p>表：<code>Logs</code></p>\n\n<pre>\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| id          | int     |\n| num         | varchar |\n+-------------+---------+\n在 SQL 中，id 是该表的主键。\nid 是一个自增列。</pre>\n\n<p>&nbsp;</p>\n\n<p>找出所有至少连续出现三次的数字。</p>\n\n<p>返回的结果表中的数据可以按 <strong>任意顺序</strong> 排列。</p>\n\n<p>结果格式如下面的例子所示：</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1:</strong></p>\n\n<pre>\n<strong>输入：</strong>\nLogs 表：\n+----+-----+\n| id | num |\n+----+-----+\n| 1  | 1   |\n| 2  | 1   |\n| 3  | 1   |\n| 4  | 2   |\n| 5  | 1   |\n| 6  | 2   |\n| 7  | 2   |\n+----+-----+\n<strong>输出：</strong>\nResult 表：\n+-----------------+\n| ConsecutiveNums |\n+-----------------+\n| 1               |\n+-----------------+\n<strong>解释：</strong>1 是唯一连续出现至少三次的数字。</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Medium",
-            "likes": 935,
+            "likes": 962,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef consecutive_numbers(logs: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"229.5K\", \"totalSubmission\": \"503K\", \"totalAcceptedRaw\": 229530, \"totalSubmissionRaw\": 503035, \"acRate\": \"45.6%\"}",
+            "stats": "{\"totalAccepted\": \"243.3K\", \"totalSubmission\": \"531.9K\", \"totalAcceptedRaw\": 243328, \"totalSubmissionRaw\": 531905, \"acRate\": \"45.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Logs\":[\"id\",\"num\"]},\"rows\":{\"Logs\":[[1,1],[2,1],[3,1],[4,2],[5,1],[6,2],[7,2]]}}",

@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 1252,
-            "dislikes": 243,
+            "likes": 1367,
+            "dislikes": 248,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Product Sales Analysis II\", \"titleSlug\": \"product-sales-analysis-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Product Sales Analysis IV\", \"titleSlug\": \"product-sales-analysis-iv\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Product Sales Analysis V\", \"titleSlug\": \"product-sales-analysis-v\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */\n"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below\n"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */\n"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef sales_analysis(sales: pd.DataFrame, product: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"1M\", \"totalSubmission\": \"1.2M\", \"totalAcceptedRaw\": 1036069, \"totalSubmissionRaw\": 1222331, \"acRate\": \"84.8%\"}",
+            "stats": "{\"totalAccepted\": \"1.2M\", \"totalSubmission\": \"1.4M\", \"totalAcceptedRaw\": 1178716, \"totalSubmissionRaw\": 1381455, \"acRate\": \"85.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Sales\":[\"sale_id\",\"product_id\",\"year\",\"quantity\",\"price\"],\"Product\":[\"product_id\",\"product_name\"]},\"rows\":{\"Sales\":[[1,100,2008,10,5000],[2,100,2009,12,5000],[7,200,2011,15,9000]],\"Product\":[[100,\"Nokia\"],[200,\"Apple\"],[300,\"Samsung\"]]}}",

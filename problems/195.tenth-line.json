@@ -11,12 +11,12 @@
             "translatedContent": null,
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 410,
-            "dislikes": 481,
+            "likes": 417,
+            "dislikes": 482,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Shell",
@@ -32,7 +32,7 @@
                     "code": "# Read from the file file.txt and output the tenth line to stdout.\n"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"134.4K\", \"totalSubmission\": \"386.7K\", \"totalAcceptedRaw\": 134369, \"totalSubmissionRaw\": 386673, \"acRate\": \"34.8%\"}",
+            "stats": "{\"totalAccepted\": \"145.2K\", \"totalSubmission\": \"409.3K\", \"totalAcceptedRaw\": 145210, \"totalSubmissionRaw\": 409257, \"acRate\": \"35.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "Line 1\\nLine 2\\nLine 3\\nLine 4\\nLine 5\\nLine 6\\nLine 7\\nLine 8\\nLine 9\\nLine 10",

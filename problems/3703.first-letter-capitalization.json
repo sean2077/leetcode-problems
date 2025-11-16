@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"886\", \"totalSubmission\": \"1K\", \"totalAcceptedRaw\": 886, \"totalSubmissionRaw\": 1022, \"acRate\": \"86.7%\"}",
+            "stats": "{\"totalAccepted\": \"1K\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 1043, \"totalSubmissionRaw\": 1208, \"acRate\": \"86.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"user_content\":[\"content_id\",\"content_text\"]},\"rows\":{\"user_content\":[[1,\"hello world of SQL\"],[2,\"the QUICK brown fox\"],[3,\"data science AND machine learning\"],[4,\"TOP rated programming BOOKS\"]]}}",

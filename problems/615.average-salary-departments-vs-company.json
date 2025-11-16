@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"41.4K\", \"totalSubmission\": \"72.7K\", \"totalAcceptedRaw\": 41356, \"totalSubmissionRaw\": 72737, \"acRate\": \"56.9%\"}",
+            "stats": "{\"totalAccepted\": \"42.4K\", \"totalSubmission\": \"74.9K\", \"totalAcceptedRaw\": 42445, \"totalSubmissionRaw\": 74855, \"acRate\": \"56.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Salary\":[\"id\",\"employee_id\",\"amount\",\"pay_date\"],\"Employee\":[\"employee_id\",\"department_id\"]},\"rows\":{\"Salary\":[[1,1,9000,\"2017/03/31\"],[2,2,6000,\"2017/03/31\"],[3,3,10000,\"2017/03/31\"],[4,1,7000,\"2017/02/28\"],[5,2,6000,\"2017/02/28\"],[6,3,8000,\"2017/02/28\"]],\"Employee\":[[1,1],[2,2],[3,2]]}}",

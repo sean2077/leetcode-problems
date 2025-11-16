@@ -11,12 +11,12 @@
             "translatedContent": "表：<code>Trips</code>\n<div class=\"original__bRMd\">\n<div>\n<pre>\n+-------------+----------+\n| Column Name | Type     |\n+-------------+----------+\n| id          | int      |\n| client_id   | int      |\n| driver_id   | int      |\n| city_id     | int      |\n| status      | enum     |\n| request_at  | varchar  |     \n+-------------+----------+\nid 是这张表的主键（具有唯一值的列）。\n这张表中存所有出租车的行程信息。每段行程有唯一 id ，其中 client_id 和 driver_id 是 Users 表中 users_id 的外键。\nstatus 是一个表示行程状态的枚举类型，枚举成员为(‘completed’, ‘cancelled_by_driver’, ‘cancelled_by_client’) 。\n</pre>\n\n<div class=\"original__bRMd\">\n<div>\n<p>表：<code>Users</code></p>\n</div>\n</div>\n\n<pre>\n+-------------+----------+\n| Column Name | Type     |\n+-------------+----------+\n| users_id    | int      |\n| banned      | enum     |\n| role        | enum     |\n+-------------+----------+\nusers_id 是这张表的主键（具有唯一值的列）。\n这张表中存所有用户，每个用户都有一个唯一的 users_id ，role 是一个表示用户身份的枚举类型，枚举成员为 (‘client’, ‘driver’, ‘partner’) 。\nbanned 是一个表示用户是否被禁止的枚举类型，枚举成员为 (‘Yes’, ‘No’) 。\n</pre>\n\n<p><strong>取消率</strong> 的计算方式如下：(被司机或乘客取消的非禁止用户生成的订单数量) / (非禁止用户生成的订单总数)。</p>\n\n<p>编写解决方案找出&nbsp;<code>\"2013-10-01\"</code><strong>&nbsp;</strong>至&nbsp;<code>\"2013-10-03\"</code><strong>&nbsp;</strong>期间有&nbsp;<strong>至少&nbsp;</strong>一次行程的非禁止用户（<strong>乘客和司机都必须未被禁止</strong>）的 <strong>取消率</strong>。非禁止用户即 banned 为 No 的用户，禁止用户即 banned 为 Yes 的用户。其中取消率 <code>Cancellation Rate</code> 需要四舍五入保留 <strong>两位小数</strong> 。</p>\n\n<p>返回结果表中的数据 <strong>无顺序要求</strong> 。</p>\n\n<p>结果格式如下例所示。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong> \nTrips 表：\n+----+-----------+-----------+---------+---------------------+------------+\n| id | client_id | driver_id | city_id | status              | request_at |\n+----+-----------+-----------+---------+---------------------+------------+\n| 1  | 1         | 10        | 1       | completed           | 2013-10-01 |\n| 2  | 2         | 11        | 1       | cancelled_by_driver | 2013-10-01 |\n| 3  | 3         | 12        | 6       | completed           | 2013-10-01 |\n| 4  | 4         | 13        | 6       | cancelled_by_client | 2013-10-01 |\n| 5  | 1         | 10        | 1       | completed           | 2013-10-02 |\n| 6  | 2         | 11        | 6       | completed           | 2013-10-02 |\n| 7  | 3         | 12        | 6       | completed           | 2013-10-02 |\n| 8  | 2         | 12        | 12      | completed           | 2013-10-03 |\n| 9  | 3         | 10        | 12      | completed           | 2013-10-03 |\n| 10 | 4         | 13        | 12      | cancelled_by_driver | 2013-10-03 |\n+----+-----------+-----------+---------+---------------------+------------+\nUsers 表：\n+----------+--------+--------+\n| users_id | banned | role   |\n+----------+--------+--------+\n| 1        | No     | client |\n| 2        | Yes    | client |\n| 3        | No     | client |\n| 4        | No     | client |\n| 10       | No     | driver |\n| 11       | No     | driver |\n| 12       | No     | driver |\n| 13       | No     | driver |\n+----------+--------+--------+\n<strong>输出：</strong>\n+------------+-------------------+\n| Day        | Cancellation Rate |\n+------------+-------------------+\n| 2013-10-01 | 0.33              |\n| 2013-10-02 | 0.00              |\n| 2013-10-03 | 0.50              |\n+------------+-------------------+\n<strong>解释：</strong>\n2013-10-01：\n  - 共有 4 条请求，其中 2 条取消。\n  - 然而，id=2 的请求是由禁止用户（user_id=2）发出的，所以计算时应当忽略它。\n  - 因此，总共有 3 条非禁止请求参与计算，其中 1 条取消。\n  - 取消率为 (1 / 3) = 0.33\n2013-10-02：\n  - 共有 3 条请求，其中 0 条取消。\n  - 然而，id=6 的请求是由禁止用户发出的，所以计算时应当忽略它。\n  - 因此，总共有 2 条非禁止请求参与计算，其中 0 条取消。\n  - 取消率为 (0 / 2) = 0.00\n2013-10-03：\n  - 共有 3 条请求，其中 1 条取消。\n  - 然而，id=8 的请求是由禁止用户发出的，所以计算时应当忽略它。\n  - 因此，总共有 2 条非禁止请求参与计算，其中 1 条取消。\n  - 取消率为 (1 / 2) = 0.50\n</pre>\n</div>\n</div>\n",
             "isPaidOnly": false,
             "difficulty": "Hard",
-            "likes": 461,
+            "likes": 471,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[{\"title\": \"Hopper Company Queries I\", \"titleSlug\": \"hopper-company-queries-i\", \"difficulty\": \"Hard\", \"translatedTitle\": \"Hopper \\u516c\\u53f8\\u67e5\\u8be2 I\", \"isPaidOnly\": true}, {\"title\": \"Hopper Company Queries II\", \"titleSlug\": \"hopper-company-queries-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": \"Hopper \\u516c\\u53f8\\u67e5\\u8be2 II\", \"isPaidOnly\": true}, {\"title\": \"Hopper Company Queries III\", \"titleSlug\": \"hopper-company-queries-iii\", \"difficulty\": \"Hard\", \"translatedTitle\": \"Hopper \\u516c\\u53f8\\u67e5\\u8be2 III\", \"isPaidOnly\": true}]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef trips_and_users(trips: pd.DataFrame, users: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"91.4K\", \"totalSubmission\": \"222K\", \"totalAcceptedRaw\": 91355, \"totalSubmissionRaw\": 221981, \"acRate\": \"41.2%\"}",
+            "stats": "{\"totalAccepted\": \"95.8K\", \"totalSubmission\": \"233.4K\", \"totalAcceptedRaw\": 95801, \"totalSubmissionRaw\": 233427, \"acRate\": \"41.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Trips\": [\"id\", \"client_id\", \"driver_id\", \"city_id\", \"status\", \"request_at\"], \"Users\": [\"users_id\", \"banned\", \"role\"]}, \"rows\": {\"Trips\": [[\"1\", \"1\", \"10\", \"1\", \"completed\", \"2013-10-01\"], [\"2\", \"2\", \"11\", \"1\", \"cancelled_by_driver\", \"2013-10-01\"], [\"3\", \"3\", \"12\", \"6\", \"completed\", \"2013-10-01\"], [\"4\", \"4\", \"13\", \"6\", \"cancelled_by_client\", \"2013-10-01\"], [\"5\", \"1\", \"10\", \"1\", \"completed\", \"2013-10-02\"], [\"6\", \"2\", \"11\", \"6\", \"completed\", \"2013-10-02\"], [\"7\", \"3\", \"12\", \"6\", \"completed\", \"2013-10-02\"], [\"8\", \"2\", \"12\", \"12\", \"completed\", \"2013-10-03\"], [\"9\", \"3\", \"10\", \"12\", \"completed\", \"2013-10-03\"], [\"10\", \"4\", \"13\", \"12\", \"cancelled_by_driver\", \"2013-10-03\"]], \"Users\": [[\"1\", \"No\", \"client\"], [\"2\", \"Yes\", \"client\"], [\"3\", \"No\", \"client\"], [\"4\", \"No\", \"client\"], [\"10\", \"No\", \"driver\"], [\"11\", \"No\", \"driver\"], [\"12\", \"No\", \"driver\"], [\"13\", \"No\", \"driver\"]]}}",

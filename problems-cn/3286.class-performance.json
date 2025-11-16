@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"983\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 983, \"totalSubmissionRaw\": 1144, \"acRate\": \"85.9%\"}",
+            "stats": "{\"totalAccepted\": \"1.1K\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 1104, \"totalSubmissionRaw\": 1275, \"acRate\": \"86.6%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Scores\":[\"student_id\",\"student_name\",\"assignment1\",\"assignment2\",\"assignment3\"]},\"rows\":{\"Scores\":[[309,\"Owen\",88,47,87],[321,\"Claire\",98,95,37],[338,\"Julian\",100,64,43],[423,\"Peyton\",60,44,47],[896,\"David\",32,37,50],[235,\"Camila\",31,53,69]]}}",

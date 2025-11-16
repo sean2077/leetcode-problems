@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"2.2K\", \"totalSubmission\": \"3K\", \"totalAcceptedRaw\": 2193, \"totalSubmissionRaw\": 3008, \"acRate\": \"72.9%\"}",
+            "stats": "{\"totalAccepted\": \"2.4K\", \"totalSubmission\": \"3.2K\", \"totalAcceptedRaw\": 2385, \"totalSubmissionRaw\": 3243, \"acRate\": \"73.5%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Weather\": [\"city_id\", \"day\", \"degree\"]}, \"rows\": {\"Weather\": [[1, \"2022-01-07\", -12], [1, \"2022-03-07\", 5], [1, \"2022-07-07\", 24], [2, \"2022-08-07\", 37], [2, \"2022-08-17\", 37], [3, \"2022-02-07\", -7], [3, \"2022-12-07\", -6]]}}",

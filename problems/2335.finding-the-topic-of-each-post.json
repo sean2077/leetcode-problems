@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"4.8K\", \"totalSubmission\": \"9.5K\", \"totalAcceptedRaw\": 4782, \"totalSubmissionRaw\": 9490, \"acRate\": \"50.4%\"}",
+            "stats": "{\"totalAccepted\": \"5.1K\", \"totalSubmission\": \"10.1K\", \"totalAcceptedRaw\": 5066, \"totalSubmissionRaw\": 10121, \"acRate\": \"50.1%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\": {\"Keywords\": [\"topic_id\", \"word\"], \"Posts\": [\"post_id\", \"content\"]}, \"rows\": {\"Keywords\": [[1, \"handball\"], [1, \"football\"], [3, \"WAR\"], [2, \"Vaccine\"]], \"Posts\": [[1, \"We call it soccer They call it football hahaha\"], [2, \"Americans prefer basketball while Europeans love handball and football\"], [3, \"stop the war and play handball\"], [4, \"warning I planted some flowers this morning and then got vaccinated\"]]}}",

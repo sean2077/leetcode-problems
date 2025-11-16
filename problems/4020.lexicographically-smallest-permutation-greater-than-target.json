@@ -1,0 +1,165 @@
+{
+    "data": {
+        "question": {
+            "questionId": "4020",
+            "questionFrontendId": "3720",
+            "boundTopicId": null,
+            "title": "Lexicographically Smallest Permutation Greater Than Target",
+            "titleSlug": "lexicographically-smallest-permutation-greater-than-target",
+            "content": "<p>You are given two strings <code>s</code> and <code>target</code>, both having length <code>n</code>, consisting of lowercase English letters.</p>\n\n<p>Return the <strong>lexicographically smallest <span data-keyword=\"permutation-string\">permutation</span></strong> of <code>s</code> that is <strong>strictly</strong> greater than <code>target</code>. If no permutation of <code>s</code> is lexicographically strictly greater than <code>target</code>, return an empty string.</p>\n\n<p>A string <code>a</code> is <strong>lexicographically strictly greater </strong>than a string <code>b</code> (of the same length) if in the first position where <code>a</code> and <code>b</code> differ, string <code>a</code> has a letter that appears later in the alphabet than the corresponding letter in <code>b</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = &quot;abc&quot;, target = &quot;bba&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">&quot;bca&quot;</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The permutations of <code>s</code> (in lexicographical order) are <code>&quot;abc&quot;</code>, <code>&quot;acb&quot;</code>, <code>&quot;bac&quot;</code>, <code>&quot;bca&quot;</code>, <code>&quot;cab&quot;</code>, and <code>&quot;cba&quot;</code>.</li>\n\t<li>The lexicographically smallest permutation that is strictly greater than <code>target</code> is <code>&quot;bca&quot;</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = &quot;leet&quot;, target = &quot;code&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">&quot;eelt&quot;</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The permutations of <code>s</code> (in lexicographical order) are <code>&quot;eelt&quot;</code>, <code>&quot;eetl&quot;</code>, <code>&quot;elet&quot;</code>, <code>&quot;elte&quot;</code>, <code>&quot;etel&quot;</code>, <code>&quot;etle&quot;</code>, <code>&quot;leet&quot;</code>, <code>&quot;lete&quot;</code>, <code>&quot;ltee&quot;</code>, <code>&quot;teel&quot;</code>, <code>&quot;tele&quot;</code>, and <code>&quot;tlee&quot;</code>.</li>\n\t<li>The lexicographically smallest permutation that is strictly greater than <code>target</code> is <code>&quot;eelt&quot;</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = &quot;baba&quot;, target = &quot;bbaa&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">&quot;&quot;</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The permutations of <code>s</code> (in lexicographical order) are <code>&quot;aabb&quot;</code>, <code>&quot;abab&quot;</code>, <code>&quot;abba&quot;</code>, <code>&quot;baab&quot;</code>, <code>&quot;baba&quot;</code>, and <code>&quot;bbaa&quot;</code>.</li>\n\t<li>None of them is lexicographically strictly greater than <code>target</code>. Therefore, the answer is <code>&quot;&quot;</code>.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length == target.length &lt;= 300</code></li>\n\t<li><code>s</code> and <code>target</code> consist of only lowercase English letters.</li>\n</ul>\n",
+            "translatedTitle": null,
+            "translatedContent": null,
+            "isPaidOnly": false,
+            "difficulty": "Medium",
+            "likes": 98,
+            "dislikes": 7,
+            "isLiked": null,
+            "similarQuestions": "[]",
+            "contributors": [],
+            "langToValidPlayground": "{\"cpp\": true, \"java\": true, \"python3\": true, \"python\": true, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
+            "topicTags": [
+                {
+                    "name": "Hash Table",
+                    "slug": "hash-table",
+                    "translatedName": null
+                },
+                {
+                    "name": "String",
+                    "slug": "string",
+                    "translatedName": null
+                },
+                {
+                    "name": "Greedy",
+                    "slug": "greedy",
+                    "translatedName": null
+                },
+                {
+                    "name": "Counting",
+                    "slug": "counting",
+                    "translatedName": null
+                },
+                {
+                    "name": "Enumeration",
+                    "slug": "enumeration",
+                    "translatedName": null
+                }
+            ],
+            "companyTagStats": null,
+            "codeSnippets": [
+                {
+                    "lang": "C++",
+                    "langSlug": "cpp",
+                    "code": "class Solution {\npublic:\n    string lexGreaterPermutation(string s, string target) {\n        \n    }\n};"
+                },
+                {
+                    "lang": "Java",
+                    "langSlug": "java",
+                    "code": "class Solution {\n    public String lexGreaterPermutation(String s, String target) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Python3",
+                    "langSlug": "python3",
+                    "code": "class Solution:\n    def lexGreaterPermutation(self, s: str, target: str) -> str:\n        "
+                },
+                {
+                    "lang": "Python",
+                    "langSlug": "python",
+                    "code": "class Solution(object):\n    def lexGreaterPermutation(self, s, target):\n        \"\"\"\n        :type s: str\n        :type target: str\n        :rtype: str\n        \"\"\"\n        "
+                },
+                {
+                    "lang": "JavaScript",
+                    "langSlug": "javascript",
+                    "code": "/**\n * @param {string} s\n * @param {string} target\n * @return {string}\n */\nvar lexGreaterPermutation = function(s, target) {\n    \n};"
+                },
+                {
+                    "lang": "TypeScript",
+                    "langSlug": "typescript",
+                    "code": "function lexGreaterPermutation(s: string, target: string): string {\n    \n};"
+                },
+                {
+                    "lang": "C#",
+                    "langSlug": "csharp",
+                    "code": "public class Solution {\n    public string LexGreaterPermutation(string s, string target) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "C",
+                    "langSlug": "c",
+                    "code": "char* lexGreaterPermutation(char* s, char* target) {\n    \n}"
+                },
+                {
+                    "lang": "Go",
+                    "langSlug": "golang",
+                    "code": "func lexGreaterPermutation(s string, target string) string {\n    \n}"
+                },
+                {
+                    "lang": "Kotlin",
+                    "langSlug": "kotlin",
+                    "code": "class Solution {\n    fun lexGreaterPermutation(s: String, target: String): String {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Swift",
+                    "langSlug": "swift",
+                    "code": "class Solution {\n    func lexGreaterPermutation(_ s: String, _ target: String) -> String {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Rust",
+                    "langSlug": "rust",
+                    "code": "impl Solution {\n    pub fn lex_greater_permutation(s: String, target: String) -> String {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Ruby",
+                    "langSlug": "ruby",
+                    "code": "# @param {String} s\n# @param {String} target\n# @return {String}\ndef lex_greater_permutation(s, target)\n    \nend"
+                },
+                {
+                    "lang": "PHP",
+                    "langSlug": "php",
+                    "code": "class Solution {\n\n    /**\n     * @param String $s\n     * @param String $target\n     * @return String\n     */\n    function lexGreaterPermutation($s, $target) {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Dart",
+                    "langSlug": "dart",
+                    "code": "class Solution {\n  String lexGreaterPermutation(String s, String target) {\n    \n  }\n}"
+                },
+                {
+                    "lang": "Scala",
+                    "langSlug": "scala",
+                    "code": "object Solution {\n    def lexGreaterPermutation(s: String, target: String): String = {\n        \n    }\n}"
+                },
+                {
+                    "lang": "Elixir",
+                    "langSlug": "elixir",
+                    "code": "defmodule Solution do\n  @spec lex_greater_permutation(s :: String.t, target :: String.t) :: String.t\n  def lex_greater_permutation(s, target) do\n    \n  end\nend"
+                },
+                {
+                    "lang": "Erlang",
+                    "langSlug": "erlang",
+                    "code": "-spec lex_greater_permutation(S :: unicode:unicode_binary(), Target :: unicode:unicode_binary()) -> unicode:unicode_binary().\nlex_greater_permutation(S, Target) ->\n  ."
+                },
+                {
+                    "lang": "Racket",
+                    "langSlug": "racket",
+                    "code": "(define/contract (lex-greater-permutation s target)\n  (-> string? string? string?)\n  )"
+                }
+            ],
+            "stats": "{\"totalAccepted\": \"11.2K\", \"totalSubmission\": \"43.9K\", \"totalAcceptedRaw\": 11235, \"totalSubmissionRaw\": 43891, \"acRate\": \"25.6%\"}",
+            "hints": [
+                "Maintain frequency counts of <code>s</code>.",
+                "Walk left-to-right; if equal to <code>target[i]</code> is possible, take it and continue.",
+                "If not, try the smallest letter strictly greater than <code>target[i]</code>.",
+                "If neither, backtrack left to the most recent index where you matched <code>target</code> and try to bump there."
+            ],
+            "status": null,
+            "sampleTestCase": "\"abc\"\n\"bba\"",
+            "metaData": "{\n  \"name\": \"lexGreaterPermutation\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"target\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}",
+            "judgerAvailable": true,
+            "judgeType": "large",
+            "mysqlSchemas": [],
+            "enableRunCode": true,
+            "enableTestMode": false,
+            "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code> clang 19 </code> using the latest C++ 23 standard, and <code>libstdc++</code> provided by GCC 14.</p>\\r\\n\\r\\n<p>Your code is compiled with level two optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p><code>OpenJDK 25</code>. Using compile arguments: <code>--enable-preview --release 25</code></p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n<p>Includes <code>Pair</code> class from https://docs.oracle.com/javase/8/javafx/api/javafx/util/Pair.html.</p>\"], \"python\": [\"Python\", \"<p><code>Python 2.7.18</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\\r\\n\\r\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">is not maintained anymore</a>. For the latest Python, please choose Python3 instead.</p>\"], \"c\": [\"C\", \"<p>Compiled with <code>gcc 14</code> using the gnu11 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O2</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n\\r\\n<p>For hash table operations, you may use <a href=\\\"https://troydhanson.github.io/uthash/\\\" target=\\\"_blank\\\">uthash</a>. \\\"uthash.h\\\" is included by default. Below are some examples:</p>\\r\\n\\r\\n<p><b>1. Adding an item to a hash.</b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            /* we'll use this field as the key */\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; /* makes this structure hashable */\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>2. Looking up an item in a hash:</b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>3. Deleting an item in a hash:</b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n</pre>\\r\\n</p>\"], \"csharp\": [\"C#\", \"<p><a href=\\\"https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13\\\" target=\\\"_blank\\\">C# 13</a> with .NET 9 runtime</p>\"], \"javascript\": [\"JavaScript\", \"<p><code>Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"ruby\": [\"Ruby\", \"<p><code>Ruby 3.2</code></p>\\r\\n\\r\\n<p>Some common data structure implementations are provided in the Algorithms module: https://www.rubydoc.info/github/kanwei/algorithms/Algorithms</p>\"], \"swift\": [\"Swift\", \"<p><code>Swift 6.0</code>.</p>\\r\\n\\r\\n<p>You may use the following packages:<br/>\\r\\n<a href=\\\"https://github.com/apple/swift-algorithms/tree/1.2.0\\\" target=\\\"_blank\\\">swift-algorithms 1.2.0</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-collections/tree/1.1.4\\\" target=\\\"_blank\\\">swift-collections 1.1.4</a><br/>\\r\\n<a href=\\\"https://github.com/apple/swift-numerics/tree/1.0.2\\\" target=\\\"_blank\\\">swift-numerics 1.0.2</a></p>\"], \"golang\": [\"Go\", \"<p><code>Go 1.23</code></p>\\r\\n<p>Support <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods@v1.18.1</a> and <a href=\\\"https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha\\\" target=\\\"_blank\\\">https://pkg.go.dev/github.com/emirpasic/gods/v2@v2.0.0-alpha</a> library.</p>\"], \"python3\": [\"Python3\", \"<p><code>Python 3.11</code>.</p>\\r\\n\\r\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/3/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/3/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/3/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\r\\n\\r\\n<p>For Map/TreeMap data structure, you may use <a href=\\\"http://www.grantjenks.com/docs/sortedcontainers/\\\" target=\\\"_blank\\\">sortedcontainers</a> library.</p>\"], \"scala\": [\"Scala\", \"<p><code>Scala 3.3.1</code>.</p>\"], \"kotlin\": [\"Kotlin\", \"<p><code>Kotlin 2.1.10</code>.</p>\"], \"rust\": [\"Rust\", \"<p><code>Rust 1.88.0, using edition 2024.</code>. Your code will be compiled with <code>opt-level</code> 2.</p>\\r\\n\\r\\n<p>Supports <a href=\\\"https://crates.io/crates/rand\\\" target=\\\"_blank\\\">rand v0.8</a> and <a href=\\\"https://crates.io/crates/regex\\\" target=\\\"_blank\\\">regex\\u00a0v1</a> and <a href=\\\"https://crates.io/crates/itertools\\\" target=\\\"_blank\\\">itertools\\u00a0v0.14</a> from crates.io</p>\"], \"php\": [\"PHP\", \"<p><code>PHP 8.2</code>.</p>\\r\\n<p>With bcmath module</p>\"], \"typescript\": [\"Typescript\", \"<p><code>TypeScript 5.7.3, Node.js 22.14.0</code>.</p>\\r\\n\\r\\n<p>Compile Options: <code>--alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2024</code></p>\\r\\n\\r\\n<p><a href=\\\"https://lodash.com\\\" target=\\\"_blank\\\">lodash.js</a> library is included by default.</p>\\r\\n\\r\\n<p>You may use data structures from <a href=\\\"https://datastructures-js.info/docs\\\" target=\\\"_blank\\\">datastructures-js</a> library.</p>\"], \"racket\": [\"Racket\", \"<p><a href=\\\"https://docs.racket-lang.org/guide/performance.html#%28tech._c%29\\\" target=\\\"_blank\\\">Racket CS</a> v8.15</p>\\r\\n\\r\\n<p>Using <code>#lang racket</code></p>\\r\\n\\r\\n<p>Required <code>data/gvector data/queue data/order data/heap</code> automatically for your convenience</p>\"], \"erlang\": [\"Erlang\", \"Erlang/OTP 26\"], \"elixir\": [\"Elixir\", \"Elixir 1.17 with Erlang/OTP 26\"], \"dart\": [\"Dart\", \"<p>Dart 3.2. You may use package <a href=\\\"https://pub.dev/packages/collection/versions/1.18.0\\\" target=\\\"_blank\\\">collection</a></p>\\r\\n\\r\\n<p>Your code will be run directly without compiling</p>\"]}",
+            "libraryUrl": null,
+            "note": null
+        }
+    }
+}

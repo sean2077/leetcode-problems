@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"3.8K\", \"totalSubmission\": \"4.7K\", \"totalAcceptedRaw\": 3771, \"totalSubmissionRaw\": 4653, \"acRate\": \"81.0%\"}",
+            "stats": "{\"totalAccepted\": \"4.2K\", \"totalSubmission\": \"5.2K\", \"totalAcceptedRaw\": 4167, \"totalSubmissionRaw\": 5189, \"acRate\": \"80.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Employees\":[\"emp_id\",\"emp_name\",\"dep_id\",\"position\"]},\"rows\":{\"Employees\":[[156,\"Michael\",107,\"Manager\"],[112,\"Lucas\",107,\"Consultant\"],[8,\"Isabella\",101,\"Manager\"],[160,\"Joseph\",100,\"Manager\"],[80,\"Aiden\",100,\"Engineer\"],[190,\"Skylar\",100,\"Freelancer\"],[196,\"Stella\",101,\"Coordinator\"],[167,\"Audrey\",100,\"Consultant\"],[97,\"Nathan\",101,\"Supervisor\"],[128,\"Ian\",101,\"Administrator\"],[81,\"Ethan\",107,\"Administrator\"]]}}",

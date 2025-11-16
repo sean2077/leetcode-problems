@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"2.6K\", \"totalAcceptedRaw\": 1457, \"totalSubmissionRaw\": 2581, \"acRate\": \"56.5%\"}",
+            "stats": "{\"totalAccepted\": \"1.5K\", \"totalSubmission\": \"2.7K\", \"totalAcceptedRaw\": 1535, \"totalSubmissionRaw\": 2698, \"acRate\": \"56.9%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Terms\":[\"power\",\"factor\"]},\"rows\":{\"Terms\":[[2,1],[1,-4],[0,2]]}}",

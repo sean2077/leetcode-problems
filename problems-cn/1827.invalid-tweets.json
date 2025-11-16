@@ -11,12 +11,12 @@
             "translatedContent": "<p>表：<code>Tweets</code></p>\n\n<pre>\n+----------------+---------+\n| Column Name    | Type    |\n+----------------+---------+\n| tweet_id       | int     |\n| content        | varchar |\n+----------------+---------+\n在 SQL 中，tweet_id 是这个表的主键。\ncontent 只包含字母数字字符，'!'，' '，不包含其它特殊字符。\n这个表包含某社交媒体 App 中所有的推文。</pre>\n\n<p>&nbsp;</p>\n\n<p>查询所有无效推文的编号（ID）。当推文内容中的字符数<strong>严格大于</strong> <code>15</code> 时，该推文是无效的。</p>\n\n<p>以<strong>任意顺序</strong>返回结果表。</p>\n\n<p>查询结果格式如下所示：</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre>\n<strong>输入：</strong>\nTweets 表：\n+----------+----------------------------------+\n| tweet_id | content                          |\n+----------+----------------------------------+\n| 1        | Vote for Biden                   |\n| 2        | Let us make America great again! |\n+----------+----------------------------------+\n\n<strong>输出：</strong>\n+----------+\n| tweet_id |\n+----------+\n| 2        |\n+----------+\n<strong>解释：</strong>\n推文 1 的长度 length = 14。该推文是有效的。\n推文 2 的长度 length = 32。该推文是无效的。\n</pre>\n",
             "isPaidOnly": false,
             "difficulty": "Easy",
-            "likes": 86,
+            "likes": 93,
             "dislikes": 0,
             "isLiked": null,
             "similarQuestions": "[]",
             "contributors": [],
-            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"typescript\": false, \"bash\": false, \"php\": false, \"swift\": false, \"kotlin\": false, \"dart\": false, \"golang\": false, \"ruby\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"rust\": false, \"racket\": false, \"erlang\": false, \"elixir\": false, \"pythondata\": false, \"react\": false, \"vanillajs\": false, \"postgresql\": false, \"cangjie\": false}",
+            "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python3\": false, \"python\": false, \"javascript\": false, \"typescript\": false, \"csharp\": false, \"c\": false, \"golang\": false, \"kotlin\": false, \"swift\": false, \"rust\": false, \"ruby\": false, \"php\": false, \"dart\": false, \"scala\": false, \"elixir\": false, \"erlang\": false, \"racket\": false, \"cangjie\": false, \"bash\": false, \"html\": false, \"pythonml\": false, \"react\": false, \"vanillajs\": false, \"mysql\": false, \"mssql\": false, \"postgresql\": false, \"oraclesql\": false, \"pythondata\": false}",
             "topicTags": [
                 {
                     "name": "Database",
@@ -37,6 +37,11 @@
                     "code": "/* Write your T-SQL query statement below */"
                 },
                 {
+                    "lang": "PostgreSQL",
+                    "langSlug": "postgresql",
+                    "code": "-- Write your PostgreSQL query statement below"
+                },
+                {
                     "lang": "Oracle",
                     "langSlug": "oraclesql",
                     "code": "/* Write your PL/SQL query statement below */"
@@ -45,14 +50,9 @@
                     "lang": "Pandas",
                     "langSlug": "pythondata",
                     "code": "import pandas as pd\n\ndef invalid_tweets(tweets: pd.DataFrame) -> pd.DataFrame:\n    "
-                },
-                {
-                    "lang": "PostgreSQL",
-                    "langSlug": "postgresql",
-                    "code": "-- Write your PostgreSQL query statement below"
                 }
             ],
-            "stats": "{\"totalAccepted\": \"132.2K\", \"totalSubmission\": \"156.5K\", \"totalAcceptedRaw\": 132245, \"totalSubmissionRaw\": 156533, \"acRate\": \"84.5%\"}",
+            "stats": "{\"totalAccepted\": \"148.5K\", \"totalSubmission\": \"176.8K\", \"totalAcceptedRaw\": 148457, \"totalSubmissionRaw\": 176822, \"acRate\": \"84.0%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Tweets\":[\"tweet_id\",\"content\"]},\"rows\":{\"Tweets\":[[1,\"Let us Code\"],[2,\"More than fifteen chars are here!\"]]}}",

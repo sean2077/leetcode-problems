@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"2.7K\", \"totalSubmission\": \"5.2K\", \"totalAcceptedRaw\": 2697, \"totalSubmissionRaw\": 5163, \"acRate\": \"52.2%\"}",
+            "stats": "{\"totalAccepted\": \"3.2K\", \"totalSubmission\": \"6.2K\", \"totalAcceptedRaw\": 3165, \"totalSubmissionRaw\": 6240, \"acRate\": \"50.7%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"user_transactions\":[\"transaction_id\",\"product_id\",\"spend\",\"transaction_date\"]},\"rows\":{\"user_transactions\":[[1341,123424,1500.60,\"2019-12-31 12:00:00\"],[1423,123424,1000.20,\"2020-12-31 12:00:00\"],[1623,123424,1246.44,\"2021-12-31 12:00:00\"],[1322,123424,2145.32,\"2022-12-31 12:00:00\"]]}}",

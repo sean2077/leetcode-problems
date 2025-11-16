@@ -26,7 +26,7 @@
             ],
             "companyTagStats": null,
             "codeSnippets": null,
-            "stats": "{\"totalAccepted\": \"1.2K\", \"totalSubmission\": \"1.7K\", \"totalAcceptedRaw\": 1172, \"totalSubmissionRaw\": 1700, \"acRate\": \"68.9%\"}",
+            "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"1.8K\", \"totalAcceptedRaw\": 1280, \"totalSubmissionRaw\": 1848, \"acRate\": \"69.3%\"}",
             "hints": [],
             "status": null,
             "sampleTestCase": "{\"headers\":{\"Users\":[\"user_id\",\"name\"],\"Rides\":[\"ride_id\",\"user_id\",\"distance\"]},\"rows\":{\"Users\":[[17,\"Addison\"],[14,\"Ethan\"],[4,\"Michael\"],[2,\"Avery\"],[10,\"Eleanor\"]],\"Rides\":[[72,17,160],[42,14,161],[45,4,59],[32,2,197],[15,4,357],[56,2,196],[10,14,25]]}}",
